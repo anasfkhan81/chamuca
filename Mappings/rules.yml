@@ -1,0 +1,18 @@
+prefixes:
+  ex: "http://example.com/"
+  schema: "https://schema.org/"
+ 
+sources:
+  books:
+    table: books_table
+    queryFormulation: mysql
+ 
+mappings:
+  BookMapping:
+    sources: books
+    s: http://example.com/$(book_id)
+    po:
+      - [a, schema:Book]
+      - [schema:name, $(name)]
+      - [schema:isbn, $(isbn)]
+      - [schema:author, $(author)]
