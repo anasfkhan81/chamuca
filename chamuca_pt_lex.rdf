@@ -1,4 +1,5 @@
 @prefix : <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
 @prefix lime: <http://www.w3.org/ns/lemon/lime#> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
@@ -6,6 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> a lime:Lexicon ;
+    dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
     lime:language "pt" .
 
 :agosto_entry a ontolex:LexicalEntry,

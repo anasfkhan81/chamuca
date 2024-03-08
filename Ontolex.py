@@ -7,7 +7,7 @@
 # import codecs
 import rdflib
 from rdflib import URIRef, BNode, Literal, Graph, Namespace
-from rdflib.namespace import RDF, RDFS, FOAF, Namespace, NamespaceManager, OWL, XSD, SKOS, DC, DCTERMS
+from rdflib.namespace import RDF, RDFS, FOAF, Namespace, NamespaceManager, OWL, XSD, SKOS, DC, DCTERMS, DCAT
 
 ontolex_uri= "http://www.w3.org/ns/lemon/ontolex#"
 lexinfo_uri = "http://www.lexinfo.net/ontology/2.0/lexinfo#"
@@ -62,6 +62,7 @@ class Lexicon():
         namespace_manager.bind('frac', frac_ns, override=False)
         namespace_manager.bind('', BASE, override=False)
         namespace_manager.bind('dct', DCTERMS, override=False)
+        namespace_manager.bind('dc', DC, override=False)
 
         # Create lexicon graph
         self.lex = Graph()
@@ -69,6 +70,9 @@ class Lexicon():
 
         # Define lexicon and add metadata
         self.lex.add((this, RDF.type, lime_ns.Lexicon))
+        # add the description of the dataset given in indic['desc']
+        if 'desc' in indic.keys():
+            self.lex.add((this, DC.description, Literal(indic['desc'])))
 
         # The languages of the lexicon are added
         for l in indic['lang']:
