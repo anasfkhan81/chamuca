@@ -2,8 +2,8 @@ import pandas as pd
 import re
 from Ontolex import Lexicon
 
-hind_lex ={'name':'hindi_lex', 'lang':['hi'], 'entries': {}}
-port_lex = {'name':'port_lex', 'lang':['pt'], 'entries': {}}
+hind_lex ={'name':'chamuca_hi_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['hi'], 'entries': {}}
+port_lex = {'name':'chamuca_port_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['pt'], 'entries': {}}
 gend = lambda g: 'masculine' if g == 'm.' else 'feminine' if g == 'f.' else 'unknown'
 pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'nan'
 lemma = lambda head, trans, ipa: {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
@@ -128,20 +128,20 @@ def upload_hl():
  #           forms = forms + [obl_sing(row['oblique singular']), voc_sing(row['vocative singular']), dir_plu(row['direct plural']), obl_plu(row['oblique plural']), voc_plu(row['vocative plural']) ]
         else:
             print(row['Headword'])
-        urdu_seeAlso = "http://www.lex.com/chamuca/urdu#"+urdu(row['Urdu ']).replace(' ', '')
+        urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu(row['Urdu ']).replace(' ', '')
         print(urdu_seeAlso)
-        porEtymon = "http://www.lex.com/chamuca/por#"+row['Etymon pt-PT'] 
+        porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+row['Etymon pt-PT'] 
         hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon}
         i+=1
     return hind_lex
 
 def main():
     dic1 = upload_pt()
-    l = Lexicon("http://www.lex.com/chamuca/por#", dic1)
-    l.writeToFile('port')
+    l = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#", dic1)
+    l.writeToFile('chamuca_pt_lex')
     dic2 = upload_hl()
-    l2 = Lexicon("http://www.lex.com/chamuca/hindi#", dic2)
-    l2.writeToFile('hind')
+    l2 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic2)
+    l2.writeToFile('chamuca_hi_lex')
 
 if __name__ == "__main__":
         main()
