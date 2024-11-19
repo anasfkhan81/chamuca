@@ -4,6 +4,7 @@ from Ontolex import Lexicon
 
 hind_lex ={'name':'chamuca_hi_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['hi'], 'entries': {}}
 port_lex = {'name':'chamuca_port_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['pt'], 'entries': {}}
+urdu_lex  = {'name':'chamuca_ur_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['ur'], 'entries': {}}
 gend = lambda g: 'masculine' if g == 'm.' else 'feminine' if g == 'f.' else 'unknown'
 pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'nan'
 lemma = lambda head, trans, ipa: {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
@@ -70,18 +71,39 @@ def upload_pt():
     return port_lex
 
     
+def upload_ur():
+    # upload file into dataframe df1
+    df1 = pd.read_csv("SimpleUrdu.tsv", sep='\t')
+    i = 0
+
+    #iterate through each row of the dataframe
+    for index, row in df1.iterrows():
+        word_id = str(row['Headword'])+'_entry'
+
+        urdu_lex['entries'][word_id] = row['Headword']
+
+    return urdu_lex
+
 
 def upload_hl():
+    # upload file into dataframe df
     df = pd.read_csv("LessSimpleHindi.tsv", sep='\t')
     i = 0
+    # iterate through each row of the dataframe df
     for index, row in df.iterrows():
+        # make sure you only iterate through the first 60 rows only
+        # this should be updated
         if i == 60:
             break
+        # create id for word by combining headword with '_entry' tag
         word_id = row['Headword']+'_entry'
+        # extract gender, ipa and lemma info from the row
         gr = gend(row['Gender'])
         ipa_row = row['Pronunciation']
         ipas = []
         lemmaForm = row['Headword']
+        # check if the ipa_row info is a string, in which case
+        # add it to the set of forms in the list form
         if isinstance(ipa_row, str):
             ipas = extract_ipas(row['Pronunciation'])
             #print(str(ipas))
@@ -91,9 +113,17 @@ def upload_hl():
             forms =  [lemma(row['Headword'], row['Transliteration'], ipa_lemma)]
         else:
             forms =  [lemma_mi(row['Headword'], row['Transliteration'])]
+
+        # extract sense information from the 'Sense (Wiktionary)' column
         senses = extract_hind_senses(row['Sense (Wiktionary)'])
         sense_content = []
+        # we will count the number of senses with j
         j = 1
+
+        # check if the list of senses consists of one item,
+        # otherwise go through the list and create a new sense_id for each sense
+        # augmenting j each time
+        
         if len(senses) == 1:
             sense_content = [{'id': row['Headword']+'_sense', 'def':senses[0]}]
         else:
@@ -102,7 +132,8 @@ def upload_hl():
                 sense_content = sense_content + [{'id': row['Headword']+'_sense_'+str(j), 'def':count}]
                 j +=1
             
-#        sense_content = [{'id': row['Headword']+'_sense', 'def':row['Sense (Wiktionary)']}]
+
+        # grammatical information (different forms of the noun)
         if not pd.isnull(row['oblique singular']):
             # split obl_sing
             obls = row['oblique singular']
@@ -125,7 +156,6 @@ def upload_hl():
             substrings = [substring.strip() for substring in vocp.split(',')]
             forms = forms + [voc_plu(r, lemmaForm) for r in substrings]
             
- #           forms = forms + [obl_sing(row['oblique singular']), voc_sing(row['vocative singular']), dir_plu(row['direct plural']), obl_plu(row['oblique plural']), voc_plu(row['vocative plural']) ]
         else:
             print(row['Headword'])
         urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu(row['Urdu ']).replace(' ', '')
