@@ -7,8 +7,10 @@ port_lex = {'name':'chamuca_port_lex', 'desc':'Lexical information derived in pa
 urdu_lex  = {'name':'chamuca_ur_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['ur'], 'entries': {}}
 gend = lambda g: 'masculine' if g == 'm.' else 'feminine' if g == 'f.' else 'unknown'
 pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'nan'
-lemma = lambda head, trans, ipa: {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
-lemma_mi = lambda head, trans : {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase'}
+#lemma = lambda head, trans, ipa: {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
+lemma = lambda scr1, scr2, head, trans, ipa: {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
+#lemma_mi = lambda head, trans : {'rep':[(head, "hi-Deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase'}
+lemma_s = lambda scr1, scr2, head, trans : {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase'}
 obl_sing = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form +'_os_form_'+lemm, 'number':'singular', 'case':'obliqueCase'}
 voc_sing = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form+'_vs_form_'+lemm,'number':'singular', 'case':'vocativeCase'}
 dir_plu = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form+'_dp_form_'+lemm, 'number':'plural', 'case':'directCase'}
@@ -31,7 +33,7 @@ def extract_ipas(input_string):
     # Return the list of matched substrings
     return matches
 
-def extract_hind_senses(input_string):
+def extract_senses(input_string):
     if isinstance(input_string, str):
     # Split the input string based on '&'
         substrings = input_string.split('&')
@@ -78,9 +80,56 @@ def upload_ur():
 
     #iterate through each row of the dataframe
     for index, row in df1.iterrows():
-        word_id = str(row['Headword'])+'_entry'
+        # check if headword exists, if not, skip row
+        if not pd.isnull(row['Headword']):
+            # create id for word by combining headword with '_entry' tag
 
-        urdu_lex['entries'][word_id] = row['Headword']
+            
+            headword = str(row['Headword']).replace(' ','')
+            print(headword)
+            word_id = headword+'_entry'
+
+            # extract gender, ipa, and lemma info from the row
+            gr = gend(row['Gender'])
+            ipa_row = row['Pronunciation']
+            ipas = []
+            lemmaForm = headword
+
+            if isinstance(ipa_row, str):
+                ipas = extract_ipas(row['Pronunciation'])
+                #print(str(ipas))
+                ipa_lemma = ['']
+                if ipas != []:
+                    ipa_lemma = ipas
+                forms =  [lemma("ur-Arab", "ur-Latn", row['Headword'], row['Transliteration'], ipa_lemma)]
+            else:
+                forms =  [lemma_s("ur-Arab", "ur-Latn",row['Headword'], row['Transliteration'])]
+
+            hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#"+urdu(row['Headword Hindi']).replace(' ', '')
+            # extract sense information from the 'Sense (Wiktionary)' column
+            senses = extract_senses(row['Sense (Wiktionary)'])
+            sense_content = []
+            # we will count the number of senses with j
+            j = 1
+
+            # check if the list of senses consists of one item,
+            # otherwise go through the list and create a new sense_id for each sense
+            # augmenting j each time
+            
+            if len(senses) == 1:
+                sense_content = [{'id': row['Headword']+'_sense', 'def':senses[0]}]
+            else:
+                for count in senses:
+                    print(row['Headword']+'_sense_'+str(j))
+                    sense_content = sense_content + [{'id': row['Headword']+'_sense_'+str(j), 'def':count}]
+                    j +=1
+                
+            print(hindi_seeAlso)
+        else:
+            print(row['Etymon pt-PT'])
+
+        urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'form':forms}
+        
 
     return urdu_lex
 
@@ -93,8 +142,8 @@ def upload_hl():
     for index, row in df.iterrows():
         # make sure you only iterate through the first 60 rows only
         # this should be updated
-        if i == 60:
-            break
+        #if i == 60:
+        #    break
         # create id for word by combining headword with '_entry' tag
         word_id = row['Headword']+'_entry'
         # extract gender, ipa and lemma info from the row
@@ -110,12 +159,12 @@ def upload_hl():
             ipa_lemma = ['']
             if ipas != []:
                 ipa_lemma = ipas
-            forms =  [lemma(row['Headword'], row['Transliteration'], ipa_lemma)]
+            forms =  [lemma("hi-Deva", "hi-Deva", row['Headword'], row['Transliteration'], ipa_lemma)]
         else:
-            forms =  [lemma_mi(row['Headword'], row['Transliteration'])]
+            forms =  [lemma_s("hi-Deva", "hi-Deva", row['Headword'], row['Transliteration'])]
 
         # extract sense information from the 'Sense (Wiktionary)' column
-        senses = extract_hind_senses(row['Sense (Wiktionary)'])
+        senses = extract_senses(row['Sense (Wiktionary)'])
         sense_content = []
         # we will count the number of senses with j
         j = 1
