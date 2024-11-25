@@ -211,9 +211,9 @@ class Lexicon():
 
         # add other stuff
 
-    def writeToFile(self, filename):
+    def writeToFile(self, filename, s_format='turtle'):
         new_filename = filename + '.rdf'
-        self.lex.serialize(destination=new_filename, format='turtle')
+        self.lex.serialize(destination=new_filename, format=s_format)
 
         # g = open(filename+'.rdf','w')
         # g.write(self.lex.serialize(format='turtle'))

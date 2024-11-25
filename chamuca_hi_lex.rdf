@@ -23,8 +23,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əŋ.ɡɾeːd͡ʒ"@hi-fonipa,
         "əŋ.ɡɾeːz"@hi-fonipa ;
-    ontolex:writtenRep "am̐grēz"@hi-Latn,
-        "अँग्रेज़"@hi-deva .
+    ontolex:writtenRep "am̐grēz"@hi-Deva,
+        "अँग्रेज़"@hi-Deva .
 
 :अँग्रेज़_sense a ontolex:LexicalSense ;
     skos:definition "English person (Englishman or Englishwoman)" ;
@@ -43,8 +43,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əŋ.ɡɾeːd͡ʒ"@hi-fonipa,
         "əŋ.ɡɾeːz"@hi-fonipa ;
-    ontolex:writtenRep "aṅgrez"@hi-Latn,
-        "अंग्रेज़"@hi-deva .
+    ontolex:writtenRep "aṅgrez"@hi-Deva,
+        "अंग्रेज़"@hi-Deva .
 
 :अंग्रेज़_sense a ontolex:LexicalSense ;
     skos:definition "English person (Englishman or Englishwoman)" ;
@@ -63,8 +63,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ək.t̪uː.bəɾ"@hi-fonipa ;
-    ontolex:writtenRep "aktūbara"@hi-Latn,
-        "अक्तूबर"@hi-deva .
+    ontolex:writtenRep "aktūbara"@hi-Deva,
+        "अक्तूबर"@hi-Deva .
 
 :अक्तूबर_sense a ontolex:LexicalSense ;
     skos:definition "October" ;
@@ -93,8 +93,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ə.ɡəst̪"@hi-fonipa ;
-    ontolex:writtenRep "agasta"@hi-Latn,
-        "अगस्त"@hi-deva .
+    ontolex:writtenRep "agasta"@hi-Deva,
+        "अगस्त"@hi-Deva .
 
 :अगस्त_os_form_अगस्त a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -143,8 +143,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ə.nən.nɑːs"@hi-fonipa ;
-    ontolex:writtenRep "anannāsa"@hi-Latn,
-        "अनन्नास"@hi-deva .
+    ontolex:writtenRep "anannāsa"@hi-Deva,
+        "अनन्नास"@hi-Deva .
 
 :अनन्नास_os_form_अनन्नास a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -203,8 +203,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əl.mɑː.ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "alamārī"@hi-Latn,
-        "अलमारी"@hi-deva .
+    ontolex:writtenRep "alamārī"@hi-Deva,
+        "अलमारी"@hi-Deva .
 
 :अलमारी_os_form_अलमारी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -243,8 +243,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əs.t̪ə.bəl"@hi-fonipa ;
-    ontolex:writtenRep "astabala"@hi-Latn,
-        "अस्तबल"@hi-deva .
+    ontolex:writtenRep "astabala"@hi-Deva,
+        "अस्तबल"@hi-Deva .
 
 :अस्तबल_os_form_अस्तबल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -293,8 +293,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əs.pə.t̪ɑːl"@hi-fonipa ;
-    ontolex:writtenRep "aspatāla"@hi-Latn,
-        "अस्पताल"@hi-deva .
+    ontolex:writtenRep "aspatāla"@hi-Deva,
+        "अस्पताल"@hi-Deva .
 
 :अस्पताल_os_form_अस्पताल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -343,8 +343,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɑː.jɑː"@hi-fonipa ;
-    ontolex:writtenRep "āyā"@hi-Latn,
-        "आया"@hi-deva .
+    ontolex:writtenRep "āyā"@hi-Deva,
+        "आया"@hi-Deva .
 
 :आया_os_form_आया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -379,8 +379,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɑːl.piːn"@hi-fonipa ;
-    ontolex:writtenRep "ālapīn "@hi-Latn,
-        "आलपीन"@hi-deva .
+    ontolex:writtenRep "ālapīn "@hi-Deva,
+        "आलपीन"@hi-Deva .
 
 :आलपीन_os_form_आलपीन a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -428,8 +428,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɪs.t̪ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "istarī"@hi-Latn,
-        "इस्तरी"@hi-deva .
+    ontolex:writtenRep "istarī"@hi-Deva,
+        "इस्तरी"@hi-Deva .
 
 :इस्तरी_sense a ontolex:LexicalSense ;
     skos:definition "iron, press" ;
@@ -473,8 +473,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɪs.pɑːt̪"@hi-fonipa ;
-    ontolex:writtenRep "ispāta"@hi-Latn,
-        "इस्पात"@hi-deva .
+    ontolex:writtenRep "ispāta"@hi-Deva,
+        "इस्पात"@hi-Deva .
 
 :इस्पात_sense a ontolex:LexicalSense ;
     skos:definition "steel" ;
@@ -494,8 +494,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "oː.lən.d̪eːd͡ʒ"@hi-fonipa,
         "oː.lən.d̪eːz"@hi-fonipa ;
-    ontolex:writtenRep "olandez"@hi-Latn,
-        "ओलंदेज़"@hi-deva .
+    ontolex:writtenRep "olandez"@hi-Deva,
+        "ओलंदेज़"@hi-Deva .
 
 :ओलंदेज़_sense a ontolex:LexicalSense ;
     skos:definition "(dated) Dutchman; citizen of Holland" ;
@@ -519,8 +519,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kəm.ɾɑː"@hi-fonipa ;
-    ontolex:writtenRep "kamarā"@hi-Latn,
-        "कमरा"@hi-deva .
+    ontolex:writtenRep "kamarā"@hi-Deva,
+        "कमरा"@hi-Deva .
 
 :कमरा_sense a ontolex:LexicalSense ;
     skos:definition "room" ;
@@ -584,8 +584,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɑː.d͡ʒuː"@hi-fonipa ;
-    ontolex:writtenRep "kājū"@hi-Latn,
-        "काजू"@hi-deva .
+    ontolex:writtenRep "kājū"@hi-Deva,
+        "काजू"@hi-Deva .
 
 :काजू_os_form_काजू a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -620,8 +620,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɪ.ɾɑ̃ː.t͡ʃiː"@hi-fonipa ;
-    ontolex:writtenRep "kirām̐cī"@hi-Latn,
-        "किराँची"@hi-deva .
+    ontolex:writtenRep "kirām̐cī"@hi-Deva,
+        "किराँची"@hi-Deva .
 
 :किराँची_os_form_किराँची a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -653,8 +653,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɾɪs.t̪ɑːn"@hi-fonipa ;
-    ontolex:writtenRep "kristāna"@hi-Latn,
-        "क्रिस्तान"@hi-deva .
+    ontolex:writtenRep "kristāna"@hi-Deva,
+        "क्रिस्तान"@hi-Deva .
 
 :क्रिस्तान_sense a ontolex:LexicalSense ;
     skos:definition "christian" ;
@@ -669,8 +669,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɾuːs"@hi-fonipa ;
-    ontolex:writtenRep "krūsa"@hi-Latn,
-        "क्रूस"@hi-deva .
+    ontolex:writtenRep "krūsa"@hi-Deva,
+        "क्रूस"@hi-Deva .
 
 :क्रूस_os_form_क्रूस a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -704,8 +704,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɡɪɾ.d͡ʒɑː"@hi-fonipa ;
-    ontolex:writtenRep "girajā"@hi-Latn,
-        "गिरजा"@hi-deva .
+    ontolex:writtenRep "girajā"@hi-Deva,
+        "गिरजा"@hi-Deva .
 
 :गिरजा_sense_1 a ontolex:LexicalSense ;
     skos:definition "church" ;
@@ -759,8 +759,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɡoː.bʱiː"@hi-fonipa ;
-    ontolex:writtenRep "gobhī"@hi-Latn,
-        "गोभी"@hi-deva .
+    ontolex:writtenRep "gobhī"@hi-Deva,
+        "गोभी"@hi-Deva .
 
 :गोभी_os_form_गोभी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -813,8 +813,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t͡ʃɑː.biː"@hi-fonipa ;
-    ontolex:writtenRep "cābī"@hi-Latn,
-        "चाबी"@hi-deva .
+    ontolex:writtenRep "cābī"@hi-Deva,
+        "चाबी"@hi-Deva .
 
 :चाबी_os_form_चाबी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -834,8 +834,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "d͡ʒəŋ.ɡlɑː"@hi-fonipa ;
-    ontolex:writtenRep "jaṅglā"@hi-Latn,
-        "जंगला"@hi-deva .
+    ontolex:writtenRep "jaṅglā"@hi-Deva,
+        "जंगला"@hi-Deva .
 
 :जंगला_sense_1 a ontolex:LexicalSense ;
     skos:definition "fencing, railing" ;
@@ -903,8 +903,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "d͡ʒẽː.ʈuː"@hi-fonipa ;
-    ontolex:writtenRep "jẽṭū"@hi-Latn,
-        "जेंटू"@hi-deva .
+    ontolex:writtenRep "jẽṭū"@hi-Deva,
+        "जेंटू"@hi-Deva .
 
 :जेंटू_os_form_जेंटू a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -933,8 +933,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɖiː.sɪl.ʋɑː"@hi-fonipa ;
-    ontolex:writtenRep "ḍīsilvā"@hi-Latn,
-        "डीसिल्वा"@hi-deva .
+    ontolex:writtenRep "डीसिल्वा"@hi-Deva,
+        "ḍīsilvā"@hi-Deva .
 
 :डीसिल्वा_sense a ontolex:LexicalSense ;
     skos:definition "a surname from Portuguese, equivalent to English D'Silva or Desilva" ;
@@ -976,8 +976,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t̪ɔː.lɪ.jɑː"@hi-fonipa ;
-    ontolex:writtenRep "tauliyā"@hi-Latn,
-        "तौलिया"@hi-deva .
+    ontolex:writtenRep "tauliyā"@hi-Deva,
+        "तौलिया"@hi-Deva .
 
 :तौलिया_sense a ontolex:LexicalSense ;
     skos:definition "towel" ;
@@ -1031,8 +1031,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "d̪ɪ.səm.bəɾ"@hi-fonipa ;
-    ontolex:writtenRep "disambara"@hi-Latn,
-        "दिसंबर"@hi-deva .
+    ontolex:writtenRep "disambara"@hi-Deva,
+        "दिसंबर"@hi-Deva .
 
 :दिसंबर_os_form_दिसंबर a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -1081,8 +1081,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "niː.lɑːm"@hi-fonipa ;
-    ontolex:writtenRep "nīlāma"@hi-Latn,
-        "नीलाम"@hi-deva .
+    ontolex:writtenRep "nīlāma"@hi-Deva,
+        "नीलाम"@hi-Deva .
 
 :नीलाम_os_form_नीलाम a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -1141,8 +1141,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "pɑːd̪.ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "pādarī"@hi-Latn,
-        "पादरी"@hi-deva .
+    ontolex:writtenRep "pādarī"@hi-Deva,
+        "पादरी"@hi-Deva .
 
 :पादरी_os_form_पादरी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -1181,8 +1181,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "pɪs.t̪ɔːl"@hi-fonipa ;
-    ontolex:writtenRep "pistaula"@hi-Latn,
-        "पिस्तौल"@hi-deva .
+    ontolex:writtenRep "pistaula"@hi-Deva,
+        "पिस्तौल"@hi-Deva .
 
 :पिस्तौल_os_form_पिस्तौल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -1226,8 +1226,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "piː.pɑː"@hi-fonipa ;
-    ontolex:writtenRep "pīpā"@hi-Latn,
-        "पीपा"@hi-deva .
+    ontolex:writtenRep "pīpā"@hi-Deva,
+        "पीपा"@hi-Deva .
 
 :पीपा_sense a ontolex:LexicalSense ;
     skos:definition "cylinder, barrel, cask" ;
@@ -1287,8 +1287,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bəm.bɑː"@hi-fonipa ;
-    ontolex:writtenRep "bambā"@hi-Latn,
-        "बंबा"@hi-deva .
+    ontolex:writtenRep "bambā"@hi-Deva,
+        "बंबा"@hi-Deva .
 
 :बंबा_sense_1 a ontolex:LexicalSense ;
     skos:definition "pump; water pump" ;
@@ -1341,8 +1341,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bə.ɾɑːm.d̪ɑː"@hi-fonipa ;
-    ontolex:writtenRep "barāmadā"@hi-Latn,
-        "बरामदा"@hi-deva .
+    ontolex:writtenRep "barāmadā"@hi-Deva,
+        "बरामदा"@hi-Deva .
 
 :बरामदा_sense a ontolex:LexicalSense ;
     skos:definition "verandah" ;
@@ -1391,8 +1391,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bɑːp.t̪ɪs.mɑː"@hi-fonipa ;
-    ontolex:writtenRep "bāptismā"@hi-Latn,
-        "बाप्तिस्मा"@hi-deva .
+    ontolex:writtenRep "bāptismā"@hi-Deva,
+        "बाप्तिस्मा"@hi-Deva .
 
 :बाप्तिस्मा_sense a ontolex:LexicalSense ;
     skos:definition "(Christianity) baptism" ;
@@ -1456,8 +1456,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bɑːl.ʈiː"@hi-fonipa ;
-    ontolex:writtenRep "bālaṭī"@hi-Latn,
-        "बालटी"@hi-deva .
+    ontolex:writtenRep "bālaṭī"@hi-Deva,
+        "बालटी"@hi-Deva .
 
 :बालटी_os_form_बालटी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -1496,8 +1496,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep ""@hi-fonipa ;
-    ontolex:writtenRep "bōtala"@hi-Latn,
-        "बोतल"@hi-deva .
+    ontolex:writtenRep "bōtala"@hi-Deva,
+        "बोतल"@hi-Deva .
 
 :बोतल_os_form_बोतल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -1534,8 +1534,8 @@
 :मस्तूल_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "mastūla"@hi-Latn,
-        "मस्तूल"@hi-deva .
+    ontolex:writtenRep "mastūla"@hi-Deva,
+        "मस्तूल"@hi-Deva .
 
 :मस्तूल_sense a ontolex:LexicalSense ;
     skos:definition "mast" ;
@@ -1564,8 +1564,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "mɑːɾ.t̪ɔːl"@hi-fonipa ;
-    ontolex:writtenRep "mārataula"@hi-Latn,
-        "मारतौल"@hi-deva .
+    ontolex:writtenRep "mārataula"@hi-Deva,
+        "मारतौल"@hi-Deva .
 
 :मारतौल_os_form_मारतौल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -1602,8 +1602,8 @@
 :मार्तोल_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "mārtol"@hi-Latn,
-        "मार्तोल"@hi-deva .
+    ontolex:writtenRep "mārtol"@hi-Deva,
+        "मार्तोल"@hi-Deva .
 
 :मार्तोल_sense a ontolex:LexicalSense ;
     skos:definition "hammer" ;
@@ -1620,8 +1620,8 @@
 :मिस्तरी_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "mistarī"@hi-Latn,
-        "मिस्तरी"@hi-deva .
+    ontolex:writtenRep "mistarī"@hi-Deva,
+        "मिस्तरी"@hi-Deva .
 
 :मिस्तरी_sense a ontolex:LexicalSense ;
     skos:definition "skilled tradesman" ;
@@ -1646,8 +1646,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "mɪs.t̪ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "mistrī"@hi-Latn,
-        "मिस्त्री"@hi-deva .
+    ontolex:writtenRep "mistrī"@hi-Deva,
+        "मिस्त्री"@hi-Deva .
 
 :मिस्त्री_os_form_मिस्त्री a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
@@ -1703,8 +1703,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "sɑː.jɑː"@hi-fonipa ;
-    ontolex:writtenRep "sāyā"@hi-Latn,
-        "साया"@hi-deva .
+    ontolex:writtenRep "sāyā"@hi-Deva,
+        "साया"@hi-Deva .
 
 :साया_sense a ontolex:LexicalSense ;
     skos:definition "petticoat" ;
@@ -1747,8 +1747,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "sɑːl.sɑː"@hi-fonipa ;
-    ontolex:writtenRep "sālasā"@hi-Latn,
-        "सालसा"@hi-deva .
+    ontolex:writtenRep "sālasā"@hi-Deva,
+        "सालसा"@hi-Deva .
 
 :सालसा_sense a ontolex:LexicalSense ;
     skos:definition "Indian sarsparilla" ;
@@ -1765,8 +1765,8 @@
 :सितंबर_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "sitambara"@hi-Latn,
-        "सितंबर"@hi-deva .
+    ontolex:writtenRep "sitambara"@hi-Deva,
+        "सितंबर"@hi-Deva .
 
 :सितंबर_sense a ontolex:LexicalSense ;
     skos:definition "September" ;
@@ -1777,8 +1777,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "fiː.t̪ɑː"@hi-fonipa,
         "pʰiː.t̪ɑː"@hi-fonipa ;
-    ontolex:writtenRep "fītā"@hi-Latn,
-        "फ़ीता"@hi-deva .
+    ontolex:writtenRep "fītā"@hi-Deva,
+        "फ़ीता"@hi-Deva .
 
 :फ़ीता_sense_1 a ontolex:LexicalSense ;
     skos:definition "lace; shoelace" ;

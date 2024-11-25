@@ -101,9 +101,9 @@ def upload_ur():
                 ipa_lemma = ['']
                 if ipas != []:
                     ipa_lemma = ipas
-                forms =  [lemma("ur-Arab", "ur-Latn", row['Headword'], row['Transliteration'], ipa_lemma)]
+                forms =  [lemma("ur-Arab", "ur-Latn", headword, row['Transliteration'], ipa_lemma)]
             else:
-                forms =  [lemma_s("ur-Arab", "ur-Latn",row['Headword'], row['Transliteration'])]
+                forms =  [lemma_s("ur-Arab", "ur-Latn",headword, row['Transliteration'])]
 
             hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#"+urdu(row['Headword Hindi']).replace(' ', '')
             # extract sense information from the 'Sense (Wiktionary)' column
@@ -117,11 +117,11 @@ def upload_ur():
             # augmenting j each time
             
             if len(senses) == 1:
-                sense_content = [{'id': row['Headword']+'_sense', 'def':senses[0]}]
+                sense_content = [{'id': headword +'_sense', 'def':senses[0]}]
             else:
                 for count in senses:
-                    print(row['Headword']+'_sense_'+str(j))
-                    sense_content = sense_content + [{'id': row['Headword']+'_sense_'+str(j), 'def':count}]
+                    print(headword+'_sense_'+str(j))
+                    sense_content = sense_content + [{'id': headword+'_sense_'+str(j), 'def':count}]
                     j +=1
                 
             print(hindi_seeAlso)
@@ -221,6 +221,9 @@ def main():
     dic2 = upload_hl()
     l2 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic2)
     l2.writeToFile('chamuca_hi_lex')
+    dic3 = upload_ur()
+    l3 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic3)
+    l3.writeToFile('chamuca_ur_lex', 'json-ld')
 
 if __name__ == "__main__":
         main()
