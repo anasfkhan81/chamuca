@@ -73,9 +73,10 @@ def upload_pt():
     return port_lex
 
     
-def upload_ur():
+def upload_ur(file_name):
     # upload file into dataframe df1
-    df1 = pd.read_csv("SimpleUrdu.tsv", sep='\t')
+    # df1 = pd.read_csv("SimpleUrdu.tsv", sep='\t')
+    df1 = pd.read_csv(file_name, sep='\t')
     i = 0
 
     #iterate through each row of the dataframe
@@ -134,9 +135,10 @@ def upload_ur():
     return urdu_lex
 
 
-def upload_hl():
+def upload_hl(file_name):
     # upload file into dataframe df
-    df = pd.read_csv("LessSimpleHindi.tsv", sep='\t')
+    # df = pd.read_csv("LessSimpleHindi.tsv", sep='\t')
+    df = pd.read_csv(file_name, sep='\t')
     i = 0
     # iterate through each row of the dataframe df
     for index, row in df.iterrows():
@@ -207,7 +209,8 @@ def upload_hl():
             
         else:
             print(row['Headword'])
-        urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu(row['Urdu ']).replace(' ', '')
+        urdu_head = urdu(row['Urdu ']).replace(' ', '')
+        urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu_head
         print(urdu_seeAlso)
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+row['Etymon pt-PT'] 
         hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon}
@@ -218,10 +221,10 @@ def main():
     dic1 = upload_pt()
     l = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#", dic1)
     l.writeToFile('chamuca_pt_lex')
-    dic2 = upload_hl()
+    dic2 = upload_hl("LessSimpleHindi.tsv")
     l2 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic2)
     l2.writeToFile('chamuca_hi_lex')
-    dic3 = upload_ur()
+    dic3 = upload_ur("SimpleUrdu.tsv")
     l3 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic3)
     l3.writeToFile('chamuca_ur_lex', 'json-ld')
 

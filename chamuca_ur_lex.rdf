@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_lemma",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَسْپَتال_lemma",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#Form"
     ],
@@ -14,41 +14,34 @@
         "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
       }
     ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "ɡoː.bʱiː"
-      }
-    ],
     "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
       {
         "@language": "ur-Arab",
-        "@value": "گوبھی"
+        "@value": "اَسْپَتال"
       },
       {
-        "@language": "ur-Latn",
-        "@value": "gobhī"
+        "@value": NaN
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_sense_1",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "(Christianity) clergyman; Christian priest  Synonym: ⁧فادر⁩ (fādar)"
+        "@value": ""
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_entry"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_entry"
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_lemma",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_lemma",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#Form"
     ],
@@ -62,79 +55,46 @@
         "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
       }
     ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "əs.t̪ə.bəl"
-      }
-    ],
     "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
       {
         "@language": "ur-Arab",
-        "@value": "اَصْطَبَل"
+        "@value": "بالٹی"
       },
       {
         "@language": "ur-Latn",
-        "@value": "astabal"
+        "@value": "bālṭī"
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_sense",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": ""
+        "@value": "bucket"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_entry"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_entry"
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_sense",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": ""
+        "@value": "key (object for opening and closing a lock)"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_entry"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_entry"
       }
     ]
   },
@@ -169,329 +129,7 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_sense_1",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "room, chamber"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_sense_1",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "pump; water pump"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_sense_2",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "(Christianity, historical) a missionary; Jesuit"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "بالٹی"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "bālṭī"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "بَرَامْدَا‎"
-      },
-      {
-        "@value": NaN
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مِستری_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مِستری_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آلپین_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "آلپین"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "ālpin"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#سايہ_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "petticoat, underskirt"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#سايہ_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "key (object for opening and closing a lock)"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "کِران٘چی"
-      },
-      {
-        "@value": NaN
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_lemma",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_lemma",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#Form"
     ],
@@ -508,204 +146,22 @@
     "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
       {
         "@language": "hi-fonipa",
-        "@value": "t͡ʃɑː.bʱiː"
+        "@value": "t͡ʃɑː.biː"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
       {
         "@language": "ur-Arab",
-        "@value": "چابھی"
+        "@value": "چابی"
       },
       {
         "@language": "ur-Latn",
-        "@value": "cābhī"
+        "@value": "cābī"
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#سايہ_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "سايہ"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": " sā'yah"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "bucket"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پیپا‎_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پیپا‎_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پیپا‎_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَلْماری_lemma",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_lemma",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#Form"
     ],
@@ -722,115 +178,17 @@
     "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
       {
         "@language": "hi-fonipa",
-        "@value": "əl.mɑː.ɾiː"
+        "@value": "ɪs.t̪ɾiː"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
       {
         "@language": "ur-Arab",
-        "@value": "اَلْماری"
+        "@value": "استری"
       },
       {
         "@language": "ur-Latn",
-        "@value": "almārī"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَسْپَتال_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "اَسْپَتال"
-      },
-      {
-        "@value": NaN
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "کروس"
-      },
-      {
-        "@value": NaN
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "ayah: nurse maid, nurse"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "bəm.bᵊ"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "بمبہ"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "bamba"
+        "@value": "istrī"
       }
     ]
   },
@@ -862,217 +220,32 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "ɑː.jɑː"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "آیا‎"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "āyā"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "مستول"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": " mastaul' "
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "نيلام"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": " nī'lām' "
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#",
-    "@type": [
-      "http://www.w3.org/ns/lemon/lime#Lexicon"
-    ],
-    "http://purl.org/dc/elements/1.1/description": [
-      {
-        "@value": "Lexical information derived in part from wiktionary, https://www.wiktionary.org"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/lime#language": [
-      {
-        "@value": "ur"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_entry",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_entry",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
       "http://www.w3.org/ns/lemon/ontolex#Word"
     ],
     "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
       {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
       }
     ],
     "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
       {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_lemma"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_lemma"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#sense": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مِستری_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "مِستری"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_sense_1"
       },
       {
-        "@language": "ur-Latn",
-        "@value": "mistri"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_sense_1"
-      },
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_sense_2"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_sense_2"
       }
     ]
   },
@@ -1093,75 +266,7 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "دسمبر"
-      },
-      {
-        "@value": NaN
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "towel"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_sense",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
@@ -1172,65 +277,7 @@
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "انناس"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "anannās"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اگست_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "ə.ɡəst̪"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "اگست"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "agast"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_entry"
       }
     ]
   },
@@ -1271,7 +318,7 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_lemma",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_lemma",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#Form"
     ],
@@ -1285,146 +332,19 @@
         "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
       }
     ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "pɑːd̪.ɾiː"
+      }
+    ],
     "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
       {
         "@language": "ur-Arab",
-        "@value": "گِرْجا"
+        "@value": "پادری"
       },
       {
         "@value": NaN
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "ɪs.t̪ɾiː"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "استری"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "istrī"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَلْماری_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "cupboard, shelf; almirah"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَلْماری_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اسپات_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "ɪs.pɑːt̪"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "اسپات"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": " ispāt'"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "مارتول"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "mārtol"
       }
     ]
   },
@@ -1456,7 +376,7 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_entry",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پیپا‎_entry",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
       "http://www.w3.org/ns/lemon/ontolex#Word"
@@ -1473,12 +393,53 @@
     ],
     "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_lemma"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پیپا‎_lemma"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#sense": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_sense"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پیپا‎_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_sense_1",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "bottle"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "گِرْجا"
+      },
+      {
+        "@value": NaN
       }
     ]
   },
@@ -1510,258 +471,7 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "stable, mew, stall"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_sense_1"
-      },
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_sense_2"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پیپا‎_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "پیپا‎"
-      },
-      {
-        "@value": NaN
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_sense_2",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "channel, narrow river, creek"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_sense_1"
-      },
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_sense_2"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "kəm.ɾɑ(ː)"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "کمرہ"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "kamra"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_sense_2",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "compartment (of an aeroplane or train)"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "cauliflower"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اگست_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "August"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اگست_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آلپین_sense",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
@@ -1772,183 +482,7 @@
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آلپین_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
-      {
-        "@language": "hi-fonipa",
-        "@value": "t͡ʃɑː.biː"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "چابی"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "cābī"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَسْپَتال_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَسْپَتال_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_sense",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_sense_2",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "(euphemistic) wine bottle"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_entry"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_entry",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
-      {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_sense"
-      }
-    ]
-  },
-  {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_lemma",
-    "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#Form"
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
-      }
-    ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
-      {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
-      {
-        "@language": "ur-Arab",
-        "@value": "پسطول"
-      },
-      {
-        "@language": "ur-Latn",
-        "@value": "pistūl"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_entry"
       }
     ]
   },
@@ -1985,7 +519,125 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_sense",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_sense_2",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "compartment (of an aeroplane or train)"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_sense_2",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "(Christianity, historical) a missionary; Jesuit"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "bəm.bᵊ"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "بمبہ"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "bamba"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
@@ -1996,7 +648,573 @@
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_entry"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "نيلام"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": " nī'lām' "
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَسْپَتال_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَسْپَتال_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آلپین_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آلپین_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#استری_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اگست_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "ə.ɡəst̪"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "اگست"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "agast"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پیپا‎_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "پیپا‎"
+      },
+      {
+        "@value": NaN
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "کِران٘چی"
+      },
+      {
+        "@value": NaN
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "kəm.ɾɑ(ː)"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "کمرہ"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "kamra"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "مارتول"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "mārtol"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_sense_1"
+      },
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_sense_2"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "əs.t̪ə.bəl"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "اَصْطَبَل"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "astabal"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَلْماری_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "əl.mɑː.ɾiː"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "اَلْماری"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "almārī"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "ayah: nurse maid, nurse"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آیا‎_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "ɑː.jɑː"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "آیا‎"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "āyā"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#",
+    "@type": [
+      "http://www.w3.org/ns/lemon/lime#Lexicon"
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@value": "Lexical information derived in part from wiktionary, https://www.wiktionary.org"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/lime#language": [
+      {
+        "@value": "ur"
       }
     ]
   },
@@ -2028,6 +1246,58 @@
     ]
   },
   {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آلپین_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "آلپین"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "ālpin"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "مستول"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": " mastaul' "
+      }
+    ]
+  },
+  {
     "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مِستری_entry",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
@@ -2055,23 +1325,66 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_sense_1",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "bottle"
+        "@value": "towel"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_entry"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#تَولِیَہ⁩_entry"
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_entry",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "cauliflower"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_entry",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
       "http://www.w3.org/ns/lemon/ontolex#Word"
@@ -2083,22 +1396,22 @@
     ],
     "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
       {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_lemma"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_lemma"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#sense": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_sense"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_sense"
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اسپات_sense",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
@@ -2109,39 +1422,137 @@
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اسپات_entry"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_entry"
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_entry",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#سايہ_lemma",
     "@type": [
-      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
-      "http://www.w3.org/ns/lemon/ontolex#Word"
+      "http://www.w3.org/ns/lemon/ontolex#Form"
     ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
       {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
       }
     ],
-    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
       {
-        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
       }
     ],
-    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_lemma"
-      }
-    ],
-    "http://www.w3.org/ns/lemon/ontolex#sense": [
+        "@language": "ur-Arab",
+        "@value": "سايہ"
+      },
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_sense"
+        "@language": "ur-Latn",
+        "@value": " sā'yah"
       }
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_lemma",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "stable, mew, stall"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَصْطَبَل_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "پسطول"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "pistūl"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "دسمبر"
+      },
+      {
+        "@value": NaN
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مِستری_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مِستری_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اسپات_lemma",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#Form"
     ],
@@ -2158,16 +1569,49 @@
     "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
       {
         "@language": "hi-fonipa",
-        "@value": "pɑːd̪.ɾiː"
+        "@value": "ɪs.pɑːt̪"
       }
     ],
     "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
       {
         "@language": "ur-Arab",
-        "@value": "پادری"
+        "@value": "اسپات"
       },
       {
-        "@value": NaN
+        "@language": "ur-Latn",
+        "@value": " ispāt'"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گِرْجا_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_entry"
       }
     ]
   },
@@ -2199,7 +1643,113 @@
     ]
   },
   {
-    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_sense",
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "ɡoː.bʱiː"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "گوبھی"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "gobhī"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_sense_2",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "(euphemistic) wine bottle"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بوتَل_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مِستری_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "مِستری"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "mistri"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#phoneticRep": [
+      {
+        "@language": "hi-fonipa",
+        "@value": "t͡ʃɑː.bʱiː"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "چابھی"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "cābhī"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_sense",
     "@type": [
       "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
     ],
@@ -2210,7 +1760,403 @@
     ],
     "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
       {
-        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابھی_entry"
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#چابی_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#سايہ_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "petticoat, underskirt"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#سايہ_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_sense_2",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "channel, narrow river, creek"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#نيلام_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_sense_1",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "(Christianity) clergyman; Christian priest  Synonym: ⁧فادر⁩ (fādar)"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پادری_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کروس_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "کروس"
+      },
+      {
+        "@value": NaN
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَلْماری_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "cupboard, shelf; almirah"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اَلْماری_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مارتول_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اسپات_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اسپات_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بَرَامْدَا‎_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "بَرَامْدَا‎"
+      },
+      {
+        "@value": NaN
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#انناس_lemma",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#case": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#number": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#singular"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "ur-Arab",
+        "@value": "انناس"
+      },
+      {
+        "@language": "ur-Latn",
+        "@value": "anannās"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#پسطول_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_sense_1"
+      },
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_sense_2"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_sense_1",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "room, chamber"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کمرہ_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بالٹی_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#گوبھی_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#مستول_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اگست_sense",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "August"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#اگست_entry"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_sense_1",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "pump; water pump"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#بمبہ_entry"
       }
     ]
   },
@@ -2238,6 +2184,60 @@
     "http://www.w3.org/ns/lemon/ontolex#sense": [
       {
         "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#آلپین_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#دسمبر_sense"
+      }
+    ]
+  },
+  {
+    "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_entry",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry",
+      "http://www.w3.org/ns/lemon/ontolex#Word"
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#gender": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#unknown"
+      }
+    ],
+    "http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech": [
+      {
+        "@id": "http://www.lexinfo.net/ontology/2.0/lexinfo#nan"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#canonicalForm": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_lemma"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#کِران٘چی_sense"
       }
     ]
   }
