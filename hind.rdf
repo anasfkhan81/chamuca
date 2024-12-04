@@ -291,7 +291,7 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əs.pə.t̪ɑːl"@hi-fonipa ;
-    ontolex:writtenRep "aspatāla"@hi-Latn,
+    ontolex:writtenRep "aspatāl"@hi-Latn,
         "अस्पताल"@hi-deva .
 
 :अस्पताल_os_form_अस्पताल a ontolex:Form ;
