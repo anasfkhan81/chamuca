@@ -8,9 +8,9 @@ urdu_lex  = {'name':'chamuca_ur_lex', 'desc':'Lexical information derived in par
 gend = lambda g: 'masculine' if g == 'm.' else 'feminine' if g == 'f.' else 'unknown'
 pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'nan'
 #lemma = lambda head, trans, ipa: {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
-lemma = lambda scr1, scr2, head, trans, ipa: {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
+lemma = lambda scr1, scr2, head, trans, ipa: {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': str(head)+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
 #lemma_mi = lambda head, trans : {'rep':[(head, "hi-Deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase'}
-lemma_s = lambda scr1, scr2, head, trans : {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase'}
+lemma_s = lambda scr1, scr2, head, trans : {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': str(head)+'_lemma', 'number':'singular', 'case':'directCase'}
 obl_sing = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form +'_os_form_'+lemm, 'number':'singular', 'case':'obliqueCase'}
 voc_sing = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form+'_vs_form_'+lemm,'number':'singular', 'case':'vocativeCase'}
 dir_plu = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form+'_dp_form_'+lemm, 'number':'plural', 'case':'directCase'}
@@ -118,11 +118,11 @@ def upload_ur(file_name):
             # augmenting j each time
             
             if len(senses) == 1:
-                sense_content = [{'id': headword +'_sense', 'def':senses[0]}]
+                sense_content = [{'id': str(headword) +'_sense', 'def':senses[0]}]
             else:
                 for count in senses:
                     print(headword+'_sense_'+str(j))
-                    sense_content = sense_content + [{'id': headword+'_sense_'+str(j), 'def':count}]
+                    sense_content = sense_content + [{'id': str(headword)+'_sense_'+str(j), 'def':count}]
                     j +=1
                 
             print(hindi_seeAlso)
@@ -147,7 +147,7 @@ def upload_hl(file_name):
         #if i == 60:
         #    break
         # create id for word by combining headword with '_entry' tag
-        word_id = row['Headword']+'_entry'
+        word_id = str(row['Headword'])+'_entry'
         # extract gender, ipa and lemma info from the row
         gr = gend(row['Gender'])
         ipa_row = row['Pronunciation']
@@ -176,11 +176,11 @@ def upload_hl(file_name):
         # augmenting j each time
         
         if len(senses) == 1:
-            sense_content = [{'id': row['Headword']+'_sense', 'def':senses[0]}]
+            sense_content = [{'id': str(row['Headword'])+'_sense', 'def':senses[0]}]
         else:
             for count in senses:
                 print(row['Headword']+'_sense_'+str(j))
-                sense_content = sense_content + [{'id': row['Headword']+'_sense_'+str(j), 'def':count}]
+                sense_content = sense_content + [{'id': str(row['Headword'])+'_sense_'+str(j), 'def':count}]
                 j +=1
             
 
@@ -212,8 +212,10 @@ def upload_hl(file_name):
         urdu_head = urdu(row['Urdu ']).replace(' ', '')
         urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu_head
         print(urdu_seeAlso)
-        porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+row['Etymon pt-PT'] 
-        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon}
+        porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
+        etymology = row['Etymology Free']
+        print(etymology)
+        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology}
         i+=1
     return hind_lex
 
@@ -221,7 +223,7 @@ def main():
     dic1 = upload_pt()
     l = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#", dic1)
     l.writeToFile('chamuca_pt_lex')
-    dic2 = upload_hl("LessSimpleHindi.tsv")
+    dic2 = upload_hl("SimplifiedHindi.tsv")
     l2 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic2)
     l2.writeToFile('chamuca_hi_lex')
     dic3 = upload_ur("SimpleUrdu.tsv")

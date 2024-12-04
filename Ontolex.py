@@ -103,6 +103,7 @@ class Lexicon():
                 self.lex.add((subj, lexinfo_ns.case, URIRef(lexinfo_uri + case)))
 
     def addNumber(self, keys, entity, subj):
+        
         if 'number' in keys:
             num = entity['number']
             if num != '':
@@ -115,6 +116,14 @@ class Lexicon():
             if etym != '':
                 self.lex.add((subj, lexinfo_ns.etymologicalRoot, URIRef(new_url)))
 
+
+    def addEty(self, keys, entity, subj):
+        if 'etymology' in keys:
+            etymy = entity['etymology']
+            if etymy != '':
+                self.lex.add((subj, lexinfo_ns.etymology, Literal(etymy)))
+
+                
     def addSeeAlso(self, keys, entity, subj):
         if 'seeAlso' in keys:
             see_url = entity['seeAlso']
@@ -161,6 +170,7 @@ class Lexicon():
 
             # Check Mood
 
+
     def addSenses(self, entry, ent):
 
         for s in entry['sense']:
@@ -205,6 +215,8 @@ class Lexicon():
         #add etymological root
         #need to make this roots, just root for now
         self.addEtyRoot(entry_keys, self.indic['entries'][lemma_id], ent)
+
+        self.addEty(entry_keys, self.indic['entries'][lemma_id], ent)
 
         # add related entries
         self.addSeeAlso(entry_keys, self.indic['entries'][lemma_id], ent)      
@@ -252,6 +264,8 @@ class Lexicon():
 
 	# add etyRoot
         self.addEtyRoot(entry_keys, self.indic['entries'][lemma_id], ent)
+
+        self.addEty(entry_keys, self.indic['entries'][lemma_id], ent)
 
         # add related entries
         self.addSeeAlso(entry_keys, self.indic['entries'][lemma_id], ent)
