@@ -89,6 +89,7 @@ class Lexicon():
             pos = entity['pos']
             if pos != '':
                 self.lex.add((subj, lexinfo_ns.partOfSpeech, URIRef(lexinfo_uri + pos)))
+    
 
     def addGender(self, keys, entity, subj):
         if 'gender' in keys:
@@ -131,6 +132,19 @@ class Lexicon():
                 print(see_url[-2:])
                 self.lex.add((subj, RDFS.seeAlso, URIRef(see_url)))
 
+    def addHindi2021(self, keys,entity,  subj):
+        frequency = BNode()
+        
+        if 'hiTenTen21' in keys:
+            print("tenten")
+            freq = entity['hiTenTen21']
+            tenten2021 = 'https://www.sketchengine.eu/hitenten-hindi-corpus/'
+            if freq != '':
+                self.lex.add((frequency, RDF.type, frac_ns.Frequency))
+                self.lex.add((frequency, RDF.value, Literal(freq)))
+                self.lex.add((frequency, frac_ns.observedIn, URIRef(tenten2021)))
+                self.lex.add((subj, frac_ns.frequency, frequency))
+
             
     def addForms(self, entry, ent):
 
@@ -169,6 +183,10 @@ class Lexicon():
             self.addNumber(form_keys, f, form)
 
             # Check Mood
+
+
+
+
 
 
     def addSenses(self, entry, ent):
@@ -218,6 +236,8 @@ class Lexicon():
 
         self.addEty(entry_keys, self.indic['entries'][lemma_id], ent)
 
+        self.addHindi2021(entry_keys, self.indic['entries'][lemma_id], ent)
+
         # add related entries
         self.addSeeAlso(entry_keys, self.indic['entries'][lemma_id], ent)      
 
@@ -266,6 +286,8 @@ class Lexicon():
         self.addEtyRoot(entry_keys, self.indic['entries'][lemma_id], ent)
 
         self.addEty(entry_keys, self.indic['entries'][lemma_id], ent)
+
+        self.addHindi2021(entry_keys, self.indic['entries'][lemma_id], ent)
 
         # add related entries
         self.addSeeAlso(entry_keys, self.indic['entries'][lemma_id], ent)

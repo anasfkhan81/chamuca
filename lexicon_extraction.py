@@ -1,6 +1,9 @@
 import pandas as pd
 import re
+import math
+from rdflib import Literal, XSD
 from Ontolex import Lexicon
+
 
 hind_lex ={'name':'chamuca_hi_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['hi'], 'entries': {}}
 port_lex = {'name':'chamuca_port_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['pt'], 'entries': {}}
@@ -21,6 +24,19 @@ posp = lambda ps: 'commonNoun' if ps== 'Noun' else ps
 genp = lambda g: 'masculine' if g == 'Masculine' else 'feminine' if g == 'Feminine' else 'unknown'
 
 urdu = lambda ur: ur if isinstance(ur, str) else 'NA'
+
+def is_valid_integer_literal(value):
+    try:
+        # Attempt to create a Literal with explicit integer datatype
+        lit_int = Literal(value, datatype=XSD.integer)
+
+        # Check if the parsed value is an integer
+        if lit_int.value is not None and isinstance(lit_int.value, int):
+            return True, lit_int.value  # Valid integer
+        return False, None  # Not a valid integer
+    except Exception as e:
+        # If an exception occurs, it's not a valid integer
+        return False, None
 
 
 def extract_ipas(input_string):
@@ -182,8 +198,14 @@ def upload_hl(file_name):
                 print(row['Headword']+'_sense_'+str(j))
                 sense_content = sense_content + [{'id': str(row['Headword'])+'_sense_'+str(j), 'def':count}]
                 j +=1
-            
 
+        # corpus information
+        corpus = 0
+        corpus_str = str(row['hiTenTen21 Absolute (1)'])
+        if is_valid_integer_literal(corpus_str)[0]:
+            corpus = is_valid_integer_literal(corpus_str)[1]
+
+            
         # grammatical information (different forms of the noun)
         if not pd.isnull(row['oblique singular']):
             # split obl_sing
@@ -214,8 +236,8 @@ def upload_hl(file_name):
         print(urdu_seeAlso)
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
         etymology = row['Etymology Free']
-        print(etymology)
-        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology}
+        print(corpus)
+        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus}
         i+=1
     return hind_lex
 
