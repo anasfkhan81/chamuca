@@ -241,7 +241,7 @@ def upload_hl(file_name):
         else:
             print(row['Headword'])
         urdu_head = urdu(row['Urdu ']).replace(' ', '')
-        urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu_head
+        urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu_head+"_entry"
         print(urdu_seeAlso)
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
         etymology = row['Etymology Free']
