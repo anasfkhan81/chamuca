@@ -17,6 +17,7 @@ decomp_uri = "http://www.w3.org/ns/lemon/decomp#"
 frac_uri = "http://www.w3.org/ns/lemon/frac#"
 cito_uri = "http://purl.org/spar/cito"
 fabio_uri = "http://purl.org/spar/fabio/"
+dcmi_uri = "http://purl.org/dc/dcmitype/"
 ontolex_ns = Namespace(ontolex_uri)
 lexinfo_ns = Namespace(lexinfo_uri)
 lime_ns = Namespace(lime_uri)
@@ -25,6 +26,7 @@ decomp_ns =  Namespace(decomp_uri)
 cito_ns =  Namespace(cito_uri)
 fabio_ns =Namespace(fabio_uri)
 frac_ns = Namespace(frac_uri)
+dcmi_ns = Namespace(dcmi_uri)
 
 
 lex = {'name':'hindi_lex','lang':['hi'],'entries':	{'अगस्त_entry': {'entry_type':'Word','pos':'commonNoun', 'gender':'masculine', 'form': [{'id':'अगस्त_lemma','rep': [('अगस्त', 'hi-deva')], 'lemma':True}],  'sense': [{'id': 'अगस्त_1', 'def': 'August'}]}, 'काजू_entry': {'entry_type':'Word','pos':'commonNoun', 'form': [{'id':'काजू_lemma','rep': [('काजू', 'hi-deva')], 'lemma':True}], 'sense': [{'id': 'sense_काजू_1', 'def': 'cashew nut'}]}}}
@@ -43,7 +45,8 @@ class Lexicon():
         self.indic = indic
         self.name = indic['name']
         self.namespace = namespace
-
+        self.language = ''
+        
         # Here we handle the namespace information for the lexicon
 
         this = URIRef(namespace)
@@ -73,12 +76,19 @@ class Lexicon():
         # add the description of the dataset given in indic['desc']
         if 'desc' in indic.keys():
             self.lex.add((this, DC.description, Literal(indic['desc'])))
-
+        
         # The languages of the lexicon are added
         for l in indic['lang']:
             lang = Literal(l)
             self.lex.add((this, lime_ns.language, lang))
-
+            if l == 'hi':
+                self.corpus_uri = self.addHindiCorpus()
+                self.language = 'hi'
+                print ("Hindi")
+            if l == 'ur':
+                self.corpus_uri = self.addUrduCorpus()
+                self.language = 'ur'
+                print ("Urdu")
         # Create lexical entries for each entry in the dictionary
 
         for e in indic['entries']:
@@ -132,18 +142,62 @@ class Lexicon():
                 print(see_url[-2:])
                 self.lex.add((subj, RDFS.seeAlso, URIRef(see_url)))
 
+#add this part to a subclass of Lexicon
+
+    def addHindiCorpus(self):
+        tot_freq = BNode()
+        hitenten = URIRef(self.namespace+'hiTenTen21')
+        self.lex.add((hitenten, RDF.type, dcmi_ns.Collection))
+        self.lex.add((hitenten, DCTERMS.title, Literal("Hindi Web, 2021", lang=f"eng")))
+        self.lex.add((tot_freq, RDF.type, frac_ns.Frequency))
+        self.lex.add((tot_freq, RDF.value, Literal(901352786)))
+        self.lex.add((tot_freq, frac_ns.unit, Literal("tokens")))
+        self.lex.add((hitenten, frac_ns.total, tot_freq))
+
+        return hitenten
+
+    def addUrduCorpus(self):
+        tot_freq = BNode()
+        urtenten = URIRef(self.namespace+'urTenTen18')
+        self.lex.add((urtenten, RDF.type, dcmi_ns.Collection))
+        self.lex.add((urtenten, DCTERMS.title, Literal("Urdu Web, 2018", lang=f"eng")))
+        self.lex.add((tot_freq, RDF.type, frac_ns.Frequency))
+        self.lex.add((tot_freq, RDF.value, Literal(273246507)))
+        self.lex.add((tot_freq, frac_ns.unit, Literal("tokens")))
+        self.lex.add((urtenten, frac_ns.total, tot_freq))
+
+        return urtenten
+
     def addHindi2021(self, keys,entity,  subj):
         frequency = BNode()
-        
+        hitenten = URIRef(self.namespace+'hiTenTen21')
+
         if 'hiTenTen21' in keys:
             print("tenten")
             freq = entity['hiTenTen21']
-            tenten2021 = 'https://www.sketchengine.eu/hitenten-hindi-corpus/'
-            if freq != '':
+            #tenten2021 = 'https://www.sketchengine.eu/hitenten-hindi-corpus/'
+            if freq != '' and freq!='N':
                 self.lex.add((frequency, RDF.type, frac_ns.Frequency))
                 self.lex.add((frequency, RDF.value, Literal(freq)))
-                self.lex.add((frequency, frac_ns.observedIn, URIRef(tenten2021)))
+                self.lex.add((frequency, frac_ns.observedIn, self.corpus_uri))
                 self.lex.add((subj, frac_ns.frequency, frequency))
+            else:
+                print ("no freq")
+
+    def addUrdu2018(self, keys,entity,  subj):
+        frequency = BNode()
+        hitenten = URIRef(self.namespace+'urTenTen18')
+
+        if 'urTenTen18' in keys:
+            freq = entity['urTenTen18']
+            #tenten2021 = 'https://www.sketchengine.eu/hitenten-hindi-corpus/'
+            if freq != '' and freq!='N':
+                self.lex.add((frequency, RDF.type, frac_ns.Frequency))
+                self.lex.add((frequency, RDF.value, Literal(freq)))
+                self.lex.add((frequency, frac_ns.observedIn, self.corpus_uri))
+                self.lex.add((subj, frac_ns.frequency, frequency))
+            else:
+                print ("no freq")
 
             
     def addForms(self, entry, ent):
@@ -236,7 +290,10 @@ class Lexicon():
 
         self.addEty(entry_keys, self.indic['entries'][lemma_id], ent)
 
-        self.addHindi2021(entry_keys, self.indic['entries'][lemma_id], ent)
+        if self.language == 'hi':
+            self.addHindi2021(entry_keys, self.indic['entries'][lemma_id], ent)
+        if self.language == 'ur':
+            self.addUrdu2018(entry_keys, self.indic['entries'][lemma_id], ent)
 
         # add related entries
         self.addSeeAlso(entry_keys, self.indic['entries'][lemma_id], ent)      
@@ -287,7 +344,11 @@ class Lexicon():
 
         self.addEty(entry_keys, self.indic['entries'][lemma_id], ent)
 
-        self.addHindi2021(entry_keys, self.indic['entries'][lemma_id], ent)
+        if self.language == 'hi':
+            self.addHindi2021(entry_keys, self.indic['entries'][lemma_id], ent)
+        if self.language == 'ur':
+            self.addUrdu2018(entry_keys, self.indic['entries'][lemma_id], ent)
+
 
         # add related entries
         self.addSeeAlso(entry_keys, self.indic['entries'][lemma_id], ent)

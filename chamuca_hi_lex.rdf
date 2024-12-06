@@ -1,5 +1,7 @@
 @prefix : <http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix frac: <http://www.w3.org/ns/lemon/frac#> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
 @prefix lime: <http://www.w3.org/ns/lemon/lime#> .
@@ -21,7 +23,7 @@
     lexinfo:partOfSpeech lexinfo:nan ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :nan_lemma ;
     ontolex:sense :nan_sense .
 
@@ -42,8 +44,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#انگریز> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 2327 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :अँग्रेज़_lemma ;
     ontolex:sense :अँग्रेज़_sense .
 
@@ -52,42 +54,17 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əŋ.ɡɾeːd͡ʒ"@hi-fonipa,
         "əŋ.ɡɾeːz"@hi-fonipa ;
-    ontolex:writtenRep "am̐grēz"@hi-Deva,
-        "अँग्रेज़"@hi-Deva .
+    ontolex:writtenRep "अँग्रेज़"@hi-Deva,
+        "am̐grēz"@hi-Latn .
 
 :अँग्रेज़_sense a ontolex:LexicalSense ;
     skos:definition "English person (Englishman or Englishwoman)" ;
     ontolex:isSenseOf :अँग्रेज़_entry .
 
-:अंग्रेज़_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#inglês> ;
-    lexinfo:etymology "inglês (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#انگریز> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :अंग्रेज़_lemma ;
-    ontolex:sense :अंग्रेज़_sense .
-
-:अंग्रेज़_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:directCase ;
-    lexinfo:number lexinfo:singular ;
-    ontolex:phoneticRep "əŋ.ɡɾeːd͡ʒ"@hi-fonipa,
-        "əŋ.ɡɾeːz"@hi-fonipa ;
-    ontolex:writtenRep "aṅgrez"@hi-Deva,
-        "अंग्रेज़"@hi-Deva .
-
-:अंग्रेज़_sense a ontolex:LexicalSense ;
-    skos:definition "English person (Englishman or Englishwoman)" ;
-    ontolex:isSenseOf :अंग्रेज़_entry .
-
 :अंबर_dp_form_अंबर a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अंबर"@hi-deva .
+    ontolex:writtenRep "अंबर"@hi-Deva .
 
 :अंबर_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -98,7 +75,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#عنبر> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :अंबर_lemma ;
     ontolex:lexicalForm :अंबर_dp_form_अंबर,
         :अंबर_os_form_अंबर,
@@ -111,13 +88,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əm.bəɾ"@hi-fonipa ;
-    ontolex:writtenRep "ambar"@hi-Deva,
-        "अंबर"@hi-Deva .
+    ontolex:writtenRep "अंबर"@hi-Deva,
+        "ambar"@hi-Latn .
 
 :अंबर_os_form_अंबर a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अंबर"@hi-deva .
+    ontolex:writtenRep "अंबर"@hi-Deva .
 
 :अंबर_sense a ontolex:LexicalSense ;
     skos:definition "ambergris perfume" ;
@@ -126,17 +103,17 @@
 :अंबर_vs_form_अंबर a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अंबर"@hi-deva .
+    ontolex:writtenRep "अंबर"@hi-Deva .
 
 :अंबरो_vp_form_अंबर a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अंबरो"@hi-deva .
+    ontolex:writtenRep "अंबरो"@hi-Deva .
 
 :अंबरों_op_form_अंबर a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अंबरों"@hi-deva .
+    ontolex:writtenRep "अंबरों"@hi-Deva .
 
 :अक्तूबर_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -146,8 +123,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اَکْتُوبَر⁩> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 18552 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :अक्तूबर_lemma ;
     ontolex:sense :अक्तूबर_sense .
 
@@ -155,8 +132,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ək.t̪uː.bəɾ"@hi-fonipa ;
-    ontolex:writtenRep "aktūbara"@hi-Deva,
-        "अक्तूबर"@hi-Deva .
+    ontolex:writtenRep "अक्तूबर"@hi-Deva,
+        "aktūbara"@hi-Latn .
 
 :अक्तूबर_sense a ontolex:LexicalSense ;
     skos:definition "October" ;
@@ -165,7 +142,7 @@
 :अगस्त_dp_form_अगस्त a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अगस्त"@hi-deva .
+    ontolex:writtenRep "अगस्त"@hi-Deva .
 
 :अगस्त_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -175,8 +152,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اگست> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 87980 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :अगस्त_lemma ;
     ontolex:lexicalForm :अगस्त_dp_form_अगस्त,
         :अगस्त_os_form_अगस्त,
@@ -189,13 +166,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ə.ɡəst̪"@hi-fonipa ;
-    ontolex:writtenRep "agasta"@hi-Deva,
-        "अगस्त"@hi-Deva .
+    ontolex:writtenRep "अगस्त"@hi-Deva,
+        "agasta"@hi-Latn .
 
 :अगस्त_os_form_अगस्त a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अगस्त"@hi-deva .
+    ontolex:writtenRep "अगस्त"@hi-Deva .
 
 :अगस्त_sense a ontolex:LexicalSense ;
     skos:definition "August" ;
@@ -204,24 +181,74 @@
 :अगस्त_vs_form_अगस्त a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अगस्त"@hi-deva .
+    ontolex:writtenRep "अगस्त"@hi-Deva .
 
 :अगस्तो_vp_form_अगस्त a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अगस्तो"@hi-deva .
+    ontolex:writtenRep "अगस्तो"@hi-Deva .
 
 :अगस्तों_op_form_अगस्त a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अगस्तों"@hi-deva .
+    ontolex:writtenRep "अगस्तों"@hi-Deva .
 
-:अचार_dp_form_अचार a ontolex:Form ;
+:अचार_dp_form_अनन्नास a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अचार"@hi-deva .
+    ontolex:writtenRep "अचार"@hi-Deva .
 
 :अचार_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#inglês> ;
+    lexinfo:etymology "inglês (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:unknown ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#انگریز> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 7315 ;
+            frac:observedIn :hiTenTen21 ] ;
+    ontolex:canonicalForm :अचार_lemma ;
+    ontolex:sense :अचार_sense .
+
+:अचार_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:phoneticRep "əŋ.ɡɾeːd͡ʒ"@hi-fonipa,
+        "əŋ.ɡɾeːz"@hi-fonipa ;
+    ontolex:writtenRep "अचार"@hi-Deva,
+        "aṅgrez"@hi-Latn .
+
+:अचार_os_form_अनन्नास a ontolex:Form ;
+    lexinfo:case lexinfo:obliqueCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "अचार"@hi-Deva .
+
+:अचार_sense a ontolex:LexicalSense ;
+    skos:definition "English person (Englishman or Englishwoman)" ;
+    ontolex:isSenseOf :अचार_entry .
+
+:अचार_vs_form_अनन्नास a ontolex:Form ;
+    lexinfo:case lexinfo:vocativeCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "अचार"@hi-Deva .
+
+:अचारो_vp_form_अनन्नास a ontolex:Form ;
+    lexinfo:case lexinfo:vocativeCase ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "अचारो"@hi-Deva .
+
+:अचारों_op_form_अनन्नास a ontolex:Form ;
+    lexinfo:case lexinfo:obliqueCase ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "अचारों"@hi-Deva .
+
+:अनन्नास_dp_form_अनीसून a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "अनन्नास"@hi-Deva .
+
+:अनन्नास_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#achar> ;
     lexinfo:etymology "achar (Source: Dalgado)" ;
@@ -229,53 +256,48 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اچار> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 7315 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :अचार_lemma ;
-    ontolex:lexicalForm :अचार_dp_form_अचार,
-        :अचार_os_form_अचार,
-        :अचार_vs_form_अचार,
-        :अचारो_vp_form_अचार,
-        :अचारों_op_form_अचार ;
-    ontolex:sense :अचार_sense .
+            rdf:value 2541 ;
+            frac:observedIn :hiTenTen21 ] ;
+    ontolex:canonicalForm :अनन्नास_lemma ;
+    ontolex:lexicalForm :अचार_dp_form_अनन्नास,
+        :अचार_os_form_अनन्नास,
+        :अचार_vs_form_अनन्नास,
+        :अचारो_vp_form_अनन्नास,
+        :अचारों_op_form_अनन्नास ;
+    ontolex:sense :अनन्नास_sense .
 
-:अचार_lemma a ontolex:Form ;
+:अनन्नास_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ə.t͡ʃɑːɾ"@hi-fonipa ;
-    ontolex:writtenRep "achār"@hi-Deva,
-        "अचार"@hi-Deva .
+    ontolex:writtenRep "अनन्नास"@hi-Deva,
+        "achār"@hi-Latn .
 
-:अचार_os_form_अचार a ontolex:Form ;
+:अनन्नास_os_form_अनीसून a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अचार"@hi-deva .
+    ontolex:writtenRep "अनन्नास"@hi-Deva .
 
-:अचार_sense a ontolex:LexicalSense ;
+:अनन्नास_sense a ontolex:LexicalSense ;
     skos:definition "achar (a spicy and salty pickle of Indian cuisine)" ;
-    ontolex:isSenseOf :अचार_entry .
+    ontolex:isSenseOf :अनन्नास_entry .
 
-:अचार_vs_form_अचार a ontolex:Form ;
+:अनन्नास_vs_form_अनीसून a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अचार"@hi-deva .
+    ontolex:writtenRep "अनन्नास"@hi-Deva .
 
-:अचारो_vp_form_अचार a ontolex:Form ;
+:अनन्नासो_vp_form_अनीसून a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अचारो"@hi-deva .
+    ontolex:writtenRep "अनन्नासो"@hi-Deva .
 
-:अचारों_op_form_अचार a ontolex:Form ;
+:अनन्नासों_op_form_अनीसून a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अचारों"@hi-deva .
+    ontolex:writtenRep "अनन्नासों"@hi-Deva .
 
-:अनन्नास_dp_form_अनन्नास a ontolex:Form ;
-    lexinfo:case lexinfo:directCase ;
-    lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अनन्नास"@hi-deva .
-
-:अनन्नास_entry a ontolex:LexicalEntry,
+:अनीसून_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#ananás> ;
     lexinfo:etymology "ananás (Source: Dalgado)" ;
@@ -284,83 +306,40 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#انناس> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :अनन्नास_lemma ;
-    ontolex:lexicalForm :अनन्नास_dp_form_अनन्नास,
-        :अनन्नास_os_form_अनन्नास,
-        :अनन्नास_vs_form_अनन्नास,
-        :अनन्नासो_vp_form_अनन्नास,
-        :अनन्नासों_op_form_अनन्नास ;
-    ontolex:sense :अनन्नास_sense .
-
-:अनन्नास_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:directCase ;
-    lexinfo:number lexinfo:singular ;
-    ontolex:phoneticRep "ə.nən.nɑːs"@hi-fonipa ;
-    ontolex:writtenRep "anannāsa"@hi-Deva,
-        "अनन्नास"@hi-Deva .
-
-:अनन्नास_os_form_अनन्नास a ontolex:Form ;
-    lexinfo:case lexinfo:obliqueCase ;
-    lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अनन्नास"@hi-deva .
-
-:अनन्नास_sense a ontolex:LexicalSense ;
-    skos:definition "pineapple (fruit)" ;
-    ontolex:isSenseOf :अनन्नास_entry .
-
-:अनन्नास_vs_form_अनन्नास a ontolex:Form ;
-    lexinfo:case lexinfo:vocativeCase ;
-    lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अनन्नास"@hi-deva .
-
-:अनन्नासो_vp_form_अनन्नास a ontolex:Form ;
-    lexinfo:case lexinfo:vocativeCase ;
-    lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अनन्नासो"@hi-deva .
-
-:अनन्नासों_op_form_अनन्नास a ontolex:Form ;
-    lexinfo:case lexinfo:obliqueCase ;
-    lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अनन्नासों"@hi-deva .
-
-:अनीसून_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#anis> ;
-    lexinfo:etymology "? anis (Source: Dalgado); Greek ἄνισον  (Source: Dalgado) ; Latin anisum  (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اَنِیسُون> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :अनीसून_lemma ;
+    ontolex:lexicalForm :अनन्नास_dp_form_अनीसून,
+        :अनन्नास_os_form_अनीसून,
+        :अनन्नास_vs_form_अनीसून,
+        :अनन्नासो_vp_form_अनीसून,
+        :अनन्नासों_op_form_अनीसून ;
     ontolex:sense :अनीसून_sense .
 
 :अनीसून_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "anīsun"@hi-Deva,
-        "अनीसून"@hi-Deva .
+    ontolex:phoneticRep "ə.nən.nɑːs"@hi-fonipa ;
+    ontolex:writtenRep "अनीसून"@hi-Deva,
+        "anannāsa"@hi-Latn .
 
 :अनीसून_sense a ontolex:LexicalSense ;
-    skos:definition "aniseed" ;
+    skos:definition "pineapple (fruit)" ;
     ontolex:isSenseOf :अनीसून_entry .
 
 :अलमारियो_vp_form_अलमारी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अलमारियो"@hi-deva .
+    ontolex:writtenRep "अलमारियो"@hi-Deva .
 
 :अलमारियों_op_form_अलमारी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अलमारियों"@hi-deva .
+    ontolex:writtenRep "अलमारियों"@hi-Deva .
 
 :अलमारी_dp_form_अलमारी a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अलमारी"@hi-deva .
+    ontolex:writtenRep "अलमारी"@hi-Deva .
 
 :अलमारी_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -370,8 +349,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اَلْماری> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 4445 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :अलमारी_lemma ;
     ontolex:lexicalForm :अलमारियो_vp_form_अलमारी,
         :अलमारियों_op_form_अलमारी,
@@ -384,13 +363,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əl.mɑː.ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "alamārī"@hi-Deva,
-        "अलमारी"@hi-Deva .
+    ontolex:writtenRep "अलमारी"@hi-Deva,
+        "alamārī"@hi-Latn .
 
 :अलमारी_os_form_अलमारी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अलमारी"@hi-deva .
+    ontolex:writtenRep "अलमारी"@hi-Deva .
 
 :अलमारी_sense a ontolex:LexicalSense ;
     skos:definition "cupboard, shelf; almirah" ;
@@ -399,12 +378,12 @@
 :अलमारी_vs_form_अलमारी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अलमारी"@hi-deva .
+    ontolex:writtenRep "अलमारी"@hi-Deva .
 
 :अस्तबल_dp_form_अस्तबल a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अस्तबल"@hi-deva .
+    ontolex:writtenRep "अस्तबल"@hi-Deva .
 
 :अस्तबल_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -415,7 +394,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اَصْطَبَل> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 556 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :अस्तबल_lemma ;
     ontolex:lexicalForm :अस्तबल_dp_form_अस्तबल,
         :अस्तबल_os_form_अस्तबल,
@@ -428,13 +407,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əs.t̪ə.bəl"@hi-fonipa ;
-    ontolex:writtenRep "astabala"@hi-Deva,
-        "अस्तबल"@hi-Deva .
+    ontolex:writtenRep "अस्तबल"@hi-Deva,
+        "astabala"@hi-Latn .
 
 :अस्तबल_os_form_अस्तबल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अस्तबल"@hi-deva .
+    ontolex:writtenRep "अस्तबल"@hi-Deva .
 
 :अस्तबल_sense a ontolex:LexicalSense ;
     skos:definition "stable (for a horse)" ;
@@ -443,22 +422,22 @@
 :अस्तबल_vs_form_अस्तबल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अस्तबल"@hi-deva .
+    ontolex:writtenRep "अस्तबल"@hi-Deva .
 
 :अस्तबलो_vp_form_अस्तबल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अस्तबलो"@hi-deva .
+    ontolex:writtenRep "अस्तबलो"@hi-Deva .
 
 :अस्तबलों_op_form_अस्तबल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अस्तबलों"@hi-deva .
+    ontolex:writtenRep "अस्तबलों"@hi-Deva .
 
 :अस्पताल_dp_form_अस्पताल a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अस्पताल"@hi-deva .
+    ontolex:writtenRep "अस्पताल"@hi-Deva .
 
 :अस्पताल_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -468,8 +447,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اَسْپَتال⁩> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 252251 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :अस्पताल_lemma ;
     ontolex:lexicalForm :अस्पताल_dp_form_अस्पताल,
         :अस्पताल_os_form_अस्पताल,
@@ -482,13 +461,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "əs.pə.t̪ɑːl"@hi-fonipa ;
-    ontolex:writtenRep "aspatāla"@hi-Deva,
-        "अस्पताल"@hi-Deva .
+    ontolex:writtenRep "अस्पताल"@hi-Deva,
+        "aspatāla"@hi-Latn .
 
 :अस्पताल_os_form_अस्पताल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अस्पताल"@hi-deva .
+    ontolex:writtenRep "अस्पताल"@hi-Deva .
 
 :अस्पताल_sense a ontolex:LexicalSense ;
     skos:definition "hospital" ;
@@ -497,17 +476,17 @@
 :अस्पताल_vs_form_अस्पताल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "अस्पताल"@hi-deva .
+    ontolex:writtenRep "अस्पताल"@hi-Deva .
 
 :अस्पतालो_vp_form_अस्पताल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अस्पतालो"@hi-deva .
+    ontolex:writtenRep "अस्पतालो"@hi-Deva .
 
 :अस्पतालों_op_form_अस्पताल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "अस्पतालों"@hi-deva .
+    ontolex:writtenRep "अस्पतालों"@hi-Deva .
 
 :आमीन_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -517,16 +496,16 @@
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آمین> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 1001 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :आमीन_lemma ;
     ontolex:sense :आमीन_sense .
 
 :आमीन_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "āmīn"@hi-Deva,
-        "आमीन"@hi-Deva .
+    ontolex:writtenRep "आमीन"@hi-Deva,
+        "āmīn"@hi-Latn .
 
 :आमीन_sense a ontolex:LexicalSense ;
     skos:definition "amen" ;
@@ -535,7 +514,7 @@
 :आया_dp_form_आया a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "आया"@hi-deva .
+    ontolex:writtenRep "आया"@hi-Deva .
 
 :आया_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -544,9 +523,6 @@
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
     ontolex:canonicalForm :आया_lemma ;
     ontolex:lexicalForm :आया_dp_form_आया,
         :आया_os_form_आया,
@@ -559,13 +535,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɑː.jɑː"@hi-fonipa ;
-    ontolex:writtenRep "āyā"@hi-Deva,
-        "आया"@hi-Deva .
+    ontolex:writtenRep "आया"@hi-Deva,
+        "āyā"@hi-Latn .
 
 :आया_os_form_आया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "आया"@hi-deva .
+    ontolex:writtenRep "आया"@hi-Deva .
 
 :आया_sense a ontolex:LexicalSense ;
     skos:definition "ayah: nurse maid, nurse" ;
@@ -574,34 +550,34 @@
 :आया_vs_form_आया a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "आया"@hi-deva .
+    ontolex:writtenRep "आया"@hi-Deva .
 
 :आयाओ_vp_form_आया a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "आयाओ"@hi-deva .
+    ontolex:writtenRep "आयाओ"@hi-Deva .
 
 :आयाओं_op_form_आया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "आयाओं"@hi-deva .
+    ontolex:writtenRep "आयाओं"@hi-Deva .
 
 :आलपीन_dp_form_आलपीन a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "आलपीन"@hi-deva .
+    ontolex:writtenRep "आलपीन"@hi-Deva .
 
 :आलपीन_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɑːl.piːn"@hi-fonipa ;
-    ontolex:writtenRep "ālapīn "@hi-Deva,
-        "आलपीन"@hi-Deva .
+    ontolex:writtenRep "आलपीन"@hi-Deva,
+        "ālapīn "@hi-Latn .
 
 :आलपीन_os_form_आलपीन a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "आलपीन"@hi-deva .
+    ontolex:writtenRep "आलपीन"@hi-Deva .
 
 :आलपीन_sense_1 a ontolex:LexicalSense ;
     skos:definition "safety pin" ;
@@ -614,17 +590,17 @@
 :आलपीन_vs_form_आलपीन a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "आलपीन"@hi-deva .
+    ontolex:writtenRep "आलपीन"@hi-Deva .
 
 :आलपीनो_vp_form_आलपीन a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "आलपीनो"@hi-deva .
+    ontolex:writtenRep "आलपीनो"@hi-Deva .
 
 :आलपीनों_op_form_आलपीन a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "आलपीनों"@hi-deva .
+    ontolex:writtenRep "आलपीनों"@hi-Deva .
 
 :इस्तरी_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -635,7 +611,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#استری> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 155 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :इस्तरी_lemma ;
     ontolex:lexicalForm :इस्त्रियो_vp_form_इस्तरी,
         :इस्त्रियों_op_form_इस्तरी,
@@ -648,8 +624,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɪs.t̪ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "istarī"@hi-Deva,
-        "इस्तरी"@hi-Deva .
+    ontolex:writtenRep "इस्तरी"@hi-Deva,
+        "istarī"@hi-Latn .
 
 :इस्तरी_sense a ontolex:LexicalSense ;
     skos:definition "iron, press" ;
@@ -658,27 +634,27 @@
 :इस्त्रियो_vp_form_इस्तरी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "इस्त्रियो"@hi-deva .
+    ontolex:writtenRep "इस्त्रियो"@hi-Deva .
 
 :इस्त्रियों_op_form_इस्तरी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "इस्त्रियों"@hi-deva .
+    ontolex:writtenRep "इस्त्रियों"@hi-Deva .
 
 :इस्त्री_dp_form_इस्तरी a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "इस्त्री"@hi-deva .
+    ontolex:writtenRep "इस्त्री"@hi-Deva .
 
 :इस्त्री_os_form_इस्तरी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "इस्त्री"@hi-deva .
+    ontolex:writtenRep "इस्त्री"@hi-Deva .
 
 :इस्त्री_vs_form_इस्तरी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "इस्त्री"@hi-deva .
+    ontolex:writtenRep "इस्त्री"@hi-Deva .
 
 :इस्पात_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -688,8 +664,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اسپات> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 10882 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :इस्पात_lemma ;
     ontolex:sense :इस्पात_sense .
 
@@ -697,8 +673,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɪs.pɑːt̪"@hi-fonipa ;
-    ontolex:writtenRep "ispāta"@hi-Deva,
-        "इस्पात"@hi-Deva .
+    ontolex:writtenRep "इस्पात"@hi-Deva,
+        "ispāta"@hi-Latn .
 
 :इस्पात_sense a ontolex:LexicalSense ;
     skos:definition "steel" ;
@@ -713,7 +689,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#ولندیز> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 1 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :ओलंदेज़_lemma ;
     ontolex:sense :ओलंदेज़_sense .
 
@@ -722,8 +698,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "oː.lən.d̪eːd͡ʒ"@hi-fonipa,
         "oː.lən.d̪eːz"@hi-fonipa ;
-    ontolex:writtenRep "olandez"@hi-Deva,
-        "ओलंदेज़"@hi-Deva .
+    ontolex:writtenRep "ओलंदेज़"@hi-Deva,
+        "olandez"@hi-Latn .
 
 :ओलंदेज़_sense a ontolex:LexicalSense ;
     skos:definition "(dated) Dutchman; citizen of Holland" ;
@@ -737,16 +713,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#قندیل> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 421 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कंदील_lemma ;
     ontolex:sense :कंदील_sense .
 
 :कंदील_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "kandīl"@hi-Deva,
-        "कंदील"@hi-Deva .
+    ontolex:writtenRep "कंदील"@hi-Deva,
+        "kandīl"@hi-Latn .
 
 :कंदील_sense a ontolex:LexicalSense ;
     skos:definition "a lantern" ;
@@ -756,8 +732,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kəm.puː"@hi-fonipa ;
-    ontolex:writtenRep "kampū"@hi-Deva,
-        "कंपू"@hi-Deva .
+    ontolex:writtenRep "कंपू"@hi-Deva,
+        "kampū"@hi-Latn .
 
 :कंपू_sense_1 a ontolex:LexicalSense ;
     skos:definition "encampment" ;
@@ -783,8 +759,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کپتان> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 91962 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कप्तान_lemma ;
     ontolex:sense :कप्तान_sense .
 
@@ -792,8 +768,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kəp.t̪ɑːn"@hi-fonipa ;
-    ontolex:writtenRep "kaptān"@hi-Deva,
-        "कप्तान"@hi-Deva .
+    ontolex:writtenRep "कप्तान"@hi-Deva,
+        "kaptān"@hi-Latn .
 
 :कप्तान_sense a ontolex:LexicalSense ;
     skos:definition "captain (of a ship)" ;
@@ -807,8 +783,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کِران٘چی> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 86477 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कमरा_lemma ;
     ontolex:lexicalForm :कमरे_dp_form_कमरा,
         :कमरे_os_form_कमरा,
@@ -821,8 +797,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kəm.ɾɑː"@hi-fonipa ;
-    ontolex:writtenRep "kamarā"@hi-Deva,
-        "कमरा"@hi-Deva .
+    ontolex:writtenRep "कमरा"@hi-Deva,
+        "kamarā"@hi-Latn .
 
 :कमरा_sense a ontolex:LexicalSense ;
     skos:definition "room" ;
@@ -831,27 +807,27 @@
 :कमरे_dp_form_कमरा a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "कमरे"@hi-deva .
+    ontolex:writtenRep "कमरे"@hi-Deva .
 
 :कमरे_os_form_कमरा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "कमरे"@hi-deva .
+    ontolex:writtenRep "कमरे"@hi-Deva .
 
 :कमरे_vs_form_कमरा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "कमरे"@hi-deva .
+    ontolex:writtenRep "कमरे"@hi-Deva .
 
 :कमरो_vp_form_कमरा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "कमरो"@hi-deva .
+    ontolex:writtenRep "कमरो"@hi-Deva .
 
 :कमरों_op_form_कमरा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "कमरों"@hi-deva .
+    ontolex:writtenRep "कमरों"@hi-Deva .
 
 :करूबीम_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -862,7 +838,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کَرُوبِیم> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :करूबीम_lemma ;
     ontolex:sense :करूबीम_sense .
 
@@ -884,16 +860,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کرنل> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 11389 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कर्नल_lemma ;
     ontolex:sense :कर्नल_sense .
 
 :कर्नल_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "karnal"@hi-Deva,
-        "कर्नल"@hi-Deva .
+    ontolex:writtenRep "कर्नल"@hi-Deva,
+        "karnal"@hi-Latn .
 
 :कर्नल_sense a ontolex:LexicalSense ;
     skos:definition "colonel" ;
@@ -907,15 +883,15 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कलापट्टी_lemma ;
     ontolex:sense :कलापट्टी_sense .
 
 :कलापट्टी_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "kalāpaṭṭā"@hi-Deva,
-        "कलापट्टी"@hi-Deva .
+    ontolex:writtenRep "कलापट्टी"@hi-Deva,
+        "kalāpaṭṭā"@hi-Latn .
 
 :कलापट्टी_sense a ontolex:LexicalSense ;
     skos:definition "caulker" ;
@@ -929,8 +905,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#قمیض> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 2427 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :क़मीज़_lemma ;
     ontolex:sense :क़मीज़_sense .
 
@@ -939,8 +915,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kə.miːd͡ʒ"@hi-fonipa,
         "qə.miːz"@hi-fonipa ;
-    ontolex:writtenRep "qamīz"@hi-Deva,
-        "क़मीज़"@hi-Deva .
+    ontolex:writtenRep "क़मीज़"@hi-Deva,
+        "qamīz"@hi-Latn .
 
 :क़मीज़_sense a ontolex:LexicalSense ;
     skos:definition "shirt" ;
@@ -955,7 +931,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کاج> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :काज_lemma ;
     ontolex:sense :काज_sense .
 
@@ -963,8 +939,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɑːd͡ʒ"@hi-fonipa ;
-    ontolex:writtenRep "kāj"@hi-Deva,
-        "काज"@hi-Deva .
+    ontolex:writtenRep "काज"@hi-Deva,
+        "kāj"@hi-Latn .
 
 :काज_sense a ontolex:LexicalSense ;
     skos:definition "a buttonhole" ;
@@ -973,17 +949,17 @@
 :काजुओ_vp_form_काजू a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "काजुओ"@hi-deva .
+    ontolex:writtenRep "काजुओ"@hi-Deva .
 
 :काजुओं_op_form_काजू a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "काजुओं"@hi-deva .
+    ontolex:writtenRep "काजुओं"@hi-Deva .
 
 :काजू_dp_form_काजू a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "काजू"@hi-deva .
+    ontolex:writtenRep "काजू"@hi-Deva .
 
 :काजू_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -994,7 +970,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کاجو⁩> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 7090 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :काजू_lemma ;
     ontolex:lexicalForm :काजुओ_vp_form_काजू,
         :काजुओं_op_form_काजू,
@@ -1007,13 +983,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɑː.d͡ʒuː"@hi-fonipa ;
-    ontolex:writtenRep "kājū"@hi-Deva,
-        "काजू"@hi-Deva .
+    ontolex:writtenRep "काजू"@hi-Deva,
+        "kājū"@hi-Latn .
 
 :काजू_os_form_काजू a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "काजू"@hi-deva .
+    ontolex:writtenRep "काजू"@hi-Deva .
 
 :काजू_sense a ontolex:LexicalSense ;
     skos:definition "cashew nut" ;
@@ -1022,7 +998,7 @@
 :काजू_vs_form_काजू a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "काजू"@hi-deva .
+    ontolex:writtenRep "काजू"@hi-Deva .
 
 :कारतूस_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1032,8 +1008,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کارتوس> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 6780 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कारतूस_lemma ;
     ontolex:sense :कारतूस_sense .
 
@@ -1041,8 +1017,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɑːɾ.t̪uːs"@hi-fonipa ;
-    ontolex:writtenRep "kārtūs"@hi-Deva,
-        "कारतूस"@hi-Deva .
+    ontolex:writtenRep "कारतूस"@hi-Deva,
+        "kārtūs"@hi-Latn .
 
 :कारतूस_sense a ontolex:LexicalSense ;
     skos:definition "(firearms) cartridge" ;
@@ -1056,16 +1032,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کاربائن> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 94 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कारबाइन_lemma ;
     ontolex:sense :कारबाइन_sense .
 
 :कारबाइन_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "kaṛābīn"@hi-Deva,
-        "कारबाइन"@hi-Deva .
+    ontolex:writtenRep "कारबाइन"@hi-Deva,
+        "kaṛābīn"@hi-Latn .
 
 :कारबाइन_sense a ontolex:LexicalSense ;
     skos:definition "a carbine" ;
@@ -1074,29 +1050,29 @@
 :किराँचियो_vp_form_किराँची a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "किराँचियो"@hi-deva .
+    ontolex:writtenRep "किराँचियो"@hi-Deva .
 
 :किराँचियों_op_form_किराँची a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "किराँचियों"@hi-deva .
+    ontolex:writtenRep "किराँचियों"@hi-Deva .
 
 :किराँची_dp_form_किराँची a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "किराँची"@hi-deva .
+    ontolex:writtenRep "किराँची"@hi-Deva .
 
 :किराँची_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɪ.ɾɑ̃ː.t͡ʃiː"@hi-fonipa ;
-    ontolex:writtenRep "kirām̐cī"@hi-Deva,
-        "किराँची"@hi-Deva .
+    ontolex:writtenRep "किराँची"@hi-Deva,
+        "kirām̐cī"@hi-Latn .
 
 :किराँची_os_form_किराँची a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "किराँची"@hi-deva .
+    ontolex:writtenRep "किराँची"@hi-Deva .
 
 :किराँची_sense_1 a ontolex:LexicalSense ;
     skos:definition "a cart used to carry loads, carriage of goods train" ;
@@ -1109,7 +1085,7 @@
 :किराँची_vs_form_किराँची a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "किराँची"@hi-deva .
+    ontolex:writtenRep "किराँची"@hi-Deva .
 
 :कुनिया_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1118,8 +1094,8 @@
     lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 24 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कुनिया_lemma ;
     ontolex:sense :कुनिया_sense .
 
@@ -1141,8 +1117,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کیتھولک> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 4099 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कैथोलिक_lemma ;
     ontolex:sense :कैथोलिक_sense .
 
@@ -1150,8 +1126,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɛː.t̪ʰoː.lɪk"@hi-fonipa ;
-    ontolex:writtenRep "kaitholik"@hi-Deva,
-        "कैथोलिक"@hi-Deva .
+    ontolex:writtenRep "कैथोलिक"@hi-Deva,
+        "kaitholik"@hi-Latn .
 
 :कैथोलिक_sense a ontolex:LexicalSense ;
     skos:definition "Catholic, Roman Catholic" ;
@@ -1165,16 +1141,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کوچبان> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 196 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :कोचवान_lemma ;
     ontolex:sense :कोचवान_sense .
 
 :कोचवान_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "kochvān"@hi-Deva,
-        "कोचवान"@hi-Deva .
+    ontolex:writtenRep "कोचवान"@hi-Deva,
+        "kochvān"@hi-Latn .
 
 :कोचवान_sense a ontolex:LexicalSense ;
     skos:definition "a coachman" ;
@@ -1189,7 +1165,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کِرسٹان> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 54 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :क्रिस्तान_lemma ;
     ontolex:sense :क्रिस्तान_sense .
 
@@ -1197,8 +1173,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɾɪs.t̪ɑːn"@hi-fonipa ;
-    ontolex:writtenRep "kristāna"@hi-Deva,
-        "क्रिस्तान"@hi-Deva .
+    ontolex:writtenRep "क्रिस्तान"@hi-Deva,
+        "kristāna"@hi-Latn .
 
 :क्रिस्तान_sense a ontolex:LexicalSense ;
     skos:definition "christian" ;
@@ -1207,19 +1183,19 @@
 :क्रूस_dp_form_क्रूस a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "क्रूस"@hi-deva .
+    ontolex:writtenRep "क्रूस"@hi-Deva .
 
 :क्रूस_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "kɾuːs"@hi-fonipa ;
-    ontolex:writtenRep "krūsa"@hi-Deva,
-        "क्रूस"@hi-Deva .
+    ontolex:writtenRep "क्रूस"@hi-Deva,
+        "krūsa"@hi-Latn .
 
 :क्रूस_os_form_क्रूस a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "क्रूस"@hi-deva .
+    ontolex:writtenRep "क्रूस"@hi-Deva .
 
 :क्रूस_sense_1 a ontolex:LexicalSense ;
     skos:definition "the cross on which Jesus Christ was crucified" ;
@@ -1232,24 +1208,24 @@
 :क्रूस_vs_form_क्रूस a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "क्रूस"@hi-deva .
+    ontolex:writtenRep "क्रूस"@hi-Deva .
 
 :क्रूसो_vp_form_क्रूस a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "क्रूसो"@hi-deva .
+    ontolex:writtenRep "क्रूसो"@hi-Deva .
 
 :क्रूसों_op_form_क्रूस a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "क्रूसों"@hi-deva .
+    ontolex:writtenRep "क्रूसों"@hi-Deva .
 
 :गिरजा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɡɪɾ.d͡ʒɑː"@hi-fonipa ;
-    ontolex:writtenRep "girajā"@hi-Deva,
-        "गिरजा"@hi-Deva .
+    ontolex:writtenRep "गिरजा"@hi-Deva,
+        "girajā"@hi-Latn .
 
 :गिरजा_sense_1 a ontolex:LexicalSense ;
     skos:definition "church" ;
@@ -1262,27 +1238,27 @@
 :गिरजे_dp_form_गिरजा a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "गिरजे"@hi-deva .
+    ontolex:writtenRep "गिरजे"@hi-Deva .
 
 :गिरजे_os_form_गिरजा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "गिरजे"@hi-deva .
+    ontolex:writtenRep "गिरजे"@hi-Deva .
 
 :गिरजे_vs_form_गिरजा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "गिरजे"@hi-deva .
+    ontolex:writtenRep "गिरजे"@hi-Deva .
 
 :गिरजो_vp_form_गिरजा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "गिरजो"@hi-deva .
+    ontolex:writtenRep "गिरजो"@hi-Deva .
 
 :गिरजों_op_form_गिरजा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "गिरजों"@hi-deva .
+    ontolex:writtenRep "गिरजों"@hi-Deva .
 
 :गोदाम_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1292,16 +1268,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#گودام> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 11830 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :गोदाम_lemma ;
     ontolex:sense :गोदाम_sense .
 
 :गोदाम_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "godām"@hi-Deva,
-        "गोदाम"@hi-Deva .
+    ontolex:writtenRep "गोदाम"@hi-Deva,
+        "godām"@hi-Latn .
 
 :गोदाम_sense a ontolex:LexicalSense ;
     skos:definition "storage, godown" ;
@@ -1310,29 +1286,29 @@
 :गोभियो_vp_form_गोभी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "गोभियो"@hi-deva .
+    ontolex:writtenRep "गोभियो"@hi-Deva .
 
 :गोभियों_op_form_गोभी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "गोभियों"@hi-deva .
+    ontolex:writtenRep "गोभियों"@hi-Deva .
 
 :गोभी_dp_form_गोभी a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "गोभी"@hi-deva .
+    ontolex:writtenRep "गोभी"@hi-Deva .
 
 :गोभी_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɡoː.bʱiː"@hi-fonipa ;
-    ontolex:writtenRep "gobhī"@hi-Deva,
-        "गोभी"@hi-Deva .
+    ontolex:writtenRep "गोभी"@hi-Deva,
+        "gobhī"@hi-Latn .
 
 :गोभी_os_form_गोभी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "गोभी"@hi-deva .
+    ontolex:writtenRep "गोभी"@hi-Deva .
 
 :गोभी_sense_1 a ontolex:LexicalSense ;
     skos:definition "cabbage" ;
@@ -1345,22 +1321,22 @@
 :गोभी_vs_form_गोभी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "गोभी"@hi-deva .
+    ontolex:writtenRep "गोभी"@hi-Deva .
 
 :चाबियो_vp_form_चाबी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "चाबियो"@hi-deva .
+    ontolex:writtenRep "चाबियो"@hi-Deva .
 
 :चाबियों_op_form_चाबी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "चाबियों"@hi-deva .
+    ontolex:writtenRep "चाबियों"@hi-Deva .
 
 :चाबी_dp_form_चाबी a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "चाबी"@hi-deva .
+    ontolex:writtenRep "चाबी"@hi-Deva .
 
 :चाबी_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1370,8 +1346,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#چابی> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 7089 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :चाबी_lemma ;
     ontolex:lexicalForm :चाबियो_vp_form_चाबी,
         :चाबियों_op_form_चाबी,
@@ -1384,13 +1360,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t͡ʃɑː.biː"@hi-fonipa ;
-    ontolex:writtenRep "cābī"@hi-Deva,
-        "चाबी"@hi-Deva .
+    ontolex:writtenRep "चाबी"@hi-Deva,
+        "cābī"@hi-Latn .
 
 :चाबी_os_form_चाबी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "चाबी"@hi-deva .
+    ontolex:writtenRep "चाबी"@hi-Deva .
 
 :चाबी_sense a ontolex:LexicalSense ;
     skos:definition "key" ;
@@ -1399,15 +1375,15 @@
 :चाबी_vs_form_चाबी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "चाबी"@hi-deva .
+    ontolex:writtenRep "चाबी"@hi-Deva .
 
 :चाय_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t͡ʃɑː.eː"@hi-fonipa,
         "t͡ʃɑːj"@hi-fonipa ;
-    ontolex:writtenRep "cāy"@hi-Deva,
-        "चाय"@hi-Deva .
+    ontolex:writtenRep "चाय"@hi-Deva,
+        "cāy"@hi-Latn .
 
 :चाय_sense_1 a ontolex:LexicalSense ;
     skos:definition "tea (plant, beverage)" ;
@@ -1424,9 +1400,6 @@
     lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#چھاپہ> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
     ontolex:canonicalForm :छापा_lemma ;
     ontolex:sense :छापा_sense .
 
@@ -1444,8 +1417,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "d͡ʒəŋ.ɡlɑː"@hi-fonipa ;
-    ontolex:writtenRep "jaṅglā"@hi-Deva,
-        "जंगला"@hi-Deva .
+    ontolex:writtenRep "जंगला"@hi-Deva,
+        "jaṅglā"@hi-Latn .
 
 :जंगला_sense_1 a ontolex:LexicalSense ;
     skos:definition "fencing, railing" ;
@@ -1458,27 +1431,27 @@
 :जंगले_dp_form_जंगला a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "जंगले"@hi-deva .
+    ontolex:writtenRep "जंगले"@hi-Deva .
 
 :जंगले_os_form_जंगला a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "जंगले"@hi-deva .
+    ontolex:writtenRep "जंगले"@hi-Deva .
 
 :जंगले_vs_form_जंगला a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "जंगले"@hi-deva .
+    ontolex:writtenRep "जंगले"@hi-Deva .
 
 :जंगलो_vp_form_जंगला a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "जंगलो"@hi-deva .
+    ontolex:writtenRep "जंगलो"@hi-Deva .
 
 :जंगलों_op_form_जंगला a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "जंगलों"@hi-deva .
+    ontolex:writtenRep "जंगलों"@hi-Deva .
 
 :जुआ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1489,7 +1462,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#جوا> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :जुआ_lemma ;
     ontolex:sense :जुआ_sense .
 
@@ -1497,8 +1470,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "d͡ʒʊ.ɑː"@hi-fonipa ;
-    ontolex:writtenRep "juā"@hi-Deva,
-        "जुआ"@hi-Deva .
+    ontolex:writtenRep "जुआ"@hi-Deva,
+        "juā"@hi-Latn .
 
 :जुआ_sense a ontolex:LexicalSense ;
     skos:definition "gambling" ;
@@ -1513,7 +1486,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#جواری> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :जुआरी_lemma ;
     ontolex:sense :जुआरी_sense .
 
@@ -1521,8 +1494,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "d͡ʒʊ.ɑː.ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "juārī"@hi-Deva,
-        "जुआरी"@hi-Deva .
+    ontolex:writtenRep "जुआरी"@hi-Deva,
+        "juārī"@hi-Latn .
 
 :जुआरी_sense a ontolex:LexicalSense ;
     skos:definition "gambler" ;
@@ -1531,17 +1504,17 @@
 :जेंटुओ_vp_form_जेंटू a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "जेंटुओ"@hi-deva .
+    ontolex:writtenRep "जेंटुओ"@hi-Deva .
 
 :जेंटुओं_op_form_जेंटू a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "जेंटुओं"@hi-deva .
+    ontolex:writtenRep "जेंटुओं"@hi-Deva .
 
 :जेंटू_dp_form_जेंटू a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "जेंटू"@hi-deva .
+    ontolex:writtenRep "जेंटू"@hi-Deva .
 
 :जेंटू_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1552,7 +1525,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧جینٹو⁩> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 2 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :जेंटू_lemma ;
     ontolex:lexicalForm :जेंटुओ_vp_form_जेंटू,
         :जेंटुओं_op_form_जेंटू,
@@ -1565,13 +1538,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "d͡ʒẽː.ʈuː"@hi-fonipa ;
-    ontolex:writtenRep "jẽṭū"@hi-Deva,
-        "जेंटू"@hi-Deva .
+    ontolex:writtenRep "जेंटू"@hi-Deva,
+        "jẽṭū"@hi-Latn .
 
 :जेंटू_os_form_जेंटू a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "जेंटू"@hi-deva .
+    ontolex:writtenRep "जेंटू"@hi-Deva .
 
 :जेंटू_sense a ontolex:LexicalSense ;
     skos:definition "Gentoo" ;
@@ -1580,7 +1553,7 @@
 :जेंटू_vs_form_जेंटू a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "जेंटू"@hi-deva .
+    ontolex:writtenRep "जेंटू"@hi-Deva .
 
 :डीसिल्वा_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1591,7 +1564,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧ڈیسلوا⁩> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 54 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :डीसिल्वा_lemma ;
     ontolex:sense :डीसिल्वा_sense .
 
@@ -1600,7 +1573,7 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɖiː.sɪl.ʋɑː"@hi-fonipa ;
     ontolex:writtenRep "डीसिल्वा"@hi-Deva,
-        "ḍīsilvā"@hi-Deva .
+        "ḍīsilvā"@hi-Latn .
 
 :डीसिल्वा_sense a ontolex:LexicalSense ;
     skos:definition "a surname from Portuguese, equivalent to English D'Silva or Desilva" ;
@@ -1614,8 +1587,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تنباکو> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 12641 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :तंबाकू_lemma ;
     ontolex:sense :तंबाकू_sense .
 
@@ -1623,8 +1596,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t̪əm.bɑː.kuː"@hi-fonipa ;
-    ontolex:writtenRep "tambākū"@hi-Deva,
-        "तंबाकू"@hi-Deva .
+    ontolex:writtenRep "तंबाकू"@hi-Deva,
+        "tambākū"@hi-Latn .
 
 :तंबाकू_sense a ontolex:LexicalSense ;
     skos:definition "tobacco" ;
@@ -1638,8 +1611,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تنپورا> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 138 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :तंबूरा_lemma ;
     ontolex:sense :तंबूरा_sense .
 
@@ -1647,8 +1620,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t̪ɑːn.puː.ɾɑː"@hi-fonipa ;
-    ontolex:writtenRep "tānpūrā"@hi-Deva,
-        "तंबूरा"@hi-Deva .
+    ontolex:writtenRep "तंबूरा"@hi-Deva,
+        "tānpūrā"@hi-Latn .
 
 :तंबूरा_sense a ontolex:LexicalSense ;
     skos:definition "tanpura" ;
@@ -1662,16 +1635,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#ترنج> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 7 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :तुरंज_lemma ;
     ontolex:sense :तुरंज_sense .
 
 :तुरंज_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "turanj"@hi-Deva,
-        "तुरंज"@hi-Deva .
+    ontolex:writtenRep "तुरंज"@hi-Deva,
+        "turanj"@hi-Latn .
 
 :तुरंज_sense a ontolex:LexicalSense ;
     skos:definition "a kind of citron" ;
@@ -1682,8 +1655,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t̪uː.fɑːn"@hi-fonipa,
         "t̪uː.pʰɑːn"@hi-fonipa ;
-    ontolex:writtenRep "tūfān"@hi-Deva,
-        "तूफ़ान"@hi-Deva .
+    ontolex:writtenRep "तूफ़ान"@hi-Deva,
+        "tūfān"@hi-Latn .
 
 :तूफ़ान_sense_1 a ontolex:LexicalSense ;
     skos:definition "storm, tempest" ;
@@ -1696,17 +1669,17 @@
 :तौलिए_dp_form_तौलिया a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "तौलिए"@hi-deva .
+    ontolex:writtenRep "तौलिए"@hi-Deva .
 
 :तौलिए_os_form_तौलिया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "तौलिए"@hi-deva .
+    ontolex:writtenRep "तौलिए"@hi-Deva .
 
 :तौलिए_vs_form_तौलिया a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "तौलिए"@hi-deva .
+    ontolex:writtenRep "तौलिए"@hi-Deva .
 
 :तौलिया_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1716,8 +1689,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تَولِیَہ⁩> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 3006 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :तौलिया_lemma ;
     ontolex:lexicalForm :तौलिए_dp_form_तौलिया,
         :तौलिए_os_form_तौलिया,
@@ -1733,8 +1706,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t̪ɔː.lɪ.jɑː"@hi-fonipa ;
-    ontolex:writtenRep "tauliyā"@hi-Deva,
-        "तौलिया"@hi-Deva .
+    ontolex:writtenRep "तौलिया"@hi-Deva,
+        "tauliyā"@hi-Latn .
 
 :तौलिया_sense a ontolex:LexicalSense ;
     skos:definition "towel" ;
@@ -1743,32 +1716,32 @@
 :तौलिये_dp_form_तौलिया a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "तौलिये"@hi-deva .
+    ontolex:writtenRep "तौलिये"@hi-Deva .
 
 :तौलिये_os_form_तौलिया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "तौलिये"@hi-deva .
+    ontolex:writtenRep "तौलिये"@hi-Deva .
 
 :तौलिये_vs_form_तौलिया a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "तौलिये"@hi-deva .
+    ontolex:writtenRep "तौलिये"@hi-Deva .
 
 :तौलियो_vp_form_तौलिया a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "तौलियो"@hi-deva .
+    ontolex:writtenRep "तौलियो"@hi-Deva .
 
 :तौलियों_op_form_तौलिया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "तौलियों"@hi-deva .
+    ontolex:writtenRep "तौलियों"@hi-Deva .
 
 :दिसंबर_dp_form_दिसंबर a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "दिसंबर"@hi-deva .
+    ontolex:writtenRep "दिसंबर"@hi-Deva .
 
 :दिसंबर_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1778,8 +1751,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#دسمبر⁩> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 155631 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :दिसंबर_lemma ;
     ontolex:lexicalForm :दिसंबर_dp_form_दिसंबर,
         :दिसंबर_os_form_दिसंबर,
@@ -1792,13 +1765,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "d̪ɪ.səm.bəɾ"@hi-fonipa ;
-    ontolex:writtenRep "disambara"@hi-Deva,
-        "दिसंबर"@hi-Deva .
+    ontolex:writtenRep "दिसंबर"@hi-Deva,
+        "disambara"@hi-Latn .
 
 :दिसंबर_os_form_दिसंबर a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "दिसंबर"@hi-deva .
+    ontolex:writtenRep "दिसंबर"@hi-Deva .
 
 :दिसंबर_sense a ontolex:LexicalSense ;
     skos:definition "December" ;
@@ -1807,22 +1780,22 @@
 :दिसंबर_vs_form_दिसंबर a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "दिसंबर"@hi-deva .
+    ontolex:writtenRep "दिसंबर"@hi-Deva .
 
 :दिसंबरो_vp_form_दिसंबर a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "दिसंबरो"@hi-deva .
+    ontolex:writtenRep "दिसंबरो"@hi-Deva .
 
 :दिसंबरों_op_form_दिसंबर a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "दिसंबरों"@hi-deva .
+    ontolex:writtenRep "दिसंबरों"@hi-Deva .
 
 :नीलाम_dp_form_नीलाम a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "नीलाम"@hi-deva .
+    ontolex:writtenRep "नीलाम"@hi-Deva .
 
 :नीलाम_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1832,8 +1805,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧نیلام⁩> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 3011 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :नीलाम_lemma ;
     ontolex:lexicalForm :नीलाम_dp_form_नीलाम,
         :नीलाम_os_form_नीलाम,
@@ -1846,13 +1819,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "niː.lɑːm"@hi-fonipa ;
-    ontolex:writtenRep "nīlām"@hi-Deva,
-        "नीलाम"@hi-Deva .
+    ontolex:writtenRep "नीलाम"@hi-Deva,
+        "nīlām"@hi-Latn .
 
 :नीलाम_os_form_नीलाम a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "नीलाम"@hi-deva .
+    ontolex:writtenRep "नीलाम"@hi-Deva .
 
 :नीलाम_sense a ontolex:LexicalSense ;
     skos:definition "auction (a public event where goods are sold through bidding)" ;
@@ -1861,17 +1834,17 @@
 :नीलाम_vs_form_नीलाम a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "नीलाम"@hi-deva .
+    ontolex:writtenRep "नीलाम"@hi-Deva .
 
 :नीलामो_vp_form_नीलाम a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "नीलामो"@hi-deva .
+    ontolex:writtenRep "नीलामो"@hi-Deva .
 
 :नीलामों_op_form_नीलाम a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "नीलामों"@hi-deva .
+    ontolex:writtenRep "नीलामों"@hi-Deva .
 
 :पपीता_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1881,16 +1854,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پپیتا> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 8222 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :पपीता_lemma ;
     ontolex:sense :पपीता_sense .
 
 :पपीता_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "papītā"@hi-Deva,
-        "पपीता"@hi-Deva .
+    ontolex:writtenRep "पपीता"@hi-Deva,
+        "papītā"@hi-Latn .
 
 :पपीता_sense a ontolex:LexicalSense ;
     skos:definition "papaya" ;
@@ -1904,8 +1877,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پرات> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 400 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :परात_lemma ;
     ontolex:sense :परात_sense .
 
@@ -1913,8 +1886,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "pə.ɾɑːt̪"@hi-fonipa ;
-    ontolex:writtenRep "parāt"@hi-Deva,
-        "परात"@hi-Deva .
+    ontolex:writtenRep "परात"@hi-Deva,
+        "parāt"@hi-Latn .
 
 :परात_sense a ontolex:LexicalSense ;
     skos:definition "receipt" ;
@@ -1923,17 +1896,17 @@
 :पादरियो_vp_form_पादरी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पादरियो"@hi-deva .
+    ontolex:writtenRep "पादरियो"@hi-Deva .
 
 :पादरियों_op_form_पादरी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पादरियों"@hi-deva .
+    ontolex:writtenRep "पादरियों"@hi-Deva .
 
 :पादरी_dp_form_पादरी a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पादरी"@hi-deva .
+    ontolex:writtenRep "पादरी"@hi-Deva .
 
 :पादरी_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1944,7 +1917,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پادْری⁩> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 4980 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :पादरी_lemma ;
     ontolex:lexicalForm :पादरियो_vp_form_पादरी,
         :पादरियों_op_form_पादरी,
@@ -1957,13 +1930,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "pɑːd̪.ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "pādarī"@hi-Deva,
-        "पादरी"@hi-Deva .
+    ontolex:writtenRep "पादरी"@hi-Deva,
+        "pādarī"@hi-Latn .
 
 :पादरी_os_form_पादरी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "पादरी"@hi-deva .
+    ontolex:writtenRep "पादरी"@hi-Deva .
 
 :पादरी_sense a ontolex:LexicalSense ;
     skos:definition "Christian priest or minister; chaplain." ;
@@ -1972,7 +1945,7 @@
 :पादरी_vs_form_पादरी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "पादरी"@hi-deva .
+    ontolex:writtenRep "पादरी"@hi-Deva .
 
 :पाव-रोटी_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1981,16 +1954,16 @@
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 94 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :पाव-रोटी_lemma ;
     ontolex:sense :पाव-रोटी_sense .
 
 :पाव-रोटी_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "pāv-rotī"@hi-Deva,
-        "पाव-रोटी"@hi-Deva .
+    ontolex:writtenRep "पाव-रोटी"@hi-Deva,
+        "pāv-rotī"@hi-Latn .
 
 :पाव-रोटी_sense a ontolex:LexicalSense ;
     skos:definition "loaf of bread" ;
@@ -2000,8 +1973,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "pɪ.ɾɪt͡ʃ"@hi-fonipa ;
-    ontolex:writtenRep "piric"@hi-Deva,
-        "पिरिच"@hi-Deva .
+    ontolex:writtenRep "पिरिच"@hi-Deva,
+        "piric"@hi-Latn .
 
 :पिरिच_sense_1 a ontolex:LexicalSense ;
     skos:definition "saucer" ;
@@ -2014,7 +1987,7 @@
 :पिस्तौल_dp_form_पिस्तौल a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पिस्तौल"@hi-deva .
+    ontolex:writtenRep "पिस्तौल"@hi-Deva .
 
 :पिस्तौल_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2024,8 +1997,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پسطول> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 5470 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :पिस्तौल_lemma ;
     ontolex:lexicalForm :पिस्तौल_dp_form_पिस्तौल,
         :पिस्तौल_os_form_पिस्तौल,
@@ -2038,13 +2011,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "pɪs.t̪ɔːl"@hi-fonipa ;
-    ontolex:writtenRep "pistaula"@hi-Deva,
-        "पिस्तौल"@hi-Deva .
+    ontolex:writtenRep "पिस्तौल"@hi-Deva,
+        "pistaula"@hi-Latn .
 
 :पिस्तौल_os_form_पिस्तौल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "पिस्तौल"@hi-deva .
+    ontolex:writtenRep "पिस्तौल"@hi-Deva .
 
 :पिस्तौल_sense a ontolex:LexicalSense ;
     skos:definition "pistol, gun" ;
@@ -2053,17 +2026,17 @@
 :पिस्तौल_vs_form_पिस्तौल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "पिस्तौल"@hi-deva .
+    ontolex:writtenRep "पिस्तौल"@hi-Deva .
 
 :पिस्तौलो_vp_form_पिस्तौल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पिस्तौलो"@hi-deva .
+    ontolex:writtenRep "पिस्तौलो"@hi-Deva .
 
 :पिस्तौलों_op_form_पिस्तौल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पिस्तौलों"@hi-deva .
+    ontolex:writtenRep "पिस्तौलों"@hi-Deva .
 
 :पीपा_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2074,7 +2047,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :पीपा_lemma ;
     ontolex:lexicalForm :पीपे_dp_form_पीपा,
         :पीपे_os_form_पीपा,
@@ -2087,8 +2060,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "piː.pɑː"@hi-fonipa ;
-    ontolex:writtenRep "pīpā"@hi-Deva,
-        "पीपा"@hi-Deva .
+    ontolex:writtenRep "पीपा"@hi-Deva,
+        "pīpā"@hi-Latn .
 
 :पीपा_sense a ontolex:LexicalSense ;
     skos:definition "cylinder, barrel, cask" ;
@@ -2097,27 +2070,27 @@
 :पीपे_dp_form_पीपा a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पीपे"@hi-deva .
+    ontolex:writtenRep "पीपे"@hi-Deva .
 
 :पीपे_os_form_पीपा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "पीपे"@hi-deva .
+    ontolex:writtenRep "पीपे"@hi-Deva .
 
 :पीपे_vs_form_पीपा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "पीपे"@hi-deva .
+    ontolex:writtenRep "पीपे"@hi-Deva .
 
 :पीपो_vp_form_पीपा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पीपो"@hi-deva .
+    ontolex:writtenRep "पीपो"@hi-Deva .
 
 :पीपों_op_form_पीपा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "पीपों"@hi-deva .
+    ontolex:writtenRep "पीपों"@hi-Deva .
 
 :पीरू_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2126,9 +2099,6 @@
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیرو> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
     ontolex:canonicalForm :पीरू_lemma ;
     ontolex:sense :पीरू_sense .
 
@@ -2136,8 +2106,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "piː.ɾuː"@hi-fonipa ;
-    ontolex:writtenRep "pīrū"@hi-Deva,
-        "पीरू"@hi-Deva .
+    ontolex:writtenRep "पीरू"@hi-Deva,
+        "pīrū"@hi-Latn .
 
 :पीरू_sense a ontolex:LexicalSense ;
     skos:definition "turkey" ;
@@ -2152,7 +2122,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پولس> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :पुलिस_lemma ;
     ontolex:sense :पुलिस_sense .
 
@@ -2160,8 +2130,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "pʊ.lɪs"@hi-fonipa ;
-    ontolex:writtenRep "pulis"@hi-Deva,
-        "पुलिस"@hi-Deva .
+    ontolex:writtenRep "पुलिस"@hi-Deva,
+        "pulis"@hi-Latn .
 
 :पुलिस_sense a ontolex:LexicalSense ;
     skos:definition "the police" ;
@@ -2175,15 +2145,15 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :फ़र्मा_lemma ;
     ontolex:sense :फ़र्मा_sense .
 
 :फ़र्मा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "formā"@hi-Deva,
-        "फ़र्मा"@hi-Deva .
+    ontolex:writtenRep "फ़र्मा"@hi-Deva,
+        "formā"@hi-Latn .
 
 :फ़र्मा_sense a ontolex:LexicalSense ;
     skos:definition "in the sense of ‘mould, appearance’" ;
@@ -2194,8 +2164,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "fɑːl.t̪uː"@hi-fonipa,
         "pʰɑːl.t̪uː"@hi-fonipa ;
-    ontolex:writtenRep "fāltū"@hi-Deva,
-        "फ़ालतू"@hi-Deva .
+    ontolex:writtenRep "फ़ालतू"@hi-Deva,
+        "fāltū"@hi-Latn .
 
 :फ़ालतू_sense_1 a ontolex:LexicalSense ;
     skos:definition "unnecessary, pointless" ;
@@ -2212,34 +2182,34 @@
 :फ़ीते_dp_form_फ़ीता a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "फ़ीते"@hi-deva .
+    ontolex:writtenRep "फ़ीते"@hi-Deva .
 
 :फ़ीते_os_form_फ़ीता a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "फ़ीते"@hi-deva .
+    ontolex:writtenRep "फ़ीते"@hi-Deva .
 
 :फ़ीते_vs_form_फ़ीता a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "फ़ीते"@hi-deva .
+    ontolex:writtenRep "फ़ीते"@hi-Deva .
 
 :फ़ीतो_vp_form_फ़ीता a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "फ़ीतो"@hi-deva .
+    ontolex:writtenRep "फ़ीतो"@hi-Deva .
 
 :फ़ीतों_op_form_फ़ीता a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "फ़ीतों"@hi-deva .
+    ontolex:writtenRep "फ़ीतों"@hi-Deva .
 
 :बंबा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bəm.bɑː"@hi-fonipa ;
-    ontolex:writtenRep "bambā"@hi-Deva,
-        "बंबा"@hi-Deva .
+    ontolex:writtenRep "बंबा"@hi-Deva,
+        "bambā"@hi-Latn .
 
 :बंबा_sense_1 a ontolex:LexicalSense ;
     skos:definition "pump; water pump" ;
@@ -2252,27 +2222,27 @@
 :बंबे_dp_form_बंबा a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बंबे"@hi-deva .
+    ontolex:writtenRep "बंबे"@hi-Deva .
 
 :बंबे_os_form_बंबा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बंबे"@hi-deva .
+    ontolex:writtenRep "बंबे"@hi-Deva .
 
 :बंबे_vs_form_बंबा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बंबे"@hi-deva .
+    ontolex:writtenRep "बंबे"@hi-Deva .
 
 :बंबो_vp_form_बंबा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बंबो"@hi-deva .
+    ontolex:writtenRep "बंबो"@hi-Deva .
 
 :बंबों_op_form_बंबा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बंबों"@hi-deva .
+    ontolex:writtenRep "बंबों"@hi-Deva .
 
 :बजरा_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2283,15 +2253,15 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بجرا> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बजरा_lemma ;
     ontolex:sense :बजरा_sense .
 
 :बजरा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "bajrā"@hi-Deva,
-        "बजरा"@hi-Deva .
+    ontolex:writtenRep "बजरा"@hi-Deva,
+        "bajrā"@hi-Latn .
 
 :बजरा_sense a ontolex:LexicalSense ;
     skos:definition "A kind of boat commonly used for travelling; a large kind of pleasure-boat (round-bottomed and keel-less, — commonly called 'budgerow')." ;
@@ -2300,8 +2270,8 @@
 :बटन_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "baṭan"@hi-Deva,
-        "बटन"@hi-Deva .
+    ontolex:writtenRep "बटन"@hi-Deva,
+        "baṭan"@hi-Latn .
 
 :बटन_sense_1 a ontolex:LexicalSense ;
     skos:definition "button (fastener)" ;
@@ -2319,8 +2289,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#برما> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 131 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बरमा_lemma ;
     ontolex:sense :बरमा_sense .
 
@@ -2328,8 +2298,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bəɾ.mɑː"@hi-fonipa ;
-    ontolex:writtenRep "barmā"@hi-Deva,
-        "बरमा"@hi-Deva .
+    ontolex:writtenRep "बरमा"@hi-Deva,
+        "barmā"@hi-Latn .
 
 :बरमा_sense a ontolex:LexicalSense ;
     skos:definition "(tool) drill, borer" ;
@@ -2343,8 +2313,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#برامدا> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 4533 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बरामदा_lemma ;
     ontolex:lexicalForm :बरामदे_dp_form_बरामदा,
         :बरामदे_os_form_बरामदा,
@@ -2357,8 +2327,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bə.ɾɑːm.d̪ɑː"@hi-fonipa ;
-    ontolex:writtenRep "barāmadā"@hi-Deva,
-        "बरामदा"@hi-Deva .
+    ontolex:writtenRep "बरामदा"@hi-Deva,
+        "barāmadā"@hi-Latn .
 
 :बरामदा_sense a ontolex:LexicalSense ;
     skos:definition "verandah" ;
@@ -2367,27 +2337,27 @@
 :बरामदे_dp_form_बरामदा a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बरामदे"@hi-deva .
+    ontolex:writtenRep "बरामदे"@hi-Deva .
 
 :बरामदे_os_form_बरामदा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बरामदे"@hi-deva .
+    ontolex:writtenRep "बरामदे"@hi-Deva .
 
 :बरामदे_vs_form_बरामदा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बरामदे"@hi-deva .
+    ontolex:writtenRep "बरामदे"@hi-Deva .
 
 :बरामदो_vp_form_बरामदा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बरामदो"@hi-deva .
+    ontolex:writtenRep "बरामदो"@hi-Deva .
 
 :बरामदों_op_form_बरामदा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बरामदों"@hi-deva .
+    ontolex:writtenRep "बरामदों"@hi-Deva .
 
 :बस_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2397,16 +2367,16 @@
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بس> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 281570 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बस_lemma ;
     ontolex:sense :बस_sense .
 
 :बस_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "bas"@hi-Deva,
-        "बस"@hi-Deva .
+    ontolex:writtenRep "बस"@hi-Deva,
+        "bas"@hi-Latn .
 
 :बस_sense a ontolex:LexicalSense ;
     skos:definition "merely, only" ;
@@ -2421,7 +2391,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بمبہ> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 1231 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बाप्तिस्मा_lemma ;
     ontolex:lexicalForm :बाप्तिस्मे_dp_form_बाप्तिस्मा,
         :बाप्तिस्मे_os_form_बाप्तिस्मा,
@@ -2434,8 +2404,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bɑːp.t̪ɪs.mɑː"@hi-fonipa ;
-    ontolex:writtenRep "bāptismā"@hi-Deva,
-        "बाप्तिस्मा"@hi-Deva .
+    ontolex:writtenRep "बाप्तिस्मा"@hi-Deva,
+        "bāptismā"@hi-Latn .
 
 :बाप्तिस्मा_sense a ontolex:LexicalSense ;
     skos:definition "(Christianity) baptism" ;
@@ -2444,42 +2414,42 @@
 :बाप्तिस्मे_dp_form_बाप्तिस्मा a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बाप्तिस्मे"@hi-deva .
+    ontolex:writtenRep "बाप्तिस्मे"@hi-Deva .
 
 :बाप्तिस्मे_os_form_बाप्तिस्मा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बाप्तिस्मे"@hi-deva .
+    ontolex:writtenRep "बाप्तिस्मे"@hi-Deva .
 
 :बाप्तिस्मे_vs_form_बाप्तिस्मा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बाप्तिस्मे"@hi-deva .
+    ontolex:writtenRep "बाप्तिस्मे"@hi-Deva .
 
 :बाप्तिस्मो_vp_form_बाप्तिस्मा a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बाप्तिस्मो"@hi-deva .
+    ontolex:writtenRep "बाप्तिस्मो"@hi-Deva .
 
 :बाप्तिस्मों_op_form_बाप्तिस्मा a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बाप्तिस्मों"@hi-deva .
+    ontolex:writtenRep "बाप्तिस्मों"@hi-Deva .
 
 :बालटियो_vp_form_बालटी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बालटियो"@hi-deva .
+    ontolex:writtenRep "बालटियो"@hi-Deva .
 
 :बालटियों_op_form_बालटी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बालटियों"@hi-deva .
+    ontolex:writtenRep "बालटियों"@hi-Deva .
 
 :बालटी_dp_form_बालटी a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बालटी"@hi-deva .
+    ontolex:writtenRep "बालटी"@hi-Deva .
 
 :बालटी_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2489,8 +2459,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بالٹی> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 3889 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बालटी_lemma ;
     ontolex:lexicalForm :बालटियो_vp_form_बालटी,
         :बालटियों_op_form_बालटी,
@@ -2503,13 +2473,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bɑːl.ʈiː"@hi-fonipa ;
-    ontolex:writtenRep "bālaṭī"@hi-Deva,
-        "बालटी"@hi-Deva .
+    ontolex:writtenRep "बालटी"@hi-Deva,
+        "bālaṭī"@hi-Latn .
 
 :बालटी_os_form_बालटी a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बालटी"@hi-deva .
+    ontolex:writtenRep "बालटी"@hi-Deva .
 
 :बालटी_sense a ontolex:LexicalSense ;
     skos:definition "bucket, container" ;
@@ -2518,7 +2488,7 @@
 :बालटी_vs_form_बालटी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बालटी"@hi-deva .
+    ontolex:writtenRep "बालटी"@hi-Deva .
 
 :बासन_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2528,8 +2498,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#باسن> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 5613 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बासन_lemma ;
     ontolex:sense :बासन_sense .
 
@@ -2537,8 +2507,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bɑː.sən"@hi-fonipa ;
-    ontolex:writtenRep "bāsan"@hi-Deva,
-        "बासन"@hi-Deva .
+    ontolex:writtenRep "बासन"@hi-Deva,
+        "bāsan"@hi-Latn .
 
 :बासन_sense a ontolex:LexicalSense ;
     skos:definition "pot; any container" ;
@@ -2552,8 +2522,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بسکٹ> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 4128 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बिस्कुट_lemma ;
     ontolex:sense :बिस्कुट_sense .
 
@@ -2561,8 +2531,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bɪs.kʊʈ"@hi-fonipa ;
-    ontolex:writtenRep "biskuṭ"@hi-Deva,
-        "बिस्कुट"@hi-Deva .
+    ontolex:writtenRep "बिस्कुट"@hi-Deva,
+        "biskuṭ"@hi-Latn .
 
 :बिस्कुट_sense a ontolex:LexicalSense ;
     skos:definition "biscuit, cookie, cracker" ;
@@ -2576,8 +2546,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بینگن> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 4460 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बैंगन_lemma ;
     ontolex:sense :बैंगन_sense .
 
@@ -2585,8 +2555,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "bɛːŋ.ɡən"@hi-fonipa ;
-    ontolex:writtenRep "baiṅgan"@hi-Deva,
-        "बैंगन"@hi-Deva .
+    ontolex:writtenRep "बैंगन"@hi-Deva,
+        "baiṅgan"@hi-Latn .
 
 :बैंगन_sense a ontolex:LexicalSense ;
     skos:definition "eggplant, aubergine, brinjal" ;
@@ -2595,7 +2565,7 @@
 :बोतल_dp_form_बोतल a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बोतल"@hi-deva .
+    ontolex:writtenRep "बोतल"@hi-Deva .
 
 :बोतल_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2605,8 +2575,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بوتَل> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 22198 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बोतल_lemma ;
     ontolex:lexicalForm :बोतल_dp_form_बोतल,
         :बोतल_os_form_बोतल,
@@ -2619,13 +2589,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep ""@hi-fonipa ;
-    ontolex:writtenRep "bōtal"@hi-Deva,
-        "बोतल"@hi-Deva .
+    ontolex:writtenRep "बोतल"@hi-Deva,
+        "bōtal"@hi-Latn .
 
 :बोतल_os_form_बोतल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बोतल"@hi-deva .
+    ontolex:writtenRep "बोतल"@hi-Deva .
 
 :बोतल_sense a ontolex:LexicalSense ;
     skos:definition "bottle" ;
@@ -2634,23 +2604,23 @@
 :बोतल_vs_form_बोतल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "बोतल"@hi-deva .
+    ontolex:writtenRep "बोतल"@hi-Deva .
 
 :बोतलो_vp_form_बोतल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बोतलो"@hi-deva .
+    ontolex:writtenRep "बोतलो"@hi-Deva .
 
 :बोतलों_op_form_बोतल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "बोतलों"@hi-deva .
+    ontolex:writtenRep "बोतलों"@hi-Deva .
 
 :भाप_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "bhāp"@hi-Deva,
-        "भाप"@hi-Deva .
+    ontolex:writtenRep "भाप"@hi-Deva,
+        "bhāp"@hi-Latn .
 
 :भाप_sense_1 a ontolex:LexicalSense ;
     skos:definition "steam, water vapour" ;
@@ -2668,8 +2638,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مرمر> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 53 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :मरमर_lemma ;
     ontolex:sense :मरमर_sense .
 
@@ -2677,8 +2647,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "məɾ.məɾ"@hi-fonipa ;
-    ontolex:writtenRep "marmar"@hi-Deva,
-        "मरमर"@hi-Deva .
+    ontolex:writtenRep "मरमर"@hi-Deva,
+        "marmar"@hi-Latn .
 
 :मरमर_sense a ontolex:LexicalSense ;
     skos:definition "marble" ;
@@ -2693,15 +2663,15 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مَستِیسا> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :मस्तीसा_lemma ;
     ontolex:sense :मस्तीसा_sense .
 
 :मस्तीसा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "mastīsā"@hi-Deva,
-        "मस्तीसा"@hi-Deva .
+    ontolex:writtenRep "मस्तीसा"@hi-Deva,
+        "mastīsā"@hi-Latn .
 
 :मस्तीसा_sense a ontolex:LexicalSense ;
     skos:definition "half-caste" ;
@@ -2716,7 +2686,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مستول> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 219 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :मस्तूल_lemma ;
     ontolex:sense :मस्तूल_sense .
 
@@ -2724,8 +2694,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "məs.t̪uːl"@hi-fonipa ;
-    ontolex:writtenRep "mastūla"@hi-Deva,
-        "मस्तूल"@hi-Deva .
+    ontolex:writtenRep "मस्तूल"@hi-Deva,
+        "mastūla"@hi-Latn .
 
 :मस्तूल_sense a ontolex:LexicalSense ;
     skos:definition "mast" ;
@@ -2734,7 +2704,7 @@
 :मारतौल_dp_form_मारतौल a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "मारतौल"@hi-deva .
+    ontolex:writtenRep "मारतौल"@hi-Deva .
 
 :मारतौल_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2745,7 +2715,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مارتول> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 2 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :मारतौल_lemma ;
     ontolex:lexicalForm :मारतौल_dp_form_मारतौल,
         :मारतौल_os_form_मारतौल,
@@ -2758,13 +2728,13 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "mɑːɾ.t̪ɔːl"@hi-fonipa ;
-    ontolex:writtenRep "mārataula"@hi-Deva,
-        "मारतौल"@hi-Deva .
+    ontolex:writtenRep "मारतौल"@hi-Deva,
+        "mārataula"@hi-Latn .
 
 :मारतौल_os_form_मारतौल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "मारतौल"@hi-deva .
+    ontolex:writtenRep "मारतौल"@hi-Deva .
 
 :मारतौल_sense a ontolex:LexicalSense ;
     skos:definition "a heavy hammer, hammer" ;
@@ -2773,17 +2743,17 @@
 :मारतौल_vs_form_मारतौल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "मारतौल"@hi-deva .
+    ontolex:writtenRep "मारतौल"@hi-Deva .
 
 :मारतौलो_vp_form_मारतौल a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "मारतौलो"@hi-deva .
+    ontolex:writtenRep "मारतौलो"@hi-Deva .
 
 :मारतौलों_op_form_मारतौल a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "मारतौलों"@hi-deva .
+    ontolex:writtenRep "मारतौलों"@hi-Deva .
 
 :मास-कबार_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2794,15 +2764,15 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#ماسکَبار> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :मास-कबार_lemma ;
     ontolex:sense :मास-कबार_sense .
 
 :मास-कबार_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "mās-kabār"@hi-Deva,
-        "मास-कबार"@hi-Deva .
+    ontolex:writtenRep "मास-कबार"@hi-Deva,
+        "mās-kabār"@hi-Latn .
 
 :मास-कबार_sense a ontolex:LexicalSense ;
     skos:definition "last day of a month, monthly statement" ;
@@ -2817,15 +2787,15 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مستری> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :मिस्तरी_lemma ;
     ontolex:sense :मिस्तरी_sense .
 
 :मिस्तरी_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "mistarī"@hi-Deva,
-        "मिस्तरी"@hi-Deva .
+    ontolex:writtenRep "मिस्तरी"@hi-Deva,
+        "mistarī"@hi-Latn .
 
 :मिस्तरी_sense a ontolex:LexicalSense ;
     skos:definition "skilled tradesman" ;
@@ -2834,29 +2804,29 @@
 :मिस्त्रियो_vp_form_मिस्त्री a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "मिस्त्रियो"@hi-deva .
+    ontolex:writtenRep "मिस्त्रियो"@hi-Deva .
 
 :मिस्त्रियों_op_form_मिस्त्री a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "मिस्त्रियों"@hi-deva .
+    ontolex:writtenRep "मिस्त्रियों"@hi-Deva .
 
 :मिस्त्री_dp_form_मिस्त्री a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "मिस्त्री"@hi-deva .
+    ontolex:writtenRep "मिस्त्री"@hi-Deva .
 
 :मिस्त्री_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "mɪs.t̪ɾiː"@hi-fonipa ;
-    ontolex:writtenRep "mistrī"@hi-Deva,
-        "मिस्त्री"@hi-Deva .
+    ontolex:writtenRep "मिस्त्री"@hi-Deva,
+        "mistrī"@hi-Latn .
 
 :मिस्त्री_os_form_मिस्त्री a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "मिस्त्री"@hi-deva .
+    ontolex:writtenRep "मिस्त्री"@hi-Deva .
 
 :मिस्त्री_sense_1 a ontolex:LexicalSense ;
     skos:definition "mechanic" ;
@@ -2869,7 +2839,7 @@
 :मिस्त्री_vs_form_मिस्त्री a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "मिस्त्री"@hi-deva .
+    ontolex:writtenRep "मिस्त्री"@hi-Deva .
 
 :मेज़_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2879,8 +2849,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#میز> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 2319 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :मेज़_lemma ;
     ontolex:sense :मेज़_sense .
 
@@ -2889,8 +2859,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "meːd͡ʒ"@hi-fonipa,
         "meːz"@hi-fonipa ;
-    ontolex:writtenRep "mez"@hi-Deva,
-        "मेज़"@hi-Deva .
+    ontolex:writtenRep "मेज़"@hi-Deva,
+        "mez"@hi-Latn .
 
 :मेज़_sense a ontolex:LexicalSense ;
     skos:definition "table" ;
@@ -2904,16 +2874,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#رطل> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 9 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :रतल_lemma ;
     ontolex:sense :रतल_sense .
 
 :रतल_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "ratal"@hi-Deva,
-        "रतल"@hi-Deva .
+    ontolex:writtenRep "रतल"@hi-Deva,
+        "ratal"@hi-Latn .
 
 :रतल_sense a ontolex:LexicalSense ;
     skos:definition "a pound weight" ;
@@ -2927,8 +2897,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#رسید> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 5471 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :रसीद_lemma ;
     ontolex:sense :रसीद_sense .
 
@@ -2936,8 +2906,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɾə.siːd̪"@hi-fonipa ;
-    ontolex:writtenRep "rasīd"@hi-Deva,
-        "रसीद"@hi-Deva .
+    ontolex:writtenRep "रसीद"@hi-Deva,
+        "rasīd"@hi-Latn .
 
 :रसीद_sense a ontolex:LexicalSense ;
     skos:definition "receipt" ;
@@ -2950,16 +2920,16 @@
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 2 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :लंगूचा_lemma ;
     ontolex:sense :लंगूचा_sense .
 
 :लंगूचा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "languchā"@hi-Deva,
-        "लंगूचा"@hi-Deva .
+    ontolex:writtenRep "लंगूचा"@hi-Deva,
+        "languchā"@hi-Latn .
 
 :लंगूचा_sense a ontolex:LexicalSense ;
     skos:definition "a sausage" ;
@@ -2973,16 +2943,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#لیمپ> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 3339 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :लैंप_lemma ;
     ontolex:sense :लैंप_sense .
 
 :लैंप_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "laimp"@hi-Deva,
-        "लैंप"@hi-Deva .
+    ontolex:writtenRep "लैंप"@hi-Deva,
+        "laimp"@hi-Latn .
 
 :लैंप_sense a ontolex:LexicalSense ;
     skos:definition "lamp" ;
@@ -2992,8 +2962,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ʃəɾt̪"@hi-fonipa ;
-    ontolex:writtenRep "śart"@hi-Deva,
-        "शर्ती"@hi-Deva .
+    ontolex:writtenRep "शर्ती"@hi-Deva,
+        "śart"@hi-Latn .
 
 :शर्ती_sense_1 a ontolex:LexicalSense ;
     skos:definition "condition, requirement" ;
@@ -3010,16 +2980,16 @@
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 9076 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :सलाद_lemma ;
     ontolex:sense :सलाद_sense .
 
 :सलाद_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "salād"@hi-Deva,
-        "सलाद"@hi-Deva .
+    ontolex:writtenRep "सलाद"@hi-Deva,
+        "salād"@hi-Latn .
 
 :सलाद_sense a ontolex:LexicalSense ;
     skos:definition "salad" ;
@@ -3028,17 +2998,17 @@
 :साए_dp_form_साया a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "साए"@hi-deva .
+    ontolex:writtenRep "साए"@hi-Deva .
 
 :साए_os_form_साया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "साए"@hi-deva .
+    ontolex:writtenRep "साए"@hi-Deva .
 
 :साए_vs_form_साया a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "साए"@hi-deva .
+    ontolex:writtenRep "साए"@hi-Deva .
 
 :सागू_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -3048,8 +3018,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#ساگو> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 32 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :सागू_lemma ;
     ontolex:sense :सागू_sense .
 
@@ -3057,8 +3027,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "sɑː.ɡuː"@hi-fonipa ;
-    ontolex:writtenRep "sāgū"@hi-Deva,
-        "सागू"@hi-Deva .
+    ontolex:writtenRep "सागू"@hi-Deva,
+        "sāgū"@hi-Latn .
 
 :सागू_sense a ontolex:LexicalSense ;
     skos:definition "sago" ;
@@ -3072,8 +3042,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#صابن> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 11540 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :साबुन_lemma ;
     ontolex:sense :साबुन_sense .
 
@@ -3081,8 +3051,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "sɑː.bʊn"@hi-fonipa ;
-    ontolex:writtenRep "sābun"@hi-Deva,
-        "साबुन"@hi-Deva .
+    ontolex:writtenRep "साबुन"@hi-Deva,
+        "sābun"@hi-Latn .
 
 :साबुन_sense a ontolex:LexicalSense ;
     skos:definition "soap" ;
@@ -3096,8 +3066,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#سایہ⁩> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 9045 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :साया_lemma ;
     ontolex:lexicalForm :साए_dp_form_साया,
         :साए_os_form_साया,
@@ -3113,8 +3083,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "sɑː.jɑː"@hi-fonipa ;
-    ontolex:writtenRep "sāyā"@hi-Deva,
-        "साया"@hi-Deva .
+    ontolex:writtenRep "साया"@hi-Deva,
+        "sāyā"@hi-Latn .
 
 :साया_sense a ontolex:LexicalSense ;
     skos:definition "petticoat" ;
@@ -3123,27 +3093,27 @@
 :साये_dp_form_साया a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "साये"@hi-deva .
+    ontolex:writtenRep "साये"@hi-Deva .
 
 :साये_os_form_साया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "साये"@hi-deva .
+    ontolex:writtenRep "साये"@hi-Deva .
 
 :साये_vs_form_साया a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "साये"@hi-deva .
+    ontolex:writtenRep "साये"@hi-Deva .
 
 :सायो_vp_form_साया a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "सायो"@hi-deva .
+    ontolex:writtenRep "सायो"@hi-Deva .
 
 :सायों_op_form_साया a ontolex:Form ;
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "सायों"@hi-deva .
+    ontolex:writtenRep "सायों"@hi-Deva .
 
 :सालसा_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -3153,7 +3123,7 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :सालसा_lemma ;
     ontolex:sense :सालसा_sense .
 
@@ -3161,8 +3131,8 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "sɑːl.sɑː"@hi-fonipa ;
-    ontolex:writtenRep "sālasā"@hi-Deva,
-        "सालसा"@hi-Deva .
+    ontolex:writtenRep "सालसा"@hi-Deva,
+        "sālasā"@hi-Latn .
 
 :सालसा_sense a ontolex:LexicalSense ;
     skos:definition "Indian sarsparilla" ;
@@ -3176,16 +3146,16 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#ستمبر> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 128243 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :सितंबर_lemma ;
     ontolex:sense :सितंबर_sense .
 
 :सितंबर_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "sitambara"@hi-Deva,
-        "सितंबर"@hi-Deva .
+    ontolex:writtenRep "सितंबर"@hi-Deva,
+        "sitambara"@hi-Latn .
 
 :सितंबर_sense a ontolex:LexicalSense ;
     skos:definition "September" ;
@@ -3196,8 +3166,8 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "fiː.t̪ɑː"@hi-fonipa,
         "pʰiː.t̪ɑː"@hi-fonipa ;
-    ontolex:writtenRep "fītā"@hi-Deva,
-        "फ़ीता"@hi-Deva .
+    ontolex:writtenRep "फ़ीता"@hi-Deva,
+        "fītā"@hi-Latn .
 
 :फ़ीता_sense_1 a ontolex:LexicalSense ;
     skos:definition "lace; shoelace" ;
@@ -3220,7 +3190,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آلپ> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 28 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :आलपीन_lemma ;
     ontolex:lexicalForm :आलपीन_dp_form_आलपीन,
         :आलपीन_os_form_आलपीन,
@@ -3238,8 +3208,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کِران٘چی> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 2 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 0 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :किराँची_lemma ;
     ontolex:lexicalForm :किराँचियो_vp_form_किराँची,
         :किराँचियों_op_form_किराँची,
@@ -3258,7 +3228,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧کْرُوس⁩> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 735 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :क्रूस_lemma ;
     ontolex:lexicalForm :क्रूस_dp_form_क्रूस,
         :क्रूस_os_form_क्रूस,
@@ -3277,7 +3247,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧گِرْجا⁩> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 609 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :गिरजा_lemma ;
     ontolex:lexicalForm :गिरजे_dp_form_गिरजा,
         :गिरजे_os_form_गिरजा,
@@ -3295,8 +3265,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#گوبھی> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 6775 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :गोभी_lemma ;
     ontolex:lexicalForm :गोभियो_vp_form_गोभी,
         :गोभियों_op_form_गोभी,
@@ -3314,8 +3284,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#چائے> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 64719 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :चाय_lemma ;
     ontolex:sense :चाय_sense_1,
         :चाय_sense_2 .
@@ -3327,9 +3297,6 @@
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#جَن٘گْلا⁩> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
     ontolex:canonicalForm :जंगला_lemma ;
     ontolex:lexicalForm :जंगले_dp_form_जंगला,
         :जंगले_os_form_जंगला,
@@ -3347,8 +3314,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#طوفان> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 3572 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :तूफ़ान_lemma ;
     ontolex:sense :तूफ़ान_sense_1,
         :तूफ़ान_sense_2 .
@@ -3362,7 +3329,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پرچ> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :पिरिच_lemma ;
     ontolex:sense :पिरिच_sense_1,
         :पिरिच_sense_2 .
@@ -3376,7 +3343,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بمبہ⁩> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 304 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बंबा_lemma ;
     ontolex:lexicalForm :बंबे_dp_form_बंबा,
         :बंबे_os_form_बंबा,
@@ -3394,8 +3361,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بٹن> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 17333 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :बटन_lemma ;
     ontolex:sense :बटन_sense_1,
         :बटन_sense_2 .
@@ -3408,8 +3375,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بھاپ> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 5890 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :भाप_lemma ;
     ontolex:sense :भाप_sense_1,
         :भाप_sense_2 .
@@ -3421,9 +3388,6 @@
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧مِسْتْری⁩> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
     ontolex:canonicalForm :मिस्त्री_lemma ;
     ontolex:lexicalForm :मिस्त्रियो_vp_form_मिस्त्री,
         :मिस्त्रियों_op_form_मिस्त्री,
@@ -3441,8 +3405,8 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#شرط> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            rdf:value 11 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :शर्ती_lemma ;
     ontolex:sense :शर्ती_sense_1,
         :शर्ती_sense_2 .
@@ -3456,7 +3420,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#فالتو> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :फ़ालतू_lemma ;
     ontolex:sense :फ़ालतू_sense_1,
         :फ़ालतू_sense_2,
@@ -3471,7 +3435,7 @@
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧فیتہ⁩> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :फ़ीता_lemma ;
     ontolex:lexicalForm :फ़ीते_dp_form_फ़ीता,
         :फ़ीते_os_form_फ़ीता,
@@ -3488,12 +3452,15 @@
     lexinfo:etymology "campo (Source: Dalgado); English camp (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
     ontolex:canonicalForm :कंपू_lemma ;
     ontolex:sense :कंपू_sense_1,
         :कंपू_sense_2,
         :कंपू_sense_3,
         :कंपू_sense_4 .
+
+:hiTenTen21 a dcmitype:Collection ;
+    dcterms:title "Hindi Web, 2021"@eng ;
+    frac:total [ a frac:Frequency ;
+            rdf:value 901352786 ;
+            frac:unit "tokens" ] .
 

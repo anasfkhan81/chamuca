@@ -14,11 +14,11 @@ pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper
 lemma = lambda scr1, scr2, head, trans, ipa: {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': str(head)+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
 #lemma_mi = lambda head, trans : {'rep':[(head, "hi-Deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase'}
 lemma_s = lambda scr1, scr2, head, trans : {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': str(head)+'_lemma', 'number':'singular', 'case':'directCase'}
-obl_sing = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form +'_os_form_'+lemm, 'number':'singular', 'case':'obliqueCase'}
-voc_sing = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form+'_vs_form_'+lemm,'number':'singular', 'case':'vocativeCase'}
-dir_plu = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form+'_dp_form_'+lemm, 'number':'plural', 'case':'directCase'}
-obl_plu = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form+'_op_form_'+lemm, 'number':'plural', 'case':'obliqueCase'}
-voc_plu = lambda form,lemm: {'rep':[(form, "hi-deva")], "lemma":False, 'id': form+'_vp_form_'+lemm,'number':'plural', 'case':'vocativeCase'}
+obl_sing = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': form +'_os_form_'+lemm, 'number':'singular', 'case':'obliqueCase'}
+voc_sing = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': form+'_vs_form_'+lemm,'number':'singular', 'case':'vocativeCase'}
+dir_plu = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': form+'_dp_form_'+lemm, 'number':'plural', 'case':'directCase'}
+obl_plu = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': form+'_op_form_'+lemm, 'number':'plural', 'case':'obliqueCase'}
+voc_plu = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': form+'_vp_form_'+lemm,'number':'plural', 'case':'vocativeCase'}
 
 posp = lambda ps: 'commonNoun' if ps== 'Noun' else ps
 genp = lambda g: 'masculine' if g == 'Masculine' else 'feminine' if g == 'Feminine' else 'unknown'
@@ -144,8 +144,15 @@ def upload_ur(file_name):
             print(hindi_seeAlso)
         else:
             print(row['Etymon pt-PT'])
+        corpus = 0
+        corpus_str = str(row['urTenTen18']).replace(",", "")
+        if corpus_str == 'N':
+            corpus = 'N'
+        elif is_valid_integer_literal(corpus_str)[0]:
+            corpus = is_valid_integer_literal(corpus_str)[1]
+            print("urdu corpus: "+ str(corpus))
 
-        urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'form':forms}
+        urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'form':forms, 'urTenTen18':corpus}
         
 
     return urdu_lex
@@ -177,9 +184,9 @@ def upload_hl(file_name):
             ipa_lemma = ['']
             if ipas != []:
                 ipa_lemma = ipas
-            forms =  [lemma("hi-Deva", "hi-Deva", row['Headword'], row['Transliteration'], ipa_lemma)]
+            forms =  [lemma("hi-Deva", "hi-Latn", row['Headword'], row['Transliteration'], ipa_lemma)]
         else:
-            forms =  [lemma_s("hi-Deva", "hi-Deva", row['Headword'], row['Transliteration'])]
+            forms =  [lemma_s("hi-Deva", "hi-Latn", row['Headword'], row['Transliteration'])]
 
         # extract sense information from the 'Sense (Wiktionary)' column
         senses = extract_senses(row['Definition'])
@@ -201,8 +208,10 @@ def upload_hl(file_name):
 
         # corpus information
         corpus = 0
-        corpus_str = str(row['hiTenTen21 Absolute (1)'])
-        if is_valid_integer_literal(corpus_str)[0]:
+        corpus_str = str(row['hiTenTen21 Absolute (1)']).replace(",", "")
+        if corpus_str == 'N':
+            corpus = 'N'
+        elif is_valid_integer_literal(corpus_str)[0]:
             corpus = is_valid_integer_literal(corpus_str)[1]
 
             
@@ -237,7 +246,7 @@ def upload_hl(file_name):
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
         etymology = row['Etymology Free']
         print(corpus)
-        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus}
+        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus}
         i+=1
     return hind_lex
 
@@ -249,8 +258,8 @@ def main():
     l2 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic2)
     l2.writeToFile('chamuca_hi_lex')
     dic3 = upload_ur("SimpleUrdu.tsv")
-    l3 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic3)
-    l3.writeToFile('chamuca_ur_lex', 'json-ld')
+    l3 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#", dic3)
+    l3.writeToFile('chamuca_ur_lex')
 
 if __name__ == "__main__":
         main()
