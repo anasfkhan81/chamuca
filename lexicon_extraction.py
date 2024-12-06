@@ -182,7 +182,7 @@ def upload_hl(file_name):
             forms =  [lemma_s("hi-Deva", "hi-Deva", row['Headword'], row['Transliteration'])]
 
         # extract sense information from the 'Sense (Wiktionary)' column
-        senses = extract_senses(row['Sense (Wiktionary)'])
+        senses = extract_senses(row['Definition'])
         sense_content = []
         # we will count the number of senses with j
         j = 1

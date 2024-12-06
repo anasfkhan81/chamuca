@@ -56,7 +56,7 @@
         "अँग्रेज़"@hi-Deva .
 
 :अँग्रेज़_sense a ontolex:LexicalSense ;
-    skos:definition "1. church 2. chapel" ;
+    skos:definition "English person (Englishman or Englishwoman)" ;
     ontolex:isSenseOf :अँग्रेज़_entry .
 
 :अंग्रेज़_entry a ontolex:LexicalEntry,
@@ -159,7 +159,7 @@
         "अक्तूबर"@hi-Deva .
 
 :अक्तूबर_sense a ontolex:LexicalSense ;
-    skos:definition "1. mechanic 2. artisan, craftsman" ;
+    skos:definition "October" ;
     ontolex:isSenseOf :अक्तूबर_entry .
 
 :अगस्त_dp_form_अगस्त a ontolex:Form ;
@@ -229,7 +229,7 @@
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اچار> ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
+            rdf:value 7315 ;
             frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
     ontolex:canonicalForm :अचार_lemma ;
     ontolex:lexicalForm :अचार_dp_form_अचार,
@@ -344,7 +344,7 @@
         "अनीसून"@hi-Deva .
 
 :अनीसून_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "aniseed" ;
     ontolex:isSenseOf :अनीसून_entry .
 
 :अलमारियो_vp_form_अलमारी a ontolex:Form ;
@@ -437,7 +437,7 @@
     ontolex:writtenRep "अस्तबल"@hi-deva .
 
 :अस्तबल_sense a ontolex:LexicalSense ;
-    skos:definition "steel" ;
+    skos:definition "stable (for a horse)" ;
     ontolex:isSenseOf :अस्तबल_entry .
 
 :अस्तबल_vs_form_अस्तबल a ontolex:Form ;
@@ -491,7 +491,7 @@
     ontolex:writtenRep "अस्पताल"@hi-deva .
 
 :अस्पताल_sense a ontolex:LexicalSense ;
-    skos:definition "(dated) Dutchman; citizen of Holland" ;
+    skos:definition "hospital" ;
     ontolex:isSenseOf :अस्पताल_entry .
 
 :अस्पताल_vs_form_अस्पताल a ontolex:Form ;
@@ -529,7 +529,7 @@
         "आमीन"@hi-Deva .
 
 :आमीन_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "amen" ;
     ontolex:isSenseOf :आमीन_entry .
 
 :आया_dp_form_आया a ontolex:Form ;
@@ -591,24 +591,6 @@
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "आलपीन"@hi-deva .
 
-:आलपीन_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#alfinete> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آلپ> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 28 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :आलपीन_lemma ;
-    ontolex:lexicalForm :आलपीन_dp_form_आलपीन,
-        :आलपीन_os_form_आलपीन,
-        :आलपीन_vs_form_आलपीन,
-        :आलपीनो_vp_form_आलपीन,
-        :आलपीनों_op_form_आलपीन ;
-    ontolex:sense :आलपीन_sense .
-
 :आलपीन_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -621,8 +603,12 @@
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "आलपीन"@hi-deva .
 
-:आलपीन_sense a ontolex:LexicalSense ;
-    skos:definition "1. safety pin 2. a pin" ;
+:आलपीन_sense_1 a ontolex:LexicalSense ;
+    skos:definition "safety pin" ;
+    ontolex:isSenseOf :आलपीन_entry .
+
+:आलपीन_sense_2 a ontolex:LexicalSense ;
+    skos:definition "a pin" ;
     ontolex:isSenseOf :आलपीन_entry .
 
 :आलपीन_vs_form_आलपीन a ontolex:Form ;
@@ -666,7 +652,7 @@
         "इस्तरी"@hi-Deva .
 
 :इस्तरी_sense a ontolex:LexicalSense ;
-    skos:definition "stable (for a horse)" ;
+    skos:definition "iron, press" ;
     ontolex:isSenseOf :इस्तरी_entry .
 
 :इस्त्रियो_vp_form_इस्तरी a ontolex:Form ;
@@ -715,7 +701,7 @@
         "इस्पात"@hi-Deva .
 
 :इस्पात_sense a ontolex:LexicalSense ;
-    skos:definition "December" ;
+    skos:definition "steel" ;
     ontolex:isSenseOf :इस्पात_entry .
 
 :ओलंदेज़_entry a ontolex:LexicalEntry,
@@ -740,7 +726,7 @@
         "ओलंदेज़"@hi-Deva .
 
 :ओलंदेज़_sense a ontolex:LexicalSense ;
-    skos:definition "storage, godown" ;
+    skos:definition "(dated) Dutchman; citizen of Holland" ;
     ontolex:isSenseOf :ओलंदेज़_entry .
 
 :कंदील_entry a ontolex:LexicalEntry,
@@ -763,20 +749,8 @@
         "कंदील"@hi-Deva .
 
 :कंदील_sense a ontolex:LexicalSense ;
-    skos:definition "1. encampment 2. tent 3. cantonment 4. camp" ;
+    skos:definition "a lantern" ;
     ontolex:isSenseOf :कंदील_entry .
-
-:कंपू_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#campo> ;
-    lexinfo:etymology "campo (Source: Dalgado); English camp (Source: McGregor)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :कंपू_lemma ;
-    ontolex:sense :कंपू_sense .
 
 :कंपू_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -785,8 +759,20 @@
     ontolex:writtenRep "kampū"@hi-Deva,
         "कंपू"@hi-Deva .
 
-:कंपू_sense a ontolex:LexicalSense ;
-    skos:definition "shirt" ;
+:कंपू_sense_1 a ontolex:LexicalSense ;
+    skos:definition "encampment" ;
+    ontolex:isSenseOf :कंपू_entry .
+
+:कंपू_sense_2 a ontolex:LexicalSense ;
+    skos:definition "tent" ;
+    ontolex:isSenseOf :कंपू_entry .
+
+:कंपू_sense_3 a ontolex:LexicalSense ;
+    skos:definition "cantonment" ;
+    ontolex:isSenseOf :कंपू_entry .
+
+:कंपू_sense_4 a ontolex:LexicalSense ;
+    skos:definition "camp" ;
     ontolex:isSenseOf :कंपू_entry .
 
 :कप्तान_entry a ontolex:LexicalEntry,
@@ -810,7 +796,7 @@
         "कप्तान"@hi-Deva .
 
 :कप्तान_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "captain (of a ship)" ;
     ontolex:isSenseOf :कप्तान_entry .
 
 :कमरा_entry a ontolex:LexicalEntry,
@@ -839,7 +825,7 @@
         "कमरा"@hi-Deva .
 
 :कमरा_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "room" ;
     ontolex:isSenseOf :कमरा_entry .
 
 :कमरे_dp_form_कमरा a ontolex:Form ;
@@ -887,7 +873,7 @@
         "करूबीम"@hi-Deva .
 
 :करूबीम_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "cherubim" ;
     ontolex:isSenseOf :करूबीम_entry .
 
 :कर्नल_entry a ontolex:LexicalEntry,
@@ -910,7 +896,7 @@
         "कर्नल"@hi-Deva .
 
 :कर्नल_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "colonel" ;
     ontolex:isSenseOf :कर्नल_entry .
 
 :कलापट्टी_entry a ontolex:LexicalEntry,
@@ -932,7 +918,7 @@
         "कलापट्टी"@hi-Deva .
 
 :कलापट्टी_sense a ontolex:LexicalSense ;
-    skos:definition "cashew nut" ;
+    skos:definition "caulker" ;
     ontolex:isSenseOf :कलापट्टी_entry .
 
 :क़मीज़_entry a ontolex:LexicalEntry,
@@ -957,7 +943,7 @@
         "क़मीज़"@hi-Deva .
 
 :क़मीज़_sense a ontolex:LexicalSense ;
-    skos:definition "room" ;
+    skos:definition "shirt" ;
     ontolex:isSenseOf :क़मीज़_entry .
 
 :काज_entry a ontolex:LexicalEntry,
@@ -981,7 +967,7 @@
         "काज"@hi-Deva .
 
 :काज_sense a ontolex:LexicalSense ;
-    skos:definition "(firearms) cartridge" ;
+    skos:definition "a buttonhole" ;
     ontolex:isSenseOf :काज_entry .
 
 :काजुओ_vp_form_काजू a ontolex:Form ;
@@ -1030,7 +1016,7 @@
     ontolex:writtenRep "काजू"@hi-deva .
 
 :काजू_sense a ontolex:LexicalSense ;
-    skos:definition "bottle" ;
+    skos:definition "cashew nut" ;
     ontolex:isSenseOf :काजू_entry .
 
 :काजू_vs_form_काजू a ontolex:Form ;
@@ -1059,7 +1045,7 @@
         "कारतूस"@hi-Deva .
 
 :कारतूस_sense a ontolex:LexicalSense ;
-    skos:definition "1. a cart used to carry loads, carriage of goods train 2. bullock cart" ;
+    skos:definition "(firearms) cartridge" ;
     ontolex:isSenseOf :कारतूस_entry .
 
 :कारबाइन_entry a ontolex:LexicalEntry,
@@ -1082,7 +1068,7 @@
         "कारबाइन"@hi-Deva .
 
 :कारबाइन_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "a carbine" ;
     ontolex:isSenseOf :कारबाइन_entry .
 
 :किराँचियो_vp_form_किराँची a ontolex:Form ;
@@ -1100,24 +1086,6 @@
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "किराँची"@hi-deva .
 
-:किराँची_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#carraguem> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کِران٘چی> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 2 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :किराँची_lemma ;
-    ontolex:lexicalForm :किराँचियो_vp_form_किराँची,
-        :किराँचियों_op_form_किराँची,
-        :किराँची_dp_form_किराँची,
-        :किराँची_os_form_किराँची,
-        :किराँची_vs_form_किराँची ;
-    ontolex:sense :किराँची_sense .
-
 :किराँची_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -1130,8 +1098,12 @@
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "किराँची"@hi-deva .
 
-:किराँची_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+:किराँची_sense_1 a ontolex:LexicalSense ;
+    skos:definition "a cart used to carry loads, carriage of goods train" ;
+    ontolex:isSenseOf :किराँची_entry .
+
+:किराँची_sense_2 a ontolex:LexicalSense ;
+    skos:definition "bullock cart" ;
     ontolex:isSenseOf :किराँची_entry .
 
 :किराँची_vs_form_किराँची a ontolex:Form ;
@@ -1158,7 +1130,7 @@
         "कुनिया"@hi-Deva .
 
 :कुनिया_sense a ontolex:LexicalSense ;
-    skos:definition "1. the cross on which Jesus Christ was crucified 2. crucifix, cross" ;
+    skos:definition "wedge" ;
     ontolex:isSenseOf :कुनिया_entry .
 
 :कैथोलिक_entry a ontolex:LexicalEntry,
@@ -1182,7 +1154,7 @@
         "कैथोलिक"@hi-Deva .
 
 :कैथोलिक_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "Catholic, Roman Catholic" ;
     ontolex:isSenseOf :कैथोलिक_entry .
 
 :कोचवान_entry a ontolex:LexicalEntry,
@@ -1205,7 +1177,7 @@
         "कोचवान"@hi-Deva .
 
 :कोचवान_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "a coachman" ;
     ontolex:isSenseOf :कोचवान_entry .
 
 :क्रिस्तान_entry a ontolex:LexicalEntry,
@@ -1229,31 +1201,13 @@
         "क्रिस्तान"@hi-Deva .
 
 :क्रिस्तान_sense a ontolex:LexicalSense ;
-    skos:definition "1. cabbage 2. cauliflower" ;
+    skos:definition "christian" ;
     ontolex:isSenseOf :क्रिस्तान_entry .
 
 :क्रूस_dp_form_क्रूस a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "क्रूस"@hi-deva .
-
-:क्रूस_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cruz> ;
-    lexinfo:etymology "cruz (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧کْرُوس⁩> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 735 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :क्रूस_lemma ;
-    ontolex:lexicalForm :क्रूस_dp_form_क्रूस,
-        :क्रूस_os_form_क्रूस,
-        :क्रूस_vs_form_क्रूस,
-        :क्रूसो_vp_form_क्रूस,
-        :क्रूसों_op_form_क्रूस ;
-    ontolex:sense :क्रूस_sense .
 
 :क्रूस_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -1267,8 +1221,12 @@
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "क्रूस"@hi-deva .
 
-:क्रूस_sense a ontolex:LexicalSense ;
-    skos:definition "christian" ;
+:क्रूस_sense_1 a ontolex:LexicalSense ;
+    skos:definition "the cross on which Jesus Christ was crucified" ;
+    ontolex:isSenseOf :क्रूस_entry .
+
+:क्रूस_sense_2 a ontolex:LexicalSense ;
+    skos:definition "crucifix, cross" ;
     ontolex:isSenseOf :क्रूस_entry .
 
 :क्रूस_vs_form_क्रूस a ontolex:Form ;
@@ -1286,24 +1244,6 @@
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "क्रूसों"@hi-deva .
 
-:गिरजा_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja> ;
-    lexinfo:etymology "igreja (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧گِرْجا⁩> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 609 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :गिरजा_lemma ;
-    ontolex:lexicalForm :गिरजे_dp_form_गिरजा,
-        :गिरजे_os_form_गिरजा,
-        :गिरजे_vs_form_गिरजा,
-        :गिरजो_vp_form_गिरजा,
-        :गिरजों_op_form_गिरजा ;
-    ontolex:sense :गिरजा_sense .
-
 :गिरजा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -1311,8 +1251,12 @@
     ontolex:writtenRep "girajā"@hi-Deva,
         "गिरजा"@hi-Deva .
 
-:गिरजा_sense a ontolex:LexicalSense ;
-    skos:definition "hospital" ;
+:गिरजा_sense_1 a ontolex:LexicalSense ;
+    skos:definition "church" ;
+    ontolex:isSenseOf :गिरजा_entry .
+
+:गिरजा_sense_2 a ontolex:LexicalSense ;
+    skos:definition "chapel" ;
     ontolex:isSenseOf :गिरजा_entry .
 
 :गिरजे_dp_form_गिरजा a ontolex:Form ;
@@ -1360,7 +1304,7 @@
         "गोदाम"@hi-Deva .
 
 :गोदाम_sense a ontolex:LexicalSense ;
-    skos:definition "Gentoo" ;
+    skos:definition "storage, godown" ;
     ontolex:isSenseOf :गोदाम_entry .
 
 :गोभियो_vp_form_गोभी a ontolex:Form ;
@@ -1378,24 +1322,6 @@
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "गोभी"@hi-deva .
 
-:गोभी_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#couve> ;
-    lexinfo:etymology "couve (Source: Dalgado); Sanksrit गोजीह्विका (Source: Wiktionary)" ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#گوبھی> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :गोभी_lemma ;
-    ontolex:lexicalForm :गोभियो_vp_form_गोभी,
-        :गोभियों_op_form_गोभी,
-        :गोभी_dp_form_गोभी,
-        :गोभी_os_form_गोभी,
-        :गोभी_vs_form_गोभी ;
-    ontolex:sense :गोभी_sense .
-
 :गोभी_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -1408,8 +1334,12 @@
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "गोभी"@hi-deva .
 
-:गोभी_sense a ontolex:LexicalSense ;
-    skos:definition "colonel" ;
+:गोभी_sense_1 a ontolex:LexicalSense ;
+    skos:definition "cabbage" ;
+    ontolex:isSenseOf :गोभी_entry .
+
+:गोभी_sense_2 a ontolex:LexicalSense ;
+    skos:definition "cauliflower" ;
     ontolex:isSenseOf :गोभी_entry .
 
 :गोभी_vs_form_गोभी a ontolex:Form ;
@@ -1463,26 +1393,13 @@
     ontolex:writtenRep "चाबी"@hi-deva .
 
 :चाबी_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "key" ;
     ontolex:isSenseOf :चाबी_entry .
 
 :चाबी_vs_form_चाबी a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "चाबी"@hi-deva .
-
-:चाय_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chá> ;
-    lexinfo:etymology "chá (Source: Dalgado); Persian [P. cāʾe] (Source: McGregor)" ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#چائے> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :चाय_lemma ;
-    ontolex:sense :चाय_sense .
 
 :चाय_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -1492,8 +1409,12 @@
     ontolex:writtenRep "cāy"@hi-Deva,
         "चाय"@hi-Deva .
 
-:चाय_sense a ontolex:LexicalSense ;
-    skos:definition "Catholic, Roman Catholic" ;
+:चाय_sense_1 a ontolex:LexicalSense ;
+    skos:definition "tea (plant, beverage)" ;
+    ontolex:isSenseOf :चाय_entry .
+
+:चाय_sense_2 a ontolex:LexicalSense ;
+    skos:definition "cup of tea" ;
     ontolex:isSenseOf :चाय_entry .
 
 :छापा_entry a ontolex:LexicalEntry,
@@ -1516,26 +1437,8 @@
         "छापा"@hi-Deva .
 
 :छापा_sense a ontolex:LexicalSense ;
-    skos:definition "1. tea (plant, beverage) 2. cup of tea" ;
+    skos:definition "a seal, impression, stamp, or brand" ;
     ontolex:isSenseOf :छापा_entry .
-
-:जंगला_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#janela> ;
-    lexinfo:etymology "janela (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#جَن٘گْلا⁩> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :जंगला_lemma ;
-    ontolex:lexicalForm :जंगले_dp_form_जंगला,
-        :जंगले_os_form_जंगला,
-        :जंगले_vs_form_जंगला,
-        :जंगलो_vp_form_जंगला,
-        :जंगलों_op_form_जंगला ;
-    ontolex:sense :जंगला_sense .
 
 :जंगला_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -1544,8 +1447,12 @@
     ontolex:writtenRep "jaṅglā"@hi-Deva,
         "जंगला"@hi-Deva .
 
-:जंगला_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+:जंगला_sense_1 a ontolex:LexicalSense ;
+    skos:definition "fencing, railing" ;
+    ontolex:isSenseOf :जंगला_entry .
+
+:जंगला_sense_2 a ontolex:LexicalSense ;
+    skos:definition "grille-fitted window" ;
     ontolex:isSenseOf :जंगला_entry .
 
 :जंगले_dp_form_जंगला a ontolex:Form ;
@@ -1594,7 +1501,7 @@
         "जुआ"@hi-Deva .
 
 :जुआ_sense a ontolex:LexicalSense ;
-    skos:definition "1. fencing, railing 2. grille-fitted window" ;
+    skos:definition "gambling" ;
     ontolex:isSenseOf :जुआ_entry .
 
 :जुआरी_entry a ontolex:LexicalEntry,
@@ -1618,30 +1525,8 @@
         "जुआरी"@hi-Deva .
 
 :जुआरी_sense a ontolex:LexicalSense ;
-    skos:definition "gambling" ;
+    skos:definition "gambler" ;
     ontolex:isSenseOf :जुआरी_entry .
-
-:जुल्लाब_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#jalapa> ;
-    lexinfo:etymology "jalapa (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :जुल्लाब_lemma ;
-    ontolex:sense :जुल्लाब_sense .
-
-:जुल्लाब_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:directCase ;
-    lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
-        "जुल्लाब"@hi-Deva .
-
-:जुल्लाब_sense a ontolex:LexicalSense ;
-    skos:definition "English person (Englishman or Englishwoman)" ;
-    ontolex:isSenseOf :जुल्लाब_entry .
 
 :जेंटुओ_vp_form_जेंटू a ontolex:Form ;
     lexinfo:case lexinfo:vocativeCase ;
@@ -1689,7 +1574,7 @@
     ontolex:writtenRep "जेंटू"@hi-deva .
 
 :जेंटू_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "Gentoo" ;
     ontolex:isSenseOf :जेंटू_entry .
 
 :जेंटू_vs_form_जेंटू a ontolex:Form ;
@@ -1718,7 +1603,7 @@
         "ḍīsilvā"@hi-Deva .
 
 :डीसिल्वा_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "a surname from Portuguese, equivalent to English D'Silva or Desilva" ;
     ontolex:isSenseOf :डीसिल्वा_entry .
 
 :तंबाकू_entry a ontolex:LexicalEntry,
@@ -1742,7 +1627,7 @@
         "तंबाकू"@hi-Deva .
 
 :तंबाकू_sense a ontolex:LexicalSense ;
-    skos:definition "1. condition, requirement 2. wager, bet" ;
+    skos:definition "tobacco" ;
     ontolex:isSenseOf :तंबाकू_entry .
 
 :तंबूरा_entry a ontolex:LexicalEntry,
@@ -1766,7 +1651,7 @@
         "तंबूरा"@hi-Deva .
 
 :तंबूरा_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "tanpura" ;
     ontolex:isSenseOf :तंबूरा_entry .
 
 :तुरंज_entry a ontolex:LexicalEntry,
@@ -1789,21 +1674,8 @@
         "तुरंज"@hi-Deva .
 
 :तुरंज_sense a ontolex:LexicalSense ;
-    skos:definition "towel" ;
+    skos:definition "a kind of citron" ;
     ontolex:isSenseOf :तुरंज_entry .
-
-:तूफ़ान_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tufão> ;
-    lexinfo:etymology "? tufão (Source: Dalgado); Persian طوفان (Source: Wiktionary, McGregor)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#طوفان> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :तूफ़ान_lemma ;
-    ontolex:sense :तूफ़ान_sense .
 
 :तूफ़ान_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -1813,8 +1685,12 @@
     ontolex:writtenRep "tūfān"@hi-Deva,
         "तूफ़ान"@hi-Deva .
 
-:तूफ़ान_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+:तूफ़ान_sense_1 a ontolex:LexicalSense ;
+    skos:definition "storm, tempest" ;
+    ontolex:isSenseOf :तूफ़ान_entry .
+
+:तूफ़ान_sense_2 a ontolex:LexicalSense ;
+    skos:definition "hurricane" ;
     ontolex:isSenseOf :तूफ़ान_entry .
 
 :तौलिए_dp_form_तौलिया a ontolex:Form ;
@@ -1861,7 +1737,7 @@
         "तौलिया"@hi-Deva .
 
 :तौलिया_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "towel" ;
     ontolex:isSenseOf :तौलिया_entry .
 
 :तौलिये_dp_form_तौलिया a ontolex:Form ;
@@ -1925,7 +1801,7 @@
     ontolex:writtenRep "दिसंबर"@hi-deva .
 
 :दिसंबर_sense a ontolex:LexicalSense ;
-    skos:definition "a surname from Portuguese, equivalent to English D'Silva or Desilva" ;
+    skos:definition "December" ;
     ontolex:isSenseOf :दिसंबर_entry .
 
 :दिसंबर_vs_form_दिसंबर a ontolex:Form ;
@@ -1979,7 +1855,7 @@
     ontolex:writtenRep "नीलाम"@hi-deva .
 
 :नीलाम_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "auction (a public event where goods are sold through bidding)" ;
     ontolex:isSenseOf :नीलाम_entry .
 
 :नीलाम_vs_form_नीलाम a ontolex:Form ;
@@ -2017,7 +1893,7 @@
         "पपीता"@hi-Deva .
 
 :पपीता_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "papaya" ;
     ontolex:isSenseOf :पपीता_entry .
 
 :परात_entry a ontolex:LexicalEntry,
@@ -2041,7 +1917,7 @@
         "परात"@hi-Deva .
 
 :परात_sense a ontolex:LexicalSense ;
-    skos:definition "1. pump; water pump 2. channel, narrow river, creek" ;
+    skos:definition "receipt" ;
     ontolex:isSenseOf :परात_entry .
 
 :पादरियो_vp_form_पादरी a ontolex:Form ;
@@ -2090,7 +1966,7 @@
     ontolex:writtenRep "पादरी"@hi-deva .
 
 :पादरी_sense a ontolex:LexicalSense ;
-    skos:definition "October" ;
+    skos:definition "Christian priest or minister; chaplain." ;
     ontolex:isSenseOf :पादरी_entry .
 
 :पादरी_vs_form_पादरी a ontolex:Form ;
@@ -2117,21 +1993,8 @@
         "पाव-रोटी"@hi-Deva .
 
 :पाव-रोटी_sense a ontolex:LexicalSense ;
-    skos:definition "Christian priest or minister; chaplain." ;
+    skos:definition "loaf of bread" ;
     ontolex:isSenseOf :पाव-रोटी_entry .
-
-:पिरिच_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pires> ;
-    lexinfo:etymology "pires (Source: Dalgado); English press (Source: Wiktionary, McGregor)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پرچ> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :पिरिच_lemma ;
-    ontolex:sense :पिरिच_sense .
 
 :पिरिच_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -2140,8 +2003,12 @@
     ontolex:writtenRep "piric"@hi-Deva,
         "पिरिच"@hi-Deva .
 
-:पिरिच_sense a ontolex:LexicalSense ;
-    skos:definition "cylinder, barrel, cask" ;
+:पिरिच_sense_1 a ontolex:LexicalSense ;
+    skos:definition "saucer" ;
+    ontolex:isSenseOf :पिरिच_entry .
+
+:पिरिच_sense_2 a ontolex:LexicalSense ;
+    skos:definition "a flat surface (as used in pressing out indigo)" ;
     ontolex:isSenseOf :पिरिच_entry .
 
 :पिस्तौल_dp_form_पिस्तौल a ontolex:Form ;
@@ -2180,7 +2047,7 @@
     ontolex:writtenRep "पिस्तौल"@hi-deva .
 
 :पिस्तौल_sense a ontolex:LexicalSense ;
-    skos:definition "1. saucer  2. a flat surface (as used in pressing out indigo)" ;
+    skos:definition "pistol, gun" ;
     ontolex:isSenseOf :पिस्तौल_entry .
 
 :पिस्तौल_vs_form_पिस्तौल a ontolex:Form ;
@@ -2224,7 +2091,7 @@
         "पीपा"@hi-Deva .
 
 :पीपा_sense a ontolex:LexicalSense ;
-    skos:definition "turkey" ;
+    skos:definition "cylinder, barrel, cask" ;
     ontolex:isSenseOf :पीपा_entry .
 
 :पीपे_dp_form_पीपा a ontolex:Form ;
@@ -2273,7 +2140,7 @@
         "पीरू"@hi-Deva .
 
 :पीरू_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "turkey" ;
     ontolex:isSenseOf :पीरू_entry .
 
 :पुलिस_entry a ontolex:LexicalEntry,
@@ -2297,39 +2164,30 @@
         "पुलिस"@hi-Deva .
 
 :पुलिस_sense a ontolex:LexicalSense ;
-    skos:definition "pistol, gun" ;
+    skos:definition "the police" ;
     ontolex:isSenseOf :पुलिस_entry .
+
+:फ़र्मा_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#forma> ;
+    lexinfo:etymology "forma (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:unknown ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :फ़र्मा_lemma ;
+    ontolex:sense :फ़र्मा_sense .
 
 :फ़र्मा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
+    ontolex:writtenRep "formā"@hi-Deva,
         "फ़र्मा"@hi-Deva .
 
-:फ़र्मा_sense_1 a ontolex:LexicalSense ;
-    skos:definition "lace; shoelace" ;
+:फ़र्मा_sense a ontolex:LexicalSense ;
+    skos:definition "in the sense of ‘mould, appearance’" ;
     ontolex:isSenseOf :फ़र्मा_entry .
-
-:फ़र्मा_sense_2 a ontolex:LexicalSense ;
-    skos:definition "tape; tape measure" ;
-    ontolex:isSenseOf :फ़र्मा_entry .
-
-:फ़र्मा_sense_3 a ontolex:LexicalSense ;
-    skos:definition "ribbon" ;
-    ontolex:isSenseOf :फ़र्मा_entry .
-
-:फ़ालतू_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#falto> ;
-    lexinfo:etymology "falto (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
-    lexinfo:partOfSpeech lexinfo:nan ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#فالتو> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :फ़ालतू_lemma ;
-    ontolex:sense :फ़ालतू_sense .
 
 :फ़ालतू_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -2339,8 +2197,16 @@
     ontolex:writtenRep "fāltū"@hi-Deva,
         "फ़ालतू"@hi-Deva .
 
-:फ़ालतू_sense a ontolex:LexicalSense ;
-    skos:definition "iron, press" ;
+:फ़ालतू_sense_1 a ontolex:LexicalSense ;
+    skos:definition "unnecessary, pointless" ;
+    ontolex:isSenseOf :फ़ालतू_entry .
+
+:फ़ालतू_sense_2 a ontolex:LexicalSense ;
+    skos:definition "bad; not nice; of poor quality" ;
+    ontolex:isSenseOf :फ़ालतू_entry .
+
+:फ़ालतू_sense_3 a ontolex:LexicalSense ;
+    skos:definition "useless, irrelevant, good-for-nothing (used for someone)" ;
     ontolex:isSenseOf :फ़ालतू_entry .
 
 :फ़ीते_dp_form_फ़ीता a ontolex:Form ;
@@ -2368,24 +2234,6 @@
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "फ़ीतों"@hi-deva .
 
-:बंबा_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pompa> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بمبہ⁩> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 304 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :बंबा_lemma ;
-    ontolex:lexicalForm :बंबे_dp_form_बंबा,
-        :बंबे_os_form_बंबा,
-        :बंबे_vs_form_बंबा,
-        :बंबो_vp_form_बंबा,
-        :बंबों_op_form_बंबा ;
-    ontolex:sense :बंबा_sense .
-
 :बंबा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -2393,8 +2241,12 @@
     ontolex:writtenRep "bambā"@hi-Deva,
         "बंबा"@hi-Deva .
 
-:बंबा_sense a ontolex:LexicalSense ;
-    skos:definition "the police" ;
+:बंबा_sense_1 a ontolex:LexicalSense ;
+    skos:definition "pump; water pump" ;
+    ontolex:isSenseOf :बंबा_entry .
+
+:बंबा_sense_2 a ontolex:LexicalSense ;
+    skos:definition "channel, narrow river, creek" ;
     ontolex:isSenseOf :बंबा_entry .
 
 :बंबे_dp_form_बंबा a ontolex:Form ;
@@ -2442,21 +2294,8 @@
         "बजरा"@hi-Deva .
 
 :बजरा_sense a ontolex:LexicalSense ;
-    skos:definition "1. steam, water vapour  2. vapour, gas" ;
+    skos:definition "A kind of boat commonly used for travelling; a large kind of pleasure-boat (round-bottomed and keel-less, — commonly called 'budgerow')." ;
     ontolex:isSenseOf :बजरा_entry .
-
-:बटन_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#botão> ;
-    lexinfo:etymology "botão (Source: Dalgado); English button (Source: Dasa)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بٹن> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :बटन_lemma ;
-    ontolex:sense :बटन_sense .
 
 :बटन_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -2464,8 +2303,12 @@
     ontolex:writtenRep "baṭan"@hi-Deva,
         "बटन"@hi-Deva .
 
-:बटन_sense a ontolex:LexicalSense ;
-    skos:definition "1. pump; water pump 2. channel, narrow river, creek" ;
+:बटन_sense_1 a ontolex:LexicalSense ;
+    skos:definition "button (fastener)" ;
+    ontolex:isSenseOf :बटन_entry .
+
+:बटन_sense_2 a ontolex:LexicalSense ;
+    skos:definition "button (presser)" ;
     ontolex:isSenseOf :बटन_entry .
 
 :बरमा_entry a ontolex:LexicalEntry,
@@ -2489,7 +2332,7 @@
         "बरमा"@hi-Deva .
 
 :बरमा_sense a ontolex:LexicalSense ;
-    skos:definition "verandah" ;
+    skos:definition "(tool) drill, borer" ;
     ontolex:isSenseOf :बरमा_entry .
 
 :बरामदा_entry a ontolex:LexicalEntry,
@@ -2518,7 +2361,7 @@
         "बरामदा"@hi-Deva .
 
 :बरामदा_sense a ontolex:LexicalSense ;
-    skos:definition "1. storm, tempest 2. hurricane" ;
+    skos:definition "verandah" ;
     ontolex:isSenseOf :बरामदा_entry .
 
 :बरामदे_dp_form_बरामदा a ontolex:Form ;
@@ -2566,7 +2409,7 @@
         "बस"@hi-Deva .
 
 :बस_sense a ontolex:LexicalSense ;
-    skos:definition "(Christianity) baptism" ;
+    skos:definition "merely, only" ;
     ontolex:isSenseOf :बस_entry .
 
 :बाप्तिस्मा_entry a ontolex:LexicalEntry,
@@ -2595,7 +2438,7 @@
         "बाप्तिस्मा"@hi-Deva .
 
 :बाप्तिस्मा_sense a ontolex:LexicalSense ;
-    skos:definition "bucket, container" ;
+    skos:definition "(Christianity) baptism" ;
     ontolex:isSenseOf :बाप्तिस्मा_entry .
 
 :बाप्तिस्मे_dp_form_बाप्तिस्मा a ontolex:Form ;
@@ -2669,7 +2512,7 @@
     ontolex:writtenRep "बालटी"@hi-deva .
 
 :बालटी_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "bucket, container" ;
     ontolex:isSenseOf :बालटी_entry .
 
 :बालटी_vs_form_बालटी a ontolex:Form ;
@@ -2698,30 +2541,8 @@
         "बासन"@hi-Deva .
 
 :बासन_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "pot; any container" ;
     ontolex:isSenseOf :बासन_entry .
-
-:बिलिंबी_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#nan> ;
-    lexinfo:etymology "bilimbim (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :बिलिंबी_lemma ;
-    ontolex:sense :बिलिंबी_sense .
-
-:बिलिंबी_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:directCase ;
-    lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "bilinbī"@hi-Deva,
-        "बिलिंबी"@hi-Deva .
-
-:बिलिंबी_sense a ontolex:LexicalSense ;
-    skos:definition "(tool) drill, borer" ;
-    ontolex:isSenseOf :बिलिंबी_entry .
 
 :बिस्कुट_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2744,7 +2565,7 @@
         "बिस्कुट"@hi-Deva .
 
 :बिस्कुट_sense a ontolex:LexicalSense ;
-    skos:definition "eggplant, aubergine, brinjal" ;
+    skos:definition "biscuit, cookie, cracker" ;
     ontolex:isSenseOf :बिस्कुट_entry .
 
 :बैंगन_entry a ontolex:LexicalEntry,
@@ -2768,7 +2589,7 @@
         "बैंगन"@hi-Deva .
 
 :बैंगन_sense a ontolex:LexicalSense ;
-    skos:definition "merely, only" ;
+    skos:definition "eggplant, aubergine, brinjal" ;
     ontolex:isSenseOf :बैंगन_entry .
 
 :बोतल_dp_form_बोतल a ontolex:Form ;
@@ -2807,7 +2628,7 @@
     ontolex:writtenRep "बोतल"@hi-deva .
 
 :बोतल_sense a ontolex:LexicalSense ;
-    skos:definition "1. button (fastener) 2. button (presser)" ;
+    skos:definition "bottle" ;
     ontolex:isSenseOf :बोतल_entry .
 
 :बोतल_vs_form_बोतल a ontolex:Form ;
@@ -2825,27 +2646,18 @@
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "बोतलों"@hi-deva .
 
-:भाप_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bafo> ;
-    lexinfo:etymology "? bafo (Source: Dalgado); Sanksrit वाष्प  (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بھاپ> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :भाप_lemma ;
-    ontolex:sense :भाप_sense .
-
 :भाप_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "bhāp"@hi-Deva,
         "भाप"@hi-Deva .
 
-:भाप_sense a ontolex:LexicalSense ;
-    skos:definition "pot; any container" ;
+:भाप_sense_1 a ontolex:LexicalSense ;
+    skos:definition "steam, water vapour" ;
+    ontolex:isSenseOf :भाप_entry .
+
+:भाप_sense_2 a ontolex:LexicalSense ;
+    skos:definition "vapour, gas" ;
     ontolex:isSenseOf :भाप_entry .
 
 :मरमर_entry a ontolex:LexicalEntry,
@@ -2869,7 +2681,7 @@
         "मरमर"@hi-Deva .
 
 :मरमर_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "marble" ;
     ontolex:isSenseOf :मरमर_entry .
 
 :मस्तीसा_entry a ontolex:LexicalEntry,
@@ -2892,7 +2704,7 @@
         "मस्तीसा"@hi-Deva .
 
 :मस्तीसा_sense a ontolex:LexicalSense ;
-    skos:definition "table" ;
+    skos:definition "half-caste" ;
     ontolex:isSenseOf :मस्तीसा_entry .
 
 :मस्तूल_entry a ontolex:LexicalEntry,
@@ -2916,7 +2728,7 @@
         "मस्तूल"@hi-Deva .
 
 :मस्तूल_sense a ontolex:LexicalSense ;
-    skos:definition "a heavy hammer, hammer" ;
+    skos:definition "mast" ;
     ontolex:isSenseOf :मस्तूल_entry .
 
 :मारतौल_dp_form_मारतौल a ontolex:Form ;
@@ -2955,7 +2767,7 @@
     ontolex:writtenRep "मारतौल"@hi-deva .
 
 :मारतौल_sense a ontolex:LexicalSense ;
-    skos:definition "marble" ;
+    skos:definition "a heavy hammer, hammer" ;
     ontolex:isSenseOf :मारतौल_entry .
 
 :मारतौल_vs_form_मारतौल a ontolex:Form ;
@@ -2993,7 +2805,7 @@
         "मास-कबार"@hi-Deva .
 
 :मास-कबार_sense a ontolex:LexicalSense ;
-    skos:definition "mast" ;
+    skos:definition "last day of a month, monthly statement" ;
     ontolex:isSenseOf :मास-कबार_entry .
 
 :मिस्तरी_entry a ontolex:LexicalEntry,
@@ -3016,7 +2828,7 @@
         "मिस्तरी"@hi-Deva .
 
 :मिस्तरी_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "skilled tradesman" ;
     ontolex:isSenseOf :मिस्तरी_entry .
 
 :मिस्त्रियो_vp_form_मिस्त्री a ontolex:Form ;
@@ -3034,24 +2846,6 @@
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "मिस्त्री"@hi-deva .
 
-:मिस्त्री_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestre> ;
-    lexinfo:etymology "mestre (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧مِسْتْری⁩> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :मिस्त्री_lemma ;
-    ontolex:lexicalForm :मिस्त्रियो_vp_form_मिस्त्री,
-        :मिस्त्रियों_op_form_मिस्त्री,
-        :मिस्त्री_dp_form_मिस्त्री,
-        :मिस्त्री_os_form_मिस्त्री,
-        :मिस्त्री_vs_form_मिस्त्री ;
-    ontolex:sense :मिस्त्री_sense .
-
 :मिस्त्री_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -3064,8 +2858,12 @@
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "मिस्त्री"@hi-deva .
 
-:मिस्त्री_sense a ontolex:LexicalSense ;
-    skos:definition "skilled tradesman" ;
+:मिस्त्री_sense_1 a ontolex:LexicalSense ;
+    skos:definition "mechanic" ;
+    ontolex:isSenseOf :मिस्त्री_entry .
+
+:मिस्त्री_sense_2 a ontolex:LexicalSense ;
+    skos:definition "artisan, craftsman" ;
     ontolex:isSenseOf :मिस्त्री_entry .
 
 :मिस्त्री_vs_form_मिस्त्री a ontolex:Form ;
@@ -3095,7 +2893,7 @@
         "मेज़"@hi-Deva .
 
 :मेज़_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "table" ;
     ontolex:isSenseOf :मेज़_entry .
 
 :रतल_entry a ontolex:LexicalEntry,
@@ -3118,7 +2916,7 @@
         "रतल"@hi-Deva .
 
 :रतल_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "a pound weight" ;
     ontolex:isSenseOf :रतल_entry .
 
 :रसीद_entry a ontolex:LexicalEntry,
@@ -3142,7 +2940,7 @@
         "रसीद"@hi-Deva .
 
 :रसीद_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "receipt" ;
     ontolex:isSenseOf :रसीद_entry .
 
 :लंगूचा_entry a ontolex:LexicalEntry,
@@ -3164,7 +2962,7 @@
         "लंगूचा"@hi-Deva .
 
 :लंगूचा_sense a ontolex:LexicalSense ;
-    skos:definition "auction (a public event where goods are sold through bidding)" ;
+    skos:definition "a sausage" ;
     ontolex:isSenseOf :लंगूचा_entry .
 
 :लैंप_entry a ontolex:LexicalEntry,
@@ -3187,21 +2985,8 @@
         "लैंप"@hi-Deva .
 
 :लैंप_sense a ontolex:LexicalSense ;
-    skos:definition "gambler" ;
+    skos:definition "lamp" ;
     ontolex:isSenseOf :लैंप_entry .
-
-:शर्ती_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#sorte> ;
-    lexinfo:etymology "sorte (Source: Dalgado); Arabic شَرْط (Source: Wiktionary)" ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#شرط> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :शर्ती_lemma ;
-    ontolex:sense :शर्ती_sense .
 
 :शर्ती_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -3210,8 +2995,12 @@
     ontolex:writtenRep "śart"@hi-Deva,
         "शर्ती"@hi-Deva .
 
-:शर्ती_sense a ontolex:LexicalSense ;
-    skos:definition "September" ;
+:शर्ती_sense_1 a ontolex:LexicalSense ;
+    skos:definition "condition, requirement" ;
+    ontolex:isSenseOf :शर्ती_entry .
+
+:शर्ती_sense_2 a ontolex:LexicalSense ;
+    skos:definition "wager, bet" ;
     ontolex:isSenseOf :शर्ती_entry .
 
 :सलाद_entry a ontolex:LexicalEntry,
@@ -3233,7 +3022,7 @@
         "सलाद"@hi-Deva .
 
 :सलाद_sense a ontolex:LexicalSense ;
-    skos:definition "petticoat" ;
+    skos:definition "salad" ;
     ontolex:isSenseOf :सलाद_entry .
 
 :साए_dp_form_साया a ontolex:Form ;
@@ -3272,7 +3061,7 @@
         "सागू"@hi-Deva .
 
 :सागू_sense a ontolex:LexicalSense ;
-    skos:definition "soap" ;
+    skos:definition "sago" ;
     ontolex:isSenseOf :सागू_entry .
 
 :साबुन_entry a ontolex:LexicalEntry,
@@ -3296,7 +3085,7 @@
         "साबुन"@hi-Deva .
 
 :साबुन_sense a ontolex:LexicalSense ;
-    skos:definition "receipt" ;
+    skos:definition "soap" ;
     ontolex:isSenseOf :साबुन_entry .
 
 :साया_entry a ontolex:LexicalEntry,
@@ -3328,7 +3117,7 @@
         "साया"@hi-Deva .
 
 :साया_sense a ontolex:LexicalSense ;
-    skos:definition "sago" ;
+    skos:definition "petticoat" ;
     ontolex:isSenseOf :साया_entry .
 
 :साये_dp_form_साया a ontolex:Form ;
@@ -3376,7 +3165,7 @@
         "सालसा"@hi-Deva .
 
 :सालसा_sense a ontolex:LexicalSense ;
-    skos:definition "" ;
+    skos:definition "Indian sarsparilla" ;
     ontolex:isSenseOf :सालसा_entry .
 
 :सितंबर_entry a ontolex:LexicalEntry,
@@ -3399,8 +3188,279 @@
         "सितंबर"@hi-Deva .
 
 :सितंबर_sense a ontolex:LexicalSense ;
-    skos:definition "Indian sarsparilla" ;
+    skos:definition "September" ;
     ontolex:isSenseOf :सितंबर_entry .
+
+:फ़ीता_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:phoneticRep "fiː.t̪ɑː"@hi-fonipa,
+        "pʰiː.t̪ɑː"@hi-fonipa ;
+    ontolex:writtenRep "fītā"@hi-Deva,
+        "फ़ीता"@hi-Deva .
+
+:फ़ीता_sense_1 a ontolex:LexicalSense ;
+    skos:definition "lace; shoelace" ;
+    ontolex:isSenseOf :फ़ीता_entry .
+
+:फ़ीता_sense_2 a ontolex:LexicalSense ;
+    skos:definition "tape; tape measure" ;
+    ontolex:isSenseOf :फ़ीता_entry .
+
+:फ़ीता_sense_3 a ontolex:LexicalSense ;
+    skos:definition "ribbon" ;
+    ontolex:isSenseOf :फ़ीता_entry .
+
+:आलपीन_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#alfinete> ;
+    lexinfo:etymology "NaN"^^xsd:double ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آلپ> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 28 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :आलपीन_lemma ;
+    ontolex:lexicalForm :आलपीन_dp_form_आलपीन,
+        :आलपीन_os_form_आलपीन,
+        :आलपीन_vs_form_आलपीन,
+        :आलपीनो_vp_form_आलपीन,
+        :आलपीनों_op_form_आलपीन ;
+    ontolex:sense :आलपीन_sense_1,
+        :आलपीन_sense_2 .
+
+:किराँची_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#carraguem> ;
+    lexinfo:etymology "NaN"^^xsd:double ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کِران٘چی> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 2 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :किराँची_lemma ;
+    ontolex:lexicalForm :किराँचियो_vp_form_किराँची,
+        :किराँचियों_op_form_किराँची,
+        :किराँची_dp_form_किराँची,
+        :किराँची_os_form_किराँची,
+        :किराँची_vs_form_किराँची ;
+    ontolex:sense :किराँची_sense_1,
+        :किराँची_sense_2 .
+
+:क्रूस_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cruz> ;
+    lexinfo:etymology "cruz (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧کْرُوس⁩> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 735 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :क्रूस_lemma ;
+    ontolex:lexicalForm :क्रूस_dp_form_क्रूस,
+        :क्रूस_os_form_क्रूस,
+        :क्रूस_vs_form_क्रूस,
+        :क्रूसो_vp_form_क्रूस,
+        :क्रूसों_op_form_क्रूस ;
+    ontolex:sense :क्रूस_sense_1,
+        :क्रूस_sense_2 .
+
+:गिरजा_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja> ;
+    lexinfo:etymology "igreja (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧گِرْجا⁩> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 609 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :गिरजा_lemma ;
+    ontolex:lexicalForm :गिरजे_dp_form_गिरजा,
+        :गिरजे_os_form_गिरजा,
+        :गिरजे_vs_form_गिरजा,
+        :गिरजो_vp_form_गिरजा,
+        :गिरजों_op_form_गिरजा ;
+    ontolex:sense :गिरजा_sense_1,
+        :गिरजा_sense_2 .
+
+:गोभी_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#couve> ;
+    lexinfo:etymology "couve (Source: Dalgado); Sanksrit गोजीह्विका (Source: Wiktionary)" ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#گوبھی> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :गोभी_lemma ;
+    ontolex:lexicalForm :गोभियो_vp_form_गोभी,
+        :गोभियों_op_form_गोभी,
+        :गोभी_dp_form_गोभी,
+        :गोभी_os_form_गोभी,
+        :गोभी_vs_form_गोभी ;
+    ontolex:sense :गोभी_sense_1,
+        :गोभी_sense_2 .
+
+:चाय_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chá> ;
+    lexinfo:etymology "chá (Source: Dalgado); Persian [P. cāʾe] (Source: McGregor)" ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#چائے> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :चाय_lemma ;
+    ontolex:sense :चाय_sense_1,
+        :चाय_sense_2 .
+
+:जंगला_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#janela> ;
+    lexinfo:etymology "janela (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#جَن٘گْلا⁩> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :जंगला_lemma ;
+    ontolex:lexicalForm :जंगले_dp_form_जंगला,
+        :जंगले_os_form_जंगला,
+        :जंगले_vs_form_जंगला,
+        :जंगलो_vp_form_जंगला,
+        :जंगलों_op_form_जंगला ;
+    ontolex:sense :जंगला_sense_1,
+        :जंगला_sense_2 .
+
+:तूफ़ान_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tufão> ;
+    lexinfo:etymology "? tufão (Source: Dalgado); Persian طوفان (Source: Wiktionary, McGregor)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#طوفان> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :तूफ़ान_lemma ;
+    ontolex:sense :तूफ़ान_sense_1,
+        :तूफ़ान_sense_2 .
+
+:पिरिच_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pires> ;
+    lexinfo:etymology "pires (Source: Dalgado); English press (Source: Wiktionary, McGregor)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پرچ> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :पिरिच_lemma ;
+    ontolex:sense :पिरिच_sense_1,
+        :पिरिच_sense_2 .
+
+:बंबा_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pompa> ;
+    lexinfo:etymology "NaN"^^xsd:double ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بمبہ⁩> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 304 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :बंबा_lemma ;
+    ontolex:lexicalForm :बंबे_dp_form_बंबा,
+        :बंबे_os_form_बंबा,
+        :बंबे_vs_form_बंबा,
+        :बंबो_vp_form_बंबा,
+        :बंबों_op_form_बंबा ;
+    ontolex:sense :बंबा_sense_1,
+        :बंबा_sense_2 .
+
+:बटन_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#botão> ;
+    lexinfo:etymology "botão (Source: Dalgado); English button (Source: Dasa)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بٹن> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :बटन_lemma ;
+    ontolex:sense :बटन_sense_1,
+        :बटन_sense_2 .
+
+:भाप_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bafo> ;
+    lexinfo:etymology "? bafo (Source: Dalgado); Sanksrit वाष्प  (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بھاپ> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :भाप_lemma ;
+    ontolex:sense :भाप_sense_1,
+        :भाप_sense_2 .
+
+:मिस्त्री_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestre> ;
+    lexinfo:etymology "mestre (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧مِسْتْری⁩> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :मिस्त्री_lemma ;
+    ontolex:lexicalForm :मिस्त्रियो_vp_form_मिस्त्री,
+        :मिस्त्रियों_op_form_मिस्त्री,
+        :मिस्त्री_dp_form_मिस्त्री,
+        :मिस्त्री_os_form_मिस्त्री,
+        :मिस्त्री_vs_form_मिस्त्री ;
+    ontolex:sense :मिस्त्री_sense_1,
+        :मिस्त्री_sense_2 .
+
+:शर्ती_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#sorte> ;
+    lexinfo:etymology "sorte (Source: Dalgado); Arabic شَرْط (Source: Wiktionary)" ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#شرط> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :शर्ती_lemma ;
+    ontolex:sense :शर्ती_sense_1,
+        :शर्ती_sense_2 .
+
+:फ़ालतू_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#falto> ;
+    lexinfo:etymology "falto (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:unknown ;
+    lexinfo:partOfSpeech lexinfo:nan ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#فالتو> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
+    ontolex:canonicalForm :फ़ालतू_lemma ;
+    ontolex:sense :फ़ालतू_sense_1,
+        :फ़ालतू_sense_2,
+        :फ़ालतू_sense_3 .
 
 :फ़ीता_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -3418,31 +3478,22 @@
         :फ़ीते_vs_form_फ़ीता,
         :फ़ीतो_vp_form_फ़ीता,
         :फ़ीतों_op_form_फ़ीता ;
-    ontolex:sense :फ़ीता_sense .
+    ontolex:sense :फ़ीता_sense_1,
+        :फ़ीता_sense_2,
+        :फ़ीता_sense_3 .
 
-:फ़ीता_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:directCase ;
-    lexinfo:number lexinfo:singular ;
-    ontolex:phoneticRep "fiː.t̪ɑː"@hi-fonipa,
-        "pʰiː.t̪ɑː"@hi-fonipa ;
-    ontolex:writtenRep "fītā"@hi-Deva,
-        "फ़ीता"@hi-Deva .
-
-:फ़ीता_sense a ontolex:LexicalSense ;
-    skos:definition "1. unnecessary, pointless  2. bad; not nice; of poor quality  3. useless, irrelevant, good-for-nothing (used for someone)" ;
-    ontolex:isSenseOf :फ़ीता_entry .
-
-:फ़र्मा_entry a ontolex:LexicalEntry,
+:कंपू_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#forma> ;
-    lexinfo:etymology "forma (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#campo> ;
+    lexinfo:etymology "campo (Source: Dalgado); English camp (Source: McGregor)" ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
             frac:observedIn <https://www.sketchengine.eu/hitenten-hindi-corpus/> ] ;
-    ontolex:canonicalForm :फ़र्मा_lemma ;
-    ontolex:sense :फ़र्मा_sense_1,
-        :फ़र्मा_sense_2,
-        :फ़र्मा_sense_3 .
+    ontolex:canonicalForm :कंपू_lemma ;
+    ontolex:sense :कंपू_sense_1,
+        :कंपू_sense_2,
+        :कंपू_sense_3,
+        :कंपू_sense_4 .
 
