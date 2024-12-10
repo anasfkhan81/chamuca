@@ -9,7 +9,7 @@ hind_lex ={'name':'chamuca_hi_lex', 'desc':'Lexical information derived in part 
 port_lex = {'name':'chamuca_port_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['pt'], 'entries': {}}
 urdu_lex  = {'name':'chamuca_ur_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['ur'], 'entries': {}}
 gend = lambda g: 'masculine' if g == 'm.' else 'feminine' if g == 'f.' else 'unknown'
-pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'nan'
+pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'interjection' if ps == 'Interjection' else 'nan'
 #lemma = lambda head, trans, ipa: {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
 lemma = lambda scr1, scr2, head, trans, ipa: {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': str(head)+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
 #lemma_mi = lambda head, trans : {'rep':[(head, "hi-Deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase'}
@@ -65,11 +65,11 @@ def upload_pt():
     df2 = pd.read_csv("PtLex.tsv", sep='\t')
     senseIndex = ('', 1)
     for index, row in df2.iterrows():
-        lemma = row['Lemma']
+        lemma = str(row['Lemma']).replace(' ','')
         word_id = lemma +'_entry'
-        gr = genp(row['Grammatical Gender'])
-        pos = posp(row['Part of Speech'])
-        formstrings = [substring.strip() for substring in row['Singular and Plural'].split(',')]
+        gr = genp(row['Gender'])
+        pos = posp(row['Part_of_Speech'])
+        formstrings = [substring.strip() for substring in str(row['Singular and Plural']).split(',')]
         forms_1 = {'rep':[(lemma, "pt")], 'lemma':True, 'id':lemma+'_lemma', 'number':'singular'}
         if len(formstrings)==2: 
             forms_2 = {'rep':[(formstrings[1], "pt")], 'lemma':False, 'id':lemma+'_plural', 'number':'plural'}
@@ -79,11 +79,11 @@ def upload_pt():
             forms = [forms_1]
     
         if senseIndex[0] == lemma:
-            port_lex['entries'][word_id]['sense'] = port_lex['entries'][word_id]['sense']+[{'id': lemma+'_sense_'+str(senseIndex[1]), 'def':row['definition']}]
+            port_lex['entries'][word_id]['sense'] = port_lex['entries'][word_id]['sense']+[{'id': lemma+'_sense_'+str(senseIndex[1]), 'def':row['Definition']}]
             senseIndex = (lemma, senseIndex[1]+1)
         else:
-            senseContent = [{'id': lemma+'_sense_1', 'def':row['definition']}]
-            port_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos': pos, 'sense':senseContent, 'form':forms}
+            senseContent = [{'id': lemma+'_sense_1', 'def':row['Definition']}]
+            port_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos': str(pos), 'sense':senseContent, 'form':forms}
             senseIndex = (lemma, 2)
         
     return port_lex

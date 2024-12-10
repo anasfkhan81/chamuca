@@ -8,37 +8,129 @@
 
 <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> a lime:Lexicon ;
     dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
-    lime:entry :agosto_entry,
+    lime:entry :achar_entry,
+        :agosto_entry,
         :aia_entry,
         :alfinete_entry,
+        :ama_entry,
+        :amém_entry,
         :ananás_entry,
+        :anis_entry,
         :armário_entry,
+        :arrátel_entry,
+        :ata_entry,
+        :bacia_entry,
+        :bacio_entry,
+        :bafo_entry,
+        :baixel_entry,
         :balde_entry,
         :baptismo_entry,
+        :basta_entry,
+        :baú_entry,
+        :beringela_entry,
+        :biscoito_entry,
+        :bomba_entry,
         :botelha_entry,
+        :botão_entry,
+        :caju_entry,
+        :calafate_entry,
+        :camisa_entry,
+        :campo_entry,
+        :candil_entry,
+        :capitão_entry,
+        :carabina_entry,
+        :carraguem_entry,
+        :cartucho_entry,
+        :casa_entry,
+        :católico_entry,
         :chave_entry,
+        :chá_entry,
+        :cifra_entry,
+        :cocheiro_entry,
+        :compasso_entry,
+        :cordão_entry,
+        :coronel_entry,
+        :couve_entry,
         :cristão_entry,
         :cruz_entry,
+        :cunha_entry,
         :câmara_entry,
         :dezembro_entry,
         :espada_entry,
         :estirar_entry,
         :estábulo_entry,
+        :falto_entry,
         :fita_entry,
+        :forma_entry,
+        :gentio_entry,
+        :gudão_entry,
+        :holandês_entry,
         :hospital_entry,
         :igreja_entry,
         :inglês_entry,
+        :jalapa_entry,
+        :janela_entry,
+        :jogar_entry,
+        :leilão_entry,
+        :limão_entry,
+        :linguiça_entry,
+        :lâmpada_entry,
         :martelo_entry,
+        :mastro_entry,
+        :mesa_entry,
+        :mestiço_entry,
         :mestre_entry,
+        :mármore_entry,
+        :mês_entry,
+        :música_entry,
+        :nan_entry,
         :outubro_entry,
         :padre_entry,
+        :paga_entry,
+        :papaia_entry,
+        :peru_entry,
         :pipa_entry,
+        :pires_entry,
         :pistola_entry,
+        :polícia_entry,
         :pompa_entry,
+        :prato_entry,
+        :prego_entry,
+        :página_entry,
+        :pão_entry,
+        :querubim_entry,
+        :recibo_entry,
+        :sabão_entry,
+        :sagu_entry,
         :saia_entry,
+        :salada_entry,
+        :salsaparrilha_entry,
         :setembro_entry,
-        :varanda_entry ;
+        :sofá_entry,
+        :sorte_entry,
+        :tabaco_entry,
+        :tambor_entry,
+        :toalha_entry,
+        :toronja_entry,
+        :tropa_entry,
+        :tufão_entry,
+        :varanda_entry,
+        :verruma_entry,
+        :âmbar_entry,
+        :órgão_entry ;
     lime:language "pt" .
+
+:achar_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "achar"@pt .
+
+:achar_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "achares"@pt .
+
+:achar_sense_1 a ontolex:LexicalSense ;
+    skos:definition "conserva indiana (de peixe, fruta ou vegetal)" ;
+    ontolex:isSenseOf :achar_entry .
 
 :agosto_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -61,11 +153,11 @@
     ontolex:writtenRep "aias"@pt .
 
 :aia_sense_1 a ontolex:LexicalSense ;
-    skos:definition "criada para companhia" ;
+    skos:definition "criada de quarto; criada particular; camareira" ;
     ontolex:isSenseOf :aia_entry .
 
 :aia_sense_2 a ontolex:LexicalSense ;
-    skos:definition "criada de quarto; criada particular; camareira" ;
+    skos:definition "criada para companhia" ;
     ontolex:isSenseOf :aia_entry .
 
 :alfinete_lemma a ontolex:Form ;
@@ -80,9 +172,29 @@
     skos:definition "pequena peça de metal pontiaguda num lado com cabeça" ;
     ontolex:isSenseOf :alfinete_entry .
 
-:alfinete_sense_2 a ontolex:LexicalSense ;
-    skos:definition "joia que os homens pregam na gravata" ;
-    ontolex:isSenseOf :alfinete_entry .
+:ama_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "ama"@pt .
+
+:ama_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "amas"@pt .
+
+:ama_sense_1 a ontolex:LexicalSense ;
+    skos:definition "criada, aia" ;
+    ontolex:isSenseOf :ama_entry .
+
+:ama_sense_2 a ontolex:LexicalSense ;
+    skos:definition "mulher que amamenta filho alheio" ;
+    ontolex:isSenseOf :ama_entry .
+
+:amém_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "amém"@pt .
+
+:amém_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :amém_entry .
 
 :ananás_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -100,6 +212,18 @@
     skos:definition "ananaseiro, planta da família das Bromeliáceas cultivada pelos seus saborosos frutos (Ananas comosus)" ;
     ontolex:isSenseOf :ananás_entry .
 
+:anis_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "anis"@pt .
+
+:anis_sense_1 a ontolex:LexicalSense ;
+    skos:definition "a semente desta planta." ;
+    ontolex:isSenseOf :anis_entry .
+
+:anis_sense_2 a ontolex:LexicalSense ;
+    skos:definition "planta (Pimpinella anisum) herbácea da família das umbelíferas com aplicações em farmácia, na culinária e na preparação de algumas bebidas alcoólicas." ;
+    ontolex:isSenseOf :anis_entry .
+
 :armário_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "armário"@pt .
@@ -111,6 +235,122 @@
 :armário_sense_1 a ontolex:LexicalSense ;
     skos:definition "(Móvel) móvel, normalmente de madeira ou metal, e que normalmente apresenta portas e prateleiras" ;
     ontolex:isSenseOf :armário_entry .
+
+:arrátel_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "arrátel"@pt .
+
+:arrátel_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "arráteis"@pt .
+
+:arrátel_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Metrologia e antigo) unidade de medida de massa de 459 g, equivalente à libra" ;
+    ontolex:isSenseOf :arrátel_entry .
+
+:ata_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "ata"@pt .
+
+:ata_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "atas"@pt .
+
+:ata_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Brasil e Botânica) fruta obtida da ateira" ;
+    ontolex:isSenseOf :ata_entry .
+
+:ata_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(Brasil e Botânica) planta que gera a ata2 (Annona coriacea)" ;
+    ontolex:isSenseOf :ata_entry .
+
+:bacia_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "bacia"@pt .
+
+:bacia_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "bacias"@pt .
+
+:bacia_sense_1 a ontolex:LexicalSense ;
+    skos:definition "a parte inferior do tronco" ;
+    ontolex:isSenseOf :bacia_entry .
+
+:bacia_sense_2 a ontolex:LexicalSense ;
+    skos:definition "bacio de cama" ;
+    ontolex:isSenseOf :bacia_entry .
+
+:bacia_sense_3 a ontolex:LexicalSense ;
+    skos:definition "o conjunto dos riachos e ribeiros afluentes de um rio" ;
+    ontolex:isSenseOf :bacia_entry .
+
+:bacia_sense_4 a ontolex:LexicalSense ;
+    skos:definition "recipiente redondo, de bordas largas, próprio para lavagens" ;
+    ontolex:isSenseOf :bacia_entry .
+
+:bacia_sense_5 a ontolex:LexicalSense ;
+    skos:definition "salva, bandeja" ;
+    ontolex:isSenseOf :bacia_entry .
+
+:bacio_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "bacio"@pt .
+
+:bacio_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "bacios"@pt .
+
+:bacio_sense_1 a ontolex:LexicalSense ;
+    skos:definition "bispote; penico" ;
+    ontolex:isSenseOf :bacio_entry .
+
+:bacio_sense_2 a ontolex:LexicalSense ;
+    skos:definition "vaso de noite" ;
+    ontolex:isSenseOf :bacio_entry .
+
+:bafo_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "bafo"@pt .
+
+:bafo_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "bafos"@pt .
+
+:bafo_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Brasil e gíria) conversa fiada; bazófia, gabolice, prosa; bafo de boca" ;
+    ontolex:isSenseOf :bafo_entry .
+
+:bafo_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(Figurado) abrigo; conchego; aconchego:" ;
+    ontolex:isSenseOf :bafo_entry .
+
+:bafo_sense_3 a ontolex:LexicalSense ;
+    skos:definition "ar exalado dos pulmões; hálito; sopro suave" ;
+    ontolex:isSenseOf :bafo_entry .
+
+:bafo_sense_4 a ontolex:LexicalSense ;
+    skos:definition "brisa; aragem; viração" ;
+    ontolex:isSenseOf :bafo_entry .
+
+:bafo_sense_5 a ontolex:LexicalSense ;
+    skos:definition "favorecimento; proteção; patrocínio" ;
+    ontolex:isSenseOf :bafo_entry .
+
+:baixel_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "baixel"@pt .
+
+:baixel_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "baixeis"@pt .
+
+:baixel_sense_1 a ontolex:LexicalSense ;
+    skos:definition "embarcação" ;
+    ontolex:isSenseOf :baixel_entry .
+
+:baixel_sense_2 a ontolex:LexicalSense ;
+    skos:definition "pequeno navio" ;
+    ontolex:isSenseOf :baixel_entry .
 
 :balde_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -136,6 +376,94 @@
     skos:definition "vide batismo" ;
     ontolex:isSenseOf :baptismo_entry .
 
+:basta_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "basta"@pt .
+
+:basta_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :basta_entry .
+
+:baú_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "baú"@pt .
+
+:baú_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "baús"@pt .
+
+:baú_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :baú_entry .
+
+:beringela_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "beringela"@pt .
+
+:beringela_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "beringelas"@pt .
+
+:beringela_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Botânica) o fruto dessa planta" ;
+    ontolex:isSenseOf :beringela_entry .
+
+:beringela_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(Botânica) planta solanácea de fruto roxo comestível, rico em iodo" ;
+    ontolex:isSenseOf :beringela_entry .
+
+:biscoito_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "biscoito"@pt .
+
+:biscoito_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "biscoitos"@pt .
+
+:biscoito_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(alimentação) alimento, geralmente doce, feito de farinha e assado até que se tornar crocante" ;
+    ontolex:isSenseOf :biscoito_entry .
+
+:biscoito_sense_2 a ontolex:LexicalSense ;
+    skos:definition "pequeno bolo seco e duro geralmente de formato cilíndrico ou cúbico" ;
+    ontolex:isSenseOf :biscoito_entry .
+
+:bomba_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "bomba"@pt .
+
+:bomba_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "bombas"@pt .
+
+:bomba_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Militar) artefato explosivo usado como arma, empregado em guerras contra alvos militares ou civis, que pode ser lançado ou plantado:" ;
+    ontolex:isSenseOf :bomba_entry .
+
+:bomba_sense_2 a ontolex:LexicalSense ;
+    skos:definition "alçapão de estábulo pelo qual despeja-se palha nos cochos" ;
+    ontolex:isSenseOf :bomba_entry .
+
+:bomba_sense_3 a ontolex:LexicalSense ;
+    skos:definition "aparelho usado para sugar ou impelir fluidos:" ;
+    ontolex:isSenseOf :bomba_entry .
+
+:bomba_sense_4 a ontolex:LexicalSense ;
+    skos:definition "canudo utilizado para tomar chimarrão, geralmente feito de madeira ou metal, achatado em sua extremidade inferior e cheio de pequenos furos que coam a erva-mate, permitindo a sucção apenas do líquido" ;
+    ontolex:isSenseOf :bomba_entry .
+
+:bomba_sense_5 a ontolex:LexicalSense ;
+    skos:definition "disco destinado a amortecer o choque entre vagões de comboio/trem" ;
+    ontolex:isSenseOf :bomba_entry .
+
+:bomba_sense_6 a ontolex:LexicalSense ;
+    skos:definition "dispositivo usado para inflar (especialmente pneus ou bolas):" ;
+    ontolex:isSenseOf :bomba_entry .
+
+:bomba_sense_7 a ontolex:LexicalSense ;
+    skos:definition "engenho pirotécnico composto de pólvora e estopim" ;
+    ontolex:isSenseOf :bomba_entry .
+
 :botelha_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "botelha"@pt .
@@ -148,9 +476,165 @@
     skos:definition "garrafa" ;
     ontolex:isSenseOf :botelha_entry .
 
-:botelha_sense_2 a ontolex:LexicalSense ;
-    skos:definition "(Trás-os-Montes) abóbora que é utilizada para recipiente do vinho" ;
-    ontolex:isSenseOf :botelha_entry .
+:botão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "botão"@pt .
+
+:botão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "botões"@pt .
+
+:botão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Vestuário) objeto usado no vestuário para manter junto extremidades de uma mesma peça em um ponto em que não tem ligação por tecido" ;
+    ontolex:isSenseOf :botão_entry .
+
+:caju_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "caju"@pt .
+
+:caju_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "cajus"@pt .
+
+:caju_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(botânica) planta homônima que produz esta fruta" ;
+    ontolex:isSenseOf :caju_entry .
+
+:caju_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(fruta) fruto oriundo do cajueiro" ;
+    ontolex:isSenseOf :caju_entry .
+
+:calafate_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "calafate"@pt .
+
+:calafate_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "calafates"@pt .
+
+:calafate_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Náutica) operário encarregado de calafetar, furar e encavilhar o costado e o fundo do navio, bem como de preparar as bombas de esgoto" ;
+    ontolex:isSenseOf :calafate_entry .
+
+:calafate_sense_2 a ontolex:LexicalSense ;
+    skos:definition "aquele que trabalha ou é especializado em calafetação (de tonéis, pisos de madeira etc.)" ;
+    ontolex:isSenseOf :calafate_entry .
+
+:camisa_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "camisa"@pt .
+
+:camisa_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "camisas"@pt .
+
+:camisa_sense_1 a ontolex:LexicalSense ;
+    skos:definition "peça de vestuário para vestir de dia em tecido leve para o tronco e braços com a fralda curta" ;
+    ontolex:isSenseOf :camisa_entry .
+
+:campo_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "campo"@pt .
+
+:campo_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "campos"@pt .
+
+:campo_sense_1 a ontolex:LexicalSense ;
+    skos:definition "grande área aberta usada para cultivo agrícola ou criação pecuária" ;
+    ontolex:isSenseOf :campo_entry .
+
+:candil_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "candil"@pt .
+
+:candil_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "candis"@pt .
+
+:candil_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Trás-os-Montes) antiga lâmpada, candeia" ;
+    ontolex:isSenseOf :candil_entry .
+
+:capitão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "capitão"@pt .
+
+:capitão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "capitães"@pt .
+
+:capitão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :capitão_entry .
+
+:carabina_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "carabina"@pt .
+
+:carabina_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "carabinas"@pt .
+
+:carabina_sense_1 a ontolex:LexicalSense ;
+    skos:definition "espingarda de cano longo usada pela cavalaria" ;
+    ontolex:isSenseOf :carabina_entry .
+
+:carabina_sense_2 a ontolex:LexicalSense ;
+    skos:definition "qualquer rifle leve de cano longo" ;
+    ontolex:isSenseOf :carabina_entry .
+
+:carraguem_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "carraguem"@pt .
+
+:carraguem_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :carraguem_entry .
+
+:cartucho_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "cartucho"@pt .
+
+:cartucho_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "cartuchos"@pt .
+
+:cartucho_sense_1 a ontolex:LexicalSense ;
+    skos:definition "carga para armas de fogo" ;
+    ontolex:isSenseOf :cartucho_entry .
+
+:cartucho_sense_2 a ontolex:LexicalSense ;
+    skos:definition "refil removível e geralmente descartável, que se encaixa em um aparelho ou objeto que utiliza o material de seu interior" ;
+    ontolex:isSenseOf :cartucho_entry .
+
+:casa_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "casa"@pt .
+
+:casa_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "casas"@pt .
+
+:casa_sense_1 a ontolex:LexicalSense ;
+    skos:definition "orifício por onde passa o botão da roupa ao ser abotoada" ;
+    ontolex:isSenseOf :casa_entry .
+
+:católico_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "católico"@pt .
+
+:católico_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "católicos"@pt .
+
+:católico_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Religião) que tem o catolicismo como religião" ;
+    ontolex:isSenseOf :católico_entry .
+
+:católico_sense_2 a ontolex:LexicalSense ;
+    skos:definition "pessoa que segue o catolicismo" ;
+    ontolex:isSenseOf :católico_entry .
 
 :chave_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -164,37 +648,121 @@
     skos:definition "objeto usado para abrir e fechar uma fechadura, algemas ou cadeado" ;
     ontolex:isSenseOf :chave_entry .
 
-:chave_sense_2 a ontolex:LexicalSense ;
-    skos:definition "sinal (junto com colchetes e parênteses) usado para agrupar elementos matemáticos em operações de prioridades diversas" ;
-    ontolex:isSenseOf :chave_entry .
+:chá_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "chá"@pt .
 
-:chave_sense_3 a ontolex:LexicalSense ;
-    skos:definition "clave musical" ;
-    ontolex:isSenseOf :chave_entry .
+:chá_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "chás"@pt .
 
-:chave_sense_4 a ontolex:LexicalSense ;
-    skos:definition "(Luta marcial) golpe usado para imobilizar o adversário" ;
-    ontolex:isSenseOf :chave_entry .
+:chá_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Por extensão) infusão de diversas plantas, como por exemplo chá de erva cidreira, de erva doce, de camomila, de boldo, etc" ;
+    ontolex:isSenseOf :chá_entry .
 
-:chave_sense_5 a ontolex:LexicalSense ;
-    skos:definition "(Biologia) descrição que auxilia a identificação de seres vivos" ;
-    ontolex:isSenseOf :chave_entry .
+:chá_sense_2 a ontolex:LexicalSense ;
+    skos:definition "a preparação de infusão das folhas de chá" ;
+    ontolex:isSenseOf :chá_entry .
 
-:chave_sense_6 a ontolex:LexicalSense ;
-    skos:definition "mecanismo que abre e fecha orifícios, permitindo controlar o som em instrumentos musicais" ;
-    ontolex:isSenseOf :chave_entry .
+:chá_sense_3 a ontolex:LexicalSense ;
+    skos:definition "as folhas secas dessa planta" ;
+    ontolex:isSenseOf :chá_entry .
 
-:chave_sense_7 a ontolex:LexicalSense ;
-    skos:definition "identificador que permite localizar informações em repositórios de dados" ;
-    ontolex:isSenseOf :chave_entry .
+:chá_sense_4 a ontolex:LexicalSense ;
+    skos:definition "planta da família das Teáceas, originária do Extremo Oriente, cultivada por causa de suas folhas que contêm um alcalóide, a teína (cafeína do chá)" ;
+    ontolex:isSenseOf :chá_entry .
 
-:chave_sense_8 a ontolex:LexicalSense ;
-    skos:definition "pedaço de informação, geralmente secreto, usado para personalizar cifras" ;
-    ontolex:isSenseOf :chave_entry .
+:cifra_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "cifra"@pt .
 
-:chave_sense_9 a ontolex:LexicalSense ;
-    skos:definition "sinal de pontuação: {}" ;
-    ontolex:isSenseOf :chave_entry .
+:cifra_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "cifras"@pt .
+
+:cifra_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Música) sistema de notação musical usado para indicar através de símbolos gráficos ou letras, os acordes a serem executados por um instrumento musical" ;
+    ontolex:isSenseOf :cifra_entry .
+
+:cifra_sense_2 a ontolex:LexicalSense ;
+    skos:definition "cálculo total" ;
+    ontolex:isSenseOf :cifra_entry .
+
+:cifra_sense_3 a ontolex:LexicalSense ;
+    skos:definition "explicação ou chave de uma escrita enigmática ou secreta" ;
+    ontolex:isSenseOf :cifra_entry .
+
+:cifra_sense_4 a ontolex:LexicalSense ;
+    skos:definition "monograma de um nome" ;
+    ontolex:isSenseOf :cifra_entry .
+
+:cifra_sense_5 a ontolex:LexicalSense ;
+    skos:definition "o mesmo que zero" ;
+    ontolex:isSenseOf :cifra_entry .
+
+:cifra_sense_6 a ontolex:LexicalSense ;
+    skos:definition "sinais convencionais de uma escrita que não deve ser compreendida por todos" ;
+    ontolex:isSenseOf :cifra_entry .
+
+:cocheiro_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "cocheiro"@pt .
+
+:cocheiro_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "cocheiros"@pt .
+
+:cocheiro_sense_1 a ontolex:LexicalSense ;
+    skos:definition "quem guia os cavalos de uma carroça, coche ou carruagem" ;
+    ontolex:isSenseOf :cocheiro_entry .
+
+:compasso_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "compasso"@pt .
+
+:compasso_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "compassos"@pt .
+
+:compasso_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :compasso_entry .
+
+:cordão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "cordão"@pt .
+
+:cordão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "cordões"@pt .
+
+:cordão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :cordão_entry .
+
+:coronel_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "coronel"@pt .
+
+:coronel_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "coronels"@pt .
+
+:coronel_sense_1 a ontolex:LexicalSense ;
+    skos:definition "patente militar, no Brasil entre o tenente-coronel e o general (abreviação: cel.)" ;
+    ontolex:isSenseOf :coronel_entry .
+
+:couve_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "couve"@pt .
+
+:couve_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "couves"@pt .
+
+:couve_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Botânica) planta hortense da família das crucíferas cujo nome científico é Brassica oleracea" ;
+    ontolex:isSenseOf :couve_entry .
 
 :cristão_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -220,6 +788,30 @@
     skos:definition "símbolo formado por dois planos, normalmente linhas, um orientado horizontalmente e outro na vertical, cruzando-se e formando um ângulo de 90 graus; a linha é, por vezes, maior para baixo do cruzamento" ;
     ontolex:isSenseOf :cruz_entry .
 
+:cunha_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "cunha"@pt .
+
+:cunha_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "cunhas"@pt .
+
+:cunha_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Carpintaria) peça que mantém na posição correta a lâmina existente em ferramentas como a plaina, a garlopa" ;
+    ontolex:isSenseOf :cunha_entry .
+
+:cunha_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(Geologia) porção de um maciço de terra que fica acima da superfície interna em relação à qual poderá escorregar por ruptura ou cisalhamento do solo" ;
+    ontolex:isSenseOf :cunha_entry .
+
+:cunha_sense_3 a ontolex:LexicalSense ;
+    skos:definition "(Heráldica) figura, resultante de estilização da forma dessas peças" ;
+    ontolex:isSenseOf :cunha_entry .
+
+:cunha_sense_4 a ontolex:LexicalSense ;
+    skos:definition "peça de metal ou madeira dura, em forma de prisma agudo em um dos lados, e que se insere no vértice de um corte para melhor fender algum material, bem como para calçar, nivelar, ajustar um peça qualquer" ;
+    ontolex:isSenseOf :cunha_entry .
+
 :câmara_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "câmara"@pt .
@@ -229,40 +821,16 @@
     ontolex:writtenRep "câmaras"@pt .
 
 :câmara_sense_1 a ontolex:LexicalSense ;
-    skos:definition "quarto de dormir" ;
-    ontolex:isSenseOf :câmara_entry .
-
-:câmara_sense_2 a ontolex:LexicalSense ;
     skos:definition "aposento destinado a uma pessoa" ;
     ontolex:isSenseOf :câmara_entry .
 
-:câmara_sense_3 a ontolex:LexicalSense ;
-    skos:definition "conjunto dos vereadores" ;
-    ontolex:isSenseOf :câmara_entry .
-
-:câmara_sense_4 a ontolex:LexicalSense ;
-    skos:definition "(política) assembleia de legisladores eleitos pelo povo" ;
-    ontolex:isSenseOf :câmara_entry .
-
-:câmara_sense_5 a ontolex:LexicalSense ;
-    skos:definition "cavidade e espaço fechado do corpo" ;
-    ontolex:isSenseOf :câmara_entry .
-
-:câmara_sense_6 a ontolex:LexicalSense ;
-    skos:definition "cavidade ou espaço entre as células vegetais" ;
-    ontolex:isSenseOf :câmara_entry .
-
-:câmara_sense_7 a ontolex:LexicalSense ;
-    skos:definition "aparelho usado para tirar fotografias ou filmar" ;
+:câmara_sense_2 a ontolex:LexicalSense ;
+    skos:definition "quarto de dormir" ;
     ontolex:isSenseOf :câmara_entry .
 
 :dezembro_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "dezembro"@pt .
-
-:dezembro_plural a ontolex:Form ;
-    lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "câmaras"@pt .
 
 :dezembro_sense_1 a ontolex:LexicalSense ;
     skos:definition "(cronônimo) décimo segundo e último mês do ano civil" ;
@@ -274,38 +842,22 @@
 
 :espada_plural a ontolex:Form ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "dezembros"@pt .
+    ontolex:writtenRep "espadas"@pt .
 
 :espada_sense_1 a ontolex:LexicalSense ;
     skos:definition "arma branca composta por um punho e uma lâmina pontiaguda e comprida, com um ou dois gumes" ;
-    ontolex:isSenseOf :espada_entry .
-
-:espada_sense_2 a ontolex:LexicalSense ;
-    skos:definition "(Figurado) poder militar" ;
-    ontolex:isSenseOf :espada_entry .
-
-:espada_sense_3 a ontolex:LexicalSense ;
-    skos:definition "(Brasil) peixe-espada" ;
-    ontolex:isSenseOf :espada_entry .
-
-:espada_sense_4 a ontolex:LexicalSense ;
-    skos:definition "(alquimia) símbolo imagético que representa o masculino" ;
     ontolex:isSenseOf :espada_entry .
 
 :estirar_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "estirar"@pt .
 
-:estirar_plural a ontolex:Form ;
-    lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "espadas"@pt .
-
 :estirar_sense_1 a ontolex:LexicalSense ;
-    skos:definition "esticar, estender" ;
+    skos:definition "(Medicina) distender (um músculo)" ;
     ontolex:isSenseOf :estirar_entry .
 
 :estirar_sense_2 a ontolex:LexicalSense ;
-    skos:definition "(Medicina) distender (um músculo)" ;
+    skos:definition "esticar, estender" ;
     ontolex:isSenseOf :estirar_entry .
 
 :estábulo_lemma a ontolex:Form ;
@@ -320,6 +872,26 @@
     skos:definition "alprendre ou curral, em que se abriga o gado" ;
     ontolex:isSenseOf :estábulo_entry .
 
+:falto_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "falto"@pt .
+
+:falto_sense_1 a ontolex:LexicalSense ;
+    skos:definition "imperfeito, com defeito" ;
+    ontolex:isSenseOf :falto_entry .
+
+:falto_sense_2 a ontolex:LexicalSense ;
+    skos:definition "que carece de" ;
+    ontolex:isSenseOf :falto_entry .
+
+:falto_sense_3 a ontolex:LexicalSense ;
+    skos:definition "que está desprovido" ;
+    ontolex:isSenseOf :falto_entry .
+
+:falto_sense_4 a ontolex:LexicalSense ;
+    skos:definition "que tem falta de, que está sem algo necessário" ;
+    ontolex:isSenseOf :falto_entry .
+
 :fita_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "fita"@pt .
@@ -333,32 +905,100 @@
     ontolex:isSenseOf :fita_entry .
 
 :fita_sense_2 a ontolex:LexicalSense ;
-    skos:definition "película de cinema" ;
-    ontolex:isSenseOf :fita_entry .
-
-:fita_sense_3 a ontolex:LexicalSense ;
     skos:definition "tira de tecido que serve para ornamentar, atar" ;
     ontolex:isSenseOf :fita_entry .
 
-:fita_sense_4 a ontolex:LexicalSense ;
-    skos:definition "sítio onde, nalgumas armas automáticas, são colocados os cartuchos" ;
-    ontolex:isSenseOf :fita_entry .
+:forma_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "forma"@pt .
 
-:fita_sense_5 a ontolex:LexicalSense ;
-    skos:definition "conceito que se faz de alguém" ;
-    ontolex:isSenseOf :fita_entry .
+:forma_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "formas"@pt .
 
-:fita_sense_6 a ontolex:LexicalSense ;
-    skos:definition "(Gíria) objeto" ;
-    ontolex:isSenseOf :fita_entry .
+:forma_sense_1 a ontolex:LexicalSense ;
+    skos:definition "aparência externa" ;
+    ontolex:isSenseOf :forma_entry .
 
-:fita_sense_7 a ontolex:LexicalSense ;
-    skos:definition "(Gíria) coisa, algo" ;
-    ontolex:isSenseOf :fita_entry .
+:forma_sense_2 a ontolex:LexicalSense ;
+    skos:definition "conjunto de superfícies que compõem um corpo" ;
+    ontolex:isSenseOf :forma_entry .
 
-:fita_sense_8 a ontolex:LexicalSense ;
-    skos:definition "(vídeo game) objeto feito de uma carcaça plástica que encerra um circuito com memória onde está gravado um jogo eletrônico e que tem uma saída com um bocal de encaixe a um eslote de leitura de console" ;
-    ontolex:isSenseOf :fita_entry .
+:forma_sense_3 a ontolex:LexicalSense ;
+    skos:definition "estado" ;
+    ontolex:isSenseOf :forma_entry .
+
+:forma_sense_4 a ontolex:LexicalSense ;
+    skos:definition "modo, jeito" ;
+    ontolex:isSenseOf :forma_entry .
+
+:forma_sense_5 a ontolex:LexicalSense ;
+    skos:definition "molde" ;
+    ontolex:isSenseOf :forma_entry .
+
+:gentio_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "gentio"@pt .
+
+:gentio_sense_1 a ontolex:LexicalSense ;
+    skos:definition "aquele que professa a religião pagã" ;
+    ontolex:isSenseOf :gentio_entry .
+
+:gentio_sense_2 a ontolex:LexicalSense ;
+    skos:definition "bárbaro" ;
+    ontolex:isSenseOf :gentio_entry .
+
+:gentio_sense_3 a ontolex:LexicalSense ;
+    skos:definition "estrangeiro" ;
+    ontolex:isSenseOf :gentio_entry .
+
+:gentio_sense_4 a ontolex:LexicalSense ;
+    skos:definition "idólatra" ;
+    ontolex:isSenseOf :gentio_entry .
+
+:gentio_sense_5 a ontolex:LexicalSense ;
+    skos:definition "indivíduo gentio" ;
+    ontolex:isSenseOf :gentio_entry .
+
+:gentio_sense_6 a ontolex:LexicalSense ;
+    skos:definition "não-israelita" ;
+    ontolex:isSenseOf :gentio_entry .
+
+:gentio_sense_7 a ontolex:LexicalSense ;
+    skos:definition "quantidade de gente" ;
+    ontolex:isSenseOf :gentio_entry .
+
+:gudão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "gudão"@pt .
+
+:gudão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "gudões"@pt .
+
+:gudão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "armazém, depósito" ;
+    ontolex:isSenseOf :gudão_entry .
+
+:holandês_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "holandês"@pt .
+
+:holandês_sense_1 a ontolex:LexicalSense ;
+    skos:definition "da Holanda ou dos seus habitantes" ;
+    ontolex:isSenseOf :holandês_entry .
+
+:holandês_sense_2 a ontolex:LexicalSense ;
+    skos:definition "língua germânica falada nos Países Baixos, em partes da Bélgica, Suriname e Antilhas Holandesas" ;
+    ontolex:isSenseOf :holandês_entry .
+
+:holandês_sense_3 a ontolex:LexicalSense ;
+    skos:definition "natural da Holanda (região dos Países Baixos) ou dos Países Baixos (também chamado de Holanda)" ;
+    ontolex:isSenseOf :holandês_entry .
+
+:holandês_sense_4 a ontolex:LexicalSense ;
+    skos:definition "relativo à língua holandesa" ;
+    ontolex:isSenseOf :holandês_entry .
 
 :hospital_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -398,19 +1038,143 @@
 
 :inglês_plural a ontolex:Form ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "igrejas"@pt .
+    ontolex:writtenRep "ingleses"@pt .
 
 :inglês_sense_1 a ontolex:LexicalSense ;
     skos:definition "da Inglaterra" ;
     ontolex:isSenseOf :inglês_entry .
 
 :inglês_sense_2 a ontolex:LexicalSense ;
-    skos:definition "natural da Inglaterra" ;
+    skos:definition "língua germânica ocidental originada na Inglaterra, mas atualmente falada em vários países do mundo, tanto oficialmente quanto como segundo idioma" ;
     ontolex:isSenseOf :inglês_entry .
 
 :inglês_sense_3 a ontolex:LexicalSense ;
-    skos:definition "língua germânica ocidental originada na Inglaterra, mas atualmente falada em vários países do mundo, tanto oficialmente quanto como segundo idioma" ;
+    skos:definition "natural da Inglaterra" ;
     ontolex:isSenseOf :inglês_entry .
+
+:inglês_sense_4 a ontolex:LexicalSense ;
+    skos:definition "relativo à Inglaterra, seu povo, cultura e língua" ;
+    ontolex:isSenseOf :inglês_entry .
+
+:jalapa_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "jalapa"@pt .
+
+:jalapa_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "jalapas"@pt .
+
+:jalapa_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Bairrada) vinho estragado ou de má qualidade; água-pé" ;
+    ontolex:isSenseOf :jalapa_entry .
+
+:jalapa_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(botânica) diversas plantas purgativa convolvuláceas e apocináceas recebem este nome; especialmente a Ipomoea purga" ;
+    ontolex:isSenseOf :jalapa_entry .
+
+:jalapa_sense_3 a ontolex:LexicalSense ;
+    skos:definition "(botânica) maravilha (Mirabilis jalapa)" ;
+    ontolex:isSenseOf :jalapa_entry .
+
+:jalapa_sense_4 a ontolex:LexicalSense ;
+    skos:definition "a raiz de estas planta anteriores" ;
+    ontolex:isSenseOf :jalapa_entry .
+
+:jalapa_sense_5 a ontolex:LexicalSense ;
+    skos:definition "purgante preparado com a raiz de estas plantas" ;
+    ontolex:isSenseOf :jalapa_entry .
+
+:janela_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "janela"@pt .
+
+:janela_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "janelas"@pt .
+
+:janela_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Interface gráfica) área na tela de um computador, de apresentação componível de diversos elementos gráficos, e que se destina ao uso de um aplicativo" ;
+    ontolex:isSenseOf :janela_entry .
+
+:janela_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(Nos meios de transporte) lugar o mais próximo à janela" ;
+    ontolex:isSenseOf :janela_entry .
+
+:janela_sense_3 a ontolex:LexicalSense ;
+    skos:definition "buraco na parede, geralmente retangular, feito para permitir a entrada de luz e ar" ;
+    ontolex:isSenseOf :janela_entry .
+
+:jogar_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "jogar"@pt .
+
+:jogar_sense_1 a ontolex:LexicalSense ;
+    skos:definition "atuar, proceder" ;
+    ontolex:isSenseOf :jogar_entry .
+
+:jogar_sense_2 a ontolex:LexicalSense ;
+    skos:definition "entregar-se ao jogo" ;
+    ontolex:isSenseOf :jogar_entry .
+
+:jogar_sense_3 a ontolex:LexicalSense ;
+    skos:definition "fazer apostas em jogo" ;
+    ontolex:isSenseOf :jogar_entry .
+
+:jogar_sense_4 a ontolex:LexicalSense ;
+    skos:definition "participar do jogo de" ;
+    ontolex:isSenseOf :jogar_entry .
+
+:leilão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "leilão"@pt .
+
+:leilão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "leilões"@pt .
+
+:leilão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :leilão_entry .
+
+:limão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "limão"@pt .
+
+:limão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "limões"@pt .
+
+:limão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :limão_entry .
+
+:linguiça_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "linguiça"@pt .
+
+:linguiça_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "linguiças"@pt .
+
+:linguiça_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Portugal e Alentejo) chouriço de carne" ;
+    ontolex:isSenseOf :linguiça_entry .
+
+:linguiça_sense_2 a ontolex:LexicalSense ;
+    skos:definition "espécie de chouriço delgado, de carne de porco" ;
+    ontolex:isSenseOf :linguiça_entry .
+
+:lâmpada_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "lâmpada"@pt .
+
+:lâmpada_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "lâmpadas"@pt .
+
+:lâmpada_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :lâmpada_entry .
 
 :martelo_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -418,35 +1182,59 @@
 
 :martelo_plural a ontolex:Form ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "ingleses"@pt .
+    ontolex:writtenRep "martelos"@pt .
 
 :martelo_sense_1 a ontolex:LexicalSense ;
-    skos:definition "ferramenta com cabo de madeira e na extremidade uma peça de metal com uma superfície lisa, usada para bater em pregos" ;
-    ontolex:isSenseOf :martelo_entry .
-
-:martelo_sense_2 a ontolex:LexicalSense ;
     skos:definition "arma medieval" ;
     ontolex:isSenseOf :martelo_entry .
 
-:martelo_sense_3 a ontolex:LexicalSense ;
-    skos:definition "(Anatomia) osso em forma de martelo1, localizado na orelha média" ;
+:martelo_sense_2 a ontolex:LexicalSense ;
+    skos:definition "ferramenta com cabo de madeira e na extremidade uma peça de metal com uma superfície lisa, usada para bater em pregos" ;
     ontolex:isSenseOf :martelo_entry .
 
-:martelo_sense_4 a ontolex:LexicalSense ;
-    skos:definition "(Capoeira) chute semicircular, no qual se usa o dorso do pé para golpear o adversário no rosto ou no tronco" ;
-    ontolex:isSenseOf :martelo_entry .
+:mastro_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "mastro"@pt .
 
-:martelo_sense_5 a ontolex:LexicalSense ;
-    skos:definition "(entomologia) inseto homóptero da família dos diaspidídeos" ;
-    ontolex:isSenseOf :martelo_entry .
+:mastro_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "mastros"@pt .
 
-:martelo_sense_6 a ontolex:LexicalSense ;
-    skos:definition "(desporto) bola de metal que é empunhada e atirada a distância em competições de atletismo" ;
-    ontolex:isSenseOf :martelo_entry .
+:mastro_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Arcaísmo) masto" ;
+    ontolex:isSenseOf :mastro_entry .
 
-:martelo_sense_7 a ontolex:LexicalSense ;
-    skos:definition "(Matemática) sinal usado em lógica, formado de uma linha vertical seguida de uma linha horizontal, usado, entre outras formas, para denotar uma relação de consequência, com respeito a um dado sistema lógico, entre uma coleção de fórmulas e uma fórmula" ;
-    ontolex:isSenseOf :martelo_entry .
+:mastro_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(Náutica) peça de madeira ou de metal, alta e reta, montada verticalmente no centro e nas extremidades das embarcações, para sustentação das velas" ;
+    ontolex:isSenseOf :mastro_entry .
+
+:mesa_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "mesa"@pt .
+
+:mesa_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "mesas"@pt .
+
+:mesa_sense_1 a ontolex:LexicalSense ;
+    skos:definition "conjunto de objetos colocados sob a mesa1 móvel durante uma refeição" ;
+    ontolex:isSenseOf :mesa_entry .
+
+:mesa_sense_2 a ontolex:LexicalSense ;
+    skos:definition "móvel usado como superfície para se alimentar, conversar, estudar; távola" ;
+    ontolex:isSenseOf :mesa_entry .
+
+:mestiço_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "mestiço"@pt .
+
+:mestiço_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "mestiços"@pt .
+
+:mestiço_sense_1 a ontolex:LexicalSense ;
+    skos:definition "descendente de pai de mãe de raças diferentes" ;
+    ontolex:isSenseOf :mestiço_entry .
 
 :mestre_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -454,63 +1242,87 @@
 
 :mestre_plural a ontolex:Form ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "martelos"@pt .
+    ontolex:writtenRep "mestres"@pt .
 
 :mestre_sense_1 a ontolex:LexicalSense ;
-    skos:definition "superior" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_10 a ontolex:LexicalSense ;
-    skos:definition "patrão, comandante, capitão etc., o que tem autoridade nos barcos de pesca ou de pequena cabotagem" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_11 a ontolex:LexicalSense ;
-    skos:definition "o contramestre mais antigo, encarregado da limpeza e conservação e da disciplina da tripulação do convés de embarcação mercante" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_12 a ontolex:LexicalSense ;
-    skos:definition "dirigente de um grupo musical" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_13 a ontolex:LexicalSense ;
-    skos:definition "(Nordeste do Brasil) título dado a um bom sanfoneiro" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_14 a ontolex:LexicalSense ;
-    skos:definition "(Maçonaria) terceiro e máximo grau da maçonaria simbólica, sucedendo ao grau de companheiro; nesse grau se atinge a plenitude da vida maçônica" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_2 a ontolex:LexicalSense ;
-    skos:definition "extraordinário" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_3 a ontolex:LexicalSense ;
-    skos:definition "básico, fundamental" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_4 a ontolex:LexicalSense ;
-    skos:definition "principal" ;
-    ontolex:isSenseOf :mestre_entry .
-
-:mestre_sense_5 a ontolex:LexicalSense ;
     skos:definition "(Profissão) pessoa que domina um ofício, atividade ou conhecimento" ;
     ontolex:isSenseOf :mestre_entry .
 
-:mestre_sense_6 a ontolex:LexicalSense ;
+:mestre_sense_2 a ontolex:LexicalSense ;
     skos:definition "(Profissão) pessoa que ensina" ;
     ontolex:isSenseOf :mestre_entry .
 
-:mestre_sense_7 a ontolex:LexicalSense ;
+:mestre_sense_3 a ontolex:LexicalSense ;
     skos:definition "chefe de fábrica" ;
     ontolex:isSenseOf :mestre_entry .
 
-:mestre_sense_8 a ontolex:LexicalSense ;
+:mestre_sense_4 a ontolex:LexicalSense ;
     skos:definition "chefe de operários ou pedreiros" ;
     ontolex:isSenseOf :mestre_entry .
 
-:mestre_sense_9 a ontolex:LexicalSense ;
-    skos:definition "superior de ordem religiosa ou militar" ;
+:mestre_sense_5 a ontolex:LexicalSense ;
+    skos:definition "o contramestre mais antigo, encarregado da limpeza e conservação e da disciplina da tripulação do convés de embarcação mercante" ;
     ontolex:isSenseOf :mestre_entry .
+
+:mestre_sense_6 a ontolex:LexicalSense ;
+    skos:definition "patrão, comandante, capitão etc., o que tem autoridade nos barcos de pesca ou de pequena cabotagem" ;
+    ontolex:isSenseOf :mestre_entry .
+
+:mármore_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "mármore"@pt .
+
+:mármore_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "mármores"@pt .
+
+:mármore_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Geologia) rocha metamórfica de variadas cores, originada do calcário exposto a altas temperaturas e pressão; é muito empregada na arquitetura, construção cívil e na fabricação de estátuas e ornamentos" ;
+    ontolex:isSenseOf :mármore_entry .
+
+:mármore_sense_2 a ontolex:LexicalSense ;
+    skos:definition "objeto artístico feito de mármore" ;
+    ontolex:isSenseOf :mármore_entry .
+
+:mês_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "mês"@pt .
+
+:mês_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "meses"@pt .
+
+:mês_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(cronônimo) cada uma das doze partes em que se divide o ano" ;
+    ontolex:isSenseOf :mês_entry .
+
+:mês_sense_2 a ontolex:LexicalSense ;
+    skos:definition "(cronônimo) período de trinta dias, começando a contar de qualquer data" ;
+    ontolex:isSenseOf :mês_entry .
+
+:mês_sense_3 a ontolex:LexicalSense ;
+    skos:definition "remuneração mensal de um trabalhador" ;
+    ontolex:isSenseOf :mês_entry .
+
+:música_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "música"@pt .
+
+:música_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep ""@pt .
+
+:música_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :música_entry .
+
+:nan_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "nan"@pt .
+
+:nan_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :nan_entry .
 
 :outubro_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -518,7 +1330,7 @@
 
 :outubro_plural a ontolex:Form ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "mestres"@pt .
+    ontolex:writtenRep "outubros"@pt .
 
 :outubro_sense_1 a ontolex:LexicalSense ;
     skos:definition "(cronônimo) décimo mês do ano civil" ;
@@ -530,15 +1342,51 @@
 
 :padre_plural a ontolex:Form ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "outubros"@pt .
+    ontolex:writtenRep "padres"@pt .
 
 :padre_sense_1 a ontolex:LexicalSense ;
     skos:definition "membro da igreja católica; sacerdote" ;
     ontolex:isSenseOf :padre_entry .
 
-:padre_sense_2 a ontolex:LexicalSense ;
-    skos:definition "(antigo) pai" ;
-    ontolex:isSenseOf :padre_entry .
+:paga_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "paga"@pt .
+
+:paga_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "pagas"@pt .
+
+:paga_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :paga_entry .
+
+:papaia_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "papaia"@pt .
+
+:papaia_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "papaias"@pt .
+
+:papaia_sense_1 a ontolex:LexicalSense ;
+    skos:definition "árvore da família das cariáceas (Carica papaya) cujo fruto é o mamão" ;
+    ontolex:isSenseOf :papaia_entry .
+
+:papaia_sense_2 a ontolex:LexicalSense ;
+    skos:definition "o fruto da mamoeiro com casca amarelo-esverdeada, interior alaranjado e pequenas sementes pretas" ;
+    ontolex:isSenseOf :papaia_entry .
+
+:peru_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "peru"@pt .
+
+:peru_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "perus"@pt .
+
+:peru_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Zoologia) ave da família dos Fasianídeos apreciada em culinária" ;
+    ontolex:isSenseOf :peru_entry .
 
 :pipa_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -546,39 +1394,27 @@
 
 :pipa_plural a ontolex:Form ;
     lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "padres"@pt .
+    ontolex:writtenRep "pipas"@pt .
 
 :pipa_sense_1 a ontolex:LexicalSense ;
-    skos:definition "recipiente de madeira usado para guardar vinho, azeite, etc." ;
-    ontolex:isSenseOf :pipa_entry .
-
-:pipa_sense_2 a ontolex:LexicalSense ;
     skos:definition "medida de capacidade de 550 litros" ;
     ontolex:isSenseOf :pipa_entry .
 
-:pipa_sense_3 a ontolex:LexicalSense ;
-    skos:definition "(Figurado) pessoa baixa e gorda" ;
+:pipa_sense_2 a ontolex:LexicalSense ;
+    skos:definition "recipiente de madeira usado para guardar vinho, azeite, etc." ;
     ontolex:isSenseOf :pipa_entry .
 
-:pipa_sense_4 a ontolex:LexicalSense ;
-    skos:definition "(popular) pessoa que bebe demasiado" ;
-    ontolex:isSenseOf :pipa_entry .
+:pires_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "pires"@pt .
 
-:pipa_sense_5 a ontolex:LexicalSense ;
-    skos:definition "(popular) utensílio usado por crianças para brincar, de forma quadrangular, geralmente feito com armação de madeira, cola e papel colorido, com ou sem rabiola e que usa-se linha para suster e controlar a subida no fluxo de pressão ascedente no ar" ;
-    ontolex:isSenseOf :pipa_entry .
+:pires_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep ""@pt .
 
-:pipa_sense_6 a ontolex:LexicalSense ;
-    skos:definition "certo instrumento de corda chinês" ;
-    ontolex:isSenseOf :pipa_entry .
-
-:pipa_sense_7 a ontolex:LexicalSense ;
-    skos:definition "(Eufemismo) pênis" ;
-    ontolex:isSenseOf :pipa_entry .
-
-:pipa_sense_8 a ontolex:LexicalSense ;
-    skos:definition "(Brasil e popular) zangado, indignado com alguma coisa" ;
-    ontolex:isSenseOf :pipa_entry .
+:pires_sense_1 a ontolex:LexicalSense ;
+    skos:definition "pratinho sobre o qual se coloca a chávena" ;
+    ontolex:isSenseOf :pires_entry .
 
 :pistola_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -589,16 +1425,28 @@
     ontolex:writtenRep "pistolas"@pt .
 
 :pistola_sense_1 a ontolex:LexicalSense ;
-    skos:definition "arma de fogo bastante similar ao revólver" ;
-    ontolex:isSenseOf :pistola_entry .
-
-:pistola_sense_2 a ontolex:LexicalSense ;
     skos:definition "antiga moeda de alguns países" ;
     ontolex:isSenseOf :pistola_entry .
 
-:pistola_sense_3 a ontolex:LexicalSense ;
-    skos:definition "(Minas Gerais, Rio de Janeiro e obsceno) pênis" ;
+:pistola_sense_2 a ontolex:LexicalSense ;
+    skos:definition "arma de fogo bastante similar ao revólver" ;
     ontolex:isSenseOf :pistola_entry .
+
+:polícia_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "polícia"@pt .
+
+:polícia_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "polícias"@pt .
+
+:polícia_sense_1 a ontolex:LexicalSense ;
+    skos:definition "corporação cujo objetivo é manter a ordem pública e garantir o cumprimento da lei" ;
+    ontolex:isSenseOf :polícia_entry .
+
+:polícia_sense_2 a ontolex:LexicalSense ;
+    skos:definition "funcionário dessa corporação" ;
+    ontolex:isSenseOf :polícia_entry .
 
 :pompa_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -612,25 +1460,133 @@
     skos:definition "NaN"^^xsd:double ;
     ontolex:isSenseOf :pompa_entry .
 
+:prato_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "prato"@pt .
+
+:prato_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "pratos"@pt .
+
+:prato_sense_1 a ontolex:LexicalSense ;
+    skos:definition "vasilha, normalmente de louça ou metal, em que se come ou se serve comida" ;
+    ontolex:isSenseOf :prato_entry .
+
+:prego_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "prego"@pt .
+
+:prego_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "pregos"@pt .
+
+:prego_sense_1 a ontolex:LexicalSense ;
+    skos:definition "objeto com corpo cilíndrico com uma das extremidades pontiaguda e outra achatada, usado para ser enfiado em paredes ou para unir duas peças (especialmente de madeira)" ;
+    ontolex:isSenseOf :prego_entry .
+
+:página_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "página"@pt .
+
+:página_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "páginas"@pt .
+
+:página_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :página_entry .
+
+:pão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "pão"@pt .
+
+:pão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "pães"@pt .
+
+:pão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(alimentação) alimento à base de farinha amassada, fermentada e assada em forno" ;
+    ontolex:isSenseOf :pão_entry .
+
+:pão_sense_2 a ontolex:LexicalSense ;
+    skos:definition "massa de pão1" ;
+    ontolex:isSenseOf :pão_entry .
+
+:querubim_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "querubim"@pt .
+
+:querubim_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "querubins"@pt .
+
+:querubim_sense_1 a ontolex:LexicalSense ;
+    skos:definition "anjo figurado por uma cabeça de criança com asas em pinturas ou esculturas" ;
+    ontolex:isSenseOf :querubim_entry .
+
+:querubim_sense_2 a ontolex:LexicalSense ;
+    skos:definition "uma das diversas sub-categorias de anjo na mitologia judeo-cristã" ;
+    ontolex:isSenseOf :querubim_entry .
+
+:recibo_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "recibo"@pt .
+
+:recibo_sense_1 a ontolex:LexicalSense ;
+    skos:definition "declaração escrita de se ter recebido algo; quitação" ;
+    ontolex:isSenseOf :recibo_entry .
+
+:sabão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "sabão"@pt .
+
+:sabão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "sabões"@pt .
+
+:sabão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :sabão_entry .
+
+:sagu_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "sagu"@pt .
+
+:sagu_sense_1 a ontolex:LexicalSense ;
+    skos:definition "No Brasil, o termo é usado principalmente para se referir ao produto amiláceo derivado da raiz de mandioca, também conhecido como Tapioca Pérola ou sagu artificial. Ele é similar à tapioca, porém seu processo produtivo transforma a fécula de mandioca em bolinhas duras e opacas também usado na alimentação." ;
+    ontolex:isSenseOf :sagu_entry .
+
+:sagu_sense_2 a ontolex:LexicalSense ;
+    skos:definition "Substância amilácea que se extrai da parte central dos sagueiros" ;
+    ontolex:isSenseOf :sagu_entry .
+
 :saia_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "saia"@pt .
 
-:saia_plural a ontolex:Form ;
-    lexinfo:number lexinfo:plural ;
-    ontolex:writtenRep "pompas"@pt .
-
 :saia_sense_1 a ontolex:LexicalSense ;
-    skos:definition "ostentação, luxo" ;
+    skos:definition "(Vestuário) peça de vestuário feminino que fica da cintura para baixo, no geral, até ao joelho" ;
     ontolex:isSenseOf :saia_entry .
 
-:saia_sense_2 a ontolex:LexicalSense ;
-    skos:definition "(Náutica) suplemento às velas latinas" ;
-    ontolex:isSenseOf :saia_entry .
+:salada_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "salada"@pt .
 
-:saia_sense_3 a ontolex:LexicalSense ;
-    skos:definition "(No plural) mulheres" ;
-    ontolex:isSenseOf :saia_entry .
+:salada_sense_1 a ontolex:LexicalSense ;
+    skos:definition "prato frio consistente de verduras e frutas" ;
+    ontolex:isSenseOf :salada_entry .
+
+:salsaparrilha_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "salsaparrilha"@pt .
+
+:salsaparrilha_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "salsaparrilhas"@pt .
+
+:salsaparrilha_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :salsaparrilha_entry .
 
 :setembro_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -644,6 +1600,142 @@
     skos:definition "(cronônimo) nono mês do ano civil" ;
     ontolex:isSenseOf :setembro_entry .
 
+:sofá_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "sofá"@pt .
+
+:sofá_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "sofás"@pt .
+
+:sofá_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :sofá_entry .
+
+:sorte_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "sorte"@pt .
+
+:sorte_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "sortes"@pt .
+
+:sorte_sense_1 a ontolex:LexicalSense ;
+    skos:definition "acaso ou coincidência feliz; contingência favorável" ;
+    ontolex:isSenseOf :sorte_entry .
+
+:sorte_sense_2 a ontolex:LexicalSense ;
+    skos:definition "destino, modo como (algo ou alguém) termina; termo, fim" ;
+    ontolex:isSenseOf :sorte_entry .
+
+:sorte_sense_3 a ontolex:LexicalSense ;
+    skos:definition "fortuna, característica daquele que frequentemente consegue o que quer; boa estrela, felicidade" ;
+    ontolex:isSenseOf :sorte_entry .
+
+:sorte_sense_4 a ontolex:LexicalSense ;
+    skos:definition "tipo, gênero" ;
+    ontolex:isSenseOf :sorte_entry .
+
+:tabaco_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "tabaco"@pt .
+
+:tabaco_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "tabacos"@pt .
+
+:tabaco_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Por metonímia) cigarro de tabaco ou conjunto deles" ;
+    ontolex:isSenseOf :tabaco_entry .
+
+:tabaco_sense_2 a ontolex:LexicalSense ;
+    skos:definition "as folhas servem para fumar, cheirar e mascar" ;
+    ontolex:isSenseOf :tabaco_entry .
+
+:tabaco_sense_3 a ontolex:LexicalSense ;
+    skos:definition "designação dos preparados (fumo, rapé, etc.) feitos com as folhas secas dessa planta" ;
+    ontolex:isSenseOf :tabaco_entry .
+
+:tabaco_sense_4 a ontolex:LexicalSense ;
+    skos:definition "planta herbácea da família das Solanáceas de origem americana" ;
+    ontolex:isSenseOf :tabaco_entry .
+
+:tambor_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "tambor"@pt .
+
+:tambor_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "tambores"@pt .
+
+:tambor_sense_1 a ontolex:LexicalSense ;
+    skos:definition "cilindro giratório onde se colocam as balas de um revólver" ;
+    ontolex:isSenseOf :tambor_entry .
+
+:tambor_sense_2 a ontolex:LexicalSense ;
+    skos:definition "instrumento musical do tipo membranofone, consistindo de uma membrana esticada sobre um tubo ou caixa de ressonância que pode ser de vários formatos" ;
+    ontolex:isSenseOf :tambor_entry .
+
+:toalha_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "toalha"@pt .
+
+:toalha_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "toalhas"@pt .
+
+:toalha_sense_1 a ontolex:LexicalSense ;
+    skos:definition "pano apropriado para cobrir a mesa onde se come" ;
+    ontolex:isSenseOf :toalha_entry .
+
+:toalha_sense_2 a ontolex:LexicalSense ;
+    skos:definition "pano próprio para enxugar o corpo ou qualquer parte dele" ;
+    ontolex:isSenseOf :toalha_entry .
+
+:toalha_sense_3 a ontolex:LexicalSense ;
+    skos:definition "peça de pano, geralmente com rendas, para cobrir o altar" ;
+    ontolex:isSenseOf :toalha_entry .
+
+:toronja_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "toronja"@pt .
+
+:toronja_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "toronjas"@pt .
+
+:toronja_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Botânica) fruto da toranjeira" ;
+    ontolex:isSenseOf :toronja_entry .
+
+:tropa_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "tropa"@pt .
+
+:tropa_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "tropas"@pt .
+
+:tropa_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :tropa_entry .
+
+:tufão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "tufão"@pt .
+
+:tufão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "tufões"@pt .
+
+:tufão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Meteorologia) ciclone tropical que atinge o oriente, ocorrendo principalmente nos mares da China" ;
+    ontolex:isSenseOf :tufão_entry .
+
+:tufão_sense_2 a ontolex:LexicalSense ;
+    skos:definition "ventania, vento muito forte, vento tempestuoso" ;
+    ontolex:isSenseOf :tufão_entry .
+
 :varanda_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "varanda"@pt .
@@ -656,6 +1748,50 @@
     skos:definition "(Arquitetura) sacada" ;
     ontolex:isSenseOf :varanda_entry .
 
+:verruma_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "verruma"@pt .
+
+:verruma_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "verrumas"@pt .
+
+:verruma_sense_1 a ontolex:LexicalSense ;
+    skos:definition "(Ferramenta) instrumento agudo em espiral usado para abrir furos na madeira, broca" ;
+    ontolex:isSenseOf :verruma_entry .
+
+:âmbar_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "âmbar"@pt .
+
+:âmbar_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "âmbares"@pt .
+
+:âmbar_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :âmbar_entry .
+
+:órgão_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "órgão"@pt .
+
+:órgão_plural a ontolex:Form ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "órgãos"@pt .
+
+:órgão_sense_1 a ontolex:LexicalSense ;
+    skos:definition "NaN"^^xsd:double ;
+    ontolex:isSenseOf :órgão_entry .
+
+:achar_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :achar_lemma ;
+    ontolex:lexicalForm :achar_plural ;
+    ontolex:sense :achar_sense_1 .
+
 :agosto_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:masculine ;
@@ -664,6 +1800,20 @@
     ontolex:lexicalForm :agosto_plural ;
     ontolex:sense :agosto_sense_1 .
 
+:alfinete_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :alfinete_lemma ;
+    ontolex:lexicalForm :alfinete_plural ;
+    ontolex:sense :alfinete_sense_1 .
+
+:amém_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:Interjection ;
+    ontolex:canonicalForm :amém_lemma ;
+    ontolex:sense :amém_sense_1 .
+
 :armário_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:masculine ;
@@ -671,6 +1821,14 @@
     ontolex:canonicalForm :armário_lemma ;
     ontolex:lexicalForm :armário_plural ;
     ontolex:sense :armário_sense_1 .
+
+:arrátel_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :arrátel_lemma ;
+    ontolex:lexicalForm :arrátel_plural ;
+    ontolex:sense :arrátel_sense_1 .
 
 :balde_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -687,6 +1845,130 @@
     ontolex:canonicalForm :baptismo_lemma ;
     ontolex:lexicalForm :baptismo_plural ;
     ontolex:sense :baptismo_sense_1 .
+
+:basta_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:Interjection ;
+    ontolex:canonicalForm :basta_lemma ;
+    ontolex:sense :basta_sense_1 .
+
+:baú_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :baú_lemma ;
+    ontolex:lexicalForm :baú_plural ;
+    ontolex:sense :baú_sense_1 .
+
+:botelha_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :botelha_lemma ;
+    ontolex:lexicalForm :botelha_plural ;
+    ontolex:sense :botelha_sense_1 .
+
+:botão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :botão_lemma ;
+    ontolex:lexicalForm :botão_plural ;
+    ontolex:sense :botão_sense_1 .
+
+:camisa_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :camisa_lemma ;
+    ontolex:lexicalForm :camisa_plural ;
+    ontolex:sense :camisa_sense_1 .
+
+:campo_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :campo_lemma ;
+    ontolex:lexicalForm :campo_plural ;
+    ontolex:sense :campo_sense_1 .
+
+:candil_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :candil_lemma ;
+    ontolex:lexicalForm :candil_plural ;
+    ontolex:sense :candil_sense_1 .
+
+:capitão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :capitão_lemma ;
+    ontolex:lexicalForm :capitão_plural ;
+    ontolex:sense :capitão_sense_1 .
+
+:carraguem_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:nan ;
+    ontolex:canonicalForm :carraguem_lemma ;
+    ontolex:sense :carraguem_sense_1 .
+
+:casa_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :casa_lemma ;
+    ontolex:lexicalForm :casa_plural ;
+    ontolex:sense :casa_sense_1 .
+
+:chave_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :chave_lemma ;
+    ontolex:lexicalForm :chave_plural ;
+    ontolex:sense :chave_sense_1 .
+
+:cocheiro_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :cocheiro_lemma ;
+    ontolex:lexicalForm :cocheiro_plural ;
+    ontolex:sense :cocheiro_sense_1 .
+
+:compasso_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :compasso_lemma ;
+    ontolex:lexicalForm :compasso_plural ;
+    ontolex:sense :compasso_sense_1 .
+
+:cordão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :cordão_lemma ;
+    ontolex:lexicalForm :cordão_plural ;
+    ontolex:sense :cordão_sense_1 .
+
+:coronel_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :coronel_lemma ;
+    ontolex:lexicalForm :coronel_plural ;
+    ontolex:sense :coronel_sense_1 .
+
+:couve_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :couve_lemma ;
+    ontolex:lexicalForm :couve_plural ;
+    ontolex:sense :couve_sense_1 .
 
 :cristão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -705,11 +1987,18 @@
 
 :dezembro_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :dezembro_lemma ;
-    ontolex:lexicalForm :dezembro_plural ;
     ontolex:sense :dezembro_sense_1 .
+
+:espada_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :espada_lemma ;
+    ontolex:lexicalForm :espada_plural ;
+    ontolex:sense :espada_sense_1 .
 
 :estábulo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -719,6 +2008,14 @@
     ontolex:lexicalForm :estábulo_plural ;
     ontolex:sense :estábulo_sense_1 .
 
+:gudão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :gudão_lemma ;
+    ontolex:lexicalForm :gudão_plural ;
+    ontolex:sense :gudão_sense_1 .
+
 :hospital_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:masculine ;
@@ -726,6 +2023,52 @@
     ontolex:canonicalForm :hospital_lemma ;
     ontolex:lexicalForm :hospital_plural ;
     ontolex:sense :hospital_sense_1 .
+
+:leilão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :leilão_lemma ;
+    ontolex:lexicalForm :leilão_plural ;
+    ontolex:sense :leilão_sense_1 .
+
+:limão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :limão_lemma ;
+    ontolex:lexicalForm :limão_plural ;
+    ontolex:sense :limão_sense_1 .
+
+:lâmpada_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :lâmpada_lemma ;
+    ontolex:lexicalForm :lâmpada_plural ;
+    ontolex:sense :lâmpada_sense_1 .
+
+:mestiço_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :mestiço_lemma ;
+    ontolex:lexicalForm :mestiço_plural ;
+    ontolex:sense :mestiço_sense_1 .
+
+:música_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :música_lemma ;
+    ontolex:lexicalForm :música_plural ;
+    ontolex:sense :música_sense_1 .
+
+:nan_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:nan ;
+    ontolex:canonicalForm :nan_lemma ;
+    ontolex:sense :nan_sense_1 .
 
 :outubro_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -735,6 +2078,38 @@
     ontolex:lexicalForm :outubro_plural ;
     ontolex:sense :outubro_sense_1 .
 
+:padre_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :padre_lemma ;
+    ontolex:lexicalForm :padre_plural ;
+    ontolex:sense :padre_sense_1 .
+
+:paga_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :paga_lemma ;
+    ontolex:lexicalForm :paga_plural ;
+    ontolex:sense :paga_sense_1 .
+
+:peru_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :peru_lemma ;
+    ontolex:lexicalForm :peru_plural ;
+    ontolex:sense :peru_sense_1 .
+
+:pires_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :pires_lemma ;
+    ontolex:lexicalForm :pires_plural ;
+    ontolex:sense :pires_sense_1 .
+
 :pompa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:feminine ;
@@ -742,6 +2117,67 @@
     ontolex:canonicalForm :pompa_lemma ;
     ontolex:lexicalForm :pompa_plural ;
     ontolex:sense :pompa_sense_1 .
+
+:prato_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :prato_lemma ;
+    ontolex:lexicalForm :prato_plural ;
+    ontolex:sense :prato_sense_1 .
+
+:prego_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :prego_lemma ;
+    ontolex:lexicalForm :prego_plural ;
+    ontolex:sense :prego_sense_1 .
+
+:página_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :página_lemma ;
+    ontolex:lexicalForm :página_plural ;
+    ontolex:sense :página_sense_1 .
+
+:recibo_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :recibo_lemma ;
+    ontolex:sense :recibo_sense_1 .
+
+:sabão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :sabão_lemma ;
+    ontolex:lexicalForm :sabão_plural ;
+    ontolex:sense :sabão_sense_1 .
+
+:saia_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :saia_lemma ;
+    ontolex:sense :saia_sense_1 .
+
+:salada_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :salada_lemma ;
+    ontolex:sense :salada_sense_1 .
+
+:salsaparrilha_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :salsaparrilha_lemma ;
+    ontolex:lexicalForm :salsaparrilha_plural ;
+    ontolex:sense :salsaparrilha_sense_1 .
 
 :setembro_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -751,6 +2187,30 @@
     ontolex:lexicalForm :setembro_plural ;
     ontolex:sense :setembro_sense_1 .
 
+:sofá_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :sofá_lemma ;
+    ontolex:lexicalForm :sofá_plural ;
+    ontolex:sense :sofá_sense_1 .
+
+:toronja_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :toronja_lemma ;
+    ontolex:lexicalForm :toronja_plural ;
+    ontolex:sense :toronja_sense_1 .
+
+:tropa_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :tropa_lemma ;
+    ontolex:lexicalForm :tropa_plural ;
+    ontolex:sense :tropa_sense_1 .
+
 :varanda_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:feminine ;
@@ -758,6 +2218,30 @@
     ontolex:canonicalForm :varanda_lemma ;
     ontolex:lexicalForm :varanda_plural ;
     ontolex:sense :varanda_sense_1 .
+
+:verruma_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :verruma_lemma ;
+    ontolex:lexicalForm :verruma_plural ;
+    ontolex:sense :verruma_sense_1 .
+
+:âmbar_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :âmbar_lemma ;
+    ontolex:lexicalForm :âmbar_plural ;
+    ontolex:sense :âmbar_sense_1 .
+
+:órgão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :órgão_lemma ;
+    ontolex:lexicalForm :órgão_plural ;
+    ontolex:sense :órgão_sense_1 .
 
 :aia_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -768,14 +2252,14 @@
     ontolex:sense :aia_sense_1,
         :aia_sense_2 .
 
-:alfinete_entry a ontolex:LexicalEntry,
+:ama_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :alfinete_lemma ;
-    ontolex:lexicalForm :alfinete_plural ;
-    ontolex:sense :alfinete_sense_1,
-        :alfinete_sense_2 .
+    ontolex:canonicalForm :ama_lemma ;
+    ontolex:lexicalForm :ama_plural ;
+    ontolex:sense :ama_sense_1,
+        :ama_sense_2 .
 
 :ananás_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -786,32 +2270,252 @@
     ontolex:sense :ananás_sense_1,
         :ananás_sense_2 .
 
-:botelha_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :botelha_lemma ;
-    ontolex:lexicalForm :botelha_plural ;
-    ontolex:sense :botelha_sense_1,
-        :botelha_sense_2 .
-
-:estirar_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :estirar_lemma ;
-    ontolex:lexicalForm :estirar_plural ;
-    ontolex:sense :estirar_sense_1,
-        :estirar_sense_2 .
-
-:padre_entry a ontolex:LexicalEntry,
+:anis_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :padre_lemma ;
-    ontolex:lexicalForm :padre_plural ;
-    ontolex:sense :padre_sense_1,
-        :padre_sense_2 .
+    ontolex:canonicalForm :anis_lemma ;
+    ontolex:sense :anis_sense_1,
+        :anis_sense_2 .
+
+:ata_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :ata_lemma ;
+    ontolex:lexicalForm :ata_plural ;
+    ontolex:sense :ata_sense_1,
+        :ata_sense_2 .
+
+:bacio_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :bacio_lemma ;
+    ontolex:lexicalForm :bacio_plural ;
+    ontolex:sense :bacio_sense_1,
+        :bacio_sense_2 .
+
+:baixel_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :baixel_lemma ;
+    ontolex:lexicalForm :baixel_plural ;
+    ontolex:sense :baixel_sense_1,
+        :baixel_sense_2 .
+
+:beringela_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :beringela_lemma ;
+    ontolex:lexicalForm :beringela_plural ;
+    ontolex:sense :beringela_sense_1,
+        :beringela_sense_2 .
+
+:biscoito_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :biscoito_lemma ;
+    ontolex:lexicalForm :biscoito_plural ;
+    ontolex:sense :biscoito_sense_1,
+        :biscoito_sense_2 .
+
+:caju_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :caju_lemma ;
+    ontolex:lexicalForm :caju_plural ;
+    ontolex:sense :caju_sense_1,
+        :caju_sense_2 .
+
+:calafate_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :calafate_lemma ;
+    ontolex:lexicalForm :calafate_plural ;
+    ontolex:sense :calafate_sense_1,
+        :calafate_sense_2 .
+
+:carabina_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :carabina_lemma ;
+    ontolex:lexicalForm :carabina_plural ;
+    ontolex:sense :carabina_sense_1,
+        :carabina_sense_2 .
+
+:cartucho_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :cartucho_lemma ;
+    ontolex:lexicalForm :cartucho_plural ;
+    ontolex:sense :cartucho_sense_1,
+        :cartucho_sense_2 .
+
+:católico_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:Adjective ;
+    ontolex:canonicalForm :católico_lemma ;
+    ontolex:lexicalForm :católico_plural ;
+    ontolex:sense :católico_sense_1,
+        :católico_sense_2 .
+
+:câmara_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :câmara_lemma ;
+    ontolex:lexicalForm :câmara_plural ;
+    ontolex:sense :câmara_sense_1,
+        :câmara_sense_2 .
+
+:estirar_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:Verb ;
+    ontolex:canonicalForm :estirar_lemma ;
+    ontolex:sense :estirar_sense_1,
+        :estirar_sense_2 .
+
+:fita_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :fita_lemma ;
+    ontolex:lexicalForm :fita_plural ;
+    ontolex:sense :fita_sense_1,
+        :fita_sense_2 .
+
+:linguiça_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :linguiça_lemma ;
+    ontolex:lexicalForm :linguiça_plural ;
+    ontolex:sense :linguiça_sense_1,
+        :linguiça_sense_2 .
+
+:martelo_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :martelo_lemma ;
+    ontolex:lexicalForm :martelo_plural ;
+    ontolex:sense :martelo_sense_1,
+        :martelo_sense_2 .
+
+:mastro_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :mastro_lemma ;
+    ontolex:lexicalForm :mastro_plural ;
+    ontolex:sense :mastro_sense_1,
+        :mastro_sense_2 .
+
+:mesa_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :mesa_lemma ;
+    ontolex:lexicalForm :mesa_plural ;
+    ontolex:sense :mesa_sense_1,
+        :mesa_sense_2 .
+
+:mármore_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :mármore_lemma ;
+    ontolex:lexicalForm :mármore_plural ;
+    ontolex:sense :mármore_sense_1,
+        :mármore_sense_2 .
+
+:papaia_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :papaia_lemma ;
+    ontolex:lexicalForm :papaia_plural ;
+    ontolex:sense :papaia_sense_1,
+        :papaia_sense_2 .
+
+:pipa_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :pipa_lemma ;
+    ontolex:lexicalForm :pipa_plural ;
+    ontolex:sense :pipa_sense_1,
+        :pipa_sense_2 .
+
+:pistola_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :pistola_lemma ;
+    ontolex:lexicalForm :pistola_plural ;
+    ontolex:sense :pistola_sense_1,
+        :pistola_sense_2 .
+
+:polícia_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :polícia_lemma ;
+    ontolex:lexicalForm :polícia_plural ;
+    ontolex:sense :polícia_sense_1,
+        :polícia_sense_2 .
+
+:pão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :pão_lemma ;
+    ontolex:lexicalForm :pão_plural ;
+    ontolex:sense :pão_sense_1,
+        :pão_sense_2 .
+
+:querubim_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :querubim_lemma ;
+    ontolex:lexicalForm :querubim_plural ;
+    ontolex:sense :querubim_sense_1,
+        :querubim_sense_2 .
+
+:sagu_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :sagu_lemma ;
+    ontolex:sense :sagu_sense_1,
+        :sagu_sense_2 .
+
+:tambor_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :tambor_lemma ;
+    ontolex:lexicalForm :tambor_plural ;
+    ontolex:sense :tambor_sense_1,
+        :tambor_sense_2 .
+
+:tufão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :tufão_lemma ;
+    ontolex:lexicalForm :tufão_plural ;
+    ontolex:sense :tufão_sense_1,
+        :tufão_sense_2 .
 
 :igreja_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -823,120 +2527,178 @@
         :igreja_sense_2,
         :igreja_sense_3 .
 
-:inglês_entry a ontolex:LexicalEntry,
+:janela_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :janela_lemma ;
+    ontolex:lexicalForm :janela_plural ;
+    ontolex:sense :janela_sense_1,
+        :janela_sense_2,
+        :janela_sense_3 .
+
+:mês_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :mês_lemma ;
+    ontolex:lexicalForm :mês_plural ;
+    ontolex:sense :mês_sense_1,
+        :mês_sense_2,
+        :mês_sense_3 .
+
+:toalha_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :toalha_lemma ;
+    ontolex:lexicalForm :toalha_plural ;
+    ontolex:sense :toalha_sense_1,
+        :toalha_sense_2,
+        :toalha_sense_3 .
+
+:chá_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :chá_lemma ;
+    ontolex:lexicalForm :chá_plural ;
+    ontolex:sense :chá_sense_1,
+        :chá_sense_2,
+        :chá_sense_3,
+        :chá_sense_4 .
+
+:cunha_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :cunha_lemma ;
+    ontolex:lexicalForm :cunha_plural ;
+    ontolex:sense :cunha_sense_1,
+        :cunha_sense_2,
+        :cunha_sense_3,
+        :cunha_sense_4 .
+
+:falto_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:Adjective ;
+    ontolex:canonicalForm :falto_lemma ;
+    ontolex:sense :falto_sense_1,
+        :falto_sense_2,
+        :falto_sense_3,
+        :falto_sense_4 .
+
+:holandês_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:Adjective ;
+    ontolex:canonicalForm :holandês_lemma ;
+    ontolex:sense :holandês_sense_1,
+        :holandês_sense_2,
+        :holandês_sense_3,
+        :holandês_sense_4 .
+
+:inglês_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:Adjective ;
     ontolex:canonicalForm :inglês_lemma ;
     ontolex:lexicalForm :inglês_plural ;
     ontolex:sense :inglês_sense_1,
         :inglês_sense_2,
-        :inglês_sense_3 .
+        :inglês_sense_3,
+        :inglês_sense_4 .
 
-:pistola_entry a ontolex:LexicalEntry,
+:jogar_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :pistola_lemma ;
-    ontolex:lexicalForm :pistola_plural ;
-    ontolex:sense :pistola_sense_1,
-        :pistola_sense_2,
-        :pistola_sense_3 .
+    lexinfo:partOfSpeech lexinfo:Verb ;
+    ontolex:canonicalForm :jogar_lemma ;
+    ontolex:sense :jogar_sense_1,
+        :jogar_sense_2,
+        :jogar_sense_3,
+        :jogar_sense_4 .
 
-:saia_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :saia_lemma ;
-    ontolex:lexicalForm :saia_plural ;
-    ontolex:sense :saia_sense_1,
-        :saia_sense_2,
-        :saia_sense_3 .
-
-:espada_entry a ontolex:LexicalEntry,
+:sorte_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :espada_lemma ;
-    ontolex:lexicalForm :espada_plural ;
-    ontolex:sense :espada_sense_1,
-        :espada_sense_2,
-        :espada_sense_3,
-        :espada_sense_4 .
+    ontolex:canonicalForm :sorte_lemma ;
+    ontolex:lexicalForm :sorte_plural ;
+    ontolex:sense :sorte_sense_1,
+        :sorte_sense_2,
+        :sorte_sense_3,
+        :sorte_sense_4 .
 
-:câmara_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :câmara_lemma ;
-    ontolex:lexicalForm :câmara_plural ;
-    ontolex:sense :câmara_sense_1,
-        :câmara_sense_2,
-        :câmara_sense_3,
-        :câmara_sense_4,
-        :câmara_sense_5,
-        :câmara_sense_6,
-        :câmara_sense_7 .
-
-:martelo_entry a ontolex:LexicalEntry,
+:tabaco_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :martelo_lemma ;
-    ontolex:lexicalForm :martelo_plural ;
-    ontolex:sense :martelo_sense_1,
-        :martelo_sense_2,
-        :martelo_sense_3,
-        :martelo_sense_4,
-        :martelo_sense_5,
-        :martelo_sense_6,
-        :martelo_sense_7 .
+    ontolex:canonicalForm :tabaco_lemma ;
+    ontolex:lexicalForm :tabaco_plural ;
+    ontolex:sense :tabaco_sense_1,
+        :tabaco_sense_2,
+        :tabaco_sense_3,
+        :tabaco_sense_4 .
 
-:fita_entry a ontolex:LexicalEntry,
+:bacia_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :fita_lemma ;
-    ontolex:lexicalForm :fita_plural ;
-    ontolex:sense :fita_sense_1,
-        :fita_sense_2,
-        :fita_sense_3,
-        :fita_sense_4,
-        :fita_sense_5,
-        :fita_sense_6,
-        :fita_sense_7,
-        :fita_sense_8 .
+    ontolex:canonicalForm :bacia_lemma ;
+    ontolex:lexicalForm :bacia_plural ;
+    ontolex:sense :bacia_sense_1,
+        :bacia_sense_2,
+        :bacia_sense_3,
+        :bacia_sense_4,
+        :bacia_sense_5 .
 
-:pipa_entry a ontolex:LexicalEntry,
+:bafo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :pipa_lemma ;
-    ontolex:lexicalForm :pipa_plural ;
-    ontolex:sense :pipa_sense_1,
-        :pipa_sense_2,
-        :pipa_sense_3,
-        :pipa_sense_4,
-        :pipa_sense_5,
-        :pipa_sense_6,
-        :pipa_sense_7,
-        :pipa_sense_8 .
+    ontolex:canonicalForm :bafo_lemma ;
+    ontolex:lexicalForm :bafo_plural ;
+    ontolex:sense :bafo_sense_1,
+        :bafo_sense_2,
+        :bafo_sense_3,
+        :bafo_sense_4,
+        :bafo_sense_5 .
 
-:chave_entry a ontolex:LexicalEntry,
+:forma_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :chave_lemma ;
-    ontolex:lexicalForm :chave_plural ;
-    ontolex:sense :chave_sense_1,
-        :chave_sense_2,
-        :chave_sense_3,
-        :chave_sense_4,
-        :chave_sense_5,
-        :chave_sense_6,
-        :chave_sense_7,
-        :chave_sense_8,
-        :chave_sense_9 .
+    ontolex:canonicalForm :forma_lemma ;
+    ontolex:lexicalForm :forma_plural ;
+    ontolex:sense :forma_sense_1,
+        :forma_sense_2,
+        :forma_sense_3,
+        :forma_sense_4,
+        :forma_sense_5 .
+
+:jalapa_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :jalapa_lemma ;
+    ontolex:lexicalForm :jalapa_plural ;
+    ontolex:sense :jalapa_sense_1,
+        :jalapa_sense_2,
+        :jalapa_sense_3,
+        :jalapa_sense_4,
+        :jalapa_sense_5 .
+
+:cifra_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :cifra_lemma ;
+    ontolex:lexicalForm :cifra_plural ;
+    ontolex:sense :cifra_sense_1,
+        :cifra_sense_2,
+        :cifra_sense_3,
+        :cifra_sense_4,
+        :cifra_sense_5,
+        :cifra_sense_6 .
 
 :mestre_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -945,17 +2707,35 @@
     ontolex:canonicalForm :mestre_lemma ;
     ontolex:lexicalForm :mestre_plural ;
     ontolex:sense :mestre_sense_1,
-        :mestre_sense_10,
-        :mestre_sense_11,
-        :mestre_sense_12,
-        :mestre_sense_13,
-        :mestre_sense_14,
         :mestre_sense_2,
         :mestre_sense_3,
         :mestre_sense_4,
         :mestre_sense_5,
-        :mestre_sense_6,
-        :mestre_sense_7,
-        :mestre_sense_8,
-        :mestre_sense_9 .
+        :mestre_sense_6 .
+
+:bomba_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :bomba_lemma ;
+    ontolex:lexicalForm :bomba_plural ;
+    ontolex:sense :bomba_sense_1,
+        :bomba_sense_2,
+        :bomba_sense_3,
+        :bomba_sense_4,
+        :bomba_sense_5,
+        :bomba_sense_6,
+        :bomba_sense_7 .
+
+:gentio_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:partOfSpeech lexinfo:Adjective ;
+    ontolex:canonicalForm :gentio_lemma ;
+    ontolex:sense :gentio_sense_1,
+        :gentio_sense_2,
+        :gentio_sense_3,
+        :gentio_sense_4,
+        :gentio_sense_5,
+        :gentio_sense_6,
+        :gentio_sense_7 .
 
