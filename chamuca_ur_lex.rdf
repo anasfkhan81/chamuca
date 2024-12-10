@@ -937,7 +937,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#ananás> ;
     lexinfo:etymology "ananás (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :अनन्नास_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -989,7 +988,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#anis> ;
     lexinfo:etymology "? anis (Source: Dalgado); Greek ἄνισον  (Source: Dalgado) ; Latin anisum  (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :अनीसून_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1002,7 +1000,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#inglês> ;
     lexinfo:etymology "inglês (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :अँग्रेज़_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1093,7 +1090,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#basta> ;
     lexinfo:etymology "basta (Source: Dalgado); Persian بس  (Source: Dalgado; Wiktionary; McGregor)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :बस_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1223,7 +1219,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tambor> ;
     lexinfo:etymology "tambor (Source: Dalgado); Persian tambūra (Source: McGregor)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :तंबूरा_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1288,7 +1283,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#recibo> ;
     lexinfo:etymology "recibo (Source: Dalgado); Persian رسید (Source: McGregor)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :रसीद_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1376,7 +1370,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#falto> ;
     lexinfo:etymology "falto (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :फ़ालतू_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1428,7 +1421,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mês> ;
     lexinfo:etymology "mês (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :मास-कबार_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1467,7 +1459,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestiço> ;
     lexinfo:etymology "mestiço (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :मस्तीसा_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1558,7 +1549,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#papaia> ;
     lexinfo:etymology "papaia (Source: Dalgado); " ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :पपीता_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1571,7 +1561,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#peru> ;
     lexinfo:etymology "peru (Source: Dalgado); Persian  پِیل مُرْغ (Source:Dasa)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :पीरू_entry ;
     ontolex:canonicalForm :پیرو_lemma ;
@@ -1581,7 +1570,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pipa> ;
     lexinfo:etymology "pipa (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :पीपा_entry ;
     ontolex:canonicalForm <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا‎_lemma> ;
@@ -1630,7 +1618,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chapa> ;
     lexinfo:etymology "? chapa (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :छापा_entry ;
     ontolex:canonicalForm :چھاپہ_lemma ;
@@ -1715,7 +1702,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#querubim> ;
     lexinfo:etymology "querubim (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :करूबीम_entry ;
     frac:frequency [ a frac:Frequency ;

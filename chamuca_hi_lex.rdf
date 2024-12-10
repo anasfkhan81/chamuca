@@ -2129,7 +2129,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#inglês> ;
     lexinfo:etymology "inglês (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#انگریز_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2142,7 +2141,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#inglês> ;
     lexinfo:etymology "inglês (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#انگریز_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2307,7 +2305,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#amen> ;
     lexinfo:etymology "amen (Source: Dalgado); Arabic آمين  (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آمین_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2366,7 +2363,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#holandês> ;
     lexinfo:etymology "NaN"^^xsd:double ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#ولندیز_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2423,7 +2419,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#querubim> ;
     lexinfo:etymology "querubim (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کَرُوبِیم_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2532,7 +2527,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cunha> ;
     lexinfo:etymology "cunha (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2545,7 +2539,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#católico> ;
     lexinfo:etymology "católico (Source: Dalgado); English Catholic (Source: Dalgado, Wiktionary)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کیتھولک_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2571,7 +2564,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cristão> ;
     lexinfo:etymology "NaN"^^xsd:double ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کِرسٹان_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2615,7 +2607,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chapa> ;
     lexinfo:etymology "? chapa (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#چھاپہ_entry> ;
     ontolex:canonicalForm :छापा_lemma ;
@@ -2669,7 +2660,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#da_Silva> ;
     lexinfo:etymology "NaN"^^xsd:double ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:properNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧ڈیسلوا⁩_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2760,7 +2750,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#leilão> ;
     lexinfo:etymology "leilão (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧نیلام⁩_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2894,7 +2883,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#forma> ;
     lexinfo:etymology "forma (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2951,7 +2939,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#basta> ;
     lexinfo:etymology "basta (Source: Dalgado); Persian بس  (Source: Dalgado; Wiktionary; McGregor)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بس_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2964,7 +2951,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#baptismo> ;
     lexinfo:etymology "? baptismo (Source: Dalgado); English baptism (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بمبہ_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -3070,7 +3056,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestiço> ;
     lexinfo:etymology "mestiço (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مَستِیسا_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -3096,7 +3081,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#martelo> ;
     lexinfo:etymology "martelo (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مارتول_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -3127,7 +3111,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestre> ;
     lexinfo:etymology "mestre (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مستری_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -3521,7 +3504,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#falto> ;
     lexinfo:etymology "falto (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#فالتو_entry> ;
     frac:frequency [ a frac:Frequency ;

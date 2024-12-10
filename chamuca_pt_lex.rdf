@@ -690,7 +690,6 @@
 
 :cristão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:gender lexinfo:unknown ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :cristão_lemma ;
     ontolex:lexicalForm :cristão_plural ;

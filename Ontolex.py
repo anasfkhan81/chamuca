@@ -9,6 +9,7 @@ import rdflib
 from rdflib import URIRef, BNode, Literal, Graph, Namespace
 from rdflib.namespace import RDF, RDFS, FOAF, Namespace, NamespaceManager, OWL, XSD, SKOS, DC, DCTERMS, DCAT
 
+
 ontolex_uri= "http://www.w3.org/ns/lemon/ontolex#"
 lexinfo_uri = "http://www.lexinfo.net/ontology/2.0/lexinfo#"
 lime_uri = "http://www.w3.org/ns/lemon/lime#"
@@ -105,7 +106,6 @@ class Lexicon():
         if 'gender' in keys:
             gen = entity['gender']
             if gen != '' and gen!='unknown':
-                print('gender '+gen)
                 self.lex.add((subj, lexinfo_ns.gender, URIRef(lexinfo_uri + gen)))
 
     def addCase(self, keys, entity, subj):
@@ -132,7 +132,8 @@ class Lexicon():
     def addEty(self, keys, entity, subj):
         if 'etymology' in keys:
             etymy = entity['etymology']
-            if etymy != '':
+            if etymy != '' and etymy != str('nan'):
+                print("etymology is "+str(etymy))
                 self.lex.add((subj, lexinfo_ns.etymology, Literal(etymy)))
 
                 
