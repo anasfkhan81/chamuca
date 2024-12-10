@@ -8,15 +8,37 @@
 
 <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> a lime:Lexicon ;
     dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
+    lime:entry :agosto_entry,
+        :aia_entry,
+        :alfinete_entry,
+        :ananás_entry,
+        :armário_entry,
+        :balde_entry,
+        :baptismo_entry,
+        :botelha_entry,
+        :chave_entry,
+        :cristão_entry,
+        :cruz_entry,
+        :câmara_entry,
+        :dezembro_entry,
+        :espada_entry,
+        :estirar_entry,
+        :estábulo_entry,
+        :fita_entry,
+        :hospital_entry,
+        :igreja_entry,
+        :inglês_entry,
+        :martelo_entry,
+        :mestre_entry,
+        :outubro_entry,
+        :padre_entry,
+        :pipa_entry,
+        :pistola_entry,
+        :pompa_entry,
+        :saia_entry,
+        :setembro_entry,
+        :varanda_entry ;
     lime:language "pt" .
-
-:agosto_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :agosto_lemma ;
-    ontolex:lexicalForm :agosto_plural ;
-    ontolex:sense :agosto_sense_1 .
 
 :agosto_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -78,14 +100,6 @@
     skos:definition "ananaseiro, planta da família das Bromeliáceas cultivada pelos seus saborosos frutos (Ananas comosus)" ;
     ontolex:isSenseOf :ananás_entry .
 
-:armário_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :armário_lemma ;
-    ontolex:lexicalForm :armário_plural ;
-    ontolex:sense :armário_sense_1 .
-
 :armário_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "armário"@pt .
@@ -98,14 +112,6 @@
     skos:definition "(Móvel) móvel, normalmente de madeira ou metal, e que normalmente apresenta portas e prateleiras" ;
     ontolex:isSenseOf :armário_entry .
 
-:balde_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :balde_lemma ;
-    ontolex:lexicalForm :balde_plural ;
-    ontolex:sense :balde_sense_1 .
-
 :balde_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "balde"@pt .
@@ -117,14 +123,6 @@
 :balde_sense_1 a ontolex:LexicalSense ;
     skos:definition "vasilha de forma quase cilíndrica para o transporte de água e outros usos domésticos feita em madeira, metal ou plástico" ;
     ontolex:isSenseOf :balde_entry .
-
-:baptismo_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :baptismo_lemma ;
-    ontolex:lexicalForm :baptismo_plural ;
-    ontolex:sense :baptismo_sense_1 .
 
 :baptismo_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -198,14 +196,6 @@
     skos:definition "sinal de pontuação: {}" ;
     ontolex:isSenseOf :chave_entry .
 
-:cristão_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:unknown ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :cristão_lemma ;
-    ontolex:lexicalForm :cristão_plural ;
-    ontolex:sense :cristão_sense_1 .
-
 :cristão_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "cristão"@pt .
@@ -217,14 +207,6 @@
 :cristão_sense_1 a ontolex:LexicalSense ;
     skos:definition "crente adepto do cristianismo" ;
     ontolex:isSenseOf :cristão_entry .
-
-:cruz_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :cruz_lemma ;
-    ontolex:lexicalForm :cruz_plural ;
-    ontolex:sense :cruz_sense_1 .
 
 :cruz_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -273,14 +255,6 @@
 :câmara_sense_7 a ontolex:LexicalSense ;
     skos:definition "aparelho usado para tirar fotografias ou filmar" ;
     ontolex:isSenseOf :câmara_entry .
-
-:dezembro_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :dezembro_lemma ;
-    ontolex:lexicalForm :dezembro_plural ;
-    ontolex:sense :dezembro_sense_1 .
 
 :dezembro_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -334,14 +308,6 @@
     skos:definition "(Medicina) distender (um músculo)" ;
     ontolex:isSenseOf :estirar_entry .
 
-:estábulo_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :estábulo_lemma ;
-    ontolex:lexicalForm :estábulo_plural ;
-    ontolex:sense :estábulo_sense_1 .
-
 :estábulo_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "estábulo"@pt .
@@ -393,14 +359,6 @@
 :fita_sense_8 a ontolex:LexicalSense ;
     skos:definition "(vídeo game) objeto feito de uma carcaça plástica que encerra um circuito com memória onde está gravado um jogo eletrônico e que tem uma saída com um bocal de encaixe a um eslote de leitura de console" ;
     ontolex:isSenseOf :fita_entry .
-
-:hospital_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :hospital_lemma ;
-    ontolex:lexicalForm :hospital_plural ;
-    ontolex:sense :hospital_sense_1 .
 
 :hospital_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
@@ -554,14 +512,6 @@
     skos:definition "superior de ordem religiosa ou militar" ;
     ontolex:isSenseOf :mestre_entry .
 
-:outubro_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :outubro_lemma ;
-    ontolex:lexicalForm :outubro_plural ;
-    ontolex:sense :outubro_sense_1 .
-
 :outubro_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "outubro"@pt .
@@ -650,14 +600,6 @@
     skos:definition "(Minas Gerais, Rio de Janeiro e obsceno) pênis" ;
     ontolex:isSenseOf :pistola_entry .
 
-:pompa_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :pompa_lemma ;
-    ontolex:lexicalForm :pompa_plural ;
-    ontolex:sense :pompa_sense_1 .
-
 :pompa_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "pompa"@pt .
@@ -690,14 +632,6 @@
     skos:definition "(No plural) mulheres" ;
     ontolex:isSenseOf :saia_entry .
 
-:setembro_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :setembro_lemma ;
-    ontolex:lexicalForm :setembro_plural ;
-    ontolex:sense :setembro_sense_1 .
-
 :setembro_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "setembro"@pt .
@@ -710,14 +644,6 @@
     skos:definition "(cronônimo) nono mês do ano civil" ;
     ontolex:isSenseOf :setembro_entry .
 
-:varanda_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm :varanda_lemma ;
-    ontolex:lexicalForm :varanda_plural ;
-    ontolex:sense :varanda_sense_1 .
-
 :varanda_lemma a ontolex:Form ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "varanda"@pt .
@@ -729,6 +655,110 @@
 :varanda_sense_1 a ontolex:LexicalSense ;
     skos:definition "(Arquitetura) sacada" ;
     ontolex:isSenseOf :varanda_entry .
+
+:agosto_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :agosto_lemma ;
+    ontolex:lexicalForm :agosto_plural ;
+    ontolex:sense :agosto_sense_1 .
+
+:armário_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :armário_lemma ;
+    ontolex:lexicalForm :armário_plural ;
+    ontolex:sense :armário_sense_1 .
+
+:balde_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :balde_lemma ;
+    ontolex:lexicalForm :balde_plural ;
+    ontolex:sense :balde_sense_1 .
+
+:baptismo_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :baptismo_lemma ;
+    ontolex:lexicalForm :baptismo_plural ;
+    ontolex:sense :baptismo_sense_1 .
+
+:cristão_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:unknown ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :cristão_lemma ;
+    ontolex:lexicalForm :cristão_plural ;
+    ontolex:sense :cristão_sense_1 .
+
+:cruz_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :cruz_lemma ;
+    ontolex:lexicalForm :cruz_plural ;
+    ontolex:sense :cruz_sense_1 .
+
+:dezembro_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :dezembro_lemma ;
+    ontolex:lexicalForm :dezembro_plural ;
+    ontolex:sense :dezembro_sense_1 .
+
+:estábulo_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :estábulo_lemma ;
+    ontolex:lexicalForm :estábulo_plural ;
+    ontolex:sense :estábulo_sense_1 .
+
+:hospital_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :hospital_lemma ;
+    ontolex:lexicalForm :hospital_plural ;
+    ontolex:sense :hospital_sense_1 .
+
+:outubro_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :outubro_lemma ;
+    ontolex:lexicalForm :outubro_plural ;
+    ontolex:sense :outubro_sense_1 .
+
+:pompa_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :pompa_lemma ;
+    ontolex:lexicalForm :pompa_plural ;
+    ontolex:sense :pompa_sense_1 .
+
+:setembro_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :setembro_lemma ;
+    ontolex:lexicalForm :setembro_plural ;
+    ontolex:sense :setembro_sense_1 .
+
+:varanda_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :varanda_lemma ;
+    ontolex:lexicalForm :varanda_plural ;
+    ontolex:sense :varanda_sense_1 .
 
 :aia_entry a ontolex:LexicalEntry,
         ontolex:Word ;

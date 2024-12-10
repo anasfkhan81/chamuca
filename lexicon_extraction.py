@@ -151,8 +151,13 @@ def upload_ur(file_name):
         elif is_valid_integer_literal(corpus_str)[0]:
             corpus = is_valid_integer_literal(corpus_str)[1]
             print("urdu corpus: "+ str(corpus))
+        porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
+        etymology = row['Etymology Free']
+        hindi_head = (row['Headword Hindi']).replace(' ', '')
+        hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+hindi_head+"_entry"
 
-        urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'form':forms, 'urTenTen18':corpus}
+
+        urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'seeAlso':hindi_seeAlso, 'form':forms, 'etymon':porEtymon, 'etymology': etymology, 'urTenTen18':corpus}
         
 
     return urdu_lex

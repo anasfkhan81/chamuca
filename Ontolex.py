@@ -85,14 +85,14 @@ class Lexicon():
                 self.corpus_uri = self.addHindiCorpus()
                 self.language = 'hi'
                 print ("Hindi")
-            if l == 'ur':
+            elif l == 'ur':
                 self.corpus_uri = self.addUrduCorpus()
                 self.language = 'ur'
                 print ("Urdu")
         # Create lexical entries for each entry in the dictionary
 
         for e in indic['entries']:
-            self.addLexicalEntry(e)
+            self.addLexicalEntry(e, this)
 
     def addPartOfSpeech(self, keys, entity, subj):
         if 'pos' in keys:
@@ -104,7 +104,8 @@ class Lexicon():
     def addGender(self, keys, entity, subj):
         if 'gender' in keys:
             gen = entity['gender']
-            if gen != '':
+            if gen != '' and gen!='unknown':
+                print('gender '+gen)
                 self.lex.add((subj, lexinfo_ns.gender, URIRef(lexinfo_uri + gen)))
 
     def addCase(self, keys, entity, subj):
@@ -222,7 +223,10 @@ class Lexicon():
                 self.lex.add((ent, ontolex_ns.canonicalForm, form))
                 if 'ipa' in f.keys():
                     for ipa in f['ipa']:
-                        self.lex.add((form, ontolex_ns.phoneticRep, Literal(ipa, lang=f"hi-fonipa")))
+                        if self.language == "hi":
+                            self.lex.add((form, ontolex_ns.phoneticRep, Literal(ipa, lang=f"hi-fonipa")))
+                        elif self.language == "ur":
+                            self.lex.add((form, ontolex_ns.phoneticRep, Literal(ipa, lang=f"ur-fonipa")))
             else:
                 self.lex.add((ent, ontolex_ns.lexicalForm, form))
 
@@ -261,10 +265,11 @@ class Lexicon():
 
 
 
-    def addLexicalEntry(self, lemma_id):
+    def addLexicalEntry(self, lemma_id, lex):
         # adds a lexical entry to the lexicon, with the id lemma_id and information from entry
         ent = URIRef(self.namespace + lemma_id)
         self.lex.add((ent, RDF.type, ontolex_ns.LexicalEntry))
+        self.lex.add((this, lime_ns.entry, ent))
 
         # check which entry type it is word, multiword entry, etc
         entry_type = self.indic['entries'][lemma_id]['entry_type']
@@ -316,10 +321,11 @@ class Lexicon():
             self.lex.add((stem, gold_ns.writtenRealization, Literal(entry['stem'], lang="xfa")))
 
 
-    def addLexicalEntry(self, lemma_id):
+    def addLexicalEntry(self, lemma_id, lex):
         # adds a lexical entry to the lexicon, with the id lemma_id and information from entry
         ent = URIRef(self.namespace + lemma_id)
         self.lex.add((ent, RDF.type, ontolex_ns.LexicalEntry))
+        self.lex.add((lex, lime_ns.entry, ent))
 
         # check which entry type it is word, multiword entry, etc
         entry_type = self.indic['entries'][lemma_id]['entry_type']
