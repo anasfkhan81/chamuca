@@ -1,9 +1,9 @@
-@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 <http://www.lex.com/chamuca/chamuca_lexical_resource#> a <http://www.w3.org/ns/dcat#dataset> ;
-    ns1:language "hi",
+    dct:language "hi",
         "pt",
         "ur" ;
-    ns1:license <https://creativecommons.org/licenses/by/4.0/> ;
-    ns1:title "chamuça"@eng .
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "chamuça"@eng .
 

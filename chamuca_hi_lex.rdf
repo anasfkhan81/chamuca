@@ -13,6 +13,8 @@
 
 <http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#> a lime:Lexicon ;
     dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
+    dc:title "Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Hindi Lexicon"@eng ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     lime:entry :अँग्रेज़_entry,
         :अंग्रेज़_entry,
         :अंबर_entry,

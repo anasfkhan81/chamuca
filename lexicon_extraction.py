@@ -85,7 +85,7 @@ def upload_pt():
             senseContent = [{'id': lemma+'_sense_1', 'def':row['Definition']}]
             port_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos': str(pos), 'sense':senseContent, 'form':forms}
             senseIndex = (lemma, 2)
-        
+      
     return port_lex
 
     
@@ -155,8 +155,7 @@ def upload_ur(file_name):
         etymology = row['Etymology Free']
         hindi_head = (row['Headword Hindi']).replace(' ', '')
         hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+hindi_head+"_entry"
-
-
+        
         urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'seeAlso':hindi_seeAlso, 'form':forms, 'etymon':porEtymon, 'etymology': etymology, 'urTenTen18':corpus}
         
 
@@ -250,9 +249,11 @@ def upload_hl(file_name):
         print(urdu_seeAlso)
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
         etymology = row['Etymology Free']
+
         print(corpus)
         hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus}
         i+=1
+
     return hind_lex
 
 def main():

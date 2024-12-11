@@ -74,9 +74,11 @@ class Lexicon():
 
         # Define lexicon and add metadata
         self.lex.add((this, RDF.type, lime_ns.Lexicon))
+        self.lex.add((this, DCTERMS.license, URIRef("http://creativecommons.org/licenses/by/4.0/")))
         # add the description of the dataset given in indic['desc']
         if 'desc' in indic.keys():
             self.lex.add((this, DC.description, Literal(indic['desc'])))
+            
         
         # The languages of the lexicon are added
         for l in indic['lang']:
@@ -84,16 +86,22 @@ class Lexicon():
             self.lex.add((this, lime_ns.language, lang))
             if l == 'hi':
                 self.corpus_uri = self.addHindiCorpus()
+                self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Hindi Lexicon', lang=f"eng")))
                 self.language = 'hi'
                 print ("Hindi")
             elif l == 'ur':
                 self.corpus_uri = self.addUrduCorpus()
+                self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Urdu Lexicon', lang=f"eng")))
                 self.language = 'ur'
                 print ("Urdu")
+            elif l == 'pt':
+                self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Portuguese Lexicon', lang=f"eng")))
+                self.language = 'pt'
         # Create lexical entries for each entry in the dictionary
 
         for e in indic['entries']:
             self.addLexicalEntry(e, this)
+
 
     def addPartOfSpeech(self, keys, entity, subj):
         if 'pos' in keys:
