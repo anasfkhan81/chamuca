@@ -639,8 +639,7 @@
 :करूबीम_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
-        "करूबीम"@hi-Deva .
+    ontolex:writtenRep "करूबीम"@hi-Deva .
 
 :करूबीम_sense a ontolex:LexicalSense ;
     skos:definition "cherubim" ;
@@ -789,8 +788,7 @@
 :कुनिया_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
-        "कुनिया"@hi-Deva .
+    ontolex:writtenRep "कुनिया"@hi-Deva .
 
 :कुनिया_sense a ontolex:LexicalSense ;
     skos:definition "wedge" ;
@@ -1013,8 +1011,7 @@
 :छापा_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
-        "छापा"@hi-Deva .
+    ontolex:writtenRep "छापा"@hi-Deva .
 
 :छापा_sense a ontolex:LexicalSense ;
     skos:definition "a seal, impression, stamp, or brand" ;
@@ -2307,7 +2304,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#amen> ;
     lexinfo:etymology "amen (Source: Dalgado); Arabic آمين  (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آمین_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 1001 ;
@@ -2318,7 +2314,6 @@
 :आया_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#aia> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_entry> ;
@@ -2364,7 +2359,6 @@
 :ओलंदेज़_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#holandês> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#ولندیز_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2448,7 +2442,6 @@
     lexinfo:etymology "calafate (Source: Dalgado); Arabic (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
             frac:observedIn :hiTenTen21 ] ;
@@ -2484,7 +2477,6 @@
 :काजू_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#caju> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کاجو⁩_entry> ;
@@ -2530,7 +2522,6 @@
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cunha> ;
     lexinfo:etymology "cunha (Source: Dalgado)" ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 24 ;
             frac:observedIn :hiTenTen21 ] ;
@@ -2565,7 +2556,6 @@
 :क्रिस्तान_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cristão> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کِرسٹان_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2643,7 +2633,6 @@
 :जेंटू_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#gentio> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧جینٹو⁩_entry> ;
@@ -2661,7 +2650,6 @@
 :डीसिल्वा_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#da_Silva> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:partOfSpeech lexinfo:properNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧ڈیسلوا⁩_entry> ;
     frac:frequency [ a frac:Frequency ;
@@ -2815,7 +2803,6 @@
     lexinfo:etymology "pão (Source: Dalgado); Sanskrit पद्  (Source:McGregor)" ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 94 ;
             frac:observedIn :hiTenTen21 ] ;
@@ -2886,7 +2873,6 @@
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#forma> ;
     lexinfo:etymology "forma (Source: Dalgado)" ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
             frac:observedIn :hiTenTen21 ] ;
@@ -2941,7 +2927,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#basta> ;
     lexinfo:etymology "basta (Source: Dalgado); Persian بس  (Source: Dalgado; Wiktionary; McGregor)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بس_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 281570 ;
@@ -3166,7 +3151,6 @@
     lexinfo:etymology "linguiça (Source: Dalgado); Sanskrit लिङ्ग+उच्चयः (Source: Platts)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 2 ;
             frac:observedIn :hiTenTen21 ] ;
@@ -3192,7 +3176,6 @@
     lexinfo:etymology "salada (Source: Dalgado); French salade (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 9076 ;
             frac:observedIn :hiTenTen21 ] ;
@@ -3249,10 +3232,8 @@
 :सालसा_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#salsaparrilha> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
             frac:observedIn :hiTenTen21 ] ;
@@ -3275,7 +3256,6 @@
 :आलपीन_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#alfinete> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آلپ_entry> ;
@@ -3294,7 +3274,6 @@
 :किराँची_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#carraguem> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کِران٘چی_entry> ;
@@ -3428,7 +3407,6 @@
 :बंबा_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pompa> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بمبہ⁩_entry> ;
@@ -3506,7 +3484,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#falto> ;
     lexinfo:etymology "falto (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#فالتو_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
@@ -3542,7 +3519,6 @@
     lexinfo:etymology "campo (Source: Dalgado); English camp (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#NA_entry> ;
     ontolex:canonicalForm :कंपू_lemma ;
     ontolex:sense :कंपू_sense_1,
         :कंपू_sense_2,

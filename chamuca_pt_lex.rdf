@@ -1913,7 +1913,6 @@
 
 :carraguem_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     ontolex:canonicalForm :carraguem_lemma ;
     ontolex:sense :carraguem_sense_1 .
 
@@ -2069,7 +2068,6 @@
 
 :nan_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     ontolex:canonicalForm :nan_lemma ;
     ontolex:sense :nan_sense_1 .
 

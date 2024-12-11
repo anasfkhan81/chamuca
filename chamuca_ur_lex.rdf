@@ -571,8 +571,7 @@
 :ماسکَبار_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
-        "ماسکَبار"@ur-Arab .
+    ontolex:writtenRep "ماسکَبار"@ur-Arab .
 
 :ماسکَبار_sense a ontolex:LexicalSense ;
     skos:definition "" ;
@@ -601,8 +600,7 @@
 :مَستِیسا_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
-        "مَستِیسا"@ur-Arab .
+    ontolex:writtenRep "مَستِیسا"@ur-Arab .
 
 :مَستِیسا_sense a ontolex:LexicalSense ;
     skos:definition "" ;
@@ -751,8 +749,7 @@
 :چھاپہ_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
-        "چھاپہ"@ur-Arab .
+    ontolex:writtenRep "چھاپہ"@ur-Arab .
 
 :چھاپہ_sense a ontolex:LexicalSense ;
     skos:definition "" ;
@@ -822,8 +819,7 @@
 :کَرُوبِیم_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
-    ontolex:writtenRep "NaN"^^xsd:double,
-        "کَرُوبِیم"@ur-Arab .
+    ontolex:writtenRep "کَرُوبِیم"@ur-Arab .
 
 :کَرُوبِیم_sense a ontolex:LexicalSense ;
     skos:definition "" ;
@@ -886,7 +882,6 @@
 :آلپین_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#alfinete> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :आलपीन_entry ;
@@ -899,7 +894,6 @@
 <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_entry> a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#aia> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :आया_entry ;
@@ -990,7 +984,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#anis> ;
     lexinfo:etymology "? anis (Source: Dalgado); Greek ἄνισον  (Source: Dalgado) ; Latin anisum  (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :अनीसून_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 14 ;
@@ -1092,7 +1085,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#basta> ;
     lexinfo:etymology "basta (Source: Dalgado); Persian بس  (Source: Dalgado; Wiktionary; McGregor)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :बस_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 77433 ;
@@ -1116,7 +1108,6 @@
 :بمبہ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pompa> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :बंबा_entry ;
@@ -1183,7 +1174,6 @@
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#beringela> ;
     lexinfo:etymology "beringela (Source: Dalgado); Prakrit 𑀯𑀸𑀇𑀁𑀕𑀡  from Sanskrit वङ्गन  (Source: Wiktionary);  Persian بادنجان  (Source: Soares,  Wiktionary) " ;
     lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :बैंगन_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 391 ;
@@ -1372,7 +1362,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#falto> ;
     lexinfo:etymology "falto (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :फ़ालतू_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
@@ -1423,7 +1412,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mês> ;
     lexinfo:etymology "mês (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :मास-कबार_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
@@ -1461,7 +1449,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestiço> ;
     lexinfo:etymology "mestiço (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :मस्तीसा_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
@@ -1620,7 +1607,6 @@
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chapa> ;
     lexinfo:etymology "? chapa (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :छापा_entry ;
     ontolex:canonicalForm :چھاپہ_lemma ;
     ontolex:sense :چھاپہ_sense .
@@ -1651,7 +1637,6 @@
 :کرستان_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cristão> ;
-    lexinfo:etymology "NaN"^^xsd:double ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :क्रिस्तान_entry ;
@@ -1782,7 +1767,6 @@
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pão> ;
     lexinfo:etymology "pão (Source: Dalgado); Sanskrit पद्  (Source:McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:nan ;
     rdfs:seeAlso :पाव-रोटी_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;

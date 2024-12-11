@@ -154,7 +154,10 @@ def upload_ur(file_name):
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
         etymology = row['Etymology Free']
         hindi_head = (row['Headword Hindi']).replace(' ', '')
-        hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+hindi_head+"_entry"
+        if hindi_head != 'NA':
+            hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+hindi_head+"_entry"
+        else:
+            hindi_seeAlso = 'NA'
         
         urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'seeAlso':hindi_seeAlso, 'form':forms, 'etymon':porEtymon, 'etymology': etymology, 'urTenTen18':corpus}
         
@@ -245,8 +248,11 @@ def upload_hl(file_name):
         else:
             print(row['Headword'])
         urdu_head = urdu(row['Urdu ']).replace(' ', '')
-        urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu_head+"_entry"
-        print(urdu_seeAlso)
+        if urdu_head != 'NA':
+            urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu_head+"_entry"
+        else:
+            urdu_seeAlso = 'NA'
+            print(urdu_seeAlso)
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
         etymology = row['Etymology Free']
 

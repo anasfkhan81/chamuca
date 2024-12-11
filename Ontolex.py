@@ -6,6 +6,7 @@
 # import unidecode
 # import codecs
 import rdflib
+import math
 from rdflib import URIRef, BNode, Literal, Graph, Namespace
 from rdflib.namespace import RDF, RDFS, FOAF, Namespace, NamespaceManager, OWL, XSD, SKOS, DC, DCTERMS, DCAT
 
@@ -106,7 +107,7 @@ class Lexicon():
     def addPartOfSpeech(self, keys, entity, subj):
         if 'pos' in keys:
             pos = entity['pos']
-            if pos != '':
+            if pos != '' and pos!='nan':
                 self.lex.add((subj, lexinfo_ns.partOfSpeech, URIRef(lexinfo_uri + pos)))
     
 
@@ -139,8 +140,8 @@ class Lexicon():
 
     def addEty(self, keys, entity, subj):
         if 'etymology' in keys:
-            etymy = entity['etymology']
-            if etymy != '' and etymy != str('nan'):
+            etymy = str(entity['etymology'])
+            if etymy != '' and etymy!='nan':
                 print("etymology is "+str(etymy))
                 self.lex.add((subj, lexinfo_ns.etymology, Literal(etymy)))
 
@@ -149,7 +150,7 @@ class Lexicon():
         if 'seeAlso' in keys:
             see_url = entity['seeAlso']
             if see_url[-2:]!='NA':
-                print(see_url[-2:])
+                print("see also" + see_url[-2:])
                 self.lex.add((subj, RDFS.seeAlso, URIRef(see_url)))
 
 #add this part to a subclass of Lexicon
@@ -224,8 +225,10 @@ class Lexicon():
             # Relate the form together using the appropriate property writtenRep
             i = 0
             for forms in f['rep']:
-                print(str((forms[1])))
-                self.lex.add((form, ontolex_ns.writtenRep, Literal(forms[0], lang=forms[1])))
+                if isinstance(forms[0], str):
+                    self.lex.add((form, ontolex_ns.writtenRep, Literal(forms[0], lang=forms[1])))
+                else:
+                    print("zwicky")
                 
             # Check if it is a lemma or not
             if f['lemma']:
