@@ -159,7 +159,7 @@ def upload_ur(file_name):
         else:
             hindi_seeAlso = 'NA'
         
-        urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'seeAlso':hindi_seeAlso, 'form':forms, 'etymon':porEtymon, 'etymology': etymology, 'urTenTen18':corpus}
+        urdu_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']), 'sense':sense_content, 'seeAlso':hindi_seeAlso, 'form':forms, 'etymon':porEtymon, 'etymology': etymology, 'urTenTen18':corpus, 'domain':str(row['Domain'])}
         
 
     return urdu_lex
@@ -257,7 +257,7 @@ def upload_hl(file_name):
         etymology = row['Etymology Free']
 
         print(corpus)
-        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus}
+        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus, 'domain':str(row['Domain'])}
         i+=1
 
     return hind_lex
