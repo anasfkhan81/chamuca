@@ -20,6 +20,7 @@ frac_uri = "http://www.w3.org/ns/lemon/frac#"
 cito_uri = "http://purl.org/spar/cito"
 fabio_uri = "http://purl.org/spar/fabio/"
 dcmi_uri = "http://purl.org/dc/dcmitype/"
+larid_uri = "http://lari-datasets.ilc.cnr.it/chadoms#"
 ontolex_ns = Namespace(ontolex_uri)
 lexinfo_ns = Namespace(lexinfo_uri)
 lime_ns = Namespace(lime_uri)
@@ -155,6 +156,13 @@ class Lexicon():
 
 #add this part to a subclass of Lexicon
 
+    def addDomain(self, keys, entity, subj):
+        if 'domain' in keys: 
+            domain_url = entity['domain']
+            if domain_url != '':
+                self.lex.add((subj, lexinfo_ns.domain, URIRef(larid_uri+domain_url)))
+
+            
     def addHindiCorpus(self):
         tot_freq = BNode()
         hitenten = URIRef(self.namespace+'hiTenTen21')
@@ -367,6 +375,8 @@ class Lexicon():
         if self.language == 'ur':
             self.addUrdu2018(entry_keys, self.indic['entries'][lemma_id], ent)
 
+        # add domain
+        self.addDomain(entry_keys, self.indic['entries'][lemma_id], ent)
 
         # add related entries
         self.addSeeAlso(entry_keys, self.indic['entries'][lemma_id], ent)
