@@ -1,0 +1,84 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix chadoms: <http://lari-datasets.ilc.cnr.it/chadoms#> .
+
+# SKOS Concepts
+chadoms:administration a skos:Concept ;
+    skos:prefLabel "Administration"@en .
+
+chadoms:animalHusbandry a skos:Concept ;
+    skos:prefLabel "Animal Husbandry"@en .
+
+chadoms:architecture a skos:Concept ;
+    skos:prefLabel "Architecture"@en .
+
+chadoms:botany a skos:Concept ;
+    skos:prefLabel "Botany"@en .
+
+chadoms:calendar a skos:Concept ;
+    skos:prefLabel "Calendar"@en .
+
+chadoms:cleaningAndHygiene a skos:Concept ;
+    skos:prefLabel "Cleaning and Hygiene"@en .
+
+chadoms:clothing a skos:Concept ;
+    skos:prefLabel "Clothing"@en .
+
+chadoms:culinary a skos:Concept ;
+    skos:prefLabel "Culinary"@en .
+
+chadoms:furniture a skos:Concept ;
+    skos:prefLabel "Furniture"@en .
+
+chadoms:healthcare a skos:Concept ;
+    skos:prefLabel "Healthcare"@en .
+
+chadoms:household a skos:Concept ;
+    skos:prefLabel "Household"@en .
+
+chadoms:materials a skos:Concept ;
+    skos:prefLabel "Materials"@en .
+
+chadoms:metrology a skos:Concept ;
+    skos:prefLabel "Metrology"@en .
+
+chadoms:military a skos:Concept ;
+    skos:prefLabel "Military"@en .
+
+chadoms:music a skos:Concept ;
+    skos:prefLabel "Music"@en .
+
+chadoms:nationalities a skos:Concept ;
+    skos:prefLabel "Nationalities"@en .
+
+chadoms:nautics a skos:Concept ;
+    skos:prefLabel "Nautics"@en .
+
+chadoms:occupations a skos:Concept ;
+    skos:prefLabel "Occupations"@en .
+
+chadoms:properNames a skos:Concept ;
+    skos:prefLabel "Proper Names"@en .
+
+chadoms:religion a skos:Concept ;
+    skos:prefLabel "Religion"@en .
+
+chadoms:sensoryPerception a skos:Concept ;
+    skos:prefLabel "Sensory Perception"@en .
+
+chadoms:sewing a skos:Concept ;
+    skos:prefLabel "Sewing"@en .
+
+chadoms:trade a skos:Concept ;
+    skos:prefLabel "Trade"@en .
+
+chadoms:transportation a skos:Concept ;
+    skos:prefLabel "Transportation"@en .
+
+# Concept Scheme
+chadoms:domainsScheme a skos:ConceptScheme ;
+    skos:prefLabel "Domains Vocabulary"@en ;
+    skos:hasTopConcept chadoms:administration, chadoms:animalHusbandry, chadoms:architecture, chadoms:botany, chadoms:calendar, 
+                        chadoms:cleaningAndHygiene, chadoms:clothing, chadoms:culinary, chadoms:furniture, chadoms:healthcare,
+                        chadoms:household, chadoms:materials, chadoms:metrology, chadoms:military, chadoms:music, chadoms:nationalities, 
+                        chadoms:nautics, chadoms:occupations, chadoms:properNames, chadoms:religion, chadoms:sensoryPerception, 
+                        chadoms:sewing, chadoms:trade, chadoms:transportation .
