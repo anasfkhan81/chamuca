@@ -7,8 +7,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.com/pt_lex#> a lime:Lexicon ;
+<http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> a lime:Lexicon ;
     dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
+    dc:title "Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Portuguese Lexicon"@eng ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     lime:entry :achar_entry,
         :agosto_entry,

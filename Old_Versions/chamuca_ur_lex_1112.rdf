@@ -1,4 +1,4 @@
-@prefix : <http://example.com/ur_lex#> .
+@prefix : <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -11,11 +11,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.com/ur_lex#> a lime:Lexicon ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#> a lime:Lexicon ;
     dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
+    dc:title "Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Urdu Lexicon"@eng ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     lime:entry :آلپین_entry,
-        <http://example.com/ur_lex#آیا‎_entry>,
+        <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_entry>,
         :استری_entry,
         :اسپات_entry,
         :انناس_entry,
@@ -34,14 +35,14 @@
         :بسکٹ_entry,
         :بمبہ_entry,
         :بوتَل_entry,
-        <http://example.com/ur_lex#بَرَامْدَا‎_entry>,
+        <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بَرَامْدَا‎_entry>,
         :بٹن_entry,
         :بھاپ_entry,
         :بینگن_entry,
         :ترنج_entry,
         :تنباکو_entry,
         :تنپورا_entry,
-        <http://example.com/ur_lex#تَولِیَہ⁩_entry>,
+        <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تَولِیَہ⁩_entry>,
         :جوا_entry,
         :جواری_entry,
         :دسمبر_entry,
@@ -70,7 +71,7 @@
         :پولس_entry,
         :پپیتا_entry,
         :پیرو_entry,
-        <http://example.com/ur_lex#پیپا‎_entry>,
+        <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا‎_entry>,
         :چائے_entry,
         :چابھی_entry,
         :چابی_entry,
@@ -99,16 +100,16 @@
     skos:definition "" ;
     ontolex:isSenseOf :آلپین_entry .
 
-<http://example.com/ur_lex#آیا‎_lemma> a ontolex:Form ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_lemma> a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɑː.jɑː"@ur-fonipa ;
     ontolex:writtenRep "آیا‎"@ur-Arab,
         "āyā"@ur-Latn .
 
-<http://example.com/ur_lex#آیا‎_sense> a ontolex:LexicalSense ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_sense> a ontolex:LexicalSense ;
     skos:definition "ayah: nurse maid, nurse" ;
-    ontolex:isSenseOf <http://example.com/ur_lex#آیا‎_entry> .
+    ontolex:isSenseOf <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_entry> .
 
 :استری_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -126,7 +127,7 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɪs.pɑːt̪"@ur-fonipa ;
     ontolex:writtenRep "اسپات"@ur-Arab,
-        "ispāt'"@ur-Latn .
+        " ispāt'"@ur-Latn .
 
 :اسپات_sense a ontolex:LexicalSense ;
     skos:definition "steel" ;
@@ -192,16 +193,8 @@
     ontolex:writtenRep "اَن٘گْریز"@ur-Arab,
         "aṅgrez"@ur-Latn .
 
-:اَن٘گْریز_sense_1 a ontolex:LexicalSense ;
-    skos:definition "Englishman; a Brit" ;
-    ontolex:isSenseOf :اَن٘گْریز_entry .
-
-:اَن٘گْریز_sense_2 a ontolex:LexicalSense ;
-    skos:definition "chiefly historical) the British" ;
-    ontolex:isSenseOf :اَن٘گْریز_entry .
-
-:اَن٘گْریز_sense_3 a ontolex:LexicalSense ;
-    skos:definition "(colloquial) white person" ;
+:اَن٘گْریز_sense a ontolex:LexicalSense ;
+    skos:definition "1. Englishman; a Brit 2. chiefly historical) the British 3. (colloquial) white person" ;
     ontolex:isSenseOf :اَن٘گْریز_entry .
 
 :اَکْتُوبَر_lemma a ontolex:Form ;
@@ -296,12 +289,8 @@
     ontolex:writtenRep "بمبہ"@ur-Arab,
         "bamba"@ur-Latn .
 
-:بمبہ_sense_1 a ontolex:LexicalSense ;
-    skos:definition "pump; water pump" ;
-    ontolex:isSenseOf :بمبہ_entry .
-
-:بمبہ_sense_2 a ontolex:LexicalSense ;
-    skos:definition "channel, narrow river, creek" ;
+:بمبہ_sense a ontolex:LexicalSense ;
+    skos:definition "1. pump; water pump 2. channel, narrow river, creek" ;
     ontolex:isSenseOf :بمبہ_entry .
 
 :بوتَل_lemma a ontolex:Form ;
@@ -311,23 +300,19 @@
     ontolex:writtenRep "بوتَل"@ur-Arab,
         "botal"@ur-Latn .
 
-:بوتَل_sense_1 a ontolex:LexicalSense ;
-    skos:definition "bottle" ;
+:بوتَل_sense a ontolex:LexicalSense ;
+    skos:definition "1. bottle  2. (euphemistic) wine bottle" ;
     ontolex:isSenseOf :بوتَل_entry .
 
-:بوتَل_sense_2 a ontolex:LexicalSense ;
-    skos:definition "(euphemistic) wine bottle" ;
-    ontolex:isSenseOf :بوتَل_entry .
-
-<http://example.com/ur_lex#بَرَامْدَا‎_lemma> a ontolex:Form ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بَرَامْدَا‎_lemma> a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "بَرَامْدَا‎"@ur-Arab,
         "barāmdā"@ur-Latn .
 
-<http://example.com/ur_lex#بَرَامْدَا‎_sense> a ontolex:LexicalSense ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بَرَامْدَا‎_sense> a ontolex:LexicalSense ;
     skos:definition "" ;
-    ontolex:isSenseOf <http://example.com/ur_lex#بَرَامْدَا‎_entry> .
+    ontolex:isSenseOf <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بَرَامْدَا‎_entry> .
 
 :بٹن_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -347,16 +332,8 @@
     ontolex:writtenRep "بھاپ"@ur-Arab,
         "bhāp"@ur-Latn .
 
-:بھاپ_sense_1 a ontolex:LexicalSense ;
-    skos:definition "hot breath; exhalation" ;
-    ontolex:isSenseOf :بھاپ_entry .
-
-:بھاپ_sense_2 a ontolex:LexicalSense ;
-    skos:definition "steam, water vapour" ;
-    ontolex:isSenseOf :بھاپ_entry .
-
-:بھاپ_sense_3 a ontolex:LexicalSense ;
-    skos:definition "vapour, gas" ;
+:بھاپ_sense a ontolex:LexicalSense ;
+    skos:definition "1. hot breath; exhalation  2. steam, water vapour 3. vapour, gas" ;
     ontolex:isSenseOf :بھاپ_entry .
 
 :بینگن_lemma a ontolex:Form ;
@@ -399,7 +376,7 @@
     skos:definition "" ;
     ontolex:isSenseOf :تنپورا_entry .
 
-<http://example.com/ur_lex#تَولِیَہ⁩_lemma> a ontolex:Form ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تَولِیَہ⁩_lemma> a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t̪oː.lɪ.jə"@ur-fonipa,
@@ -407,9 +384,9 @@
     ontolex:writtenRep "تَولِیَہ⁩"@ur-Arab,
         "tauliya"@ur-Latn .
 
-<http://example.com/ur_lex#تَولِیَہ⁩_sense> a ontolex:LexicalSense ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تَولِیَہ⁩_sense> a ontolex:LexicalSense ;
     skos:definition "towel" ;
-    ontolex:isSenseOf <http://example.com/ur_lex#تَولِیَہ⁩_entry> .
+    ontolex:isSenseOf <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تَولِیَہ⁩_entry> .
 
 :جوا_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -452,20 +429,8 @@
     ontolex:writtenRep "رسید"@ur-Arab,
         "rasīd"@ur-Latn .
 
-:رسید_sense_1 a ontolex:LexicalSense ;
-    skos:definition "(law) bill, invoice" ;
-    ontolex:isSenseOf :رسید_entry .
-
-:رسید_sense_2 a ontolex:LexicalSense ;
-    skos:definition "receipt (ie. confirmation)" ;
-    ontolex:isSenseOf :رسید_entry .
-
-:رسید_sense_3 a ontolex:LexicalSense ;
-    skos:definition "clue, address, knowledge" ;
-    ontolex:isSenseOf :رسید_entry .
-
-:رسید_sense_4 a ontolex:LexicalSense ;
-    skos:definition "response (to a question or statement/action)" ;
+:رسید_sense a ontolex:LexicalSense ;
+    skos:definition "1. (law) bill, invoice  2. receipt (ie. confirmation)  3. clue, address, knowledge 4. response (to a question or statement/action)" ;
     ontolex:isSenseOf :رسید_entry .
 
 :رطل_lemma a ontolex:Form ;
@@ -474,16 +439,8 @@
     ontolex:writtenRep "رطل"@ur-Arab,
         "ratal"@ur-Latn .
 
-:رطل_sense_1 a ontolex:LexicalSense ;
-    skos:definition "(units of measurement) pound" ;
-    ontolex:isSenseOf :رطل_entry .
-
-:رطل_sense_2 a ontolex:LexicalSense ;
-    skos:definition "a pound weight" ;
-    ontolex:isSenseOf :رطل_entry .
-
-:رطل_sense_3 a ontolex:LexicalSense ;
-    skos:definition "( units of measurement) a pint" ;
+:رطل_sense a ontolex:LexicalSense ;
+    skos:definition "1. (units of measurement) pound 2. a pound weight 3. ( units of measurement) a pint" ;
     ontolex:isSenseOf :رطل_entry .
 
 :سايہ_lemma a ontolex:Form ;
@@ -523,16 +480,8 @@
     ontolex:writtenRep "شرط"@ur-Arab,
         "šart"@ur-Latn .
 
-:شرط_sense_1 a ontolex:LexicalSense ;
-    skos:definition "condition, term" ;
-    ontolex:isSenseOf :شرط_entry .
-
-:شرط_sense_2 a ontolex:LexicalSense ;
-    skos:definition "wager, bet" ;
-    ontolex:isSenseOf :شرط_entry .
-
-:شرط_sense_3 a ontolex:LexicalSense ;
-    skos:definition "provision, wage" ;
+:شرط_sense a ontolex:LexicalSense ;
+    skos:definition "1. condition, term 2. wager, bet 3. provision, wage" ;
     ontolex:isSenseOf :شرط_entry .
 
 :صابن_lemma a ontolex:Form ;
@@ -542,12 +491,8 @@
     ontolex:writtenRep "صابن"@ur-Arab,
         "sābun"@ur-Latn .
 
-:صابن_sense_1 a ontolex:LexicalSense ;
-    skos:definition "soap" ;
-    ontolex:isSenseOf :صابن_entry .
-
-:صابن_sense_2 a ontolex:LexicalSense ;
-    skos:definition "washing powder (ie. for a washing machine etc.)" ;
+:صابن_sense a ontolex:LexicalSense ;
+    skos:definition "1. soap 2. washing powder (ie. for a washing machine etc.)" ;
     ontolex:isSenseOf :صابن_entry .
 
 :طوفان_lemma a ontolex:Form ;
@@ -609,12 +554,8 @@
     ontolex:writtenRep "قمیض"@ur-Arab,
         "qamīs"@ur-Latn .
 
-:قمیض_sense_1 a ontolex:LexicalSense ;
-    skos:definition "shirt" ;
-    ontolex:isSenseOf :قمیض_entry .
-
-:قمیض_sense_2 a ontolex:LexicalSense ;
-    skos:definition "garment" ;
+:قمیض_sense a ontolex:LexicalSense ;
+    skos:definition "1. shirt 2. garment" ;
     ontolex:isSenseOf :قمیض_entry .
 
 :مارتول_lemma a ontolex:Form ;
@@ -623,12 +564,8 @@
     ontolex:writtenRep "مارتول"@ur-Arab,
         "mārtol"@ur-Latn .
 
-:مارتول_sense_1 a ontolex:LexicalSense ;
-    skos:definition "hammer" ;
-    ontolex:isSenseOf :مارتول_entry .
-
-:مارتول_sense_2 a ontolex:LexicalSense ;
-    skos:definition "screwdriver, turnscrew" ;
+:مارتول_sense a ontolex:LexicalSense ;
+    skos:definition "1. hammer 2. screwdriver, turnscrew" ;
     ontolex:isSenseOf :مارتول_entry .
 
 :ماسکَبار_lemma a ontolex:Form ;
@@ -766,15 +703,15 @@
     skos:definition "turkey" ;
     ontolex:isSenseOf :پیرو_entry .
 
-<http://example.com/ur_lex#پیپا‎_lemma> a ontolex:Form ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا‎_lemma> a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "پیپا‎"@ur-Arab,
         "pīpā"@ur-Latn .
 
-<http://example.com/ur_lex#پیپا‎_sense> a ontolex:LexicalSense ;
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا‎_sense> a ontolex:LexicalSense ;
     skos:definition "cask barrel canister" ;
-    ontolex:isSenseOf <http://example.com/ur_lex#پیپا‎_entry> .
+    ontolex:isSenseOf <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا‎_entry> .
 
 :چائے_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -865,12 +802,8 @@
     ontolex:writtenRep "کمرہ"@ur-Arab,
         "kamra"@ur-Latn .
 
-:کمرہ_sense_1 a ontolex:LexicalSense ;
-    skos:definition "room, chamber" ;
-    ontolex:isSenseOf :کمرہ_entry .
-
-:کمرہ_sense_2 a ontolex:LexicalSense ;
-    skos:definition "compartment (of an aeroplane or train)" ;
+:کمرہ_sense a ontolex:LexicalSense ;
+    skos:definition "1. room, chamber 2. compartment (of an aeroplane or train)" ;
     ontolex:isSenseOf :کمرہ_entry .
 
 :کوچبان_lemma a ontolex:Form ;
@@ -899,12 +832,8 @@
     ontolex:writtenRep "کپتان"@ur-Arab,
         "kaptān"@ur-Latn .
 
-:کپتان_sense_1 a ontolex:LexicalSense ;
-    skos:definition "captain" ;
-    ontolex:isSenseOf :کپتان_entry .
-
-:کپتان_sense_2 a ontolex:LexicalSense ;
-    skos:definition "skipper" ;
+:کپتان_sense a ontolex:LexicalSense ;
+    skos:definition "1.captain 2. skipper" ;
     ontolex:isSenseOf :کپتان_entry .
 
 :کیتھولک_lemma a ontolex:Form ;
@@ -946,17 +875,13 @@
     ontolex:writtenRep "گِرْجا"@ur-Arab,
         "girjā"@ur-Latn .
 
-:گِرْجا_sense_1 a ontolex:LexicalSense ;
-    skos:definition "(Christianity) church" ;
-    ontolex:isSenseOf :گِرْجا_entry .
-
-:گِرْجا_sense_2 a ontolex:LexicalSense ;
-    skos:definition "chapel" ;
+:گِرْجا_sense a ontolex:LexicalSense ;
+    skos:definition "1. (Christianity) church  2. chapel" ;
     ontolex:isSenseOf :گِرْجا_entry .
 
 :آلپین_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#alfinete> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#alfinete> ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :आलपीन_entry ;
@@ -966,21 +891,21 @@
     ontolex:canonicalForm :آلپین_lemma ;
     ontolex:sense :آلپین_sense .
 
-<http://example.com/ur_lex#آیا‎_entry> a ontolex:LexicalEntry,
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_entry> a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#aia> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#aia> ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :आया_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
             frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm <http://example.com/ur_lex#آیا‎_lemma> ;
-    ontolex:sense <http://example.com/ur_lex#آیا‎_sense> .
+    ontolex:canonicalForm <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_lemma> ;
+    ontolex:sense <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_sense> .
 
 :استری_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#estirar> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#estirar> ;
     lexinfo:etymology "estirar (Source: Dalgado)" ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -993,7 +918,7 @@
 
 :اسپات_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#espada> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#espada> ;
     lexinfo:etymology "espada (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1006,7 +931,7 @@
 
 :انناس_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#ananás> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#ananás> ;
     lexinfo:etymology "ananás (Source: Dalgado)" ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :अनन्नास_entry ;
@@ -1018,7 +943,7 @@
 
 :اَسْپَتال_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#hospital> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#hospital> ;
     lexinfo:etymology "espital (Source: Wiktionary); English hospital (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1031,7 +956,7 @@
 
 :اَصْطَبَل_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#estábulo> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#estábulo> ;
     lexinfo:etymology "estábulo  (Source: McGregor); Arabic ist̤abal (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1044,7 +969,7 @@
 
 :اَلْماری_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#armário> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#armário> ;
     lexinfo:etymology "armário (Source: Dalgado)" ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1057,7 +982,7 @@
 
 :اَنِیسُون_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#anis> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#anis> ;
     lexinfo:etymology "? anis (Source: Dalgado); Greek ἄνισον  (Source: Dalgado) ; Latin anisum  (Source: Dalgado)" ;
     rdfs:seeAlso :अनीसून_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1066,9 +991,21 @@
     ontolex:canonicalForm :اَنِیسُون_lemma ;
     ontolex:sense :اَنِیسُون_sense .
 
+:اَن٘گْریز_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#inglês> ;
+    lexinfo:etymology "inglês (Source: Dalgado)" ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :अँग्रेज़_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 6218 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :اَن٘گْریز_lemma ;
+    ontolex:sense :اَن٘گْریز_sense .
+
 :اَکْتُوبَر_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#outubro> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#outubro> ;
     lexinfo:etymology "outubro (Source: Wiktionary);  English October (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1081,7 +1018,7 @@
 
 :اچار_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#achar> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#achar> ;
     lexinfo:etymology "achar (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1094,7 +1031,7 @@
 
 :اگست_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#agosto> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#agosto> ;
     lexinfo:etymology "agosto (Source:  W)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1107,7 +1044,7 @@
 
 :بالٹی_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#balde> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#balde> ;
     lexinfo:etymology "balde (Source: Dalgado)" ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1120,7 +1057,7 @@
 
 :بجرا_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#baixel> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#baixel> ;
     lexinfo:etymology "? baixel (Source: Dalgado); Arabic بغلة  (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1133,18 +1070,20 @@
 
 :برما_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#nan> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#verruma> ;
+    lexinfo:etymology "verruma (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
-    rdfs:seeAlso :nan_entry ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :बरमा_entry ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
+            rdf:value 4930 ;
             frac:observedIn :urTenTen18 ] ;
     ontolex:canonicalForm :برما_lemma ;
     ontolex:sense :برما_sense .
 
 :بس_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#basta> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#basta> ;
     lexinfo:etymology "basta (Source: Dalgado); Persian بس  (Source: Dalgado; Wiktionary; McGregor)" ;
     rdfs:seeAlso :बस_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1155,7 +1094,7 @@
 
 :بسکٹ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#biscoito> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#biscoito> ;
     lexinfo:etymology "biscoito (Source: Dalgado); English biscuit (Source: Wiktionary)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1166,9 +1105,34 @@
     ontolex:canonicalForm :بسکٹ_lemma ;
     ontolex:sense :بسکٹ_sense .
 
-<http://example.com/ur_lex#بَرَامْدَا‎_entry> a ontolex:LexicalEntry,
+:بمبہ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#varanda> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pompa> ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :बंबा_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :بمبہ_lemma ;
+    ontolex:sense :بمبہ_sense .
+
+:بوتَل_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#botelha> ;
+    lexinfo:etymology "? botelha (Source: Dalgado); English bottle (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :बोतल_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 3173 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :بوتَل_lemma ;
+    ontolex:sense :بوتَل_sense .
+
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بَرَامْدَا‎_entry> a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#varanda> ;
     lexinfo:etymology "varanda (Source: Dalgado); Persian bar āmada 'come forth' (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1176,12 +1140,12 @@
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
             frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm <http://example.com/ur_lex#بَرَامْدَا‎_lemma> ;
-    ontolex:sense <http://example.com/ur_lex#بَرَامْدَا‎_sense> .
+    ontolex:canonicalForm <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بَرَامْدَا‎_lemma> ;
+    ontolex:sense <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بَرَامْدَا‎_sense> .
 
 :بٹن_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#botão> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#botão> ;
     lexinfo:etymology "botão (Source: Dalgado); English button (Source: Dasa)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1192,9 +1156,22 @@
     ontolex:canonicalForm :بٹن_lemma ;
     ontolex:sense :بٹن_sense .
 
+:بھاپ_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bafo> ;
+    lexinfo:etymology "? bafo (Source: Dalgado); Sanksrit वाष्प  (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :भाप_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 645 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :بھاپ_lemma ;
+    ontolex:sense :بھاپ_sense .
+
 :بینگن_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#beringela> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#beringela> ;
     lexinfo:etymology "beringela (Source: Dalgado); Prakrit 𑀯𑀸𑀇𑀁𑀕𑀡  from Sanskrit वङ्गन  (Source: Wiktionary);  Persian بادنجان  (Source: Soares,  Wiktionary) " ;
     lexinfo:gender lexinfo:masculine ;
     rdfs:seeAlso :बैंगन_entry ;
@@ -1206,7 +1183,7 @@
 
 :ترنج_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#toronja> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#toronja> ;
     lexinfo:etymology "toronja (Source: Dalgado); Persian turanj (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1219,7 +1196,7 @@
 
 :تنباکو_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#tabaco> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tabaco> ;
     lexinfo:etymology "tabaco (Source: Dalgado); Persian تنباکو (Source: Wiktionary)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1232,7 +1209,7 @@
 
 :تنپورا_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#tambor> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tambor> ;
     lexinfo:etymology "tambor (Source: Dalgado); Persian tambūra (Source: McGregor)" ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :तंबूरा_entry ;
@@ -1242,9 +1219,9 @@
     ontolex:canonicalForm :تنپورا_lemma ;
     ontolex:sense :تنپورا_sense .
 
-<http://example.com/ur_lex#تَولِیَہ⁩_entry> a ontolex:LexicalEntry,
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تَولِیَہ⁩_entry> a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#toalha> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#toalha> ;
     lexinfo:etymology "toalha (Source: Dalgado); English towel (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1252,12 +1229,12 @@
     frac:frequency [ a frac:Frequency ;
             rdf:value 55 ;
             frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm <http://example.com/ur_lex#تَولِیَہ⁩_lemma> ;
-    ontolex:sense <http://example.com/ur_lex#تَولِیَہ⁩_sense> .
+    ontolex:canonicalForm <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تَولِیَہ⁩_lemma> ;
+    ontolex:sense <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#تَولِیَہ⁩_sense> .
 
 :جوا_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#jogar> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#jogar> ;
     lexinfo:etymology "jogar (Source: Dalgado);  Sanskrit द्यूत  (Source: Wiktionary)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1270,7 +1247,7 @@
 
 :جواری_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#jogar> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#jogar> ;
     lexinfo:etymology "jogar (Source: Dalgado);  Sanskrit द्यूत  (Source: Wiktionary)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1283,7 +1260,7 @@
 
 :دسمبر_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#dezembro> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#dezembro> ;
     lexinfo:etymology "English December (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1294,9 +1271,34 @@
     ontolex:canonicalForm :دسمبر_lemma ;
     ontolex:sense :دسمبر_sense .
 
+:رسید_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#recibo> ;
+    lexinfo:etymology "recibo (Source: Dalgado); Persian رسید (Source: McGregor)" ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :रसीद_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 1914 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :رسید_lemma ;
+    ontolex:sense :رسید_sense .
+
+:رطل_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#arrátel> ;
+    lexinfo:etymology "arrátel (Source: Dalgado); Arabic rat̤l (Source: McGregor)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :रतल_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 53 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :رطل_lemma ;
+    ontolex:sense :رطل_sense .
+
 :سايہ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#saia> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#saia> ;
     lexinfo:etymology "saia (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1309,7 +1311,7 @@
 
 :ساگو_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#sagu> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#sagu> ;
     lexinfo:etymology "? sagu (Source: Dalgado); Indonesian sagu (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1322,7 +1324,7 @@
 
 :ستمبر_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#setembro> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#setembro> ;
     lexinfo:etymology "setembro (Source: Wiktionary); English September (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1333,9 +1335,32 @@
     ontolex:canonicalForm :ستمبر_lemma ;
     ontolex:sense :ستمبر_sense .
 
+:شرط_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#sorte> ;
+    lexinfo:etymology "sorte (Source: Dalgado); Arabic شَرْط (Source: Wiktionary)" ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :शर्ती_entry ;
+    ontolex:canonicalForm :شرط_lemma ;
+    ontolex:sense :شرط_sense .
+
+:صابن_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#sabão> ;
+    lexinfo:etymology "sabão (Source: Dalgado); A. ṣābun (Source: McGregor); Persian صابون (Source: Wiktionary)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :साबुन_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 1632 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :صابن_lemma ;
+    ontolex:sense :صابن_sense .
+
 :فالتو_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#falto> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#falto> ;
     lexinfo:etymology "falto (Source: Dalgado)" ;
     rdfs:seeAlso :फ़ालतू_entry ;
     frac:frequency [ a frac:Frequency ;
@@ -1346,7 +1371,7 @@
 
 :فيتہ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#fita> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#fita> ;
     lexinfo:etymology "fita (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1357,11 +1382,36 @@
     ontolex:canonicalForm :فيتہ_lemma ;
     ontolex:sense :فيتہ_sense .
 
+:قمیض_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#camisa> ;
+    lexinfo:etymology "camisa (Source: Dalgado); Persian قمیص  (Source: Wiktionary); Arabic (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :क़मीज़_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 1257 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :قمیض_lemma ;
+    ontolex:sense :قمیض_sense .
+
+:مارتول_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#martelo> ;
+    lexinfo:etymology "martelo (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :मारतौल_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :مارتول_lemma ;
+    ontolex:sense :مارتول_sense .
+
 :ماسکَبار_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#mês> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mês> ;
     lexinfo:etymology "mês (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :मास-कबार_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
@@ -1371,7 +1421,7 @@
 
 :مرمر_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#mármore> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mármore> ;
     lexinfo:etymology "mármore (Source: Dalgado); Persian مرمر  (Source: Wiktionary, McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1384,7 +1434,7 @@
 
 :مستول_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#mastro> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mastro> ;
     lexinfo:etymology "mastro (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1397,9 +1447,8 @@
 
 :مَستِیسا_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#mestiço> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestiço> ;
     lexinfo:etymology "mestiço (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :मस्तीसा_entry ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
@@ -1409,7 +1458,7 @@
 
 :مِستری_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#mestre> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestre> ;
     lexinfo:etymology "mestre (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1422,7 +1471,7 @@
 
 :نيلام_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#leilão> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#leilão> ;
     lexinfo:etymology "leilão (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1435,7 +1484,7 @@
 
 :پرات_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#prato> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#prato> ;
     lexinfo:etymology "prato (Source: Dalgado); Sanskrit पात्र (Source: Dasa) " ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1448,7 +1497,7 @@
 
 :پرچ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#pires> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pires> ;
     lexinfo:etymology "pires (Source: Dalgado); English press (Source: Wiktionary, McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1461,7 +1510,7 @@
 
 :پسطول_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#pistola> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pistola> ;
     lexinfo:etymology "pistola (Source: Dalgado); English pistol (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1474,7 +1523,7 @@
 
 :پولس_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#polícia> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#polícia> ;
     lexinfo:etymology "? polícia (Source: Dalgado); English police (Source: D, McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1487,7 +1536,7 @@
 
 :پپیتا_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#papaia> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#papaia> ;
     lexinfo:etymology "papaia (Source: Dalgado); " ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :पपीता_entry ;
@@ -1499,25 +1548,25 @@
 
 :پیرو_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#peru> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#peru> ;
     lexinfo:etymology "peru (Source: Dalgado); Persian  پِیل مُرْغ (Source:Dasa)" ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :पीरू_entry ;
     ontolex:canonicalForm :پیرو_lemma ;
     ontolex:sense :پیرو_sense .
 
-<http://example.com/ur_lex#پیپا‎_entry> a ontolex:LexicalEntry,
+<http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا‎_entry> a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#pipa> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pipa> ;
     lexinfo:etymology "pipa (Source: Dalgado)" ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :पीपा_entry ;
-    ontolex:canonicalForm <http://example.com/ur_lex#پیپا‎_lemma> ;
-    ontolex:sense <http://example.com/ur_lex#پیپا‎_sense> .
+    ontolex:canonicalForm <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا‎_lemma> ;
+    ontolex:sense <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#پیپا‎_sense> .
 
 :چائے_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#chá> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chá> ;
     lexinfo:etymology "chá (Source: Dalgado); Persian [P. cāʾe] (Source: McGregor)" ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1530,7 +1579,7 @@
 
 :چابھی_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#chave> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chave> ;
     lexinfo:etymology "chave (Source: Dalgado)" ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1543,7 +1592,7 @@
 
 :چابی_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#chave> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chave> ;
     lexinfo:etymology "chave (Source: Dalgado)" ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1556,7 +1605,7 @@
 
 :چھاپہ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#chapa> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chapa> ;
     lexinfo:etymology "? chapa (Source: Dalgado)" ;
     rdfs:seeAlso :छापा_entry ;
     ontolex:canonicalForm :چھاپہ_lemma ;
@@ -1564,7 +1613,7 @@
 
 :کاج_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#casa> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#casa> ;
     lexinfo:etymology "casa (Source: Dalgado); Sanskrit काचः 'a loop' (Source: Platts)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1574,7 +1623,7 @@
 
 :کارتوس_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#cartucho> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cartucho> ;
     lexinfo:etymology "? cartucho (Source: Dalgado); French cartouche (Source: McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1587,7 +1636,7 @@
 
 :کرستان_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#cristão> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cristão> ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :क्रिस्तान_entry ;
@@ -1599,7 +1648,7 @@
 
 :کرنل_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#coronel> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#coronel> ;
     lexinfo:etymology "coronel (Source: Dalgado); English colonel (Source: D, Wiktionary)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1610,9 +1659,22 @@
     ontolex:canonicalForm :کرنل_lemma ;
     ontolex:sense :کرنل_sense .
 
+:کمرہ_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#câmara> ;
+    lexinfo:etymology "câmara (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :कमरा_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 20964 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :کمرہ_lemma ;
+    ontolex:sense :کمرہ_sense .
+
 :کوچبان_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#cocheiro> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cocheiro> ;
     lexinfo:etymology "cocheiro (Source: Dalgado); English coachman (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1625,7 +1687,7 @@
 
 :کَرُوبِیم_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#querubim> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#querubim> ;
     lexinfo:etymology "querubim (Source: Dalgado)" ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :करूबीम_entry ;
@@ -1635,9 +1697,22 @@
     ontolex:canonicalForm :کَرُوبِیم_lemma ;
     ontolex:sense :کَرُوبِیم_sense .
 
+:کپتان_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#capitão> ;
+    lexinfo:etymology "capitão (Source: Dalgado); English Captain (Source: Wiktionary)" ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :कप्तान_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 18562 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :کپتان_lemma ;
+    ontolex:sense :کپتان_sense .
+
 :کیتھولک_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#católico> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#católico> ;
     lexinfo:etymology "católico (Source: Dalgado); English Catholic (Source: Dalgado, Wiktionary)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1650,7 +1725,7 @@
 
 :گوبھی_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#couve> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#couve> ;
     lexinfo:etymology "couve (Source: Dalgado); Sanksrit गोजीह्विका (Source: Wiktionary)" ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1663,7 +1738,7 @@
 
 :گودام_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#gudão> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#gudão> ;
     lexinfo:etymology "gudão (Source: Dalgado); Bengali gudām  (Source: Wiktionary, McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
@@ -1674,78 +1749,22 @@
     ontolex:canonicalForm :گودام_lemma ;
     ontolex:sense :گودام_sense .
 
-:بمبہ_entry a ontolex:LexicalEntry,
+:گِرْجا_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#pompa> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja> ;
+    lexinfo:etymology "igreja (Source: Dalgado)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :बंबा_entry ;
+    rdfs:seeAlso :गिरजा_entry ;
     frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
+            rdf:value 2028 ;
             frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :بمبہ_lemma ;
-    ontolex:sense :بمبہ_sense_1,
-        :بمبہ_sense_2 .
-
-:بوتَل_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#botelha> ;
-    lexinfo:etymology "? botelha (Source: Dalgado); English bottle (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :बोतल_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 3173 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :بوتَل_lemma ;
-    ontolex:sense :بوتَل_sense_1,
-        :بوتَل_sense_2 .
-
-:صابن_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#sabão> ;
-    lexinfo:etymology "sabão (Source: Dalgado); A. ṣābun (Source: McGregor); Persian صابون (Source: Wiktionary)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :साबुन_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 1632 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :صابن_lemma ;
-    ontolex:sense :صابن_sense_1,
-        :صابن_sense_2 .
-
-:قمیض_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#camisa> ;
-    lexinfo:etymology "camisa (Source: Dalgado); Persian قمیص  (Source: Wiktionary); Arabic (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :क़मीज़_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 1257 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :قمیض_lemma ;
-    ontolex:sense :قمیض_sense_1,
-        :قمیض_sense_2 .
-
-:مارتول_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#martelo> ;
-    lexinfo:etymology "martelo (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :मारतौल_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 0 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :مارتول_lemma ;
-    ontolex:sense :مارتول_sense_1,
-        :مارتول_sense_2 .
+    ontolex:canonicalForm :گِرْجا_lemma ;
+    ontolex:sense :گِرْجا_sense .
 
 :پادری_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#pão> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pão> ;
     lexinfo:etymology "pão (Source: Dalgado); Sanskrit पद्  (Source:McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     rdfs:seeAlso :पाव-रोटी_entry ;
@@ -1756,122 +1775,9 @@
     ontolex:sense :پادری_sense_1,
         :پادری_sense_2 .
 
-:کمرہ_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#câmara> ;
-    lexinfo:etymology "câmara (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :कमरा_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 20964 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :کمرہ_lemma ;
-    ontolex:sense :کمرہ_sense_1,
-        :کمرہ_sense_2 .
-
-:کپتان_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#capitão> ;
-    lexinfo:etymology "capitão (Source: Dalgado); English Captain (Source: Wiktionary)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :कप्तान_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 18562 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :کپتان_lemma ;
-    ontolex:sense :کپتان_sense_1,
-        :کپتان_sense_2 .
-
-:گِرْجا_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#igreja> ;
-    lexinfo:etymology "igreja (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :गिरजा_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 2028 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :گِرْجا_lemma ;
-    ontolex:sense :گِرْجا_sense_1,
-        :گِرْجا_sense_2 .
-
-:اَن٘گْریز_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#inglês> ;
-    lexinfo:etymology "inglês (Source: Dalgado)" ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :अँग्रेज़_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 6218 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :اَن٘گْریز_lemma ;
-    ontolex:sense :اَن٘گْریز_sense_1,
-        :اَن٘گْریز_sense_2,
-        :اَن٘گْریز_sense_3 .
-
-:بھاپ_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#bafo> ;
-    lexinfo:etymology "? bafo (Source: Dalgado); Sanksrit वाष्प  (Source: Dalgado)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :भाप_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 645 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :بھاپ_lemma ;
-    ontolex:sense :بھاپ_sense_1,
-        :بھاپ_sense_2,
-        :بھاپ_sense_3 .
-
-:رطل_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#arrátel> ;
-    lexinfo:etymology "arrátel (Source: Dalgado); Arabic rat̤l (Source: McGregor)" ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :रतल_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 53 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :رطل_lemma ;
-    ontolex:sense :رطل_sense_1,
-        :رطل_sense_2,
-        :رطل_sense_3 .
-
-:شرط_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#sorte> ;
-    lexinfo:etymology "sorte (Source: Dalgado); Arabic شَرْط (Source: Wiktionary)" ;
-    lexinfo:gender lexinfo:feminine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :शर्ती_entry ;
-    ontolex:canonicalForm :شرط_lemma ;
-    ontolex:sense :شرط_sense_1,
-        :شرط_sense_2,
-        :شرط_sense_3 .
-
-:رسید_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#recibo> ;
-    lexinfo:etymology "recibo (Source: Dalgado); Persian رسید (Source: McGregor)" ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso :रसीद_entry ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 1914 ;
-            frac:observedIn :urTenTen18 ] ;
-    ontolex:canonicalForm :رسید_lemma ;
-    ontolex:sense :رسید_sense_1,
-        :رسید_sense_2,
-        :رسید_sense_3,
-        :رسید_sense_4 .
-
 :طوفان_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:etymologicalRoot <http://example.com/pt_lex#tufão> ;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tufão> ;
     lexinfo:etymology "? tufão (Source: Dalgado); Persian طوفان (Source: Wiktionary, McGregor)" ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
