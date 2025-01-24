@@ -153,7 +153,7 @@ def upload_ur(file_name):
             print("urdu corpus: "+ str(corpus))
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
         etymology = row['Etymology Free']
-        hindi_head = (row['Headword Hindi']).replace(' ', '')
+        hindi_head = str((row['Headword Hindi'])).replace(' ', '')
         if hindi_head != 'NA':
             hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+hindi_head+"_entry"
         else:
