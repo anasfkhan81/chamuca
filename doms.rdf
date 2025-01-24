@@ -1,0 +1,84 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ex: <http://example.org/vocab#> .
+
+# SKOS Concepts
+ex:administration a skos:Concept ;
+    skos:prefLabel "Administration"@en .
+
+ex:animalHusbandry a skos:Concept ;
+    skos:prefLabel "Animal Husbandry"@en .
+
+ex:architecture a skos:Concept ;
+    skos:prefLabel "Architecture"@en .
+
+ex:botany a skos:Concept ;
+    skos:prefLabel "Botany"@en .
+
+ex:calendar a skos:Concept ;
+    skos:prefLabel "Calendar"@en .
+
+ex:cleaningAndHygiene a skos:Concept ;
+    skos:prefLabel "Cleaning and Hygiene"@en .
+
+ex:clothing a skos:Concept ;
+    skos:prefLabel "Clothing"@en .
+
+ex:culinary a skos:Concept ;
+    skos:prefLabel "Culinary"@en .
+
+ex:furniture a skos:Concept ;
+    skos:prefLabel "Furniture"@en .
+
+ex:healthcare a skos:Concept ;
+    skos:prefLabel "Healthcare"@en .
+
+ex:household a skos:Concept ;
+    skos:prefLabel "Household"@en .
+
+ex:materials a skos:Concept ;
+    skos:prefLabel "Materials"@en .
+
+ex:metrology a skos:Concept ;
+    skos:prefLabel "Metrology"@en .
+
+ex:military a skos:Concept ;
+    skos:prefLabel "Military"@en .
+
+ex:music a skos:Concept ;
+    skos:prefLabel "Music"@en .
+
+ex:nationalities a skos:Concept ;
+    skos:prefLabel "Nationalities"@en .
+
+ex:nautics a skos:Concept ;
+    skos:prefLabel "Nautics"@en .
+
+ex:occupations a skos:Concept ;
+    skos:prefLabel "Occupations"@en .
+
+ex:properNames a skos:Concept ;
+    skos:prefLabel "Proper Names"@en .
+
+ex:religion a skos:Concept ;
+    skos:prefLabel "Religion"@en .
+
+ex:sensoryPerception a skos:Concept ;
+    skos:prefLabel "Sensory Perception"@en .
+
+ex:sewing a skos:Concept ;
+    skos:prefLabel "Sewing"@en .
+
+ex:trade a skos:Concept ;
+    skos:prefLabel "Trade"@en .
+
+ex:transportation a skos:Concept ;
+    skos:prefLabel "Transportation"@en .
+
+# Concept Scheme
+ex:domainsScheme a skos:ConceptScheme ;
+    skos:prefLabel "Domains Vocabulary"@en ;
+    skos:hasTopConcept ex:administration, ex:animalHusbandry, ex:architecture, ex:botany, ex:calendar, 
+                        ex:cleaningAndHygiene, ex:clothing, ex:culinary, ex:furniture, ex:healthcare,
+                        ex:household, ex:materials, ex:metrology, ex:military, ex:music, ex:nationalities, 
+                        ex:nautics, ex:occupations, ex:properNames, ex:religion, ex:sensoryPerception, 
+                        ex:sewing, ex:trade, ex:transportation .
