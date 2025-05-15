@@ -254,7 +254,8 @@ def upload_hl(file_name):
             urdu_seeAlso = 'NA'
             print(urdu_seeAlso)
         porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])
-        etymology = row['Etymology Free']
+        # I altered this so I could add the new etymology strings to each entry
+        etymology = row['Etymology Full 2']
 
         print(corpus)
         hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus, 'domain':str(row['Domain'])}
