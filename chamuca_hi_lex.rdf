@@ -2173,7 +2173,7 @@
         ontolex:Word ;
     lexinfo:domain <http://lari-datasets.ilc.cnr.it/chadoms#calendar> ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#outubro> ;
-    lexinfo:etymology "pt outubro (Source: Wiktionary) | en October (Source: McGregor) ." ;
+    lexinfo:etymology "ine-pro *h₃(e)ḱtéh₃ ‘eight’, *h₃ḱt(e)h₃-uó- ‘eighth’ > itc-pro *oktō ‘eight’, *oktāwo- ‘eighth’ (Source: de Vaan) > la octō + -ber ‘pertaining the eigth (month)’ [analogy with la september ‘september’] (Source: Ernout-Meillet) > pt outubro (Source: Wiktionary) | en October (Source: McGregor) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اَکْتُوبَر⁩_entry> ;
@@ -2258,7 +2258,7 @@
         ontolex:Word ;
     lexinfo:domain <http://lari-datasets.ilc.cnr.it/chadoms#furniture> ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#armário> ;
-    lexinfo:etymology "pt armário (Source: Dalgado) ." ;
+    lexinfo:etymology "ine-pro *h₂(e)r-mo- ‘fitting’, *h₂er-mn-to- > itc-pro *armo-, *armnto- ‘weapons’ (Source: De Vaan) > la arma + -ārium ‘storage for weapons’ > pt armário [semantic broadening] (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اَلْماری_entry> ;
@@ -2277,7 +2277,6 @@
         ontolex:Word ;
     lexinfo:domain <http://lari-datasets.ilc.cnr.it/chadoms#animalHusbandry> ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#estábulo> ;
-    lexinfo:etymology "pt estábulo (Source: McGregor) | ar اسطبل (Source: McGregor) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اَصْطَبَل_entry> ;
@@ -2768,7 +2767,7 @@
         ontolex:Word ;
     lexinfo:domain <http://lari-datasets.ilc.cnr.it/chadoms#calendar> ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#dezembro> ;
-    lexinfo:etymology "en December (Source: McGregor) ." ;
+    lexinfo:etymology "ine-pro *deḱm ‘ten’, *deḱm-to- ‘tenth’ (Source: de Vaan) > itc-pro *dekm ‘ten’, *dekamo- ‘tenth’ > la decem + -ber 'pertaining to the tenth (month)' (Source: Ernout-Meillet) > en December (Source: McGregor) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#دسمبر⁩_entry> ;
@@ -3381,7 +3380,7 @@
         ontolex:Word ;
     lexinfo:domain <http://lari-datasets.ilc.cnr.it/chadoms#religion> ;
     lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cruz> ;
-    lexinfo:etymology "pt cruz (Source: Dalgado) ." ;
+    lexinfo:etymology "itc-pro *kruk(-i)-? (Source: de Vaan) > la crux 'wooden frame, cross' (Source: de Vaan) > pt cruz (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧کْرُوس⁩_entry> ;
