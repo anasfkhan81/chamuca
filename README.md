@@ -1,4 +1,5 @@
 # Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA)
+![CHAMUÇA logo](chamuca-logo)
 ## Table of Contents
 - [Summary](#summary)
 - [Introduction](#introduction)
