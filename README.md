@@ -23,15 +23,16 @@ The aims of the project are as follows:
 - Extract the relevant details from Dalgado's lexicon and compare it/combine it with information from the above resources, helping to make Dalgado's important scholarship more accessible to modern day researchers as well as a wider public 
 
 ## Background
-### The Impact of Portuguese in Asis
+### The Impact of Portuguese in Asia
 The influence of the Portuguese language in Asia starts with the so-called Age of Discovery (Era dos Descobrimentos in Portuguese) in the 15th and 16th centuries, a period of unprecedented maritime expansion for the then Kingdom of Portugal. During that period, several trading posts were established on the Malabar coast, including locations such as Cochin and Calicut, giving the Portuguese their first foothold in the continent. 
 
 Over the next few centuries, thanks to extensive contact with numerous parts of Asia through trade and colonisation, the Portuguese language was able to leave behind a profound linguistic legacy in the whole of the continent.  To quote Cardoso (2016) “A língua portuguesa encaixou-se na região asiática ao ponto de se converter em importante língua franca de comérico e diplomacia” [The Portuguese language became deeply rooted in the Asian region to the extent that it evolved into an important lingua franca for commerce and diplomacy]. 
 
-With time, the Portuguese presence in the region was challenged by other European colonial powers such as the Dutch, French and English, although Portugal was able to keep its colonies Goa, Daman, Diu, East Timor, and Macau well into the 20th century. Today, traces of the influence of the Portuguese can still be seen in religious practices and various local cuisines in different parts of Asia, as well as in numerous linguistic borrowings and even some surviving Portuguese creoles (Dalgado (2016)). 
+With time, the Portuguese presence in the region was challenged by other European colonial powers such as the Dutch, French and English, although Portugal was able to maintain colonies such as Goa, Daman, Diu, East Timor, and Macau well into the 20th century. Today, traces of the influence of the Portuguese can still be seen in religious practices and various local cuisines in different parts of Asia, as well as in numerous linguistic borrowings and even some surviving Portuguese creoles (Dalgado (2016)). 
 
-The aim of the Chamuça project is to trace the impact of the Portuguese language on various different Asian languages.  
-By identifying words of Portuguese origin in Asian languages, the scope of the CHAMUÇA project, we not only document the spread of the Portuguese language in a more global context but also facilitate the study of how these languages adapt and incorporate foreign elements over time.
+One of the chief aims of the Chamuça project is to describe the lexical impact left behind by Portuguese on the languages of Asia. This can run from a dozen to hundreds of lexical borrowings. We want to make this history more accessible both to researchers and to a wider public who may not always be aware of this linguistic history in their own languages. Another aim of Chamuça is also to bring awareness to the pioneering work of the early 20th century scholar Sebastião Rodolfo Dalgado. 
+
+![image](https://github.com/user-attachments/assets/a8b4fea0-ba56-4e1d-9077-7f530093b915)
 
 ## Dalgado and the _Influência do Vocabulário Português em Línguas Asiáticas_
 Sebastian Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orientalist born in Assagão, Goa, in 1855—then a Portuguese colony. Deeply rooted in both Indo-Portuguese and Catholic traditions, Dalgado became one of the most prominent figures in the study of Lusophone linguistic influence in Asia. His scholarly trajectory bridged European philological methods with a nuanced understanding of local Asian languages and cultures.
