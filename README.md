@@ -7,6 +7,7 @@
 - [Background](#background)
 - [CHAMUÇA as an open, crowd-resourced dataset](#chamu%C3%A7a-as-an-open-crowd-resourced-dataset)
 - [Adding a language](#adding-a-language)
+- [References](#references)
 
 ## Summary 
 The current document describes the Chamuça project, its aim and the current state of its progress. It will also describe the language resource of the same name, which is one of the products of the project, how it is structured and how to access it. It also provides information on how to contribute to the project and the r resource. 
@@ -22,7 +23,12 @@ The aims of the project are as follows:
 - Extract the relevant details from Dalgado's lexicon and compare it/combine it with information from the above resources, helping to make Dalgado's important scholarship more accessible to modern day researchers as well as a wider public 
 
 ## Background
-The influence of the Portuguese language in Asia began with the so-called Age of Discovery (Era dos Descobrimentos in Portuguese) in the 15th and 16th centuries, a period of unprecedented maritime expansion for what was then the Kingdom of Portugal. In particular, during that time several trading posts were established on the Malabar coast, including locations such as Cochin, Cannanore, Quilon, Cranganor, Tanor, and Calicut, giving the Portuguese their first foothold in the continent. Over the next few centuries, and thanks to extensive contact with numerous Asian cultures through trade and colonisation, the Portuguese language was able to leave behind a profound linguistic legacy in the whole of Asia. As Cardoso (2016, p. 71) states, “A língua portuguesa encaixou-se na região asiática ao ponto de se converter em importante língua franca de comérico e diplomacia” [The Portuguese language became deeply rooted in the Asian region to the extent that it evolved into an important lingua franca for commerce and diplomacy]. Despite subsequent, largely successful, moves towards challenging Portuguese dominance in the region by other colonial powers such as the Dutch, French and English, Portugal maintained a presence in colonies such as Goa, Daman, Diu, East Timor, and Macau well into the 20th century.
+### The Impact of Portuguese in Asis
+The influence of the Portuguese language in Asia starts with the so-called Age of Discovery (Era dos Descobrimentos in Portuguese) in the 15th and 16th centuries, a period of unprecedented maritime expansion for the then Kingdom of Portugal. During that period, several trading posts were established on the Malabar coast, including locations such as Cochin and Calicut, giving the Portuguese their first foothold in the continent. 
+
+Over the next few centuries, thanks to extensive contact with numerous parts of Asia through trade and colonisation, the Portuguese language was able to leave behind a profound linguistic legacy in the whole of the continent.  To quote Cardoso (2016) “A língua portuguesa encaixou-se na região asiática ao ponto de se converter em importante língua franca de comérico e diplomacia” [The Portuguese language became deeply rooted in the Asian region to the extent that it evolved into an important lingua franca for commerce and diplomacy]. 
+
+With time, the Portuguese presence in the region was challenged by other European colonial powers such as the Dutch, French and English, although Portugal was able to keep its colonies Goa, Daman, Diu, East Timor, and Macau well into the 20th century.
 Today, traces of this influence can still be seen in religious practices and various local cuisines as well as in linguistic borrowings, including toponyms, and, more broadly speaking, the linguistic identities of numerous different Asian communities. The Portuguese language, once an instrument of trade and empire-building, has inadvertently sown seeds in the rich linguistic soil of Asia, cultivating a lexical heritage that continues to exert a strong influence on modern vernaculars. This influence can be profound, often surfacing in unexpected cultural contexts and leaving behind a rich, indelible legacy that the CHAMUÇA project aims to explore and document. By identifying words of Portuguese origin in Asian languages, the scope of the CHAMUÇA project, we not only document the spread of the Portuguese language in a more global context but also facilitate the study of how these languages adapt and incorporate foreign elements over time.
 
 ## Dalgado and the _Influência do Vocabulário Português em Línguas Asiáticas_
@@ -74,6 +80,7 @@ The idea is for each language to have the following information for each potenti
 ### Tamil
 ### Indonesian 
 
+## References
 
 
 
