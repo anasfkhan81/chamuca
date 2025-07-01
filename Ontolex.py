@@ -325,7 +325,7 @@ class Lexicon():
 
         # add other stuff
 
-    def writeToFile(self, filename, s_format='turtle'):
+    def writeToFile(self, filename, s_format='xml'):
         new_filename = filename + '.rdf'
         self.lex.serialize(destination=new_filename, format=s_format)
 

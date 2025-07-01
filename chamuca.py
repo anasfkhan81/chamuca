@@ -4,12 +4,13 @@ from rdflib.namespace import RDF, RDFS, FOAF, Namespace, NamespaceManager, OWL, 
 
 
 
-base_uri = "http://www.lex.com/chamuca/chamuca_lexical_resource#"
-hindi = "http://www.lex.com/chamuca/chamuca_hindi_lex#"
-urdu = "http://www.lex.com/chamuca/chamuca_urdu_lex#"
-
+base_uri = "http://lari-datasets.ilc.cnr.it/chamuca_lexical_resource#"
+hindi = "http://lari-datasets.ilc.cnr.it/chamuca_hindi_lex#"
+urdu = "http://lari-datasets.ilc.cnr.it/chamuca_urdu_lex#"
+pt = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"
 hindi_ns = Namespace(hindi)
 urdu_ns = Namespace(urdu)
+pt_ns = Namespace(pt)
 
 def main():
 
@@ -22,6 +23,7 @@ def main():
     namespace_manager.bind('', BASE, override=False)
     namespace_manager.bind('hindi_lex', hindi_ns, override=False)
     namespace_manager.bind('urdu_lex', urdu_ns, override=False)
+    namespace_manager.bind('pt_lex', pt_ns, override=False)
     namespace_manager.bind('dct', DCTERMS, override=False)
     namespace_manager.bind('dc', DC, override=False)
     namespace_manager.bind('dcat', DCAT, override=False)
@@ -37,9 +39,9 @@ def main():
     chamuca_resource.add((this, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by/4.0/")))
     chamuca_resource.add((this, DCTERMS.hasPart, URIRef(hindi)))
     chamuca_resource.add((this, DCTERMS.hasPart, URIRef(urdu)))
-    
+    chamuca_resource.add((this, DCTERMS.hasPart, URIRef(pt)))
 
-    chamuca_resource.serialize(destination="chamuca_lexical_resource.ttl", format='turtle')
+    chamuca_resource.serialize(destination="chamuca_lexical_resource.rdf", format='xml')
 
 
 if __name__ == "__main__":
