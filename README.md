@@ -40,14 +40,6 @@ The idea behind CHAMUçA then is to make this story both more visible and more a
 ## Dalgado and the _Influência do Vocabulário Português em Línguas Asiáticas_
 Sebastian Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orientalist born in Assagão, Goa, in 1855—then a Portuguese colony. Deeply rooted in both Indo-Portuguese and Catholic traditions, Dalgado became one of the most prominent figures in the study of Lusophone linguistic influence in Asia. His scholarly trajectory bridged European philological methods with a nuanced understanding of local Asian languages and cultures.
 
-### Clerical and Academic Career
-Dalgado entered the seminary in Goa and was later ordained a priest.
-
-He studied theology and linguistics and eventually taught at the Papal Seminary in Kandy, Sri Lanka, before returning to Portugal, where he became professor of Sanskrit and Comparative Philology at the University of Lisbon.
-
-He was a member of various scholarly institutions, including the Lisbon Academy of Sciences and the Royal Asiatic Society.
-
-### Focus on Portuguese Contact Linguistics
 Dalgado's most significant scholarly contribution lies in his pioneering work on lexical borrowings from Portuguese into Asian languages. At a time when the linguistic impact of European colonial powers in Asia was poorly documented, Dalgado's research opened a new field of study: Luso-Asian contact linguistics.
 ## CHAMUÇA as an open, crowd-resourced dataset
 license information CHAMUÇA as a Linked Data Language Resource
