@@ -8,6 +8,7 @@ from Ontolex import Lexicon
 hind_lex ={'name':'chamuca_hi_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['hi'], 'entries': {}}
 port_lex = {'name':'chamuca_port_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['pt'], 'entries': {}}
 urdu_lex  = {'name':'chamuca_ur_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['ur'], 'entries': {}}
+punj_lex = {'name':'chamuca_pa_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['pa'], 'entries': {}}
 gend = lambda g: 'masculine' if g == 'm.' else 'feminine' if g == 'f.' else 'unknown'
 pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'interjection' if ps == 'Interjection' else 'nan'
 #lemma = lambda head, trans, ipa: {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
@@ -266,16 +267,77 @@ def upload_hl(file_name):
 
     return hind_lex
 
+
+
+def upload_pa(file_name):
+    # upload file into dataframe df
+    df = pd.read_csv(file_name, sep='\t')
+    i = 0
+    for index, row in df.iterrows():
+        # make sure you only iterate through the first 60 rows only
+        # this should be updated
+        #if i == 60:
+        #    break
+        # create id for word by combining headword with '_entry' tag
+        word_id = str(row['Headword'])+'_entry'
+        # extract gender, ipa and lemma info from the row
+        gr = row['Gender']
+        ipa_row = row['Pronunciation']
+        ipas = []
+        lemmaForm = row['Headword']
+        # check if the ipa_row info is a string, in which case
+        # add it to the set of forms in the list form
+        if isinstance(ipa_row, str):
+            ipas = extract_ipas(row['Pronunciation'])
+            #print(str(ipas))
+            ipa_lemma = ['']
+            if ipas != []:
+                ipa_lemma = ipas
+            gur = row['Headword']
+            shah = row['Shahmuki']
+            trans = row['Transliteration']  
+            forms = [{'rep':[(gur, "pa-In"), (shah, "pnb"), (trans, "pa-Ltn")], 'lemma':True, 'id':gur+'_lemma', 'number':'singular', 'case':'irectCase', 'ipa':ipa_lemma}]
+        else:
+            forms = [{'rep':[(gur, "pa-In"), (shah, "pnb"), (trans, "pa-Ltn")], 'lemma':True, 'id':gur+'_lemma', 'number':'singular', 'case':'directCase'}]
+
+        
+        senses = extract_senses(row['Definition'])
+        sense_content = []
+        # we will count the number of senses with j
+        j = 1
+
+        # check if the list of senses consists of one item,
+        # otherwise go through the list and create a new sense_id for each sense
+        # augmenting j each time
+        
+        if len(senses) == 1:
+            sense_content = [{'id': str(row['Headword'])+'_sense', 'def':senses[0]}]
+        else:
+            for count in senses:
+                print(row['Headword']+'_sense_'+str(j))
+                sense_content = sense_content + [{'id': str(row['Headword'])+'_sense_'+str(j), 'def':count}]
+                j +=1
+        
+        porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon-pt-PT'])
+        etymology = row['Etymon pt-PT Note']
+
+        punj_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content,  'etymon':porEtymon, 'etymology': etymology}
+
+    return punj_lex
+
 def main():
     dic1 = upload_pt()
-    l = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#", dic1)
+    l = Lexicon("https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#", dic1)
     l.writeToFile('chamuca_pt_lex')
     dic2 = upload_hl("SimplifiedHindi.tsv")
-    l2 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic2)
+    l2 = Lexicon("https://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic2)
     l2.writeToFile('chamuca_hi_lex')
     dic3 = upload_ur("SimpleUrdu.tsv")
-    l3 = Lexicon("http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#", dic3)
+    l3 = Lexicon("https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#", dic3)
     l3.writeToFile('chamuca_ur_lex')
+    dic_4 = upload_pa("Punjabi.tsv")
+    l3 = Lexicon("https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#", dic_4)
+    l3.writeToFile('chamuca_pa_lex')
 
 if __name__ == "__main__":
         main()

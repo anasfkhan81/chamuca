@@ -1,4 +1,4 @@
-@prefix : <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> .
+@prefix : <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
@@ -7,7 +7,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> a lime:Lexicon ;
+<https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#> a lime:Lexicon ;
     dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
     dc:title "Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Portuguese Lexicon"@eng ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;

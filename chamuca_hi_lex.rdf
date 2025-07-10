@@ -1,4 +1,4 @@
-@prefix : <http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#> .
+@prefix : <https://lari-datasets.ilc.cnr.it/chamuca_hi_lex#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -11,7 +11,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#> a lime:Lexicon ;
+<https://lari-datasets.ilc.cnr.it/chamuca_hi_lex#> a lime:Lexicon ;
     dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
     dc:title "Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Hindi Lexicon"@eng ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;

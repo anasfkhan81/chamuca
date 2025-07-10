@@ -85,6 +85,7 @@ class Lexicon():
         # The languages of the lexicon are added
         for l in indic['lang']:
             lang = Literal(l)
+            print(lang)
             self.lex.add((this, lime_ns.language, lang))
             if l == 'hi':
                 self.corpus_uri = self.addHindiCorpus()
@@ -96,6 +97,10 @@ class Lexicon():
                 self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Urdu Lexicon', lang=f"eng")))
                 self.language = 'ur'
                 print ("Urdu")
+            elif l== 'pa':
+                self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Punjabi Lexicon', lang=f"eng")))
+                self.language = 'pa'
+                print ("Punjabi")
             elif l == 'pt':
                 self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Portuguese Lexicon', lang=f"eng")))
                 self.language = 'pt'
@@ -247,6 +252,9 @@ class Lexicon():
                             self.lex.add((form, ontolex_ns.phoneticRep, Literal(ipa, lang=f"hi-fonipa")))
                         elif self.language == "ur":
                             self.lex.add((form, ontolex_ns.phoneticRep, Literal(ipa, lang=f"ur-fonipa")))
+                        elif self.language == "pa":
+                            self.lex.add((form, ontolex_ns.phoneticRep, Literal(ipa, lang=f"pa-fonipa")))
+
             else:
                 self.lex.add((ent, ontolex_ns.lexicalForm, form))
 
