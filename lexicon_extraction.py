@@ -296,7 +296,7 @@ def upload_pa(file_name):
             gur = row['Headword']
             shah = row['Shahmuki']
             trans = row['Transliteration']  
-            forms = [{'rep':[(gur, "pa-In"), (shah, "pnb"), (trans, "pa-Ltn")], 'lemma':True, 'id':gur+'_lemma', 'number':'singular', 'case':'irectCase', 'ipa':ipa_lemma}]
+            forms = [{'rep':[(gur, "pa-In"), (shah, "pnb"), (trans, "pa-Ltn")], 'lemma':True, 'id':gur+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa_lemma}]
         else:
             forms = [{'rep':[(gur, "pa-In"), (shah, "pnb"), (trans, "pa-Ltn")], 'lemma':True, 'id':gur+'_lemma', 'number':'singular', 'case':'directCase'}]
 

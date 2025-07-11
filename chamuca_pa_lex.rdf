@@ -42,7 +42,7 @@
     lime:language "pa" .
 
 :ਅਚਾਰ_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:irectCase ;
+    lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t͡ʃäːɾə̆"@pa-fonipa,
         "ə.t͡ʃäːɾə̆"@pa-fonipa ;
@@ -59,7 +59,7 @@
     ontolex:isSenseOf :ਅਨਾਨਾਸ_entry .
 
 :ਅਲਮਾਰੀ_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:irectCase ;
+    lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ə.t͡ʃäːɾᵊ"@pa-fonipa ;
     ontolex:writtenRep "ਅਲਮਾਰੀ"@pa-In,
@@ -127,7 +127,7 @@
     ontolex:isSenseOf :ਤਮਾਕੂ_entry .
 
 :ਤੌਲੀਆ_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:irectCase ;
+    lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "t̪oː.lɪ.jə"@pa-fonipa,
         "t̪ɔː.ɭi.äː"@pa-fonipa,
@@ -463,8 +463,7 @@
         :ਕਾਜ_sense_3 .
 
 :ਕਾਜ_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:directCase,
-        lexinfo:irectCase ;
+    lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "käːd͡ʒə̆"@pa-fonipa ;
     ontolex:writtenRep "ਕਾਜ"@pa-In,
@@ -472,8 +471,7 @@
         "کاج"@pnb .
 
 :ਅਨਾਨਾਸ_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:directCase,
-        lexinfo:irectCase ;
+    lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ˌə.naˈnaː.s"@pa-fonipa ;
     ontolex:writtenRep "ਅਨਾਨਾਸ"@pa-In,
@@ -481,8 +479,7 @@
         "اناناس"@pnb .
 
 :ਗਿਰਜਾ_lemma a ontolex:Form ;
-    lexinfo:case lexinfo:directCase,
-        lexinfo:irectCase ;
+    lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep ""@pa-fonipa ;
     ontolex:writtenRep "ਗਿਰਜਾ"@pa-In,
