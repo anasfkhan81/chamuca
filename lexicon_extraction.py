@@ -123,7 +123,7 @@ def upload_ur(file_name):
             else:
                 forms =  [lemma_s("ur-Arab", "ur-Latn",headword, row['Transliteration'])]
 
-            hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_hi_lex#"+urdu(row['Headword Hindi']).replace(' ', '')
+            hindi_seeAlso = "https://lari-datasets.ilc.cnr.it/chamuca_hi_lex#"+urdu(row['Headword Hindi']).replace(' ', '')
             # extract sense information from the 'Sense (Wiktionary)' column
             senses = extract_senses(row['Sense (Wiktionary)'])
             sense_content = []
@@ -152,13 +152,13 @@ def upload_ur(file_name):
         elif is_valid_integer_literal(corpus_str)[0]:
             corpus = is_valid_integer_literal(corpus_str)[1]
             print("urdu corpus: "+ str(corpus))
-        porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])+'_entry'
+        porEtymon = "https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])+'_entry'
         # Etymology Full (Work here)
         etymology = row['Etymology Free']
         # etymology = row['Etymology Full (Work here)']
         hindi_head = str((row['Headword Hindi'])).replace(' ', '')
         if hindi_head != 'NA':
-            hindi_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+hindi_head+"_entry"
+            hindi_seeAlso = "https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+hindi_head+"_entry"
         else:
             hindi_seeAlso = 'NA'
         
@@ -252,11 +252,11 @@ def upload_hl(file_name):
             print(row['Headword'])
         urdu_head = urdu(row['Urdu ']).replace(' ', '')
         if urdu_head != 'NA':
-            urdu_seeAlso = "http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu_head+"_entry"
+            urdu_seeAlso = "https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+urdu_head+"_entry"
         else:
             urdu_seeAlso = 'NA'
             print(urdu_seeAlso)
-        porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])+'_entry'
+        porEtymon = "https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon pt-PT'])+'_entry'
         # I altered this so I could add the new etymology strings to each entry
         # etymology = row['Etymology Full 2']
         etymology = row['Etymology Full (Work here)']
@@ -318,8 +318,8 @@ def upload_pa(file_name):
                 sense_content = sense_content + [{'id': str(row['Headword'])+'_sense_'+str(j), 'def':count}]
                 j +=1
         
-        porEtymon = "http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon-pt-PT'])+'_entry'
-        etymology = row['Etymon pt-PT Note']
+        porEtymon = "https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#"+str(row['Etymon-pt-PT'])+'_entry'
+        etymology = row['Etymology']
 
         punj_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content,  'etymon':porEtymon, 'etymology': etymology}
 
