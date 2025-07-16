@@ -8,6 +8,7 @@
 - [CHAMUÇA as an open, crowd-resourced dataset](#chamu%C3%A7a-as-an-open-crowd-resourced-dataset)
 - [Adding a language](#adding-a-language)
 - [References](#references)
+- [Contact](#contact)
 
 ## Summary 
 The current document describes the Chamuça project, its aim and the current state of its progress. It will also describe the language resource of the same name, which is one of the products of the project, how it is structured and how to access it. It also provides information on how to contribute to the project and the resource. 
@@ -83,5 +84,7 @@ TBF
 
 ## References
 
+### Contact
+Please email fahad.khan@ilc.cnr.it
 
 
