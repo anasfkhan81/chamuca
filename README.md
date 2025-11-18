@@ -43,6 +43,11 @@ Sebastian Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orient
 
 Dalgado's most significant scholarly contribution lies in his pioneering work on lexical borrowings from Portuguese into Asian languages. At a time when the linguistic impact of European colonial powers in Asia was poorly documented, Dalgado's research opened a new field of study: Luso-Asian contact linguistics.
 ## CHAMUÇA as an open, crowd-resourced dataset
+What are our aims with CHAMUÇA: 
+- Make Dalgado's work accessible in a machine readable form, as a FAIR dataset using linked data; part of this is a publication of Dalgado's lexicon as a wikisource edition
+- Update and enrich Dalgado's work by checking it against other lexicographic and scholarly resources, and also open it up to crowdsourcing
+### CHAMUÇA as Linguistic Linked Open Data 
+In this section we describe the motivations for making the data available as 
 license information CHAMUÇA as a Linked Data Language Resource
 
 ## Adding a language
