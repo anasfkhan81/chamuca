@@ -47,10 +47,10 @@ What are our aims with CHAMUÇA:
 - Make Dalgado's work accessible in a machine readable form, as a FAIR dataset using linked data; part of this is a publication of Dalgado's lexicon as a wikisource edition
 - Update and enrich Dalgado's work by checking it against other lexicographic and scholarly resources, and also open it up to crowdsourcing
 ### CHAMUÇA as Linguistic Linked Open Data 
-In this section we describe the motivations for making the data available as 
-license information CHAMUÇA as a Linked Data Language Resource
+In this section we describe the motivations for making the data available as linked open data. The idea is to 
+license information 
 
-## Adding a language
+## Adding a language to CHAMUÇA
 
 The idea is for each language to have the following information for each potential Portuguese borrowing. 
 
@@ -74,8 +74,9 @@ The idea is for each language to have the following information for each potenti
 | Synonyms | |
 | Grammar | |
 
-
+# Languages we have covered or plan to cover
 ### Hindi/Urdu
+### Punjabi
 ### Assamese
 ### Konkani
 ### Bengali
