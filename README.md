@@ -86,6 +86,8 @@ The idea is for each language to have the following information for each potenti
 ### Tamil
 ### Indonesian 
 
+## How you can collaborate?
+
 ### Collaborators
 TBF
 
