@@ -43,9 +43,10 @@ Sebastian Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orient
 
 Dalgado's most significant scholarly contribution lies in his pioneering work on lexical borrowings from Portuguese into Asian languages. At a time when the linguistic impact of European colonial powers in Asia was poorly documented, Dalgado's research opened a new field of study: Luso-Asian contact linguistics.
 ## CHAMUÇA as an open, crowd-resourced dataset
-What are our aims with CHAMUÇA: 
-- Make Dalgado's work accessible in a machine readable form, as a FAIR dataset using linked data; part of this is a publication of Dalgado's lexicon as a wikisource edition
-- Update and enrich Dalgado's work by checking it against other lexicographic and scholarly resources, and also open it up to crowdsourcing
+The CHAMUÇA project took inspiration from the work of Dalgado with the aim of making his work accessible in a machine readable form. Indeed our aim is to make not just Dalgado's work but other scholarship in this area accessible to a wider audience. Much of the work that has been carried in what we have termed Luso-Asian contact linguistics is only available in Portuguese or in other languages. Much of it is available in scattered resources ('silos'), without a single access point, and either not in a digital format, or a format that is diffcult to process and not interoperable with other relevant resources.  Our aims are therefore the following: 
+- Make Dalgado's work accessible in a machine readable form, as a Findable Accesssible Interoperable and Reusable (FAIR) dataset using already existing standards and technologies whenever possible; part of this is a publication of Dalgado's lexicon as a (proof checked) Wikisource edition
+- We also aim to enrich Dalgado's work by checking it against other lexicographic and scholarly resources, and also open it up to crowdsourcing.
+In what follows we describe how we intend to do this via Semantic Web and Linked Data.
 ### CHAMUÇA as Linguistic Linked Open Data 
 In this section we describe the motivations for making the data available as linked open data. The idea is to 
 license information 
