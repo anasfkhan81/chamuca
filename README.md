@@ -80,6 +80,10 @@ At the same time having multiple conceptual modelsâ€”a shallow and a deeper oneâ
  
 Our idea was to develop a regular language allowing for a shallow representation of etymologies as structured strings.  This would enable us to extract etymological information using regular expressions via SPARQL queries/basic text processing scripts. Such an approach would be complementary to a conceptual model for representing them as RDF graphs  (such as that proposed by Khan 2018). This would allow for a  hybrid approach allowing for  the best of both worlds.
 
+Our goal was to define a regular language that captures salient etymological information within strings.  We were guided by the following considerations:
+- The language should (as far as possible) follow established printed conventions for representing etymologies, making it intuitive for lexicographers and researchers already familiar with traditional notation systems.
+- Etymological strings can be associated with lexical entries, senses, or forms via an already existing  lexinfo datatype property, namely, etymology, helping to ensuring seamless integration with existing frameworks.
+- Information can be extracted through SPARQL queries for integrated analysis or offline string processing using standard libraries.
 
 
 ### Producing a Wikisource Edition of Dalgado's Lexicon
