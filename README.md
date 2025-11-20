@@ -145,9 +145,8 @@ The idea is for each language to have the following information for each potenti
 
 | Category | Description |
 | -------- | ------- |
-| Etymon pt-PT | Blah Blah | 
-| Etymon pt-PT Note | |
-| Headword | |
+| Etymon pt-PT | One or more original Portuguese etymons | 
+| Headword | Lemma in word in question (using original alphabet(s)) |
 | Transliteration | |
 | Pronunciation | |
 | Etymology Free | |
