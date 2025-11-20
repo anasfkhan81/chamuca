@@ -45,6 +45,7 @@ Sebastian Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orient
 
 Dalgado's most significant scholarly contribution lies in his pioneering work on lexical borrowings from Portuguese into Asian languages. At a time when the linguistic impact of European colonial powers in Asia was poorly documented, Dalgado's research opened a new field of study: _Luso-Asian contact linguistics_.
 
+### Languages Covered by Dalgado's Lexicon
 Dalgado's work covers the following (we use Soares' names for these languages, translated from the original Portuguese of Dalgado): 
 Achinese or Atjeh, Anglo-Indian, Annamite or Annamese, Arabic, Assamese, Balinese, Batavian, Batta or Batak, Bengali, Bugui, Burmese, Chinese. Dayak, Galoli, Garo, Gujarati, Hindi, Hindustani, Indo-French, Japanese, Javanese, Kambojan, Kanarese, Kashmiri, Khassi, Konkani, Laskhari-Hindustani, Macassar, Madurese, Malagasy, Malay, Malayalam, Marathi, Molucan, Nepali, Nicobarese, Oriya, Panjabi, Persian, Pidgin-English, Rabbinical, Siamese, Sindhi, Sinhalese, Sundanese, Tamil, Telugu, Teto, Tibetan, Tonkinese, Tulu, Turkish.
 
