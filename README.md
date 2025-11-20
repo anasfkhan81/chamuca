@@ -25,7 +25,7 @@ At the time of writing (20/11/25), we have a first version of CHAMUÇA which des
 The aims of the project are as follows: 
 - Help to make this part of history better known in an accessible machine actionable form, in our case by creating a knowledge graph of Portuguese borrowings into Asian languages with separate lexicons for each language and a indexical Portuguese lexicon
 - Model this graph in RDF using the OntoLex-Lemon model and and make it accessible via a SPARQL endpoint; publish it with an open license and add it to the linguistic linked open data cloud,
-- Bring together relevant lexical information on this topic from different sources, including Wiktionary, Wikipedia, and making reference to lexicographic information, but in particular...
+- Bring together relevant lexical information on this topic from different sources, including Wiktionary, Wikipedia, and making reference to lexicographic information, but in particular Dalgado's 1913 work.
 - Extract the relevant details from Dalgado's lexicon and compare it/combine it with information from the above resources, helping to make Dalgado's important scholarship more accessible to modern day researchers as well as a wider public 
 
 ## Background
@@ -51,6 +51,9 @@ The CHAMUÇA project took inspiration from the work of Dalgado with the aim of m
 In what follows we describe how we intend to do this via Semantic Web and Linked Data.
 ### CHAMUÇA as Linguistic Linked Open Data 
 In this section we describe the motivations for making the data available as linked open data[^2]. The principal idea was to ensure that our resource would born FAIR and that it would be machine actionable.  We were also keen to make sure our data was open as possible; for this reason we publish everything with a CC-BY license. In addition, we wanted to profit from the many other advantages of the linked data format, including
+
+### Encoding Etymological Information as Strings
+
 
 ## Adding a language to CHAMUÇA
 
