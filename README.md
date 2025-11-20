@@ -54,6 +54,10 @@ The CHAMUÇA project took inspiration from the work of Dalgado with the aim of m
 - Make Dalgado's work accessible in a machine readable form, as a Findable Accesssible Interoperable and Reusable (FAIR) dataset[^1] using already existing standards and technologies whenever possible; part of this is a publication of Dalgado's lexicon as a (proof checked) Wikisource edition
 - We also aim to enrich Dalgado's work by checking it against other lexicographic and scholarly resources, and also open it up to crowdsourcing.
 In what follows we describe how we intend to do this via Semantic Web and Linked Data.
+
+In a first stage of the project we would like to work on the following languages:
+Bengali, Gujarati, Hindi, Urdu, Indonesian, Malay, Panjabi, Tamil, Telegu.
+
 ### CHAMUÇA as Linguistic Linked Open Data 
 In this section we describe the motivations for making the data available as linked open data[^2]. The principal idea was to ensure that our resource would born FAIR and that it would be machine actionable.  We were also keen to make sure our data was open as possible; for this reason we publish everything with a CC-BY license. In addition, we wanted to profit from the many other advantages of the linked data format, including
 #### Accessing the CHAMUÇA SPARQL Endpoint
