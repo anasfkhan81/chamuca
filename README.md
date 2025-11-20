@@ -63,6 +63,10 @@ In this section we describe the motivations for making the data available as lin
 - The possibility to make our data available publically via a SPARQL endpoint
 - The natural fit of a graph-based data model to represent the information in our dataset
 - The possibility of using pre-existing standards and technologies in the Semantic Web stack along with the Semantic Artifacts such as OntoLex-Lemon
+
+#### Architecture of the CHAMUÇA Language Resource
+<img src="CHAMUÇA.drawio.png" alt="CHAMUÇA logo" width="300"/>
+
 #### Accessing the CHAMUÇA SPARQL Endpoint
 
 
