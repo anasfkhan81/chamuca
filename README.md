@@ -16,7 +16,9 @@ The current document describes the Chamuça project, its aim and the current sta
 
 ## Introduction 
 
-**Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA)** is an interdisciplinary collaboration in the area of historical contact linguistics which aims to document the impact of the Portuguese on the languages of Asian languages, while also making earlier scholarship and research on this topic more accessible and easier to use.  As well as being the name of our project, CHAMUÇA is also the name of the language resource which is produced through this collaboration. This language resource will be published in successive versions as a linguistic knowledge graph in RDF, making it a test case for the use of **linguistic linked data** in disseminating this kind of cultural and linguistic information.  And of course the name of our project also evokes, chamuça, the fried snack which is a well known example of intercultural culinary exchange.
+**Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA)** is an interdisciplinary collaboration in the area of historical contact linguistics which aims to document the impact of the Portuguese on the languages of Asian languages, while also making earlier scholarship and research on this topic more accessible and easier to use.  
+
+As well as being the name of our project, CHAMUÇA is also the name of the language resource which is produced through this collaboration. This language resource will be published in successive versions as a linguistic knowledge graph in RDF, making it a test case for the use of **linguistic linked data** in disseminating this kind of cultural and linguistic information.  And of course the name of our project also evokes, chamuça, the fried snack which is a well known example of intercultural culinary exchange.
 
 At the time of writing (05/06/25), we have a first version of CHAMUÇA which describes Portuguese borrowings in Urdu and Hindi.  In the first stage of the project we are focusing on South Asian languages and Malaysian/Indonesian but would like to add languages covering a wider area in the future. 
 
