@@ -68,6 +68,19 @@ In this section we describe the motivations for making the data available as lin
 
 ### Encoding Etymological Information as Strings
 
+Etymologies trace the history of words over time and lend themselves well to representation as graph-like structures. However, modelling them as RDF graphs can become complicated  because:
+- They  contain temporal information describing word evolution through given historical periods. This often calls for the  explicit modelling of time
+- Multiple competing etymologies often exist for the same word, necessitating the  representation of uncertainty and alternative scholarly hypotheses.
+- Academic usage  requires the modelling  of citations to the scholarly literature, to other lexical  sources, and corpora
+Taken together these  requirements can lead to a substantial overhead in the number of RDF triples needed (and often lots of confusing reification), potentially making a ‘deep’ modelling of etymologies unwieldy in some cases.
+
+However, etymologies can often be modelled using  a more ‘shallow’ approach so imposing a conceptual model designed for more  complicated cases might discourage users dealing with simpler cases. At the same time, a simpler conceptual model will inevitably fail to capture many common aspects of etymologies that researchers need.
+
+At the same time having multiple conceptual models—a shallow and a deeper one—for etymologies would only add to the existing confusion, creating fragmentation rather than standardization.
+ 
+Our idea was to develop a regular language allowing for a shallow representation of etymologies as structured strings.  This would enable us to extract etymological information using regular expressions via SPARQL queries/basic text processing scripts. Such an approach would be complementary to a conceptual model for representing them as RDF graphs  (such as that proposed by Khan 2018). This would allow for a  hybrid approach allowing for  the best of both worlds.
+
+
 
 ### Producing a Wikisource Edition of Dalgado's Lexicon
 
