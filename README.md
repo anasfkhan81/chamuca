@@ -83,8 +83,13 @@ Our idea was to develop a regular language allowing for a shallow representation
 Our goal was to define a regular language that captures salient etymological information within strings.  We were guided by the following considerations:
 - The language should (as far as possible) follow established printed conventions for representing etymologies, making it intuitive for lexicographers and researchers already familiar with traditional notation systems.
 - Etymological strings can be associated with lexical entries, senses, or forms via an already existing  lexinfo datatype property, namely, etymology, helping to ensuring seamless integration with existing frameworks.
-- Information can be extracted through SPARQL queries for integrated analysis or offline string processing using standard libraries.
-
+- Information can be extracted through SPARQL queries for integrated analysis or offline string processing using standard libraries. 
+Our etymological string language incorporates several key features designed to balance expressiveness with simplicity, ensuring both human readability and machine processability.
+- Multiple alternative etymologies can coexist in a single string, separated by the | symbol, allowing representation of competing scholarly theories without nesting complexity.
+- Each etymological step is clearly separated by a > symbol, creating an intuitive left-to-right progression through historical development.
+- Individual steps follow the pattern: language code form1, form2...formk 'sense1' & 'sense2'...& 'sensel', providing comprehensive linguistic information.
+- Additional specification of each step can be provided through transition notes enclosed in square brackets [...], capturing important etymological processes.
+CHAMUÇA serves as an ideal proving ground for our encoding system, as it encompasses the complexity of actual lexicographic research while remaining manageable enough to demonstrate practical applicability.
 
 ### Producing a Wikisource Edition of Dalgado's Lexicon
 
