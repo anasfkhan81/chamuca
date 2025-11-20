@@ -90,6 +90,20 @@ Our etymological string language incorporates several key features designed to b
 - Individual steps follow the pattern: language code form1, form2...formk 'sense1' & 'sense2'...& 'sensel', providing comprehensive linguistic information.
 - Additional specification of each step can be provided through transition notes enclosed in square brackets [...], capturing important etymological processes.
 CHAMUÇA serves as an ideal proving ground for our encoding system, as it encompasses the complexity of actual lexicographic research while remaining manageable enough to demonstrate practical applicability.
+These examples from CHAMUÇA demonstrate how our encoding captures complex etymological relationships spanning multiple languages and historical periods.
+
+Proto-Indo-European to Portuguese: October
+```turtle
+ine-pro *h₃(e)ḱtéh₃ 'eight', *h₃ḱt(e)h₃-uó- 'eighth' >
+ itc-pro *oktō 'eight', *oktāwo- 'eighth' (Source: de Vaan) >
+  la octō + -ber 'pertaining the eigth (month)' [analogy with la september 'september'] (Source: Ernout-Meillet) >
+   pt outubro (Source: Wiktionary) | en October (Source: McGregor)
+
+```
+
+
+
+
 
 ### Producing a Wikisource Edition of Dalgado's Lexicon
 
