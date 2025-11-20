@@ -172,7 +172,7 @@ The idea is for each language to have the following information for each potenti
 ### Indonesian 
 
 ## How you can collaborate?
-As of the time of writing, the best way of participating, both in terms of enriching 
+As of the time of writing, the best way of participating, both in terms of enriching a particular lexicon or in starting a new one is to contact: fahad.khan@ilc.cnr.it
 ### Collaborators
 TBF
 
