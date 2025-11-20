@@ -55,6 +55,8 @@ In this section we describe the motivations for making the data available as lin
 ### Encoding Etymological Information as Strings
 
 
+### Producing a Wikisource Edition of Dalgado's Lexicon
+
 ## Adding a language to CHAMUÇA
 
 The idea is for each language to have the following information for each potential Portuguese borrowing. 
