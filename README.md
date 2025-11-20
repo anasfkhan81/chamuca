@@ -65,7 +65,7 @@ In this section we describe the motivations for making the data available as lin
 - The possibility of using pre-existing standards and technologies in the Semantic Web stack along with the Semantic Artifacts such as OntoLex-Lemon
 
 #### Architecture of the CHAMUÇA Language Resource
-<img src="CHAMUÇA.drawio.png" alt="CHAMUÇA logo" width="300"/>
+<img src="CHAMUÇA.drawio.png" alt="CHAMUÇA logo"/>
 
 #### Accessing the CHAMUÇA SPARQL Endpoint
 
