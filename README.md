@@ -8,7 +8,7 @@
 - [Introduction](#introduction)
 - [Background](#background)
 - [CHAMUÇA as an open, crowd-resourced dataset](#chamu%C3%A7a-as-an-open-crowd-resourced-dataset)
-- [Adding a language to CHAMUÇA](#adding-a-language)
+- [Adding a language to CHAMUÇA](#adding-a-language-to-chamu%C3%A7a)
 - [References](#references)
 - [Contact](#contact)
 
