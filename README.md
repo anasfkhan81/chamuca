@@ -148,12 +148,11 @@ The idea is for each language to have the following information for each potenti
 | -------- | ------- |
 | Etymon pt-PT | One or more original Portuguese etymons | 
 | Headword | Lemma in word in question (using original alphabet(s)) |
-| Transliteration | A transliteration |
+| Transliteration | A transliteration of the lemma |
 | Pronunciation | The pronunciation of the word in IPA |
-| Etymology Free | A string describing the etymological |
+| Etymology Free | A string describing the etymological origin of the |
 | Dalgado | The lemmas as it appears in Dalgado's work (if it appears there) |
-| Part of Speech | |
-| Gender | |
+| Part of Speech, Gender, etc | Standard grammatical information |
 | Wiktionary | A link to a corresponding wiktionary entry (if it exists)|
 | Example | An example sentence using the word |
 | Source | Source of the word (as borrowed from Portuguese) |
