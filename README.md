@@ -75,6 +75,7 @@ Explanatory text
 
 #### Accessing the CHAMUÇA SPARQL Endpoint
 
+The SPARQL endpoint can be accessed [here](https://anasfkhan81.github.io/chamuca_lexical_resource/).
 
 ### Encoding Etymological Information as Strings
 
