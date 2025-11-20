@@ -108,6 +108,14 @@ grc ἄνισον 'anise (Pimpinella anisum)' (Source: Dalgado) |
 grc ἄνισον (Source: Wiktionary) > la anisum 'anise (Pimpinella anisum)' (Source: Dalgado)
 
 ```
+Cross-Linguistic Borrowing: Lamp
+```turtle
+pt ? candil (Source: Dalgado) |
+lat candēla 'a light made of wax or tallow' >
+grc κανδήλη 'oil lamp' >
+ar قنديل 'lamp' (Source: Dalgado)
+
+```
 
 
 
