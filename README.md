@@ -97,7 +97,8 @@ Proto-Indo-European to Portuguese: October
 ine-pro *h₃(e)ḱtéh₃ 'eight', *h₃ḱt(e)h₃-uó- 'eighth' >
  itc-pro *oktō 'eight', *oktāwo- 'eighth' (Source: de Vaan) >
   la octō + -ber 'pertaining the eigth (month)' [analogy with la september 'september'] (Source: Ernout-Meillet) >
-   pt outubro (Source: Wiktionary) | en October (Source: McGregor)
+   pt outubro (Source: Wiktionary)
+| en October (Source: McGregor)
 
 ```
 
