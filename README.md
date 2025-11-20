@@ -72,6 +72,7 @@ Explanatory text
 <div align="center">
 <img src="CHAMUÇA.drawio.png" alt="CHAMUÇA logo"/>
 </div>
+
 #### Accessing the CHAMUÇA SPARQL Endpoint
 
 
