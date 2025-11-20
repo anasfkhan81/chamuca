@@ -41,15 +41,14 @@ The idea behind CHAMUçA then is to make this story both more visible and more a
 ## Dalgado and the _Influência do Vocabulário Português em Línguas Asiáticas_
 Sebastian Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orientalist born in Assagão, Goa, in 1855—then a Portuguese colony. Deeply rooted in both Indo-Portuguese and Catholic traditions, Dalgado became one of the most prominent figures in the study of Lusophone linguistic influence in Asia. His scholarly trajectory bridged European philological methods with a nuanced understanding of local Asian languages and cultures.
 
-Dalgado's most significant scholarly contribution lies in his pioneering work on lexical borrowings from Portuguese into Asian languages. At a time when the linguistic impact of European colonial powers in Asia was poorly documented, Dalgado's research opened a new field of study: Luso-Asian contact linguistics.
+Dalgado's most significant scholarly contribution lies in his pioneering work on lexical borrowings from Portuguese into Asian languages. At a time when the linguistic impact of European colonial powers in Asia was poorly documented, Dalgado's research opened a new field of study: _Luso-Asian contact linguistics_.
 ## CHAMUÇA as an open, crowd-resourced dataset
 The CHAMUÇA project took inspiration from the work of Dalgado with the aim of making his work accessible in a machine readable form. Indeed our aim is to make not just Dalgado's work but other scholarship in this area accessible to a wider audience. Much of the work that has been carried in what we have termed Luso-Asian contact linguistics is only available in Portuguese or in other languages. Much of it is available in scattered resources ('silos'), without a single access point, and either not in a digital format, or a format that is diffcult to process and not interoperable with other relevant resources.  Our general aims in starting the project were the following: 
-- Make Dalgado's work accessible in a machine readable form, as a Findable Accesssible Interoperable and Reusable (FAIR) dataset using already existing standards and technologies whenever possible; part of this is a publication of Dalgado's lexicon as a (proof checked) Wikisource edition
+- Make Dalgado's work accessible in a machine readable form, as a Findable Accesssible Interoperable and Reusable (FAIR) dataset[^1] using already existing standards and technologies whenever possible; part of this is a publication of Dalgado's lexicon as a (proof checked) Wikisource edition
 - We also aim to enrich Dalgado's work by checking it against other lexicographic and scholarly resources, and also open it up to crowdsourcing.
 In what follows we describe how we intend to do this via Semantic Web and Linked Data.
 ### CHAMUÇA as Linguistic Linked Open Data 
-In this section we describe the motivations for making the data available as linked open data. The idea is to 
-license information 
+In this section we describe the motivations for making the data available as linked open data[^2]. The principal idea was to ensure that our resource would born FAIR and that it would be machine actionable.  We were also keen to make sure our data was open as possible; for this reason we publish everything with a CC-BY license. In addition, we wanted to profit from the many other advantages of the linked data format, including
 
 ## Adding a language to CHAMUÇA
 
@@ -75,7 +74,7 @@ The idea is for each language to have the following information for each potenti
 | Synonyms | |
 | Grammar | |
 
-# Languages we have covered or plan to cover
+# Update: Languages we have covered or plan to cover
 ### Hindi/Urdu
 ### Punjabi
 ### Assamese
@@ -87,13 +86,15 @@ The idea is for each language to have the following information for each potenti
 ### Indonesian 
 
 ## How you can collaborate?
-
+As of the time of writing, the best way of participating, both in terms of enriching 
 ### Collaborators
 TBF
+
 
 ## References
 
 ### Contact
 Please email fahad.khan@ilc.cnr.it
 
-
+[^1]:See [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
+[^2]: Add link with more information on linked open data
