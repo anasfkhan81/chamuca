@@ -51,6 +51,8 @@ The CHAMUÇA project took inspiration from the work of Dalgado with the aim of m
 In what follows we describe how we intend to do this via Semantic Web and Linked Data.
 ### CHAMUÇA as Linguistic Linked Open Data 
 In this section we describe the motivations for making the data available as linked open data[^2]. The principal idea was to ensure that our resource would born FAIR and that it would be machine actionable.  We were also keen to make sure our data was open as possible; for this reason we publish everything with a CC-BY license. In addition, we wanted to profit from the many other advantages of the linked data format, including
+#### Accessing the CHAMUÇA SPARQL Endpoint
+
 
 ### Encoding Etymological Information as Strings
 
