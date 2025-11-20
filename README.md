@@ -145,7 +145,7 @@ The idea is for each language to have the following information for each potenti
 
 | Category | Description |
 | -------- | ------- |
-| Etymon pt-PT | |
+| Etymon pt-PT | Blah Blah | 
 | Etymon pt-PT Note | |
 | Headword | |
 | Transliteration | |
