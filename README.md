@@ -148,21 +148,18 @@ The idea is for each language to have the following information for each potenti
 | -------- | ------- |
 | Etymon pt-PT | One or more original Portuguese etymons | 
 | Headword | Lemma in word in question (using original alphabet(s)) |
-| Transliteration | |
-| Pronunciation | |
-| Etymology Free | |
-| Dalgado | |
+| Transliteration | A transliteration |
+| Pronunciation | The pronunciation of the word in IPA |
+| Etymology Free | A string describing the etymological |
+| Dalgado | The lemmas as it appears in Dalgado's work (if it appears there) |
 | Part of Speech | |
 | Gender | |
-| Wiktionary | |
-| Sense (Wiktionary) | |
-| Example | |
-| Source | |
-| Notes | |
-| Domain | |
-| Lexical Field | |
-| Synonyms | |
-| Grammar | |
+| Wiktionary | A link to a corresponding wiktionary entry (if it exists)|
+| Example | An example sentence using the word |
+| Source | Source of the word (as borrowed from Portuguese) |
+| Domain | The domain to which the word belongs |
+| Synonyms | Synonymous words|
+| Grammar | Additional grammatical information|
 
 # Update: Languages we have covered or plan to cover
 ### Hindi/Urdu
