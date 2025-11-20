@@ -178,6 +178,11 @@ TBF
 
 
 ## References
+### Source Works
+- Dalgado, Sebastião Rodolfo (1913): Influência do Vocabulário Português em Línguas Asiáticas. Imprensa da Universidade de Coimbra.
+- Soares, Anthony Xavier (1936): Portuguese Vocables In Asiatic Languages:  from the Portuguese original of Sebastião Rodolfo Dalgado. Baroda: Oriental Institute.
+
+
 
 ### Contact
 Please email fahad.khan@ilc.cnr.it
