@@ -150,6 +150,7 @@ The idea is for each language to have the following information for each potenti
 | Headword | |
 | Transliteration | |
 | Pronunciation | |
+| Etymology Free | |
 | Dalgado | |
 | Part of Speech | |
 | Gender | |
