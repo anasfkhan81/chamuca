@@ -112,11 +112,19 @@ Cross-Linguistic Borrowing: Lamp
 ```turtle
 pt ? candil (Source: Dalgado) |
 lat candēla 'a light made of wax or tallow' >
-grc κανδήλη 'oil lamp' >
-ar قنديل 'lamp' (Source: Dalgado)
+ grc κανδήλη 'oil lamp' >
+  ar قنديل 'lamp' (Source: Dalgado)
 
 ```
+Complex Alternative Pathways: Shirt
+```turtle
+pt camisa (Source: Dalgado) |
+ar قميص 'shirt' & 'gown' (Source:Wiktionary) >
+ fa قمیص (Source: Wiktionary) |
+lat camisia (Source:Wiktionary) >
+ ar قميص 'shirt' & 'gown' (Source: Dalgado)
 
+```
 
 
 ### Producing a Wikisource Edition of Dalgado's Lexicon
