@@ -59,7 +59,7 @@ Overall then, our goals in initiating the project were the following:
 - We also aim to enrich Dalgado's work by comparing it with other lexicographic and scholarly resources; we would also eventually open like to open up our resource up to crowdsourcing;
 - We were also interested in seeing how such a resource could be made available via linked data, which we see as a fitting technology which is potentially very suitable for this task (we describe this in the following section).
 
-In a first stage of the project we would like to work on the following languages (due to the expertise of the initial partecipants to the project) :
+In a first stage of the project we would like to work on the following languages (due to the expertise of the initial partecipants to the project):
 **Bengali, Gujarati, Hindi, Urdu, Indonesian, Konkani, Malay, Panjabi, Sinhalese, Tamil, Telegu.**
 
 ### CHAMUÇA as Linguistic Linked Open Data 
@@ -75,11 +75,33 @@ Explanatory text
 <img src="CHAMUÇA.drawio.png" alt="CHAMUÇA logo"/>
 </div>
 
-#### Accessing the CHAMUÇA SPARQL Endpoint
+The Portuguese lexicon acts as an index (in the same way as in the original Dalgado lexicon). For the other languages we include the following information:
 
-The SPARQL endpoint can be accessed [here](https://anasfkhan81.github.io/chamuca_lexical_resource/).
+| Category | Description |
+| -------- | ------- |
+| Etymon pt-PT | One or more original Portuguese etymons | 
+| Headword | Lemma in word in question (using original alphabet(s)) |
+| Transliteration | A transliteration of the lemma |
+| Pronunciation | The pronunciation of the word in IPA |
+| Etymology Free | A string describing the etymological origin of the |
+| Dalgado | The lemmas as they appear in Dalgado's work (if they appear there) |
+| Part of Speech, Gender, etc | Standard grammatical information |
+| Wiktionary | A link to a corresponding wiktionary entry (if it exists)|
+| Example | An example sentence using the word |
+| Source | Source of the word (as borrowed from Portuguese) |
+| Domain | The domain to which the word belongs |
+| Synonyms | Synonymous words|
+| Grammar | Additional grammatical information|
 
-### Encoding Etymological Information as Strings
+#### Use of the OntoLex-Lemon Vocabulary
+
+In this section we will describe how we use the OntoLex vocabulary to encode our language resource. 
+
+
+
+#### Encoding Etymological Information as Strings
+
+One of the innovative aspects of our encoding of the etymologies using strings that adhere to a regular language. Below we give a brief account of these strings. Further details can be found in Khan et. al (2025). 
 
 Etymologies trace the history of words over time and lend themselves well to representation as graph-like structures. However, modelling them as RDF graphs can become complicated  because:
 - They  contain temporal information describing word evolution through given historical periods. This often calls for the  explicit modelling of time
@@ -138,9 +160,11 @@ lat camisia (Source:Wiktionary) >
  ar قميص 'shirt' & 'gown' (Source: Dalgado)
 
 ```
+#### Accessing the CHAMUÇA SPARQL Endpoint
+
+The SPARQL endpoint can be accessed [here](https://anasfkhan81.github.io/chamuca_lexical_resource/).
 
 
-### Producing a Wikisource Edition of Dalgado's Lexicon
 
 ## Adding a language to CHAMUÇA
 
@@ -173,6 +197,10 @@ The idea is for each language to have the following information for each potenti
 ### Tamil
 ### Indonesian 
 
+
+
+### Producing a Wikisource Edition of Dalgado's Lexicon
+
 ## How you can collaborate?
 As of the time of writing, the best way of participating, both in terms of enriching a particular lexicon or in starting a new one is to contact: fahad.khan@ilc.cnr.it
 ### Collaborators
@@ -186,8 +214,8 @@ TBF
 
 ### Works where the project is described 
 - Khan, Anas Fahad, Maxim Ionov, Paola Marongiu & Ana Salgado (2025): A Lightweight String Based Method of Encoding Etymologies in Linked Data Lexical Resources. In Katerina Gkirtzou, Slavko Žitnik, Jorge Gracia, Dagmar Gromann, Maria Pia di Buono, Johanna Monti & Maxim Ionov (Hrsg.), Proceedings of the 5th Conference on Language, Data and Knowledge: The 5th OntoLex Workshop, 30–34. Naples, Italy: Unior Press.
-- Khan, Fahad, Ana Salgado, Isuri Anuradha, Rute Costa, Chamila Liyanage, John P. McCrae, Atul Kr. Ojha, Priya Rani & Francesca Frontini (2024): CHAMUÇA: Towards a Linked Data Language Resource of Portuguese Borrowings in Asian Languages. In Christian Chiarcos, Katerina Gkirtzou, Maxim Ionov, Fahad Khan, John P. McCrae, Elena Montiel Ponsoda & Patricia Martín Chozas (Hrsg.), Proceedings of the 9th Workshop on Linked Data in Linguistics @ LREC-COLING 2024, 44–48. Torino, Italia: ELRA and ICCL.
-- Khan, Fahad, Ana Salgado, John McCrae, Chamila Liyange, Priya Rani, Rute Costa, Isuri Anuradha, Atul Ojha & Francesca Frontini (2024): Cultural heritage and multilingual understanding through lexical archives (CHAMUÇA). Lexicography and Semantics. Proceedings of the XXI EURALEX International Congress.
+- Khan, Fahad, Ana Salgado, Isuri Anuradha, Rute Costa, Chamila Liyanage, John P. McCrae, Atul Kr. Ojha, Priya Rani & Francesca Frontini (2024a): CHAMUÇA: Towards a Linked Data Language Resource of Portuguese Borrowings in Asian Languages. In Christian Chiarcos, Katerina Gkirtzou, Maxim Ionov, Fahad Khan, John P. McCrae, Elena Montiel Ponsoda & Patricia Martín Chozas (Hrsg.), Proceedings of the 9th Workshop on Linked Data in Linguistics @ LREC-COLING 2024, 44–48. Torino, Italia: ELRA and ICCL.
+- Khan, Fahad, Ana Salgado, John McCrae, Chamila Liyange, Priya Rani, Rute Costa, Isuri Anuradha, Atul Ojha & Francesca Frontini (2024b): Cultural heritage and multilingual understanding through lexical archives (CHAMUÇA). Lexicography and Semantics. Proceedings of the XXI EURALEX International Congress.
 
 
 
