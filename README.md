@@ -106,7 +106,7 @@ For the other languages we include the following information:
 | Example | An example sentence using the word |
 | Source | Source of the word (as borrowed from Portuguese) |
 | Domain | The domain to which the word belongs |
-| Synonyms | Synonymous words|
+| Synonyms | Synonymous words |
 | Grammar | Additional grammatical information |
 
 Note that in the case of Hindi and Urdu we also include a link to the entry in the other language. 
@@ -139,10 +139,7 @@ So for instance the entry for _chave_ is as follows:
     skos:definition "objeto usado para abrir e fechar uma fechadura, algemas ou cadeado" ;
     ontolex:isSenseOf :chave_entry .
 ```
-
-
-
-
+Using the 
 
 
 
@@ -238,9 +235,14 @@ The idea is for each language to have the following information for each potenti
 | Synonyms | Synonymous words|
 | Grammar | Additional grammatical information|
 
+### Adding Corpus Information
+
+
 # Update: Languages we have covered or plan to cover
 ### Hindi/Urdu
+Status: All words covered
 ### Punjabi
+Status: All words covered
 ### Assamese
 ### Konkani
 ### Bengali
