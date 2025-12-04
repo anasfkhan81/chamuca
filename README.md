@@ -57,18 +57,16 @@ The CHAMUÇA project took inspiration from the linguistic scholarship carried ou
 Overall then, our goals in initiating the project were the following: 
 - Make Dalgado's work accessible in a machine readable form, as a **Findable Accesssible Interoperable and Reusable** (FAIR) dataset[^1] using already existing standards and technologies whenever possible and with an open license; part of this is a publication of Dalgado's lexicon as a (proof checked) Wikisource edition;
 - We also aim to enrich Dalgado's work by comparing it with other lexicographic and scholarly resources; we would also eventually open like to open up our resource up to crowdsourcing;
-- We were also interested in seeing how such a resource could be made available via linked data, which we see as a fitting technology which is potentially very suitable for this task.
-  
-In what follows we describe how we intend to do this via Semantic Web and Linked Data.
+- We were also interested in seeing how such a resource could be made available via linked data, which we see as a fitting technology which is potentially very suitable for this task (we describe this in the following section).
 
-In a first stage of the project we would like to work on the following languages (due to the expertise of the :
+In a first stage of the project we would like to work on the following languages (due to the expertise of the initial partecipants to the project) :
 **Bengali, Gujarati, Hindi, Urdu, Indonesian, Konkani, Malay, Panjabi, Sinhalese, Tamil, Telegu.**
 
 ### CHAMUÇA as Linguistic Linked Open Data 
 In this section we describe the motivations for making the data available as linked open data[^2]. The principal idea was to ensure that our resource would born FAIR and that it would be machine actionable.  We were also keen to make sure our data was open as possible; for this reason we publish everything with a CC-BY license. In addition, we wanted to profit from the many other advantages of the linked data format, including:
-- The possibility to make our data available publically via a SPARQL endpoint
-- The natural fit of a graph-based data model to represent the information in our dataset
-- The possibility of using pre-existing standards and technologies in the Semantic Web stack along with the Semantic Artifacts such as OntoLex-Lemon
+- The possibility to make our data available publically via a SPARQL endpoint;
+- The natural fit of a graph-based data model to represent the information in our dataset;
+- The possibility of using pre-existing standards and technologies in the Semantic Web stack along with the semantic artifacts such as OntoLex-Lemon.
 
 #### Architecture of the CHAMUÇA Language Resource
 
