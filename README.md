@@ -70,12 +70,27 @@ In this section we describe the motivations for making the data available as lin
 
 #### Architecture of the CHAMUÇA Language Resource
 
-Explanatory text 
 <div align="center">
 <img src="CHAMUÇA.drawio.png" alt="CHAMUÇA logo"/>
 </div>
+As the preceeding diagram shows the architecture of CHAMUÇA is fairly simple. CHAMUÇA as a Lexical Resource is a container containing a Portuguese lexicon (in OntoLex) and (OntoLex) lexica for each of the different languages being described. The Portuguese lexicon acts as an index (in the same way as in the original Dalgado lexicon). Each entry in the other lexica is related to a (hypothesised) Portuguese etymon via the etymological root property. 
+For each Portuguese entry we include the following information
+| Category | Description |
+| -------- | ------- |
+| Headword | Lemma in word in question (using original alphabet(s)) |
+| Transliteration | A transliteration of the lemma |
+| Pronunciation | The pronunciation of the word in IPA |
+| Etymology Free | A string describing the etymological origin of the Portuguese word |
+| Dalgado | The lemmas as they appear in Dalgado's vocabulary (if different from the lemma which we use)|
+| Part of Speech | The part of speech of the entry |
+| Gender | The gender of the word (in cases where relevant) |
+| Grammar | Additional grammatical information, e.g., in the case of nouns the singular and plural forms |
+| Definition | Definitions of the word both in English and Portuguese |
+| Wiktionary | A link to a corresponding wiktionary entry (if it exists)|
+| Domain | The domain to which the word belongs |
 
-The Portuguese lexicon acts as an index (in the same way as in the original Dalgado lexicon). For the other languages we include the following information:
+
+For the other languages we include the following information:
 
 | Category | Description |
 | -------- | ------- |
