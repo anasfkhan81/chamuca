@@ -86,7 +86,7 @@ For each Portuguese entry we include the following information
 | Part of Speech | The part of speech of the entry |
 | Gender | The gender of the word (in cases where relevant) |
 | Grammar | Additional grammatical information, e.g., in the case of nouns the singular and plural forms |
-| Definition | Definitions of the word both in English and Portuguese |
+| Definition | Definition of the word |
 | Wiktionary | A link to a corresponding wiktionary entry (if it exists)|
 | Domain | The domain to which the word belongs |
 
@@ -113,11 +113,31 @@ Note that in the case of Hindi and Urdu we also include a link to the entry in t
 
 #### Use of the OntoLex-Lemon Vocabulary
 
+In this section we will describe how we use the OntoLex vocabulary to encode our language resource. 
 We will show how an entry is encoded using the example of the Portuguese word _chave_ 'key' and its reflexes in Hindi and Urdu.
 <div align="center">
 <img src="chave.png" alt="chave entry" width="300"/>
 </div>
 
+The lexical information for the Portuguese etymon is derived from various sources, including Wiktionary. So for instance the 
+
+```turtle
+:chave_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:canonicalForm :chave_lemma ;
+    ontolex:lexicalForm :chave_plural ;
+    ontolex:sense :chave_sense_1 .
+
+:chave_lemma a ontolex:Form ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "chave"@pt .
+
+:chave_sense_1 a ontolex:LexicalSense ;
+    skos:definition "objeto usado para abrir e fechar uma fechadura, algemas ou cadeado" ;
+    ontolex:isSenseOf :chave_entry .
+```
 
 
 
@@ -126,7 +146,7 @@ We will show how an entry is encoded using the example of the Portuguese word _c
 
 
 
-In this section we will describe how we use the OntoLex vocabulary to encode our language resource. 
+
 
 
 
