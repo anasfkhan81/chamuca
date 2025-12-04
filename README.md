@@ -189,6 +189,14 @@ The Urdu reflex of the word, چابی (cābī), is encoded as follows:
     ontolex:canonicalForm :چابی_lemma ;
     ontolex:sense :چابی_sense .
 
+:چابی_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:phoneticRep "t͡ʃɑː.biː"@ur-fonipa ;
+    ontolex:writtenRep "چابی"@ur-Arab,
+        "cābī"@ur-Latn .
+        
+
 :چابی_sense a ontolex:LexicalSense ;
     skos:definition "key (object for opening and closing a lock)" ;
     ontolex:isSenseOf :چابی_entry .
