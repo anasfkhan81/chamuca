@@ -75,6 +75,7 @@ In this section we describe the motivations for making the data available as lin
 </div>
 As the preceeding diagram shows the architecture of CHAMUÇA is fairly simple. CHAMUÇA as a Lexical Resource is a container containing a Portuguese lexicon (in OntoLex) and (OntoLex) lexica for each of the different languages being described. The Portuguese lexicon acts as an index (in the same way as in the original Dalgado lexicon). Each entry in the other lexica is related to a (hypothesised) Portuguese etymon via the etymological root property. 
 For each Portuguese entry we include the following information
+
 | Category | Description |
 | -------- | ------- |
 | Headword | Lemma in word in question (using original alphabet(s)) |
