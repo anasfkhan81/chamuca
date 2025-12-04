@@ -56,6 +56,7 @@ The CHAMUÇA project took inspiration from the linguistic scholarship carried ou
 
 Overall then, our goals in initiating the project were the following: 
 - Make Dalgado's work accessible in a machine readable form, as a **Findable Accesssible Interoperable and Reusable** (FAIR) dataset[^1] using already existing standards and technologies whenever possible and with an open license; part of this is a publication of Dalgado's lexicon as a (proof checked) Wikisource edition;
+- Add entries not
 - We also aim to enrich Dalgado's work by comparing it with other lexicographic and scholarly resources; we would also eventually open like to open up our resource up to crowdsourcing;
 - We were also interested in seeing how such a resource could be made available via linked data, which we see as a fitting technology which is potentially very suitable for this task (we describe this in the following section).
 
@@ -74,14 +75,15 @@ In this section we describe the motivations for making the data available as lin
 <img src="CHAMUÇA.drawio.png" alt="CHAMUÇA logo"/>
 </div>
 As the preceeding diagram shows the architecture of CHAMUÇA is fairly simple. CHAMUÇA as a Lexical Resource is a container containing a Portuguese lexicon (in OntoLex) and (OntoLex) lexica for each of the different languages being described. The Portuguese lexicon acts as an index (in the same way as in the original Dalgado lexicon). Each entry in the other lexica is related to a (hypothesised) Portuguese etymon via the etymological root property. 
-For each Portuguese entry we include the following information
+For each Portuguese entry we include the following information:
+
 
 | Category | Description |
 | -------- | ------- |
 | Headword | Lemma in word in question (using original alphabet(s)) |
 | Transliteration | A transliteration of the lemma |
 | Pronunciation | The pronunciation of the word in IPA |
-| Etymology Free | A string describing the etymological origin of the Portuguese word |
+| Etymology Free | A string describing the etymological origin of the Portuguese word (see below) |
 | Dalgado | The lemmas as they appear in Dalgado's vocabulary (if different from the lemma which we use)|
 | Part of Speech | The part of speech of the entry |
 | Gender | The gender of the word (in cases where relevant) |
@@ -93,13 +95,14 @@ For each Portuguese entry we include the following information
 
 For the other languages we include the following information:
 
+
 | Category | Description |
 | -------- | ------- |
 | Etymon pt-PT | One or more original Portuguese etymons | 
 | Headword | Lemma in word in question (using original alphabet(s)) |
 | Transliteration | A transliteration of the lemma |
 | Pronunciation | The pronunciation of the word in IPA |
-| Etymology Free | A string describing the etymological origin of the |
+| Etymology Free | A string describing the etymological origin of the word (see below)|
 | Dalgado | The lemmas as they appear in Dalgado's work (if they appear there) |
 | Part of Speech, Gender, etc | Standard grammatical information |
 | Wiktionary | A link to a corresponding wiktionary entry (if it exists)|
@@ -109,7 +112,7 @@ For the other languages we include the following information:
 | Synonyms | Synonymous words |
 | Grammar | Additional grammatical information |
 
-Note that in the case of Hindi and Urdu we also include a link to the entry in the other language. 
+Note that in the case of Hindi and Urdu we also include a link to the corresponding entry in the other language. 
 
 #### Use of the OntoLex-Lemon Vocabulary
 
@@ -139,9 +142,37 @@ So for instance the entry for _chave_ is as follows:
     skos:definition "objeto usado para abrir e fechar uma fechadura, algemas ou cadeado" ;
     ontolex:isSenseOf :chave_entry .
 ```
-Using the 
+The Hindi reflex चाबी (cābī) is represented as follows:
 
+```turtle
+:चाबी_entry a ontolex:LexicalEntry;
+    lexinfo:etymologicalRoot <http://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chave> ;
+    lexinfo:etymology "pt chave (Source: Dalgado) ." ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <http://lari-datasets.ilc.cnr.it/chamuca_ur_lex#چابی_entry> ;
+    ontolex:canonicalForm :चाबी_lemma ;
+    ontolex:lexicalForm :चाबियो_vp_form_चाबी,
+        :चाबियों_op_form_चाबी,
+        :चाबी_dp_form_चाबी,
+        :चाबी_os_form_चाबी,
+        :चाबी_vs_form_चाबी ;
+    ontolex:sense :चाबी_sense .
 
+:चाबी_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:phoneticRep "t͡ʃɑː.biː"@hi-fonipa ;
+    ontolex:writtenRep "चाबी"@hi-Deva,
+        "cābī"@hi-Latn .
+
+:चाबी_sense a ontolex:LexicalSense ;
+    skos:definition "key" ;
+    ontolex:isSenseOf :चाबी_entry .
+
+```
+
+The Urdu reflex is 
 
 
 
