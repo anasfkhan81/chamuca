@@ -119,7 +119,8 @@ We will show how an entry is encoded using the example of the Portuguese word _c
 <img src="chave.png" alt="chave entry" width="300"/>
 </div>
 
-The lexical information for the Portuguese etymon is derived from various sources, including Wiktionary. So for instance the 
+The lexical information for the Portuguese etymon is derived from various sources, including Wiktionary. 
+So for instance the entry for _chave_ is as follows:
 
 ```turtle
 :chave_entry a ontolex:LexicalEntry,
