@@ -111,10 +111,19 @@ For the other languages we include the following information:
 
 Note that in the case of Hindi and Urdu we also include a link to the entry in the other language. 
 
-
 #### Use of the OntoLex-Lemon Vocabulary
 
 We will show how an entry is encoded using the example of the Portuguese word _chave_ 'key' and its reflexes in Hindi and Urdu.
+<div align="center">
+<img src="chave.png" alt="chave entry" width="300"/>
+</div>
+
+
+
+
+
+
+
 
 
 In this section we will describe how we use the OntoLex vocabulary to encode our language resource. 
