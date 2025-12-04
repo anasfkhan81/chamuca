@@ -142,7 +142,7 @@ So for instance the entry for _chave_ is as follows:
     skos:definition "objeto usado para abrir e fechar uma fechadura, algemas ou cadeado" ;
     ontolex:isSenseOf :chave_entry .
 ```
-The Hindi reflex चाबी (cābī) is represented as follows:
+The Hindi reflex of the word, चाबी (cābī), is encoded as follows:
 
 ```turtle
 :चाबी_entry a ontolex:LexicalEntry;
@@ -172,10 +172,27 @@ The Hindi reflex चाबी (cābī) is represented as follows:
 
 ```
 
-The Urdu reflex is 
+The Urdu reflex of the word, چابی (cābī), is encoded as follows:
 
+<pre dir="ltr"><code class="language-turtle">
+:چابی_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain &lt;https://lari-datasets.ilc.cnr.it/chadoms#nan&gt; ;
+    lexinfo:etymologicalRoot &lt;https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chave_entry&gt; ;
+    lexinfo:etymology "chave (Source: Dalgado)" ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :चाबी_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 1799 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :چابی_lemma ;
+    ontolex:sense :چابی_sense .
 
-
+:چابی_sense a ontolex:LexicalSense ;
+    skos:definition "key (object for opening and closing a lock)" ;
+    ontolex:isSenseOf :چابی_entry .
+</code></pre>
 
 
 
