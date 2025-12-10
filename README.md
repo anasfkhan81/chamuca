@@ -301,7 +301,8 @@ The idea is for each language to have the following information for each potenti
 
 # Update: Languages we have covered or plan to cover
 ### Hindi/Urdu
-Status:
+Hindi
+
 Count: 89
 
 All Hindi lemmas and their (hypothesised) Portuguese etymons:
@@ -313,9 +314,10 @@ All Hindi lemmas and their (hypothesised) Portuguese etymons:
 
 
 
-All Urdu  lemmas and their (hypothesised) Portuguese etymons:
+Urdu
 
 Count: 53
+
 [Run Urdu → Portuguese SPARQL query (text)](https://lari-datasets.ilc.cnr.it/chamuca/query?query=PREFIX%20ontolex%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Flemon%2Fontolex%23%3E%0APREFIX%20lexinfo%3A%20%3Chttp%3A%2F%2Fwww.lexinfo.net%2Fontology%2F2.0%2Flexinfo%23%3E%0A%0ASELECT%20%3FurduWordConcat%20%3FportugueseWord%20WHERE%20%7B%0A%0A%20%20%7B%0A%20%20%20%20SELECT%20%3FuEntry%20%28GROUP_CONCAT%28STR%28%3FurduWord%29%3B%20SEPARATOR%3D%22%20%2F%20%22%29%20AS%20%3FurduWordConcat%29%20WHERE%20%7B%0A%20%20%20%20%20%20GRAPH%20%3Chttps%3A%2F%2Flari-datasets.ilc.cnr.it%2Fchamuca_ur_lex%3E%20%7B%0A%20%20%20%20%20%20%20%20%3FuEntry%20ontolex%3AcanonicalForm%2Fontolex%3AwrittenRep%20%3FurduWord%20.%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3FuEntry%0A%20%20%7D%0A%0A%20%20GRAPH%20%3Chttps%3A%2F%2Flari-datasets.ilc.cnr.it%2Fchamuca_ur_lex%3E%20%7B%0A%20%20%20%20%3FuEntry%20a%20ontolex%3ALexicalEntry%20%3B%0A%20%20%20%20%20%20lexinfo%3AetymologicalRoot%20%3FptID%20.%0A%20%20%7D%0A%0A%20%20GRAPH%20%3Chttps%3A%2F%2Flari-datasets.ilc.cnr.it%2Fchamuca_pt_lex%3E%20%7B%0A%20%20%20%20%3FptID%20ontolex%3AcanonicalForm%2Fontolex%3AwrittenRep%20%3FportugueseWord%20.%0A%20%20%7D%0A%7D&output=text)
 
 
