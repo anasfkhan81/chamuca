@@ -48,8 +48,62 @@ Sebastian Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orient
 Dalgado's most significant scholarly contribution lies in his pioneering work on lexical borrowings from Portuguese into Asian languages. At a time when the linguistic impact of European colonial powers in Asia was poorly documented, Dalgado's research opened a new field of study: _Luso-Asian contact linguistics_.
 
 ### Languages Covered by Dalgado's Lexicon
-Dalgado's work covers the following (we use Soares' names for these languages, translated from the original Portuguese of Dalgado): 
-Achinese or Atjeh, Anglo-Indian, Annamite or Annamese, Arabic, Assamese, Balinese, Batavian, Batta or Batak, Bengali, Bugui, Burmese, Chinese. Dayak, Galoli, Garo, Gujarati, Hindi, Hindustani, Indo-French, Japanese, Javanese, Kambojan, Kanarese, Kashmiri, Khassi, Konkani, Laskhari-Hindustani, Macassar, Madurese, Malagasy, Malay, Malayalam, Marathi, Molucan, Nepali, Nicobarese, Oriya, Panjabi, Persian, Pidgin-English, Rabbinical, Siamese, Sindhi, Sinhalese, Sundanese, Tamil, Telugu, Teto, Tibetan, Tonkinese, Tulu, Turkish.
+Dalgado's work covers the following (we use Soares' names for these languages, translated from the original Portuguese of Dalgado):  
+
+[Achinese or Atjeh](https://www.wikidata.org/wiki/Q34447),  
+[Anglo-Indian](https://www.wikidata.org/wiki/Q56725),  
+[Annamite or Annamese](https://www.wikidata.org/wiki/Q9192),  
+[Arabic](https://www.wikidata.org/wiki/Q56475),  
+[Assamese](https://www.wikidata.org/wiki/Q29401),  
+[Balinese](https://www.wikidata.org/wiki/Q33025),  
+[Batavian](https://www.wikidata.org/wiki/Q49228),  
+[Batta or Batak](https://www.wikidata.org/wiki/Q33070),  
+[Bengali](https://www.wikidata.org/wiki/Q9610),  
+[Bugui](https://www.wikidata.org/wiki/Q3507951),  
+[Burmese](https://www.wikidata.org/wiki/Q9228),  
+[Chinese](https://www.wikidata.org/wiki/Q7850),  
+[Dayak](https://www.wikidata.org/wiki/Q58494757),  
+[Galoli](https://www.wikidata.org/wiki/Q551569),  
+[Garo](https://www.wikidata.org/wiki/Q35756),  
+[Gujarati](https://www.wikidata.org/wiki/Q5137),  
+[Hindi](https://www.wikidata.org/wiki/Q1568),  
+[Hindustani](https://www.wikidata.org/wiki/Q11051)*,  
+[Indo-French](https://www.wikidata.org/wiki/Q16992183),  
+[Japanese](https://www.wikidata.org/wiki/Q5287),  
+[Javanese](https://www.wikidata.org/wiki/Q33549),  
+[Kambojan](https://www.wikidata.org/wiki/Q9205),  
+[Kanarese](https://www.wikidata.org/wiki/Q33673),  
+[Kashmiri](https://www.wikidata.org/wiki/Q33552),  
+[Khassi](https://www.wikidata.org/wiki/Q33578),  
+[Konkani](https://www.wikidata.org/wiki/Q33946),  
+[Laskhari-Hindustani](https://www.wikidata.org/wiki/Q11051),  
+[Macassar](https://www.wikidata.org/wiki/Q33614),  
+[Madurese](https://www.wikidata.org/wiki/Q33723),  
+[Malagasy](https://www.wikidata.org/wiki/Q7930),  
+[Malay](https://www.wikidata.org/wiki/Q9237),  
+[Malayalam](https://www.wikidata.org/wiki/Q36236),  
+[Marathi](https://www.wikidata.org/wiki/Q1571),  
+[Molucan](https://www.wikidata.org/wiki/Q33475),  
+[Nepali](https://www.wikidata.org/wiki/Q33823),  
+[Nicobarese](https://www.wikidata.org/wiki/Q702939),  
+[Oriya](https://www.wikidata.org/wiki/Q33810),  
+[Panjabi](https://www.wikidata.org/wiki/Q58635),  
+[Persian](https://www.wikidata.org/wiki/Q9168),  
+[Pidgin-English](https://www.wikidata.org/wiki/Q42365),  
+[Rabbinical](https://www.wikidata.org/wiki/Q178440),  
+[Siamese](https://www.wikidata.org/wiki/Q9217),  
+[Sindhi](https://www.wikidata.org/wiki/Q33997),  
+[Sinhalese](https://www.wikidata.org/wiki/Q13267),  
+[Sundanese](https://www.wikidata.org/wiki/Q34002),  
+[Tamil](https://www.wikidata.org/wiki/Q5885),  
+[Telugu](https://www.wikidata.org/wiki/Q8097),  
+[Teto](https://www.wikidata.org/wiki/Q3547832),  
+[Tibetan](https://www.wikidata.org/wiki/Q34271),  
+[Tonkinese](https://www.wikidata.org/wiki/Q9192),  
+[Tulu](https://www.wikidata.org/wiki/Q34211),  
+[Turkish](https://www.wikidata.org/wiki/Q256).  
+
+*By Hindustani Dalgado refers to what we nowadays call Urdu. To quote Dalgado (in Soares' translation): "It is true that both terms Urdu and Hindustani are used promiscuously, but Urdu denotes properly speaking, the form of the literary language, purer and more polished, and Hindustani, the common speech diluted by the admixture of exotic words".
 
 ## CHAMUÇA as an open, crowd-resourced dataset
 The CHAMUÇA project took inspiration from the linguistic scholarship carried out by Dalgado with the aim of making this scholarship more accessible both to human beings and to machines. Indeed, our goal is not only to make Dalgado's work in this area accessible to a wider audience (including non-specialists), but to do the same thing for other scholarship in this area. Much of the scholarship that has been carried out in what we have termed Luso-Asian contact linguistics is only available in Portuguese or only in other languages and often only in paper format. And much of it is available in scattered resources ('silos'), without a single access point, and often in a format that is diffcult to process and not interoperable with other relevant resources.  
