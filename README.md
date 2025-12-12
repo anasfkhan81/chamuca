@@ -4,13 +4,7 @@
 </div>
 
 ## Table of Contents
-- [Summary](#summary)
-- [Introduction](#introduction)
-- [Background](#background)
-- [CHAMUÇA as an open, crowd-resourced dataset](#chamu%C3%A7a-as-an-open-crowd-resourced-dataset)
-- [Adding a language to CHAMUÇA](#adding-a-language-to-chamu%C3%A7a)
-- [References](#references)
-- [Contact](#contact)
+<!-- GitHub will auto-generate here -->
 
 ## Summary 
 The current document describes the Chamuça project, its aim and the current state of its progress. It will also describe the language resource of the same name, which is one of the products of the project, how it is structured and how to access it. It also provides information on how to contribute to the project and the resource. 
