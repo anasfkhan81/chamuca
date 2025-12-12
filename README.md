@@ -4,7 +4,38 @@
 </div>
 
 ## Table of Contents
-<!-- GitHub will auto-generate here -->
+
+- [Summary](#summary)
+- [Introduction](#introduction)
+- [Background](#background)
+  - [The Impact of Portuguese in Asia](#the-impact-of-portuguese-in-asia)
+- [Dalgado and the _Influência do Vocabulário Português em Línguas Asiáticas_](#dalgado-and-the-influência-do-vocabulário-português-em-línguas-asiáticas)
+  - [Languages Covered by Dalgado's Lexicon](#languages-covered-by-dalgados-lexicon)
+- [CHAMUÇA as an Open, Crowd-Resourced Dataset](#chamuça-as-an-open-crowd-resourced-dataset)
+  - [CHAMUÇA as Linguistic Linked Open Data](#chamuça-as-linguistic-linked-open-data)
+    - [Architecture of the CHAMUÇA Language Resource](#architecture-of-the-chamuça-language-resource)
+    - [Use of the OntoLex-Lemon Vocabulary](#use-of-the-ontolex-lemon-vocabulary)
+    - [Encoding Etymological Information as Strings](#encoding-etymological-information-as-strings)
+    - [Accessing the CHAMUÇA SPARQL Endpoint](#accessing-the-chamuça-sparql-endpoint)
+- [Adding a Language to CHAMUÇA](#adding-a-language-to-chamuça)
+  - [Adding Corpus Information](#adding-corpus-information)
+- [Update: Languages We Have Covered or Plan to Cover](#update-languages-we-have-covered-or-plan-to-cover)
+  - [Hindi/Urdu](#hindiurdu)
+  - [Punjabi](#punjabi)
+  - [Assamese](#assamese)
+  - [Konkani](#konkani)
+  - [Bengali](#bengali)
+  - [Sinhalese](#sinhalese)
+  - [Malayalam](#malayalam)
+  - [Tamil](#tamil)
+  - [Indonesian](#indonesian)
+- [Producing a Wikisource Edition of Dalgado's Lexicon](#producing-a-wikisource-edition-of-dalgados-lexicon)
+- [How You Can Collaborate?](#how-you-can-collaborate)
+  - [Collaborators](#collaborators)
+- [References](#references)
+  - [Source Works](#source-works)
+  - [Works Where the Project Is Described](#works-where-the-project-is-described)
+- [Contact](#contact)
 
 ## Summary 
 The current document describes the Chamuça project, its aim and the current state of its progress. It will also describe the language resource of the same name, which is one of the products of the project, how it is structured and how to access it. It also provides information on how to contribute to the project and the resource. 
