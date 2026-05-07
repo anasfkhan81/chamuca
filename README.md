@@ -36,36 +36,38 @@
 The current document describes the Chamuça project, its aim and the current state of its progress. It will also describe the language resource of the same name, which is one of the products of the project, how it is structured and how to access it. It also provides information on how to contribute to the project and the resource. 
 
 
-## Introduction 
+## Introduction
 
-**Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA)** is an interdisciplinary collaboration in the area of historical contact linguistics which aims to document the impact of the Portuguese on the languages of Asian languages, while also making earlier scholarship and research on this topic more accessible and easier to use.  
+**Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA)** is an interdisciplinary project in historical contact linguistics that seeks to document the influence of Portuguese on Asian languages while making earlier scholarship on the topic more accessible.  
 
-As well as being the name of our project, CHAMUÇA is also the name of the language resource which is produced through this collaboration. This language resource will be published in successive versions as a linguistic knowledge graph in RDF, making it a test case for the use of **linguistic linked data** in disseminating this kind of cultural and linguistic information.  And, of course, the name of our project also evokes, chamuça, the fried snack which is a well known example of intercultural culinary exchange.
+CHAMUÇA is also the name of the linguistic resource produced by the project. The resource is being released in successive RDF versions as a linguistic knowledge graph, serving as a case study for the use of **linguistic linked data** in the dissemination of cultural and linguistic heritage. The project name additionally recalls the well-known fried snack *chamuça*, itself an example of intercultural exchange.
 
-At the time of writing (20/11/25), we have a first version of CHAMUÇA which describes Portuguese borrowings in Urdu, Hindi and Punjabi.  In the first stage of the project we are focusing on South Asian languages and Malaysian/Indonesian but would like to add languages covering a wider area in the future. 
+At the time of writing (20/11/25), the first version of CHAMUÇA includes Portuguese borrowings in Urdu, Hindi, and Punjabi. The current focus is on South Asian and Malaysian/Indonesian languages, with plans to expand coverage in the future.
 
-The aims of the project are as follows: 
-- Help to make this part of history better known in an accessible machine actionable form, in our case by creating a knowledge graph of Portuguese borrowings into Asian languages with separate lexicons for each language and a indexical Portuguese lexicon
-- Model this graph in RDF using the OntoLex-Lemon model and and make it accessible via a SPARQL endpoint; publish it with an open license and add it to the linguistic linked open data cloud,
-- Bring together relevant lexical information on this topic from different sources, including Wiktionary, Wikipedia, and making reference to lexicographic information, but in particular Dalgado's 1913 work.
-- Extract the relevant details from Dalgado's lexicon and compare it/combine it with information from the above resources, helping to make Dalgado's important scholarship more accessible to modern day researchers as well as a wider public 
+The project has several main objectives:
+- To represent the history of Portuguese lexical influence in a machine-actionable and accessible form through a knowledge graph containing separate Asian-language lexicons and an indexical Portuguese lexicon;
+- To model the data in RDF using the OntoLex-Lemon framework, provide access through a SPARQL endpoint, and publish it openly as part of the linguistic linked open data cloud;
+- To integrate lexical information from multiple sources, including Wiktionary, Wikipedia, lexicographic works, and especially Dalgado’s 1913 study;
+- To extract and compare data from Dalgado’s lexicon with contemporary resources, making his scholarship more accessible to researchers and the wider public.
 
 ## Background
 ### The Impact of Portuguese in Asia
-The influence of the Portuguese language in Asia starts with the so-called Age of Discovery (_Era dos Descobrimentos_ in Portuguese) during the 15th and 16th centuries. In this period, sailors and colonists from the kingodm of Portugal were able to establish a network of colonies and trading posts along the South Asian coast, beginning with the Malabar coast in India, and including locations such as Cochin and Calicut. 
 
-Over time, these footholds expanded into a wider system of settlements and trade routes spanning many parts of ths content. One inevitable consequence of this expansion was that **Portuguese emerged as a key language of trade and diplomacy in Asia** To quote Cardoso (2016) “A língua portuguesa encaixou-se na região asiática ao ponto de se converter em importante língua franca de comérico e diplomacia” [The Portuguese language became deeply rooted in the Asian region to the extent that it evolved into an important lingua franca for commerce and diplomacy]. 
+The influence of Portuguese in Asia began during the so-called Age of Discovery (*Era dos Descobrimentos*) in the 15th and 16th centuries. During this period, Portuguese sailors and colonists established a network of trading posts and settlements along the South Asian coast, beginning with the Malabar Coast and extending to places such as Cochin and Calicut.
 
-The Portuguese language began to exert a significant influence on the languages of Asia—starting on the western coast of what is now India, spreading to Sri Lanka, Bengal, and then further east to Indonesia, China, and Japan. This linguistic impact is still very much present today, even if it's not always recognized by speakers of these languages.
+These early footholds later expanded into a wider commercial and colonial network across Asia. As a result, **Portuguese became an important language of trade and diplomacy in the region**. As Cardoso (2016) observes: “A língua portuguesa encaixou-se na região asiática ao ponto de se converter em importante língua franca de comércio e diplomacia” [The Portuguese language became so embedded in the Asian region that it developed into an important lingua franca of commerce and diplomacy].
 
-The idea behind CHAMUçA then is to make this story both more visible and more accessible—both to researchers and to a wider public. That is, we intend to trace the ongoing legacy of colonisation and trade as reflected in the vocabularies of modern Asian languages, drawing on both contemporary and historical scholarship in the field.  Another aim of Chamuça is also to bring awareness to the pioneering work of the early 20th century scholar Sebastião Rodolfo Dalgado. 
+Portuguese subsequently influenced many Asian languages, first on the western coast of India and later in Sri Lanka, Bengal, Indonesia, China, and Japan. This linguistic legacy remains visible today, even if it often goes unrecognized by speakers.
+
+CHAMUÇA aims to make this history more visible and accessible to both researchers and the general public by tracing the legacy of trade and colonisation through the vocabularies of modern Asian languages. Another important goal of the project is to highlight the pioneering scholarship of Sebastião Rodolfo Dalgado.
 
 ![image](https://github.com/user-attachments/assets/a8b4fea0-ba56-4e1d-9077-7f530093b915)
 
 ## Dalgado and the _Influência do Vocabulário Português em Línguas Asiáticas_
-Sebastian Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orientalist born in Assagão, Goa, in 1855—then a Portuguese colony. Deeply rooted in both Indo-Portuguese and Catholic traditions, Dalgado became one of the most prominent figures in the study of Lusophone linguistic influence in Asia. His scholarly trajectory bridged European philological methods with a nuanced understanding of local Asian languages and cultures.
 
-Dalgado's most significant scholarly contribution lies in his pioneering work on lexical borrowings from Portuguese into Asian languages. At a time when the linguistic impact of European colonial powers in Asia was poorly documented, Dalgado's research opened a new field of study: _Luso-Asian contact linguistics_.
+Sebastião Rodolfo Dalgado was a Portuguese Catholic priest, linguist, and orientalist born in Goa, in 1855, when it was still under Portuguese rule. Combining Indo-Portuguese cultural knowledge with European philological training, he became a leading scholar of Portuguese linguistic influence in Asia.
+
+Dalgado’s most important contribution was his pioneering research on Portuguese lexical borrowings in Asian languages. At a time when the linguistic effects of European colonialism in Asia had received little scholarly attention, his work helped establish the field now known as *Luso-Asian contact linguistics*.
 
 ### Languages Covered by Dalgado's Lexicon
 Dalgado's work covers the following (we use Soares' names for these languages, translated from the original Portuguese of Dalgado):  
