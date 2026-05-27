@@ -328,16 +328,16 @@ def upload_pa(file_name):
 def main():
     dic1 = upload_pt()
     l = Lexicon("https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#", dic1)
-    l.writeToFile('chamuca_pt_lex', 'xml')
+    l.writeToFile('chamuca_pt_lex', 'ttl')
     dic2 = upload_hl("SimplifiedHindi.tsv")
     l2 = Lexicon("https://lari-datasets.ilc.cnr.it/chamuca_hi_lex#", dic2)
-    l2.writeToFile('chamuca_hi_lex', 'xml')
+    l2.writeToFile('chamuca_hi_lex', 'ttl')
     dic3 = upload_ur("SimpleUrdu.tsv")
     l3 = Lexicon("https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#", dic3)
-    l3.writeToFile('chamuca_ur_lex', 'xml')
+    l3.writeToFile('chamuca_ur_lex', 'ttl')
     dic_4 = upload_pa("Punjabi.tsv")
     l3 = Lexicon("https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#", dic_4)
-    l3.writeToFile('chamuca_pa_lex', 'xml')
+    l3.writeToFile('chamuca_pa_lex', 'ttl')
 
 if __name__ == "__main__":
         main()
