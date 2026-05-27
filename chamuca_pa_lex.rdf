@@ -8,123 +8,25 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_3">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_entry"/>
-    <skos:definition>buttonhole</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਰਸੀਦ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਰਸੀਦ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#recibo_entry"/>
-    <lexinfo:etymology>recibo (Source: Dalgado)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਇਸਪਾਤ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਇਸਪਾਤ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#espada_entry"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾਘਰ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾਘਰ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja_entry"/>
-    <lexinfo:etymology>pt igreja &gt; ur گِرْجا (Source: Wiktionary)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜੂ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜੂ_entry"/>
-    <skos:definition>cashew nut</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਜਪਾਨ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਜਪਾਨ_entry"/>
-    <skos:definition></skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੀਪਾ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੀਪਾ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pipa_entry"/>
-    <lexinfo:etymology>pipa (Source: Dalgado)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_lemma">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
-    <ontolex:writtenRep xml:lang="pa-In">ਅਚਾਰ</ontolex:writtenRep>
-    <ontolex:writtenRep xml:lang="pnb">اَچار</ontolex:writtenRep>
-    <ontolex:writtenRep xml:lang="pa-Ltn">acār</ontolex:writtenRep>
-    <ontolex:phoneticRep xml:lang="pa-fonipa">ə.t͡ʃäːɾə̆</ontolex:phoneticRep>
-    <ontolex:phoneticRep xml:lang="pa-fonipa">t͡ʃäːɾə̆</ontolex:phoneticRep>
-    <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
-    <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_lemma">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
-    <ontolex:writtenRep xml:lang="pa-In">ਅਲਮਾਰੀ</ontolex:writtenRep>
-    <ontolex:writtenRep xml:lang="pnb">الماری</ontolex:writtenRep>
-    <ontolex:writtenRep xml:lang="pa-Ltn">alamārī</ontolex:writtenRep>
-    <ontolex:phoneticRep xml:lang="pa-fonipa">ə.t͡ʃäːɾᵊ</ontolex:phoneticRep>
-    <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
-    <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਪਤਸਮਾ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਪਤਸਮਾ_entry"/>
-    <skos:definition>( Christianity ) baptism</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮਸਤੂਲ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮਸਤੂਲ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mastro_entry"/>
-    <lexinfo:etymology>mastro (Source: Dalgado)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੌਨਸੂਨ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੌਨਸੂਨ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#monção_entry"/>
-    <lexinfo:etymology>English monsoon , from Portuguese monção and Dutch moesson , from Arabic مَوْسِم ( mawsim , “ season ” ) . Doublet of ਮੌਸਮ ( mausam ) .ar مَوْسِم &gt; pt monção &amp; nl moesson &gt; en monsoon (Source: Wiktionary)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੌਨਸੂਨ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੌਨਸੂਨ_entry"/>
-    <skos:definition>monsoon ( weather system )</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਫੀਤਾ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਫੀਤਾ_entry"/>
-    <skos:definition>measuring tape, ribbon</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜੂ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੋਤਲ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
     <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
     <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜੂ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#caju_entry"/>
-    <lexinfo:etymology>pt caju &gt; ur کاجُو (Source: Wiktionary)</lexinfo:etymology>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੋਤਲ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#botelha_entry"/>
+    <lexinfo:etymology>pt botelha &gt; ur بوتَل (Source: Wiktionary)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੇਰੂ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੇਰੂ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#peru_entry"/>
+    <lexinfo:etymology>peru (Source: Dalgado)</lexinfo:etymology>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
@@ -135,90 +37,59 @@
     <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
     <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#achar_entry"/>
-    <lexinfo:etymology>achar (Source: Dalgado)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੁੱਜਾ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
     <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
     <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#ananás_entry"/>
-    <lexinfo:etymology>ananás (Source: Wiktionary)</lexinfo:etymology>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੁੱਜਾ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bucha_entry"/>
+    <lexinfo:etymology>bucha (Source: Dalgado)</lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
-    <ontolex:writtenRep xml:lang="pa-In">ਗਿਰਜਾ</ontolex:writtenRep>
-    <ontolex:writtenRep xml:lang="pnb">گرجا</ontolex:writtenRep>
-    <ontolex:writtenRep xml:lang="pa-Ltn">girjā</ontolex:writtenRep>
-    <ontolex:phoneticRep xml:lang="pa-fonipa"></ontolex:phoneticRep>
-    <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
-    <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੇਰੂ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਰਸੀਦ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੇਰੂ_entry"/>
-    <skos:definition>turkey</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਰਸੀਦ_entry"/>
+    <skos:definition>receipt, acknowledgement</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਾਲ਼ਟੀ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_entry"/>
+    <skos:definition>cupboard , shelf ; almirah</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_sense_2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_entry"/>
+    <skos:definition>Cruciefrous vegetables like cabbage , cauliflower , kohlrabi , broccoli , Brussels sprout and Chinese cabbage etc.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਾਲ਼ਟੀ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#balde_entry"/>
-    <lexinfo:etymology>pt balde &gt; ur بالْٹی  (Source: Wiktionary)</lexinfo:etymology>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#toalha_entry"/>
+    <lexinfo:etymology>pt toalha &gt; hin  तौलिया, تَولِیَہ, tauliya (Source: Wiktionary) </lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਇਸਪਾਤ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
     <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
     <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_1"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_2"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_3"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#casa_de_botão._entry"/>
-    <lexinfo:etymology>pt casa [de botão] &gt; hin काज, کاج, kāj (Source: Wiktionary)</lexinfo:etymology>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਇਸਪਾਤ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#espada_entry"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੰਬਈ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜੂ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
     <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੰਬਈ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Bombaim_entry"/>
-    <lexinfo:etymology>pt Bombaim &gt; hin बंबई, بَمْبَئی, bambaī</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja_entry"/>
-    <lexinfo:etymology>pt igreja &gt; ur گِرْجا (Source: Wiktionary)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਫੀਤਾ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਫੀਤਾ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#fita_entry"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜੂ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#caju_entry"/>
+    <lexinfo:etymology>pt caju &gt; ur کاجُو (Source: Wiktionary)</lexinfo:etymology>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/lime#Lexicon"/>
@@ -256,77 +127,6 @@
     <lime:entry rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_entry"/>
     <lime:entry rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_entry"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਾਲ਼ਟੀ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਾਲ਼ਟੀ_entry"/>
-    <skos:definition>bucket , pail , scuttle</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#armário_entry"/>
-    <lexinfo:etymology>armário (Source: Dalgado);  ur اَلْماری ( almārī ) (Source: Wiktionary).</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਹ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਹ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chá_entry"/>
-    <lexinfo:etymology>pt chá (Source: Dalgado)| fa چا (Source: Wiktionary) | 茶 (Source: Wiktionary)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੰਬਈ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੰਬਈ_entry"/>
-    <skos:definition>Mumbai</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੋਤਲ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੋਤਲ_entry"/>
-    <skos:definition>bottle</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_sense_1"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_sense_2"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chave_entry"/>
-    <lexinfo:etymology>pt chave &gt; hin चाबी, چابی, cābī (Source: Wiktionary)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_sense_1">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_entry"/>
-    <skos:definition>cauliflower Synonym: ਫੁੱਲ ਗੋਭੀ ( phulla gobhī )</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tabaco_entry"/>
-    <lexinfo:etymology>tabaco (Source: Dalgado)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੇਰੂ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੇਰੂ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#peru_entry"/>
-    <lexinfo:etymology>peru (Source: Dalgado)</lexinfo:etymology>
-  </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
@@ -338,55 +138,50 @@
     <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#couve_entry"/>
     <lexinfo:etymology>pt couve &gt; hin गोभी, گوبھی, gobhī (Source: Wiktionary)</lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਨਿਲਾਮੀ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_lemma">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+    <ontolex:writtenRep xml:lang="pa-In">ਅਲਮਾਰੀ</ontolex:writtenRep>
+    <ontolex:writtenRep xml:lang="pnb">الماری</ontolex:writtenRep>
+    <ontolex:writtenRep xml:lang="pa-Ltn">alamārī</ontolex:writtenRep>
+    <ontolex:phoneticRep xml:lang="pa-fonipa">ə.t͡ʃäːɾᵊ</ontolex:phoneticRep>
+    <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
+    <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜੂ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਨਿਲਾਮੀ_entry"/>
-    <skos:definition>auction</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜੂ_entry"/>
+    <skos:definition>cashew nut</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੁਸੰਮੀ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੁਸੰਮੀ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Moçambique_entry"/>
-    <lexinfo:etymology>pt Moçambique (Source: Wiktionary)</lexinfo:etymology>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਫੀਤਾ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
     <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#toalha_entry"/>
-    <lexinfo:etymology>pt toalha &gt; hin  तौलिया, تَولِیَہ, tauliya (Source: Wiktionary) </lexinfo:etymology>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਫੀਤਾ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#fita_entry"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_entry"/>
-    <skos:definition>pineapple</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਪਤਸਮਾ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
     <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਪਤਸਮਾ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#baptismo_entry"/>
-    <lexinfo:etymology>hin बपतिस्मा, بَپْتِسْمَہ, baptisma | eng baptism | pt baptismo (Source: Wiktionary) </lexinfo:etymology>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#achar_entry"/>
+    <lexinfo:etymology>achar (Source: Dalgado)</lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਸਾਬਣ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
     <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਸਾਬਣ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#sabão_entry"/>
-    <lexinfo:etymology>sabão (Source: Dalgado)</lexinfo:etymology>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_1"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_2"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_3"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#casa_de_botão._entry"/>
+    <lexinfo:etymology>pt casa [de botão] &gt; hin काज, کاج, kāj (Source: Wiktionary)</lexinfo:etymology>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
@@ -397,35 +192,29 @@
     <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
     <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਇਸਪਾਤ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਇਸਪਾਤ_entry"/>
-    <skos:definition>steel Synonym: ਫੁਲਾਦ ( phulād )</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੁੱਜਾ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੌਨਸੂਨ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
     <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੁੱਜਾ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bucha_entry"/>
-    <lexinfo:etymology>bucha (Source: Dalgado)</lexinfo:etymology>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੌਨਸੂਨ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#monção_entry"/>
+    <lexinfo:etymology>English monsoon , from Portuguese monção and Dutch moesson , from Arabic مَوْسِم ( mawsim , “ season ” ) . Doublet of ਮੌਸਮ ( mausam ) .ar مَوْسِم &gt; pt monção &amp; nl moesson &gt; en monsoon (Source: Wiktionary)</lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੋਤਲ_entry">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਜਪਾਨ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
     <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
     <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੋਤਲ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#botelha_entry"/>
-    <lexinfo:etymology>pt botelha &gt; ur بوتَل (Source: Wiktionary)</lexinfo:etymology>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਜਪਾਨ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Japão_entry"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_entry"/>
-    <skos:definition>pickle</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_entry"/>
+    <skos:definition>towel ਮੈਨੂੰ ਤੌਲੀਆ ਦੇ ਦਿਓ. ― mainū̃ taulīā de dio. ― Give me the towel. ਮੇਰਾ ਤੌਲੀਆ ਕਿੱਥੇ ਗਿਆ ? ― merā taulīā kitthe giā? ― Where did my towel go?</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_lemma">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
@@ -438,35 +227,130 @@
     <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
     <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਸਾਬਣ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਸਾਬਣ_entry"/>
-    <skos:definition>soap</skos:definition>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja_entry"/>
+    <lexinfo:etymology>pt igreja &gt; ur گِرْجا (Source: Wiktionary)</lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤੌਲੀਆ_entry"/>
-    <skos:definition>towel ਮੈਨੂੰ ਤੌਲੀਆ ਦੇ ਦਿਓ. ― mainū̃ taulīā de dio. ― Give me the towel. ਮੇਰਾ ਤੌਲੀਆ ਕਿੱਥੇ ਗਿਆ ? ― merā taulīā kitthe giā? ― Where did my towel go?</skos:definition>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੰਬਈ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੰਬਈ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Bombaim_entry"/>
+    <lexinfo:etymology>pt Bombaim &gt; hin बंबई, بَمْبَئی, bambaī</lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਰਸੀਦ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਜਪਾਨ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਰਸੀਦ_entry"/>
-    <skos:definition>receipt, acknowledgement</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਜਪਾਨ_entry"/>
+    <skos:definition></skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾਘਰ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਇਸਪਾਤ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾਘਰ_entry"/>
-    <skos:definition>church</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਇਸਪਾਤ_entry"/>
+    <skos:definition>steel Synonym: ਫੁਲਾਦ ( phulād )</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੁਸੰਮੀ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਰਸੀਦ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਰਸੀਦ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#recibo_entry"/>
+    <lexinfo:etymology>recibo (Source: Dalgado)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#ananás_entry"/>
+    <lexinfo:etymology>ananás (Source: Wiktionary)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੁਸੰਮੀ_entry"/>
-    <skos:definition>sweet lemon ( Citrus limetta )</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_entry"/>
+    <skos:definition>pickle</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਾਲ਼ਟੀ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਾਲ਼ਟੀ_entry"/>
+    <skos:definition>bucket , pail , scuttle</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਸਾਬਣ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਸਾਬਣ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#sabão_entry"/>
+    <lexinfo:etymology>sabão (Source: Dalgado)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪਿਸਤੌਲ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪਿਸਤੌਲ_entry"/>
+    <skos:definition>pistol</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਾਲ਼ਟੀ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਾਲ਼ਟੀ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#balde_entry"/>
+    <lexinfo:etymology>pt balde &gt; ur بالْٹی  (Source: Wiktionary)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੁੱਜਾ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੁੱਜਾ_entry"/>
+    <skos:definition>stopper, cork, plug, bung; any obstruction in the ear</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੇਰੂ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੇਰੂ_entry"/>
+    <skos:definition>turkey</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮਸਤੂਲ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮਸਤੂਲ_entry"/>
+    <skos:definition>mast</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਪਤਸਮਾ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਪਤਸਮਾ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#baptismo_entry"/>
+    <lexinfo:etymology>hin बपतिस्मा, بَپْتِسْمَہ, baptisma | eng baptism | pt baptismo (Source: Wiktionary) </lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਨਿਲਾਮੀ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਨਿਲਾਮੀ_entry"/>
+    <skos:definition>auction</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੀਪਾ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
     <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੀਪਾ_entry"/>
     <skos:definition>tin container, can, cannister</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_sense_2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_entry"/>
+    <skos:definition>spanner , wrench</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪਿਸਤੌਲ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
@@ -478,20 +362,55 @@
     <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pistola_entry"/>
     <lexinfo:etymology>pistola (Source: Dalgado)</lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_sense_2">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#armário_entry"/>
+    <lexinfo:etymology>armário (Source: Dalgado);  ur اَلْماری ( almārī ) (Source: Wiktionary).</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਚਾਰ_lemma">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+    <ontolex:writtenRep xml:lang="pa-In">ਅਚਾਰ</ontolex:writtenRep>
+    <ontolex:writtenRep xml:lang="pnb">اَچار</ontolex:writtenRep>
+    <ontolex:writtenRep xml:lang="pa-Ltn">acār</ontolex:writtenRep>
+    <ontolex:phoneticRep xml:lang="pa-fonipa">ə.t͡ʃäːɾə̆</ontolex:phoneticRep>
+    <ontolex:phoneticRep xml:lang="pa-fonipa">t͡ʃäːɾə̆</ontolex:phoneticRep>
+    <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
+    <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_entry"/>
+    <skos:definition>tobacco</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੁਸੰਮੀ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੁਸੰਮੀ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Moçambique_entry"/>
+    <lexinfo:etymology>pt Moçambique (Source: Wiktionary)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_sense_1">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
     <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_entry"/>
-    <skos:definition>spanner , wrench</skos:definition>
+    <skos:definition>key Synonym: ਕੁੰਜੀ ( kuñjī )</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੁੱਜਾ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੁੱਜਾ_entry"/>
-    <skos:definition>stopper, cork, plug, bung; any obstruction in the ear</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_2">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_entry"/>
-    <skos:definition>purpose , function</skos:definition>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੀਪਾ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪੀਪਾ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pipa_entry"/>
+    <lexinfo:etymology>pipa (Source: Dalgado)</lexinfo:etymology>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਨਿਲਾਮੀ_entry">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
@@ -503,58 +422,139 @@
     <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#leilão_entry"/>
     <lexinfo:etymology>leilão (Source: Dalgado)</lexinfo:etymology>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮਸਤੂਲ_sense">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮਸਤੂਲ_entry"/>
-    <skos:definition>mast</skos:definition>
-  </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
     <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_entry"/>
     <skos:definition>church Synonym: ਚਰਚ ( carac )</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪਿਸਤੌਲ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾਘਰ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾਘਰ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja_entry"/>
+    <lexinfo:etymology>pt igreja &gt; ur گِرْجا (Source: Wiktionary)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮਸਤੂਲ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮਸਤੂਲ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mastro_entry"/>
+    <lexinfo:etymology>mastro (Source: Dalgado)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਹ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਹ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chá_entry"/>
+    <lexinfo:etymology>pt chá (Source: Dalgado)| fa چا (Source: Wiktionary) | 茶 (Source: Wiktionary)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_sense"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tabaco_entry"/>
+    <lexinfo:etymology>tabaco (Source: Dalgado)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੋਤਲ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਪਿਸਤੌਲ_entry"/>
-    <skos:definition>pistol</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੋਤਲ_entry"/>
+    <skos:definition>bottle</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਸਾਬਣ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਸਾਬਣ_entry"/>
+    <skos:definition>soap</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_entry">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
+    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
+    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_lemma"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_sense_1"/>
+    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_sense_2"/>
+    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chave_entry"/>
+    <lexinfo:etymology>pt chave &gt; hin चाबी, چابی, cābī (Source: Wiktionary)</lexinfo:etymology>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਪਤਸਮਾ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬਪਤਸਮਾ_entry"/>
+    <skos:definition>( Christianity ) baptism</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਨਾਨਾਸ_entry"/>
+    <skos:definition>pineapple</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੁਸੰਮੀ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੁਸੰਮੀ_entry"/>
+    <skos:definition>sweet lemon ( Citrus limetta )</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਹ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
     <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਹ_entry"/>
     <skos:definition>tea</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਜਪਾਨ_entry">
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
-    <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#commonNoun"/>
-    <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-    <ontolex:canonicalForm rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma"/>
-    <ontolex:sense rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਜਪਾਨ_sense"/>
-    <lexinfo:etymologicalRoot rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Japão_entry"/>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾ_lemma">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+    <ontolex:writtenRep xml:lang="pa-In">ਗਿਰਜਾ</ontolex:writtenRep>
+    <ontolex:writtenRep xml:lang="pnb">گرجا</ontolex:writtenRep>
+    <ontolex:writtenRep xml:lang="pa-Ltn">girjā</ontolex:writtenRep>
+    <ontolex:phoneticRep xml:lang="pa-fonipa"></ontolex:phoneticRep>
+    <lexinfo:case rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#directCase"/>
+    <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_sense_1">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾਘਰ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਚਾਬੀ_entry"/>
-    <skos:definition>key Synonym: ਕੁੰਜੀ ( kuñjī )</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗਿਰਜਾਘਰ_entry"/>
+    <skos:definition>church</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਫੀਤਾ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਅਲਮਾਰੀ_entry"/>
-    <skos:definition>cupboard , shelf ; almirah</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਫੀਤਾ_entry"/>
+    <skos:definition>measuring tape, ribbon</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_sense_2">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੰਬਈ_sense">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_entry"/>
-    <skos:definition>Cruciefrous vegetables like cabbage , cauliflower , kohlrabi , broccoli , Brussels sprout and Chinese cabbage etc.</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਬੰਬਈ_entry"/>
+    <skos:definition>Mumbai</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_sense">
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_2">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
-    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਤਮਾਕੂ_entry"/>
-    <skos:definition>tobacco</skos:definition>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_entry"/>
+    <skos:definition>purpose , function</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_1">
     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
     <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_entry"/>
     <skos:definition>work , task , affair</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_sense_3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਕਾਜ_entry"/>
+    <skos:definition>buttonhole</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੌਨਸੂਨ_sense">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਮੌਨਸੂਨ_entry"/>
+    <skos:definition>monsoon ( weather system )</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_sense_1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+    <ontolex:isSenseOf rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_pa_lex#ਗੋਭੀ_entry"/>
+    <skos:definition>cauliflower Synonym: ਫੁੱਲ ਗੋਭੀ ( phulla gobhī )</skos:definition>
   </rdf:Description>
 </rdf:RDF>
