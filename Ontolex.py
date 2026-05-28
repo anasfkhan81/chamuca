@@ -7,6 +7,7 @@
 # import codecs
 import rdflib
 import math
+import re
 from rdflib import URIRef, BNode, Literal, Graph, Namespace
 from rdflib.namespace import RDF, RDFS, FOAF, Namespace, NamespaceManager, OWL, XSD, SKOS, DC, DCTERMS, DCAT
 
@@ -148,8 +149,15 @@ class Lexicon():
         if 'etymology' in keys:
             etymy = str(entity['etymology'])
             if etymy != '' and etymy!='nan':
-                print("etymology is "+str(etymy))
                 self.lex.add((subj, lexinfo_ns.etymology, Literal(etymy)))
+                cleaned = etymy.strip().rstrip(".")
+                parts = re.split(r"\s*\|\s*", cleaned)
+                # print("etymology is "+str(etymy))
+                parts = [p.strip() + " ." for p in parts]
+                for p in parts:
+                    self.lex.add((subj, lexinfo_ns.etymology, Literal(p)))
+                    
+                
 
                 
     def addSeeAlso(self, keys, entity, subj):

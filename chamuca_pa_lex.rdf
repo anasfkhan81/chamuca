@@ -203,7 +203,8 @@
 :ਅਚਾਰ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#achar_entry> ;
-    lexinfo:etymology "achar (Source: Dalgado)" ;
+    lexinfo:etymology "achar (Source: Dalgado)",
+        "achar (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਚਾਰ_lemma ;
@@ -212,7 +213,8 @@
 :ਅਨਾਨਾਸ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#ananás_entry> ;
-    lexinfo:etymology "ananás (Source: Wiktionary)" ;
+    lexinfo:etymology "ananás (Source: Wiktionary)",
+        "ananás (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਨਾਨਾਸ_lemma ;
@@ -221,7 +223,8 @@
 :ਅਲਮਾਰੀ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#armário_entry> ;
-    lexinfo:etymology "armário (Source: Dalgado);  ur اَلْماری ( almārī ) (Source: Wiktionary)." ;
+    lexinfo:etymology "armário (Source: Dalgado);  ur اَلْماری ( almārī ) (Source: Wiktionary) .",
+        "armário (Source: Dalgado);  ur اَلْماری ( almārī ) (Source: Wiktionary)." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਲਮਾਰੀ_lemma ;
@@ -238,7 +241,8 @@
 :ਕਾਜੂ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#caju_entry> ;
-    lexinfo:etymology "pt caju > ur کاجُو (Source: Wiktionary)" ;
+    lexinfo:etymology "pt caju > ur کاجُو (Source: Wiktionary)",
+        "pt caju > ur کاجُو (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਨਾਨਾਸ_lemma ;
@@ -247,7 +251,8 @@
 :ਗਿਰਜਾ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja_entry> ;
-    lexinfo:etymology "pt igreja > ur گِرْجا (Source: Wiktionary)" ;
+    lexinfo:etymology "pt igreja > ur گِرْجا (Source: Wiktionary)",
+        "pt igreja > ur گِرْجا (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -256,7 +261,8 @@
 :ਗਿਰਜਾਘਰ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#igreja_entry> ;
-    lexinfo:etymology "pt igreja > ur گِرْجا (Source: Wiktionary)" ;
+    lexinfo:etymology "pt igreja > ur گِرْجا (Source: Wiktionary)",
+        "pt igreja > ur گِرْجا (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -265,7 +271,10 @@
 :ਚਾਹ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chá_entry> ;
-    lexinfo:etymology "pt chá (Source: Dalgado)| fa چا (Source: Wiktionary) | 茶 (Source: Wiktionary)" ;
+    lexinfo:etymology "fa چا (Source: Wiktionary) .",
+        "pt chá (Source: Dalgado) .",
+        "pt chá (Source: Dalgado)| fa چا (Source: Wiktionary) | 茶 (Source: Wiktionary)",
+        "茶 (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਕਾਜ_lemma ;
@@ -282,7 +291,8 @@
 :ਤਮਾਕੂ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#tabaco_entry> ;
-    lexinfo:etymology "tabaco (Source: Dalgado)" ;
+    lexinfo:etymology "tabaco (Source: Dalgado)",
+        "tabaco (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -291,7 +301,8 @@
 :ਤੌਲੀਆ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#toalha_entry> ;
-    lexinfo:etymology "pt toalha > hin  तौलिया, تَولِیَہ, tauliya (Source: Wiktionary) " ;
+    lexinfo:etymology "pt toalha > hin  तौलिया, تَولِیَہ, tauliya (Source: Wiktionary) ",
+        "pt toalha > hin  तौलिया, تَولِیَہ, tauliya (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਤੌਲੀਆ_lemma ;
@@ -300,7 +311,8 @@
 :ਨਿਲਾਮੀ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#leilão_entry> ;
-    lexinfo:etymology "leilão (Source: Dalgado)" ;
+    lexinfo:etymology "leilão (Source: Dalgado)",
+        "leilão (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -309,7 +321,8 @@
 :ਪਿਸਤੌਲ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pistola_entry> ;
-    lexinfo:etymology "pistola (Source: Dalgado)" ;
+    lexinfo:etymology "pistola (Source: Dalgado)",
+        "pistola (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -318,7 +331,8 @@
 :ਪੀਪਾ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#pipa_entry> ;
-    lexinfo:etymology "pipa (Source: Dalgado)" ;
+    lexinfo:etymology "pipa (Source: Dalgado)",
+        "pipa (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -327,7 +341,8 @@
 :ਪੇਰੂ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#peru_entry> ;
-    lexinfo:etymology "peru (Source: Dalgado)" ;
+    lexinfo:etymology "peru (Source: Dalgado)",
+        "peru (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -344,7 +359,10 @@
 :ਬਪਤਸਮਾ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#baptismo_entry> ;
-    lexinfo:etymology "hin बपतिस्मा, بَپْتِسْمَہ, baptisma | eng baptism | pt baptismo (Source: Wiktionary) " ;
+    lexinfo:etymology "eng baptism .",
+        "hin बपतिस्मा, بَپْتِسْمَہ, baptisma .",
+        "hin बपतिस्मा, بَپْتِسْمَہ, baptisma | eng baptism | pt baptismo (Source: Wiktionary) ",
+        "pt baptismo (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਨਾਨਾਸ_lemma ;
@@ -353,7 +371,8 @@
 :ਬਾਲ਼ਟੀ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#balde_entry> ;
-    lexinfo:etymology "pt balde > ur بالْٹی  (Source: Wiktionary)" ;
+    lexinfo:etymology "pt balde > ur بالْٹی  (Source: Wiktionary)",
+        "pt balde > ur بالْٹی  (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਨਾਨਾਸ_lemma ;
@@ -362,7 +381,8 @@
 :ਬੁੱਜਾ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bucha_entry> ;
-    lexinfo:etymology "bucha (Source: Dalgado)" ;
+    lexinfo:etymology "bucha (Source: Dalgado)",
+        "bucha (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਨਾਨਾਸ_lemma ;
@@ -371,7 +391,8 @@
 :ਬੋਤਲ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#botelha_entry> ;
-    lexinfo:etymology "pt botelha > ur بوتَل (Source: Wiktionary)" ;
+    lexinfo:etymology "pt botelha > ur بوتَل (Source: Wiktionary)",
+        "pt botelha > ur بوتَل (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਨਾਨਾਸ_lemma ;
@@ -380,7 +401,8 @@
 :ਬੰਬਈ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Bombaim_entry> ;
-    lexinfo:etymology "pt Bombaim > hin बंबई, بَمْبَئی, bambaī" ;
+    lexinfo:etymology "pt Bombaim > hin बंबई, بَمْبَئی, bambaī",
+        "pt Bombaim > hin बंबई, بَمْبَئی, bambaī ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਅਨਾਨਾਸ_lemma ;
@@ -389,7 +411,8 @@
 :ਮਸਤੂਲ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mastro_entry> ;
-    lexinfo:etymology "mastro (Source: Dalgado)" ;
+    lexinfo:etymology "mastro (Source: Dalgado)",
+        "mastro (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -398,7 +421,8 @@
 :ਮੁਸੰਮੀ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Moçambique_entry> ;
-    lexinfo:etymology "pt Moçambique (Source: Wiktionary)" ;
+    lexinfo:etymology "pt Moçambique (Source: Wiktionary)",
+        "pt Moçambique (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -407,7 +431,8 @@
 :ਮੌਨਸੂਨ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#monção_entry> ;
-    lexinfo:etymology "English monsoon , from Portuguese monção and Dutch moesson , from Arabic مَوْسِم ( mawsim , “ season ” ) . Doublet of ਮੌਸਮ ( mausam ) .ar مَوْسِم > pt monção & nl moesson > en monsoon (Source: Wiktionary)" ;
+    lexinfo:etymology "English monsoon , from Portuguese monção and Dutch moesson , from Arabic مَوْسِم ( mawsim , “ season ” ) . Doublet of ਮੌਸਮ ( mausam ) .ar مَوْسِم > pt monção & nl moesson > en monsoon (Source: Wiktionary)",
+        "English monsoon , from Portuguese monção and Dutch moesson , from Arabic مَوْسِم ( mawsim , “ season ” ) . Doublet of ਮੌਸਮ ( mausam ) .ar مَوْسِم > pt monção & nl moesson > en monsoon (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -416,7 +441,8 @@
 :ਰਸੀਦ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#recibo_entry> ;
-    lexinfo:etymology "recibo (Source: Dalgado)" ;
+    lexinfo:etymology "recibo (Source: Dalgado)",
+        "recibo (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -425,7 +451,8 @@
 :ਸਾਬਣ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#sabão_entry> ;
-    lexinfo:etymology "sabão (Source: Dalgado)" ;
+    lexinfo:etymology "sabão (Source: Dalgado)",
+        "sabão (Source: Dalgado) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਗਿਰਜਾ_lemma ;
@@ -434,7 +461,8 @@
 :ਗੋਭੀ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#couve_entry> ;
-    lexinfo:etymology "pt couve > hin गोभी, گوبھی, gobhī (Source: Wiktionary)" ;
+    lexinfo:etymology "pt couve > hin गोभी, گوبھی, gobhī (Source: Wiktionary)",
+        "pt couve > hin गोभी, گوبھی, gobhī (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਕਾਜ_lemma ;
@@ -444,7 +472,8 @@
 :ਚਾਬੀ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#chave_entry> ;
-    lexinfo:etymology "pt chave > hin चाबी, چابی, cābī (Source: Wiktionary)" ;
+    lexinfo:etymology "pt chave > hin चाबी, چابی, cābī (Source: Wiktionary)",
+        "pt chave > hin चाबी, چابی, cābī (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਕਾਜ_lemma ;
@@ -454,7 +483,8 @@
 :ਕਾਜ_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#casa_de_botão._entry> ;
-    lexinfo:etymology "pt casa [de botão] > hin काज, کاج, kāj (Source: Wiktionary)" ;
+    lexinfo:etymology "pt casa [de botão] > hin काज, کاج, kāj (Source: Wiktionary)",
+        "pt casa [de botão] > hin काज, کاج, kāj (Source: Wiktionary) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:canonicalForm :ਕਾਜ_lemma ;
