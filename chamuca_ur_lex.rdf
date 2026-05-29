@@ -18,6 +18,7 @@
     lime:entry :آلپین_entry,
         :آمین_entry,
         <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_entry>,
+        :اتا_entry,
         :استری_entry,
         :اسپات_entry,
         :انناس_entry,
@@ -37,9 +38,12 @@
         :برما_entry,
         :بس_entry,
         :بسکٹ_entry,
+        :بلسان_entry,
+        :بلمبی_entry,
         :بمبہ_entry,
         <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بمبہ⁩_entry>,
         :بوتَل_entry,
+        :بويام_entry,
         :بٹن_entry,
         :بھاپ_entry,
         :بینگن_entry,
@@ -97,6 +101,8 @@
         <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کاجو⁩_entry>,
         :کاربائن_entry,
         :کارتوس_entry,
+        :کالاپتی_entry,
+        :کردهني_entry,
         :کرستان_entry,
         :کرنل_entry,
         :کمرہ_entry,
@@ -152,6 +158,16 @@
     skos:definition "ayah: nurse maid, nurse" ;
     ontolex:isSenseOf <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_entry> .
 
+:اتا_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "اتا"@ur-Arab,
+        "ata"@ur-Latn .
+
+:اتا_sense a ontolex:LexicalSense ;
+    skos:definition "Custard-apple (Anona squamosa), synonymous with شریفہ" ;
+    ontolex:isSenseOf :اتا_entry .
+
 :استری_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -168,7 +184,7 @@
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "ɪs.pɑːt̪"@ur-fonipa ;
     ontolex:writtenRep "اسپات"@ur-Arab,
-        " ispāt'"@ur-Latn .
+        "ispāt'"@ur-Latn .
 
 :اسپات_sense a ontolex:LexicalSense ;
     skos:definition "steel" ;
@@ -352,6 +368,26 @@
     skos:definition "biscuit, cookie, cracker" ;
     ontolex:isSenseOf :بسکٹ_entry .
 
+:بلسان_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "بلسان"@ur-Arab,
+        "balasān"@ur-Latn .
+
+:بلسان_sense a ontolex:LexicalSense ;
+    skos:definition "balsam" ;
+    ontolex:isSenseOf :بلسان_entry .
+
+:بلمبی_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "بلمبی"@ur-Arab,
+        "bilimbī"@ur-Latn .
+
+:بلمبی_sense a ontolex:LexicalSense ;
+    skos:definition "the fruit of Averrhoa bilimbi" ;
+    ontolex:isSenseOf :بلمبی_entry .
+
 :بمبہ_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -391,6 +427,16 @@
 :بوتَل_sense a ontolex:LexicalSense ;
     skos:definition "bottle" ;
     ontolex:isSenseOf :بوتَل_entry .
+
+:بويام_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "بويام"@ur-Arab,
+        "boyam"@ur-Latn .
+
+:بويام_sense a ontolex:LexicalSense ;
+    skos:definition "jar (for pickles)" ;
+    ontolex:isSenseOf :بويام_entry .
 
 :بٹن_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -1027,6 +1073,30 @@
     skos:definition "(firearms) cartridge" ;
     ontolex:isSenseOf :کارتوس_entry .
 
+:کالاپتی_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "کالاپتی"@ur-Arab,
+        "kalapati"@ur-Latn .
+
+:کالاپتی_sense_1 a ontolex:LexicalSense ;
+    skos:definition "the act of caulking (a ship or boat): — kālā-pattī karna, v.t. To caulk (a ship," ;
+    ontolex:isSenseOf :کالاپتی_entry .
+
+:کالاپتی_sense_2 a ontolex:LexicalSense ;
+    skos:definition "c.) [Platts]." ;
+    ontolex:isSenseOf :کالاپتی_entry .
+
+:کردهني_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "کردهني"@ur-Arab,
+        "kardhani"@ur-Latn .
+
+:کردهني_sense a ontolex:LexicalSense ;
+    skos:definition "cord of several strands of thread worn around the waist" ;
+    ontolex:isSenseOf :کردهني_entry .
+
 :کرستان_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -1282,6 +1352,22 @@
             frac:observedIn :urTenTen18 ] ;
     ontolex:canonicalForm <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_lemma> ;
     ontolex:sense <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_sense> .
+
+:اتا_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#ata_entry> ;
+    lexinfo:etymology "pt ata (Source: Dalgado) .",
+        "pt ata (Source: Dalgado) | sa आ+तृप्य (Source: Platts) .",
+        "sa आ+तृप्य (Source: Platts) ." ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :अता_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :اتا_lemma ;
+    ontolex:sense :اتا_sense .
 
 :استری_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -1572,6 +1658,34 @@
     ontolex:canonicalForm :بسکٹ_lemma ;
     ontolex:sense :بسکٹ_sense .
 
+:بلسان_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bálsamo_entry> ;
+    lexinfo:etymology "pt bálsamo (Source: Dalgado) ." ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :nan_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :بلسان_lemma ;
+    ontolex:sense :بلسان_sense .
+
+:بلمبی_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bilimbim_entry> ;
+    lexinfo:etymology "pt bilimbim (Source: Dalgado) ." ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :बिलिंबी_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :بلمبی_lemma ;
+    ontolex:sense :بلمبی_sense .
+
 :بوتَل_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
@@ -1587,6 +1701,20 @@
             frac:observedIn :urTenTen18 ] ;
     ontolex:canonicalForm :بوتَل_lemma ;
     ontolex:sense :بوتَل_sense .
+
+:بويام_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#boião_entry> ;
+    lexinfo:etymology "pt boião (Source: Dalgado) ." ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :बोयाम_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :بويام_lemma ;
+    ontolex:sense :بويام_sense .
 
 :بینگن_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -2283,6 +2411,22 @@
     ontolex:canonicalForm :کارتوس_lemma ;
     ontolex:sense :کارتوس_sense .
 
+:کردهني_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cordão_entry> ;
+    lexinfo:etymology "pt cordão 'silk rope, twist or braid' (Source: Dalgado) .",
+        "pt cordão 'silk rope, twist or braid' (Source: Dalgado) | sa कटि+धारणीयं (Source: Platts) .",
+        "sa कटि+धारणीयं (Source: Platts) ." ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :करधनी_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :کردهني_lemma ;
+    ontolex:sense :کردهني_sense .
+
 :کرستان_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
@@ -2631,6 +2775,21 @@
     ontolex:canonicalForm :چائے_lemma ;
     ontolex:sense :چائے_sense_1,
         :چائے_sense_2 .
+
+:کالاپتی_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#calafate_entry> ;
+    lexinfo:etymology "pt calafate 'caulker' (Source: Dalgado) ." ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso :कलापट्टी_entry ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :urTenTen18 ] ;
+    ontolex:canonicalForm :کالاپتی_lemma ;
+    ontolex:sense :کالاپتی_sense_1,
+        :کالاپتی_sense_2 .
 
 :کِران٘چی_entry a ontolex:LexicalEntry,
         ontolex:Word ;

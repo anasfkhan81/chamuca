@@ -21,6 +21,7 @@
         :अक्तूबर_entry,
         :अगस्त_entry,
         :अचार_entry,
+        :अता_entry,
         :अनन्नास_entry,
         :अनीसून_entry,
         :अलमारी_entry,
@@ -38,6 +39,7 @@
         :कंपू_entry,
         :कप्तान_entry,
         :कमरा_entry,
+        :करधनी_entry,
         :करमरिया_entry,
         :करूबीम_entry,
         :कर्नल_entry,
@@ -93,9 +95,11 @@
         :बाप्तिस्मा_entry,
         :बालटी_entry,
         :बासन_entry,
+        :बिलिंबी_entry,
         :बिस्कुट_entry,
         :बैंगन_entry,
         :बोतल_entry,
+        :बोयाम_entry,
         :भाप_entry,
         :मरमर_entry,
         :मस्तीसा_entry,
@@ -265,6 +269,16 @@
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "अचारों"@hi-Deva .
+
+:अता_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "अता"@hi-Deva,
+        "atā"@hi-Latn .
+
+:अता_sense a ontolex:LexicalSense ;
+    skos:definition "Custard-apple (Anona squamosa), synonymous with सरीफ़ा, सीताफल ." ;
+    ontolex:isSenseOf :अता_entry .
 
 :अनन्नास_dp_form_अनन्नास a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -665,6 +679,16 @@
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "कमरों"@hi-Deva .
+
+:करधनी_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "करधनी"@hi-Deva,
+        "kardhani"@hi-Latn .
+
+:करधनी_sense a ontolex:LexicalSense ;
+    skos:definition "cord of several strands of thread worn around the waist" ;
+    ontolex:isSenseOf :करधनी_entry .
 
 :करमरिया_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -1798,6 +1822,16 @@
     skos:definition "pot; any container" ;
     ontolex:isSenseOf :बासन_entry .
 
+:बिलिंबी_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "बिलिंबी"@hi-Deva,
+        "bilimbī"@hi-Latn .
+
+:बिलिंबी_sense a ontolex:LexicalSense ;
+    skos:definition "the fruit of Averrhoa bilimbi" ;
+    ontolex:isSenseOf :बिलिंबी_entry .
+
 :बिस्कुट_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
@@ -1855,6 +1889,16 @@
     lexinfo:case lexinfo:obliqueCase ;
     lexinfo:number lexinfo:plural ;
     ontolex:writtenRep "बोतलों"@hi-Deva .
+
+:बोयाम_lemma a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "बोयाम"@hi-Deva,
+        "boyam"@hi-Latn .
+
+:बोयाम_sense a ontolex:LexicalSense ;
+    skos:definition "pot, generally of clay or porcelain" ;
+    ontolex:isSenseOf :बोयाम_entry .
 
 :भाप_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -2305,6 +2349,22 @@
         :अचारों_op_form_अचार ;
     ontolex:sense :अचार_sense .
 
+:अता_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#ata_entry> ;
+    lexinfo:etymology "pt ata (Source: Dalgado) .",
+        "pt ata (Source: Dalgado) | sa आ+तृप्य (Source: Platts) . ",
+        "sa आ+तृप्य (Source: Platts) ." ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#اتا_entry> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :hiTenTen21 ] ;
+    ontolex:canonicalForm :अता_lemma ;
+    ontolex:sense :अता_sense .
+
 :अनन्नास_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#botany> ;
@@ -2560,6 +2620,22 @@
         :कमरों_op_form_कमरा ;
     ontolex:sense :कमरा_sense .
 
+:करधनी_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cordão_entry> ;
+    lexinfo:etymology "sa ? कटि + आधानी 'waist + ornament' (Source: Dasa) .",
+        "sa ? कटि + आधानी 'waist + ornament' (Source: Dasa) | sa कटि+धारणीयं (Source: Platts) .",
+        "sa कटि+धारणीयं (Source: Platts) ." ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کردهني_entry> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :hiTenTen21 ] ;
+    ontolex:canonicalForm :करधनी_lemma ;
+    ontolex:sense :करधनी_sense .
+
 :करमरिया_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
@@ -2693,7 +2769,7 @@
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#cunha_entry> ;
     lexinfo:etymology "pt cunha (Source: Dalgado) .",
-        "pt cunha (Source: Dalgado) | sa काण (Source: Dasa).",
+        "pt cunha (Source: Dalgado) | sa काण (Source: Dasa) .",
         "sa काण (Source: Dasa) ." ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     frac:frequency [ a frac:Frequency ;
@@ -2863,8 +2939,6 @@
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#religion> ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#gentio_entry> ;
-    lexinfo:etymology "pt ",
-        "pt ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧جینٹو⁩_entry> ;
@@ -3271,6 +3345,20 @@
     ontolex:canonicalForm :बासन_lemma ;
     ontolex:sense :बासन_sense .
 
+:बिलिंबी_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#bilimbim_entry> ;
+    lexinfo:etymology "ms belimbing (Source: Dasa) ." ;
+    lexinfo:gender lexinfo:feminine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#بلمبی_entry> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :hiTenTen21 ] ;
+    ontolex:canonicalForm :बिलिंबी_lemma ;
+    ontolex:sense :बिलिंबी_sense .
+
 :बिस्कुट_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#culinary> ;
@@ -3324,6 +3412,18 @@
         :बोतलो_vp_form_बोतल,
         :बोतलों_op_form_बोतल ;
     ontolex:sense :बोतल_sense .
+
+:बोयाम_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#boião_entry> ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 0 ;
+            frac:observedIn :hiTenTen21 ] ;
+    ontolex:canonicalForm :बोयाम_lemma ;
+    ontolex:sense :बोयाम_sense .
 
 :मरमर_entry a ontolex:LexicalEntry,
         ontolex:Word ;
@@ -3691,6 +3791,7 @@
         "pt calafate (Source: Dalgado, Dasa) .",
         "pt calafate (Source: Dalgado, Dasa) | ar (Source: Dalgado) ." ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#کالاپتی_entry> ;
     frac:frequency [ a frac:Frequency ;
             rdf:value 0 ;
             frac:observedIn :hiTenTen21 ] ;
