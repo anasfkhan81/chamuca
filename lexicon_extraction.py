@@ -10,7 +10,7 @@ port_lex = {'name':'chamuca_port_lex', 'desc':'Lexical information derived in pa
 urdu_lex  = {'name':'chamuca_ur_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['ur'], 'entries': {}}
 punj_lex = {'name':'chamuca_pa_lex', 'desc':'Lexical information derived in part from wiktionary, https://www.wiktionary.org', 'lang':['pa'], 'entries': {}}
 gend = lambda g: 'masculine' if g == 'm.' else 'feminine' if g == 'f.' else 'unknown'
-pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'interjection' if ps == 'Interjection' else 'nan'
+pos = lambda ps: 'commonNoun' if ps == 'noun' else 'properNoun' if ps == 'proper noun' else 'Interjection' if ps == 'interjection' else 'Adjective' if ps == 'adj.' else 'Adverb' if ps == 'adv.' else 'nan'
 #lemma = lambda head, trans, ipa: {'rep':[(head, "hi-deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
 lemma = lambda scr1, scr2, head, trans, ipa: {'rep':[(head, scr1), (trans, scr2)], 'lemma':True, 'id': str(head)+'_lemma', 'number':'singular', 'case':'directCase', 'ipa':ipa}
 #lemma_mi = lambda head, trans : {'rep':[(head, "hi-Deva"), (trans, "hi-Latn")], 'lemma':True, 'id': head+'_lemma', 'number':'singular', 'case':'directCase'}
@@ -21,7 +21,7 @@ dir_plu = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': for
 obl_plu = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': form+'_op_form_'+lemm, 'number':'plural', 'case':'obliqueCase'}
 voc_plu = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': form+'_vp_form_'+lemm,'number':'plural', 'case':'vocativeCase'}
 
-posp = lambda ps: 'commonNoun' if ps== 'Noun' else ps
+posp = lambda ps: 'commonNoun' if ps== 'Noun' else 'properNoun' if ps == 'proper noun' else 'interjection' if ps == 'Interjection' else ps
 genp = lambda g: 'masculine' if g == 'Masculine' else 'feminine' if g == 'Feminine' else 'unknown'
 
 urdu = lambda ur: ur if isinstance(ur, str) else 'NA'
@@ -83,7 +83,7 @@ def upload_pt():
             port_lex['entries'][word_id]['sense'] = port_lex['entries'][word_id]['sense']+[{'id': lemma+'_sense_'+str(senseIndex[1]), 'def':row['Definition']}]
             senseIndex = (lemma, senseIndex[1]+1)
         else:
-            senseContent = [{'id': lemma+'_sense_1', 'def':row['Definition']}]
+            senseContent = [{'id': lemma+'_sense', 'def':row['Definition']}]
             port_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos': str(pos), 'sense':senseContent, 'form':forms}
             senseIndex = (lemma, 2)
       
@@ -175,10 +175,6 @@ def upload_hl(file_name):
     i = 0
     # iterate through each row of the dataframe df
     for index, row in df.iterrows():
-        # make sure you only iterate through the first 60 rows only
-        # this should be updated
-        #if i == 60:
-        #    break
         # create id for word by combining headword with '_entry' tag
         word_id = str(row['Headword'])+'_entry'
         # extract gender, ipa and lemma info from the row
@@ -217,13 +213,15 @@ def upload_hl(file_name):
                 j +=1
 
         # corpus information
-        corpus = 0
+        corpus_info = False
         corpus_str = str(row['hiTenTen21 Absolute (1)']).replace(",", "")
-        if corpus_str == 'N':
-            corpus = 'N'
-        elif is_valid_integer_literal(corpus_str)[0]:
+#        if corpus_str == 'N' or corpus_str == 'NA':
+#            corpus = 'N'
+#        elif is_valid_integer_literal(corpus_str)[0]:
+        if is_valid_integer_literal(corpus_str)[0]:
             corpus = is_valid_integer_literal(corpus_str)[1]
-
+            print("hindi corpus: "+ str(corpus))
+            corpus_info = True
             
         # grammatical information (different forms of the noun)
         if not pd.isnull(row['oblique singular']):
@@ -261,8 +259,10 @@ def upload_hl(file_name):
         # etymology = row['Etymology Full 2']
         etymology = row['Etymology Full (Work here)']
 
-        print(corpus)
-        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus, 'domain':str(row['Domain'])}
+       #hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'hiTenTen21':corpus, 'domain':str(row['Domain'])}
+        hind_lex['entries'][word_id] = {'gender':gr, 'entry_type':'Word', 'pos':pos(row['Part of Speech']),'form':forms, 'sense':sense_content, 'seeAlso':urdu_seeAlso, 'etymon':porEtymon, 'etymology': etymology, 'domain':str(row['Domain'])}        
+        if corpus_info:
+            hind_lex['entries'][word_id]['hiTenTen21'] = corpus
         i+=1
 
     return hind_lex

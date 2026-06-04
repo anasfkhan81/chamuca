@@ -177,6 +177,7 @@ class Lexicon():
 
             
     def addHindiCorpus(self):
+
         tot_freq = BNode()
         hitenten = URIRef(self.namespace+'hiTenTen21')
         self.lex.add((hitenten, RDF.type, dcmi_ns.Collection))
@@ -208,7 +209,7 @@ class Lexicon():
             print("tenten")
             freq = entity['hiTenTen21']
             #tenten2021 = 'https://www.sketchengine.eu/hitenten-hindi-corpus/'
-            if freq != '' and freq!='N':
+            if freq != '' and freq!='N' and freq!='NA':
                 self.lex.add((frequency, RDF.type, frac_ns.Frequency))
                 self.lex.add((frequency, RDF.value, Literal(freq)))
                 self.lex.add((frequency, frac_ns.observedIn, self.corpus_uri))
@@ -223,7 +224,7 @@ class Lexicon():
         if 'urTenTen18' in keys:
             freq = entity['urTenTen18']
             #tenten2021 = 'https://www.sketchengine.eu/hitenten-hindi-corpus/'
-            if freq != '' and freq!='N':
+            if freq != '' and freq!='N' and freq!='NA':
                 self.lex.add((frequency, RDF.type, frac_ns.Frequency))
                 self.lex.add((frequency, RDF.value, Literal(freq)))
                 self.lex.add((frequency, frac_ns.observedIn, self.corpus_uri))
@@ -232,7 +233,7 @@ class Lexicon():
                 print ("no freq")
 
             
-    def addForms(self, entry, ent):
+    def addForms(self, keys, entry, ent):
 
         for f in entry['form']:
 
@@ -266,15 +267,18 @@ class Lexicon():
             else:
                 self.lex.add((ent, ontolex_ns.lexicalForm, form))
 
-            # Check gender
+            if 'pos' in keys:
+                pos = entry['pos']
 
-            self.addGender(form_keys, f, form)
+                if pos == 'commonNoun':
+                    # Check gender
+                    self.addGender(form_keys, f, form)
 
-            # Check Case
-            self.addCase(form_keys, f, form)
+                    # Check Case
+                    self.addCase(form_keys, f, form)
 
-            # Check Number
-            self.addNumber(form_keys, f, form)
+                    # Check Number  
+                    self.addNumber(form_keys, f, form)
 
             # Check Mood
 
@@ -376,7 +380,7 @@ class Lexicon():
         self.addGender(entry_keys, self.indic['entries'][lemma_id], ent)
 
         # add forms
-        self.addForms(self.indic['entries'][lemma_id], ent)
+        self.addForms(entry_keys, self.indic['entries'][lemma_id], ent)
 
         # add senses
         self.addSenses(self.indic['entries'][lemma_id], ent)
