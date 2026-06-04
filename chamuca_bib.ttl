@@ -1,0 +1,132 @@
+@prefix bib:  <https://lari-datasets.ilc.cnr.it/chamuca_bib#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+# Agents
+#################################################################
+
+bib:dalgado-sebastiao-rodolfo
+    a foaf:Person ;
+    foaf:name "Sebastião Rodolfo Dalgado" .
+
+bib:dasa
+    a foaf:Person ;
+    foaf:name "Dasa" .
+
+bib:fallon-s-w
+    a foaf:Person ;
+    foaf:name "S. W. Fallon" .
+
+bib:mcgregor-r-s
+    a foaf:Person ;
+    foaf:name "R. S. McGregor" .
+
+bib:qureshi-bashir-ahmad
+    a foaf:Person ;
+    foaf:name "Bashir Ahmad Qureshi" .
+
+bib:soares-anthony-xavier
+    a foaf:Person ;
+    foaf:name "Anthony Xavier Soares" .
+
+bib:yule-henry
+    a foaf:Person ;
+    foaf:name "Henry Yule" .
+
+bib:burnell-a-c
+    a foaf:Person ;
+    foaf:name "A. C. Burnell" .
+
+bib:crooke-william
+    a foaf:Person ;
+    foaf:name "William Crooke" .
+
+bib:imprensa-universidade-coimbra
+    a foaf:Organization ;
+    foaf:name "Imprensa da Universidade de Coimbra" .
+
+bib:nagari-pracarini-sabha
+    a foaf:Organization ;
+    foaf:name "Nagari Pracarini Sabha" .
+
+bib:trubner-and-co
+    a foaf:Organization ;
+    foaf:name "Trubner and Co." .
+
+bib:oxford-university-press
+    a foaf:Organization ;
+    foaf:name "Oxford University Press" .
+
+bib:kitabistan-pub-co
+    a foaf:Organization ;
+    foaf:name "Kitabistan Pub. Co." .
+
+bib:oriental-institute
+    a foaf:Organization ;
+    foaf:name "Oriental Institute" .
+
+
+#################################################################
+# Bibliographic sources
+#################################################################
+
+bib:dalgado1913
+    a bibo:Book ;
+    dct:title "Influência Do Vocabulário Português Em Línguas Asiáticas" ;
+    dct:creator bib:dalgado-sebastiao-rodolfo ;
+    dct:publisher bib:imprensa-universidade-coimbra ;
+    dct:issued "1913"^^xsd:gYear ;
+    dct:language "pt" .
+
+bib:dasa1965
+    a bibo:Book ;
+    dct:title "Hindi Sabdasagara. Navina samskarana" ;
+    dct:creator bib:dasa ;
+    dct:publisher bib:nagari-pracarini-sabha ;
+    dct:issued "1965"^^xsd:gYear ;
+    dct:language "hi" ;
+    bibo:edition "2nd ed." .
+
+bib:fallon1879
+    a bibo:Book ;
+    dct:title "A New Hindustani-English Dictionary, with Illustrations from Hindustani Literature and Folk-Lore" ;
+    dct:creator bib:fallon-s-w ;
+    dct:publisher bib:trubner-and-co ;
+    dct:issued "1879"^^xsd:gYear ;
+    dct:language "en" .
+
+bib:mcgregor
+    a bibo:Book ;
+    dct:title "The Oxford Hindi-English Dictionary" ;
+    dct:creator bib:mcgregor-r-s ;
+    dct:publisher bib:oxford-university-press ;
+    dct:language "en" .
+
+bib:qureshi1971
+    a bibo:Book ;
+    dct:title "Kitabistan’s 20th Century Standard Dictionary" ;
+    dct:creator bib:qureshi-bashir-ahmad ;
+    dct:publisher bib:kitabistan-pub-co ;
+    dct:issued "1971"^^xsd:gYear ;
+    dct:language "en" .
+
+bib:soares1936
+    a bibo:Book ;
+    dct:title "Portuguese Vocables In Asiatic Languages: From the Portuguese Original of Sebastião Rodolfo Dalgado" ;
+    dct:creator bib:soares-anthony-xavier ;
+    dct:publisher bib:oriental-institute ;
+    dct:issued "1936"^^xsd:gYear ;
+    dct:language "en" ;
+    dct:source bib:dalgado1913 .
+
+bib:yule-burnell1903
+    a bibo:Book ;
+    dct:title "Hobson-Jobson: A Glossary of Colloquial Anglo-Indian Words and Phrases, and of Kindred Terms, Etymological, Historical, Geographical and Discursive" ;
+    dct:creator bib:yule-henry, bib:burnell-a-c ;
+    dct:contributor bib:crooke-william ;
+    dct:issued "1903"^^xsd:gYear ;
+    dct:spatial "London" ;
+    dct:language "en" .
