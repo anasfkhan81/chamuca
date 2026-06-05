@@ -18,7 +18,7 @@ lime_uri = "http://www.w3.org/ns/lemon/lime#"
 gold_uri = "http://linguistics-ontology.org/gold/2010/"
 decomp_uri = "http://www.w3.org/ns/lemon/decomp#"
 frac_uri = "http://www.w3.org/ns/lemon/frac#"
-cito_uri = "http://purl.org/spar/cito"
+cito_uri = "http://purl.org/spar/cito/"
 fabio_uri = "http://purl.org/spar/fabio/"
 dcmi_uri = "http://purl.org/dc/dcmitype/"
 larid_uri = "https://lari-datasets.ilc.cnr.it/chadoms#"
@@ -31,6 +31,8 @@ cito_ns =  Namespace(cito_uri)
 fabio_ns =Namespace(fabio_uri)
 frac_ns = Namespace(frac_uri)
 dcmi_ns = Namespace(dcmi_uri)
+chamuca_bib_uri = "https://lari-datasets.ilc.cnr.it/chamuca_bib#"
+chamuca_bib_ns = Namespace(chamuca_bib_uri)
 
 
 lex = {'name':'hindi_lex','lang':['hi'],'entries':	{'अगस्त_entry': {'entry_type':'Word','pos':'commonNoun', 'gender':'masculine', 'form': [{'id':'अगस्त_lemma','rep': [('अगस्त', 'hi-deva')], 'lemma':True}],  'sense': [{'id': 'अगस्त_1', 'def': 'August'}]}, 'काजू_entry': {'entry_type':'Word','pos':'commonNoun', 'form': [{'id':'काजू_lemma','rep': [('काजू', 'hi-deva')], 'lemma':True}], 'sense': [{'id': 'sense_काजू_1', 'def': 'cashew nut'}]}}}
@@ -70,6 +72,8 @@ class Lexicon():
         namespace_manager.bind('', BASE, override=False)
         namespace_manager.bind('dct', DCTERMS, override=False)
         namespace_manager.bind('dc', DC, override=False)
+        namespace_manager.bind('cito', cito_ns, override=False)
+        namespace_manager.bind('bib', chamuca_bib_ns, override=False)
 
         # Create lexicon graph
         self.lex = Graph()
@@ -232,7 +236,8 @@ class Lexicon():
             else:
                 print ("no freq")
 
-            
+        
+
     def addForms(self, keys, entry, ent):
 
         for f in entry['form']:
