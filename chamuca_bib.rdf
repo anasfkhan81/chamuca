@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#dalgado-sebastiao-rodolfo">
+    <foaf:name>Sebastião Rodolfo Dalgado</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#dasa">
+    <foaf:name>Dasa</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#fallon-s-w">
+    <foaf:name>S. W. Fallon</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#mcgregor-r-s">
+    <foaf:name>R. S. McGregor</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#qureshi-bashir-ahmad">
+    <foaf:name>Bashir Ahmad Qureshi</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#soares-anthony-xavier">
+    <foaf:name>Anthony Xavier Soares</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#yule-henry">
+    <foaf:name>Henry Yule</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#burnell-a-c">
+    <foaf:name>A. C. Burnell</foaf:name>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#crooke-william">
+    <foaf:name>William Crooke</foaf:name>
+  </foaf:Person>
+
+  <foaf:Organization rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#imprensa-universidade-coimbra">
+    <foaf:name>Imprensa da Universidade de Coimbra</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#nagari-pracarini-sabha">
+    <foaf:name>Nagari Pracarini Sabha</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#trubner-and-co">
+    <foaf:name>Trubner and Co.</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#oxford-university-press">
+    <foaf:name>Oxford University Press</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#kitabistan-pub-co">
+    <foaf:name>Kitabistan Pub. Co.</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#oriental-institute">
+    <foaf:name>Oriental Institute</foaf:name>
+  </foaf:Organization>
+
+  <bibo:Book rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#dalgado1913">
+    <dc:title>Influência Do Vocabulário Português Em Línguas Asiáticas</dc:title>
+    <dc:creator rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#dalgado-sebastiao-rodolfo"/>
+    <dc:publisher rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#imprensa-universidade-coimbra"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1913</dc:issued>
+    <dc:language>pt</dc:language>
+  </bibo:Book>
+
+  <bibo:Book rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#dasa1965">
+    <dc:title>Hindi Sabdasagara. Navina samskarana</dc:title>
+    <dc:creator rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#dasa"/>
+    <dc:publisher rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#nagari-pracarini-sabha"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</dc:issued>
+    <dc:language>hi</dc:language>
+    <bibo:edition>2nd ed.</bibo:edition>
+  </bibo:Book>
+
+  <bibo:Book rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#fallon1879">
+    <dc:title>A New Hindustani-English Dictionary, with Illustrations from Hindustani Literature and Folk-Lore</dc:title>
+    <dc:creator rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#fallon-s-w"/>
+    <dc:publisher rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#trubner-and-co"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1879</dc:issued>
+    <dc:language>en</dc:language>
+  </bibo:Book>
+
+  <bibo:Book rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#mcgregor">
+    <dc:title>The Oxford Hindi-English Dictionary</dc:title>
+    <dc:creator rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#mcgregor-r-s"/>
+    <dc:publisher rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#oxford-university-press"/>
+    <dc:language>en</dc:language>
+  </bibo:Book>
+
+  <bibo:Book rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#qureshi1971">
+    <dc:title>Kitabistan’s 20th Century Standard Dictionary</dc:title>
+    <dc:creator rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#qureshi-bashir-ahmad"/>
+    <dc:publisher rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#kitabistan-pub-co"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</dc:issued>
+    <dc:language>en</dc:language>
+  </bibo:Book>
+
+  <bibo:Book rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#soares1936">
+    <dc:title>Portuguese Vocables In Asiatic Languages: From the Portuguese Original of Sebastião Rodolfo Dalgado</dc:title>
+    <dc:creator rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#soares-anthony-xavier"/>
+    <dc:publisher rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#oriental-institute"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1936</dc:issued>
+    <dc:language>en</dc:language>
+    <dc:source rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#dalgado1913"/>
+  </bibo:Book>
+
+  <bibo:Book rdf:about="https://lari-datasets.ilc.cnr.it/chamuca_bib#yule-burnell1903">
+    <dc:title>Hobson-Jobson: A Glossary of Colloquial Anglo-Indian Words and Phrases, and of Kindred Terms, Etymological, Historical, Geographical and Discursive</dc:title>
+    <dc:creator rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#yule-henry"/>
+    <dc:creator rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#burnell-a-c"/>
+    <dc:contributor rdf:resource="https://lari-datasets.ilc.cnr.it/chamuca_bib#crooke-william"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1903</dc:issued>
+    <dc:spatial>London</dc:spatial>
+    <dc:language>en</dc:language>
+  </bibo:Book>
+
+</rdf:RDF>
