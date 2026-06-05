@@ -1,4 +1,6 @@
 @prefix : <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#> .
+@prefix bib: <https://lari-datasets.ilc.cnr.it/chamuca_bib#> .
+@prefix cito: <http://purl.org/spar/cito/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -15,6 +17,10 @@
     dc:description "Lexical information derived in part from wiktionary, https://www.wiktionary.org" ;
     dc:title "Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Urdu Lexicon"@eng ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    cito:citesAsDataSource bib:dalgado1913,
+        bib:fallon1879,
+        bib:qureshi1971,
+        bib:yule-burnell1903 ;
     lime:entry :آلپین_entry,
         :آمین_entry,
         <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#آیا‎_entry>,

@@ -85,8 +85,10 @@ class Lexicon():
         # add the description of the dataset given in indic['desc']
         if 'desc' in indic.keys():
             self.lex.add((this, DC.description, Literal(indic['desc'])))
-            
-        
+        hindi_source = ["dalgado1913", "dasa1965", "mcgregor", "soares1936"]
+        urdu_source =["dalgado1913", "fallon1879", "qureshi1971", "yule-burnell1903"]
+  
+                
         # The languages of the lexicon are added
         for l in indic['lang']:
             lang = Literal(l)
@@ -96,12 +98,16 @@ class Lexicon():
                 self.corpus_uri = self.addHindiCorpus()
                 self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Hindi Lexicon', lang=f"eng")))
                 self.language = 'hi'
-                print ("Hindi")
+                for source_id in hindi_source:
+                    self.lex.add((this, cito_ns.citesAsDataSource, chamuca_bib_ns[source_id]))
+                print ("Hindi Sources added")
             elif l == 'ur':
                 self.corpus_uri = self.addUrduCorpus()
                 self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Urdu Lexicon', lang=f"eng")))
                 self.language = 'ur'
-                print ("Urdu")
+                for source_id in urdu_source:
+                    self.lex.add((this, cito_ns.citesAsDataSource, chamuca_bib_ns[source_id]))
+                print ("Urdu Sources added")
             elif l== 'pa':
                 self.lex.add((this, DC.title, Literal('Cultural HeritAge and Multilingual Understanding through lexiCal Archives (CHAMUÇA) - Punjabi Lexicon', lang=f"eng")))
                 self.language = 'pa'
