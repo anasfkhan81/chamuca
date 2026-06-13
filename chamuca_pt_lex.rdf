@@ -1359,6 +1359,7 @@
 
 :achar_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :achar_lemma ;
     ontolex:lexicalForm :achar_plural ;
@@ -1366,6 +1367,7 @@
 
 :agosto_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :agosto_lemma ;
     ontolex:lexicalForm :agosto_plural ;
@@ -1373,6 +1375,7 @@
 
 :aia_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :aia_lemma ;
     ontolex:lexicalForm :aia_plural ;
@@ -1380,6 +1383,7 @@
 
 :alfinete_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :alfinete_lemma ;
     ontolex:lexicalForm :alfinete_plural ;
@@ -1387,6 +1391,7 @@
 
 :almanaque_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :almanaque_lemma ;
     ontolex:lexicalForm :almanaque_plural ;
@@ -1394,6 +1399,7 @@
 
 :ama_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :ama_lemma ;
     ontolex:lexicalForm :ama_plural ;
@@ -1407,6 +1413,7 @@
 
 :ananás_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :ananás_lemma ;
     ontolex:lexicalForm :ananás_plural ;
@@ -1414,6 +1421,7 @@
 
 :armário_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :armário_lemma ;
     ontolex:lexicalForm :armário_plural ;
@@ -1421,6 +1429,7 @@
 
 :arrátel_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :arrátel_lemma ;
     ontolex:lexicalForm :arrátel_plural ;
@@ -1428,6 +1437,7 @@
 
 :ata_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :ata_lemma ;
     ontolex:lexicalForm :ata_plural ;
@@ -1435,6 +1445,7 @@
 
 :bacia_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :bacia_lemma ;
     ontolex:lexicalForm :bacia_plural ;
@@ -1442,6 +1453,7 @@
 
 :bacio_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :bacio_lemma ;
     ontolex:lexicalForm :bacio_plural ;
@@ -1449,6 +1461,7 @@
 
 :bafo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :bafo_lemma ;
     ontolex:lexicalForm :bafo_plural ;
@@ -1456,6 +1469,7 @@
 
 :baixel_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :baixel_lemma ;
     ontolex:lexicalForm :baixel_plural ;
@@ -1463,6 +1477,7 @@
 
 :balde_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :balde_lemma ;
     ontolex:lexicalForm :balde_plural ;
@@ -1470,6 +1485,7 @@
 
 :baptismo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :baptismo_lemma ;
     ontolex:lexicalForm :baptismo_plural ;
@@ -1483,6 +1499,7 @@
 
 :baú_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :baú_lemma ;
     ontolex:lexicalForm :baú_plural ;
@@ -1490,6 +1507,7 @@
 
 :beringela_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :beringela_lemma ;
     ontolex:lexicalForm :beringela_plural ;
@@ -1497,12 +1515,14 @@
 
 :bilimbim_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :bilimbim_lemma ;
     ontolex:sense :bilimbim_sense .
 
 :biscoito_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :biscoito_lemma ;
     ontolex:lexicalForm :biscoito_plural ;
@@ -1510,6 +1530,7 @@
 
 :boião_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :boião_lemma ;
     ontolex:lexicalForm :boião_plural ;
@@ -1517,6 +1538,7 @@
 
 :bomba_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :bomba_lemma ;
     ontolex:lexicalForm :bomba_plural ;
@@ -1524,6 +1546,7 @@
 
 :botelha_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :botelha_lemma ;
     ontolex:lexicalForm :botelha_plural ;
@@ -1531,6 +1554,7 @@
 
 :botão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :botão_lemma ;
     ontolex:lexicalForm :botão_plural ;
@@ -1538,6 +1562,7 @@
 
 :bálsamo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :bálsamo_lemma ;
     ontolex:lexicalForm :bálsamo_plural ;
@@ -1545,6 +1570,7 @@
 
 :caju_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :caju_lemma ;
     ontolex:lexicalForm :caju_plural ;
@@ -1552,6 +1578,7 @@
 
 :calafate_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :calafate_lemma ;
     ontolex:lexicalForm :calafate_plural ;
@@ -1559,6 +1586,7 @@
 
 :camisa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :camisa_lemma ;
     ontolex:lexicalForm :camisa_plural ;
@@ -1566,6 +1594,7 @@
 
 :campo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :campo_lemma ;
     ontolex:lexicalForm :campo_plural ;
@@ -1573,6 +1602,7 @@
 
 :candil_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :candil_lemma ;
     ontolex:lexicalForm :candil_plural ;
@@ -1580,6 +1610,7 @@
 
 :capitão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :capitão_lemma ;
     ontolex:lexicalForm :capitão_plural ;
@@ -1587,6 +1618,7 @@
 
 :carabina_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :carabina_lemma ;
     ontolex:lexicalForm :carabina_plural ;
@@ -1594,6 +1626,7 @@
 
 :carraguem_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :carraguem_lemma ;
     ontolex:lexicalForm :carraguem_plural ;
@@ -1601,6 +1634,7 @@
 
 :cartucho_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :cartucho_lemma ;
     ontolex:lexicalForm :cartucho_plural ;
@@ -1608,6 +1642,7 @@
 
 :casa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :casa_lemma ;
     ontolex:lexicalForm :casa_plural ;
@@ -1615,6 +1650,7 @@
 
 :chapa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :chapa_lemma ;
     ontolex:lexicalForm :chapa_plural ;
@@ -1622,6 +1658,7 @@
 
 :chave_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :chave_lemma ;
     ontolex:lexicalForm :chave_plural ;
@@ -1629,6 +1666,7 @@
 
 :chá_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :chá_lemma ;
     ontolex:lexicalForm :chá_plural ;
@@ -1636,6 +1674,7 @@
 
 :cifra_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :cifra_lemma ;
     ontolex:lexicalForm :cifra_plural ;
@@ -1643,6 +1682,7 @@
 
 :cocheiro_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :cocheiro_lemma ;
     ontolex:lexicalForm :cocheiro_plural ;
@@ -1650,6 +1690,7 @@
 
 :compasso_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :compasso_lemma ;
     ontolex:lexicalForm :compasso_plural ;
@@ -1657,6 +1698,7 @@
 
 :cordão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :cordão_lemma ;
     ontolex:lexicalForm :cordão_plural ;
@@ -1664,6 +1706,7 @@
 
 :coronel_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :coronel_lemma ;
     ontolex:lexicalForm :coronel_plural ;
@@ -1671,6 +1714,7 @@
 
 :couve_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :couve_lemma ;
     ontolex:lexicalForm :couve_plural ;
@@ -1678,6 +1722,7 @@
 
 :cristão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :cristão_lemma ;
     ontolex:lexicalForm :cristão_plural ;
@@ -1685,6 +1730,7 @@
 
 :cruz_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :cruz_lemma ;
     ontolex:lexicalForm :cruz_plural ;
@@ -1692,6 +1738,7 @@
 
 :cunha_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :cunha_lemma ;
     ontolex:lexicalForm :cunha_plural ;
@@ -1713,6 +1760,7 @@
 
 :dezembro_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :dezembro_lemma ;
     ontolex:lexicalForm :dezembro_plural ;
@@ -1720,6 +1768,7 @@
 
 :espada_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :espada_lemma ;
     ontolex:lexicalForm :espada_plural ;
@@ -1733,6 +1782,7 @@
 
 :estábulo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :estábulo_lemma ;
     ontolex:lexicalForm :estábulo_plural ;
@@ -1747,6 +1797,7 @@
 
 :fita_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :fita_lemma ;
     ontolex:lexicalForm :fita_plural ;
@@ -1754,6 +1805,7 @@
 
 :forma_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :forma_lemma ;
     ontolex:lexicalForm :forma_plural ;
@@ -1761,6 +1813,7 @@
 
 :fulano_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :fulano_lemma ;
     ontolex:lexicalForm :fulano_plural ;
@@ -1774,6 +1827,7 @@
 
 :gudão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :gudão_lemma ;
     ontolex:lexicalForm :gudão_plural ;
@@ -1781,6 +1835,7 @@
 
 :hospital_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :hospital_lemma ;
     ontolex:lexicalForm :hospital_plural ;
@@ -1788,6 +1843,7 @@
 
 :igreja_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :igreja_lemma ;
     ontolex:lexicalForm :igreja_plural ;
@@ -1795,6 +1851,7 @@
 
 :jalapa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :jalapa_lemma ;
     ontolex:lexicalForm :jalapa_plural ;
@@ -1802,6 +1859,7 @@
 
 :janela_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :janela_lemma ;
     ontolex:lexicalForm :janela_plural ;
@@ -1815,6 +1873,7 @@
 
 :leilão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :leilão_lemma ;
     ontolex:lexicalForm :leilão_plural ;
@@ -1822,6 +1881,7 @@
 
 :limão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :limão_lemma ;
     ontolex:lexicalForm :limão_plural ;
@@ -1829,6 +1889,7 @@
 
 :linguiça_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :linguiça_lemma ;
     ontolex:lexicalForm :linguiça_plural ;
@@ -1836,6 +1897,7 @@
 
 :lâmpada_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :lâmpada_lemma ;
     ontolex:lexicalForm :lâmpada_plural ;
@@ -1843,6 +1905,7 @@
 
 :martelo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :martelo_lemma ;
     ontolex:lexicalForm :martelo_plural ;
@@ -1850,6 +1913,7 @@
 
 :mastro_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :mastro_lemma ;
     ontolex:lexicalForm :mastro_plural ;
@@ -1857,6 +1921,7 @@
 
 :mesa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :mesa_lemma ;
     ontolex:lexicalForm :mesa_plural ;
@@ -1864,6 +1929,7 @@
 
 :mestiço_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :mestiço_lemma ;
     ontolex:lexicalForm :mestiço_plural ;
@@ -1871,6 +1937,7 @@
 
 :mestre_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :mestre_lemma ;
     ontolex:lexicalForm :mestre_plural ;
@@ -1878,6 +1945,7 @@
 
 :mármore_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :mármore_lemma ;
     ontolex:lexicalForm :mármore_plural ;
@@ -1885,6 +1953,7 @@
 
 :mês_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :mês_lemma ;
     ontolex:lexicalForm :mês_plural ;
@@ -1892,6 +1961,7 @@
 
 :música_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :música_lemma ;
     ontolex:lexicalForm :música_plural ;
@@ -1905,6 +1975,7 @@
 
 :outubro_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :outubro_lemma ;
     ontolex:lexicalForm :outubro_plural ;
@@ -1912,6 +1983,7 @@
 
 :padre_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :padre_lemma ;
     ontolex:lexicalForm :padre_plural ;
@@ -1919,6 +1991,7 @@
 
 :paga_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :paga_lemma ;
     ontolex:lexicalForm :paga_plural ;
@@ -1926,6 +1999,7 @@
 
 :papaia_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :papaia_lemma ;
     ontolex:lexicalForm :papaia_plural ;
@@ -1933,6 +2007,7 @@
 
 :pera_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :pera_lemma ;
     ontolex:lexicalForm :pera_plural ;
@@ -1940,6 +2015,7 @@
 
 :peru_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :peru_lemma ;
     ontolex:lexicalForm :peru_plural ;
@@ -1947,6 +2023,7 @@
 
 :pipa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :pipa_lemma ;
     ontolex:lexicalForm :pipa_plural ;
@@ -1954,6 +2031,7 @@
 
 :pires_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :pires_lemma ;
     ontolex:lexicalForm :pires_plural ;
@@ -1961,6 +2039,7 @@
 
 :pistola_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :pistola_lemma ;
     ontolex:lexicalForm :pistola_plural ;
@@ -1968,6 +2047,7 @@
 
 :polícia_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :polícia_lemma ;
     ontolex:lexicalForm :polícia_plural ;
@@ -1975,6 +2055,7 @@
 
 :pompa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :pompa_lemma ;
     ontolex:lexicalForm :pompa_plural ;
@@ -1982,6 +2063,7 @@
 
 :prato_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :prato_lemma ;
     ontolex:lexicalForm :prato_plural ;
@@ -1989,6 +2071,7 @@
 
 :prego_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :prego_lemma ;
     ontolex:lexicalForm :prego_plural ;
@@ -1996,6 +2079,7 @@
 
 :página_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :página_lemma ;
     ontolex:lexicalForm :página_plural ;
@@ -2003,6 +2087,7 @@
 
 :pão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :pão_lemma ;
     ontolex:lexicalForm :pão_plural ;
@@ -2010,6 +2095,7 @@
 
 :querubim_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :querubim_lemma ;
     ontolex:lexicalForm :querubim_plural ;
@@ -2017,6 +2103,7 @@
 
 :recibo_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :recibo_lemma ;
     ontolex:lexicalForm :recibo_plural ;
@@ -2024,6 +2111,7 @@
 
 :sabão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :sabão_lemma ;
     ontolex:lexicalForm :sabão_plural ;
@@ -2031,6 +2119,7 @@
 
 :sagu_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :sagu_lemma ;
     ontolex:lexicalForm :sagu_plural ;
@@ -2038,6 +2127,7 @@
 
 :saia_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :saia_lemma ;
     ontolex:lexicalForm :saia_plural ;
@@ -2045,6 +2135,7 @@
 
 :salada_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :salada_lemma ;
     ontolex:lexicalForm :salada_plural ;
@@ -2052,6 +2143,7 @@
 
 :salsaparrilha_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :salsaparrilha_lemma ;
     ontolex:lexicalForm :salsaparrilha_plural ;
@@ -2059,6 +2151,7 @@
 
 :sapato_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :sapato_lemma ;
     ontolex:lexicalForm :sapato_plural ;
@@ -2066,6 +2159,7 @@
 
 :setembro_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :setembro_lemma ;
     ontolex:lexicalForm :setembro_plural ;
@@ -2073,6 +2167,7 @@
 
 :sofá_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :sofá_lemma ;
     ontolex:lexicalForm :sofá_plural ;
@@ -2080,6 +2175,7 @@
 
 :sorte_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :sorte_lemma ;
     ontolex:lexicalForm :sorte_plural ;
@@ -2087,6 +2183,7 @@
 
 :tabaco_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :tabaco_lemma ;
     ontolex:lexicalForm :tabaco_plural ;
@@ -2094,6 +2191,7 @@
 
 :tambor_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :tambor_lemma ;
     ontolex:lexicalForm :tambor_plural ;
@@ -2101,6 +2199,7 @@
 
 :toalha_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :toalha_lemma ;
     ontolex:lexicalForm :toalha_plural ;
@@ -2108,6 +2207,7 @@
 
 :toronja_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :toronja_lemma ;
     ontolex:lexicalForm :toronja_plural ;
@@ -2115,6 +2215,7 @@
 
 :tropa_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :tropa_lemma ;
     ontolex:lexicalForm :tropa_plural ;
@@ -2122,6 +2223,7 @@
 
 :tufão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :tufão_lemma ;
     ontolex:lexicalForm :tufão_plural ;
@@ -2129,6 +2231,7 @@
 
 :varanda_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :varanda_lemma ;
     ontolex:lexicalForm :varanda_plural ;
@@ -2142,6 +2245,7 @@
 
 :verruma_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :verruma_lemma ;
     ontolex:lexicalForm :verruma_plural ;
@@ -2149,6 +2253,7 @@
 
 :vinhadealhos_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :vinhadealhos_lemma ;
     ontolex:lexicalForm :vinhadealhos_plural ;
@@ -2156,6 +2261,7 @@
 
 :âmbar_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :âmbar_lemma ;
     ontolex:lexicalForm :âmbar_plural ;
@@ -2163,6 +2269,7 @@
 
 :órgão_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :órgão_lemma ;
     ontolex:lexicalForm :órgão_plural ;
@@ -2170,6 +2277,7 @@
 
 :anis_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :anis_lemma ;
     ontolex:lexicalForm :anis_plural ;
@@ -2193,6 +2301,7 @@
 
 :inglês_entry a ontolex:LexicalEntry,
         ontolex:Word ;
+    lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:adjective ;
     ontolex:canonicalForm :inglês_lemma ;
     ontolex:lexicalForm :inglês_plural ;

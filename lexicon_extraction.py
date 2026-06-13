@@ -22,7 +22,7 @@ obl_plu = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': for
 voc_plu = lambda form,lemm: {'rep':[(form, "hi-Deva")], "lemma":False, 'id': form+'_vp_form_'+lemm,'number':'plural', 'case':'vocativeCase'}
 
 posp = lambda ps: 'commonNoun' if ps== 'Noun' else 'properNoun' if ps == 'proper noun' else 'interjection' if ps == 'Interjection' else ps
-genp = lambda g: 'masculine' if g == 'Masculine' else 'feminine' if g == 'Feminine' else 'unknown'
+genp = lambda g: 'masculine' if (g == 'Masculine' or g == 'masculine') else 'feminine' if (g == 'Feminine' or g == 'feminine') else 'unknown'
 
 urdu = lambda ur: ur if isinstance(ur, str) else 'NA'
 
