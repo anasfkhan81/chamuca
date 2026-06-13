@@ -2048,16 +2048,45 @@
     skos:definition "skilled tradesman" ;
     ontolex:isSenseOf :मिस्तरी_entry .
 
+:मिस्त्रियो_vp_form_मिस्त्री a ontolex:Form ;
+    lexinfo:case lexinfo:vocativeCase ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "मिस्त्रियो"@hi-Deva .
+
+:मिस्त्रियों_op_form_मिस्त्री a ontolex:Form ;
+    lexinfo:case lexinfo:obliqueCase ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "मिस्त्रियों"@hi-Deva .
+
+:मिस्त्री_dp_form_मिस्त्री a ontolex:Form ;
+    lexinfo:case lexinfo:directCase ;
+    lexinfo:number lexinfo:plural ;
+    ontolex:writtenRep "मिस्त्री"@hi-Deva .
+
 :मिस्त्री_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:phoneticRep "mɪs.t̪ɾiː"@hi-fonipa ;
     ontolex:writtenRep "मिस्त्री"@hi-Deva,
-        "mistarī"@hi-Latn .
+        "mistrī"@hi-Latn .
 
-:मिस्त्री_sense a ontolex:LexicalSense ;
-    skos:definition "skilled tradesman" ;
+:मिस्त्री_os_form_मिस्त्री a ontolex:Form ;
+    lexinfo:case lexinfo:obliqueCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "मिस्त्री"@hi-Deva .
+
+:मिस्त्री_sense_1 a ontolex:LexicalSense ;
+    skos:definition "mechanic" ;
     ontolex:isSenseOf :मिस्त्री_entry .
+
+:मिस्त्री_sense_2 a ontolex:LexicalSense ;
+    skos:definition "artisan, craftsman" ;
+    ontolex:isSenseOf :मिस्त्री_entry .
+
+:मिस्त्री_vs_form_मिस्त्री a ontolex:Form ;
+    lexinfo:case lexinfo:vocativeCase ;
+    lexinfo:number lexinfo:singular ;
+    ontolex:writtenRep "मिस्त्री"@hi-Deva .
 
 :मुसंबी_lemma a ontolex:Form ;
     lexinfo:case lexinfo:directCase ;
@@ -2161,7 +2190,7 @@
     lexinfo:case lexinfo:directCase ;
     lexinfo:number lexinfo:singular ;
     ontolex:writtenRep "सलाद"@hi-Deva,
-        "salad"@hi-Latn .
+        "salād"@hi-Latn .
 
 :सलाद_sense a ontolex:LexicalSense ;
     skos:definition "salad" ;
@@ -3009,8 +3038,7 @@
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#religion> ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#gentio_entry> ;
-    lexinfo:etymology "pt gentio (Source: Hobson-Jobson) .",
-        "pt gentio (Source: Hobson-Jobson) . " ;
+    lexinfo:etymology "pt gentio (Source: Hobson-Jobson) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧جینٹو⁩_entry> ;
@@ -3580,26 +3608,11 @@
     ontolex:canonicalForm :मिस्तरी_lemma ;
     ontolex:sense :मिस्तरी_sense .
 
-:मिस्त्री_entry a ontolex:LexicalEntry,
-        ontolex:Word ;
-    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#education> ;
-    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestre_entry> ;
-    lexinfo:etymology "pt mestre (Source: McGregor) ." ;
-    lexinfo:gender lexinfo:masculine ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#مستری_entry> ;
-    frac:frequency [ a frac:Frequency ;
-            rdf:value 54 ;
-            frac:observedIn :hiTenTen21 ] ;
-    ontolex:canonicalForm :मिस्त्री_lemma ;
-    ontolex:sense :मिस्त्री_sense .
-
 :मुसंबी_entry a ontolex:LexicalEntry,
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#Moçambique_entry> ;
-    lexinfo:etymology "pt Moçambique (Source: Dasa)",
-        "pt Moçambique (Source: Dasa) ." ;
+    lexinfo:etymology "pt Moçambique (Source: Dasa) ." ;
     lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#_entry> ;
@@ -3707,14 +3720,14 @@
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#salada_entry> ;
-    lexinfo:etymology "ar (Source: Dasa) .",
-        "en salad (Source: Dasa) .",
-        "fa (Source: Dasa) .",
+    lexinfo:etymology "ar > en salad (Source: Dasa) .",
         "fr salade (Source: McGregor) .",
-        "fr salade (Source: McGregor) |  en salad (Source: Dasa) | fa (Source: Dasa) | ar (Source: Dasa) ." ;
+        "fr salade (Source: McGregor) | ar > en salad (Source: Dasa) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#سلاد_entry> ;
+    frac:frequency [ a frac:Frequency ;
+            rdf:value 9076 ;
+            frac:observedIn :hiTenTen21 ] ;
     ontolex:canonicalForm :सलाद_lemma ;
     ontolex:sense :सलाद_sense .
 
@@ -4095,6 +4108,23 @@
     ontolex:canonicalForm :भाप_lemma ;
     ontolex:sense :भाप_sense_1,
         :भाप_sense_2 .
+
+:मिस्त्री_entry a ontolex:LexicalEntry,
+        ontolex:Word ;
+    lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#education> ;
+    lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#mestre_entry> ;
+    lexinfo:etymology "pt mestre (Source: McGregor) ." ;
+    lexinfo:gender lexinfo:masculine ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    rdfs:seeAlso <https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#⁧مِسْتْری⁩_entry> ;
+    ontolex:canonicalForm :मिस्त्री_lemma ;
+    ontolex:lexicalForm :मिस्त्रियो_vp_form_मिस्त्री,
+        :मिस्त्रियों_op_form_मिस्त्री,
+        :मिस्त्री_dp_form_मिस्त्री,
+        :मिस्त्री_os_form_मिस्त्री,
+        :मिस्त्री_vs_form_मिस्त्री ;
+    ontolex:sense :मिस्त्री_sense_1,
+        :मिस्त्री_sense_2 .
 
 :शर्ती_entry a ontolex:LexicalEntry,
         ontolex:Word ;

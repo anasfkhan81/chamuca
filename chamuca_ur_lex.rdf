@@ -2415,8 +2415,7 @@
         ontolex:Word ;
     lexinfo:domain <https://lari-datasets.ilc.cnr.it/chadoms#nan> ;
     lexinfo:etymologicalRoot <https://lari-datasets.ilc.cnr.it/chamuca_pt_lex#prumo_entry> ;
-    lexinfo:etymology "pt prumo (Source: Platts)",
-        "pt prumo (Source: Platts) ." ;
+    lexinfo:etymology "pt prumo (Source: Platts) ." ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     rdfs:seeAlso :nan_entry ;
