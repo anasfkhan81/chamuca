@@ -1658,7 +1658,7 @@
 
 :chave_entry a ontolex:LexicalEntry,
         ontolex:Word ;
-    lexinfo:gender lexinfo:masculine ;
+    lexinfo:gender lexinfo:feminine ;
     lexinfo:partOfSpeech lexinfo:noun ;
     ontolex:canonicalForm :chave_lemma ;
     ontolex:lexicalForm :chave_plural ;
