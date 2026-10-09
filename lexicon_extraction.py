@@ -158,7 +158,7 @@ def upload_ur(file_name):
         # etymology = row['Etymology Full (Work here)']
         hindi_head = str((row['Headword Hindi'])).replace(' ', '')
         if hindi_head != 'NA':
-            hindi_seeAlso = "https://lari-datasets.ilc.cnr.it/chamuca_ur_lex#"+hindi_head+"_entry"
+            hindi_seeAlso = "https://lari-datasets.ilc.cnr.it/chamuca_hi_lex#"+hindi_head+"_entry"
         else:
             hindi_seeAlso = 'NA'
         
